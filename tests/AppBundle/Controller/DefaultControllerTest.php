@@ -12,7 +12,7 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 class DefaultControllerTest extends WebTestCase
 {
     /**
-     *
+     * Request: load index page
      */
     public function testIndex()
     {
@@ -20,6 +20,6 @@ class DefaultControllerTest extends WebTestCase
 
         $crawler = $client->request('GET', '/');
 
-        $this->assertContains('Hello World', $client->getResponse()->getContent());
+        $this->assertTrue($client->getResponse()->isSuccessful(), 'Request for loading Default index page failed!');
     }
 }
