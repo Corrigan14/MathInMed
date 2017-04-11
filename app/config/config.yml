@@ -35,6 +35,12 @@ framework:
     php_errors:
         log: true
 
+services:
+    twig.extension.text:
+            class: Twig_Extensions_Extension_Text
+            tags:
+                - { name: twig.extension }
+
 # Twig Configuration
 twig:
     debug: '%kernel.debug%'

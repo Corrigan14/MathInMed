@@ -5,24 +5,13 @@
 {% endblock %}
 
 {% block body %}
-    <header>
-        <p>{{ 'motto'|trans }}</p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">{{ 'home'|trans }}</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    {% include 'AppBundle:Includes:header.html.twig' %}
 
     <section>
-        {% block content %}{% endblock %}
+        {% block section %}{% endblock %}
     </section>
 
-    <footer>
-        <p>&copy; {{ "now"|date("Y") }} | Martina Babinska</p>
-    </footer>
+    {% include 'AppBundle:Includes:footer.html.twig' %}
 {% endblock %}
 
 {% block javascripts %}

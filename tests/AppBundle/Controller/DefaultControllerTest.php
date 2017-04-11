@@ -21,5 +21,6 @@ class DefaultControllerTest extends WebTestCase
         $crawler = $client->request('GET', '/');
 
         $this->assertTrue($client->getResponse()->isSuccessful(), 'Request for loading Default index page failed!');
+        $this->assertCount(3,$crawler->filter('h2'),'There should be 3 h2 tags on main page!');
     }
 }
