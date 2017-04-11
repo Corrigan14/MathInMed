@@ -1,0 +1,46 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    background: #c3c3c3;
+    padding: 10px;
+}
+
+header p {
+    font-size: 28px;
+    margin: 5px;
+}
+
+header ul {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+header li {
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px;
+    background: #434343;
+}
+
+header li a{
+    color: whitesmoke;
+}
+
+section{
+    width: 65%;
+    margin: 10px;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 13px;
+    border-top: 1px solid lightgray;
+    padding: 10px;
+}
