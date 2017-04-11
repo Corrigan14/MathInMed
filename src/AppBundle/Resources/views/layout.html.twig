@@ -1,0 +1,27 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+    {#<link rel="stylesheet" type="text/css" href="{{ asset('bundles/') }}">#}
+{% endblock %}
+
+{% block body %}
+    <header>
+        <p>{{ 'motto'|trans }}</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">{{ 'home'|trans }}</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <p>&copy; {{ date('Y') }} | Martina Babinska</p>
+    </footer>
+{% endblock %}
+
+{% block javascripts %}
+{% endblock %}
