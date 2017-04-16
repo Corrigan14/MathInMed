@@ -1,2 +1,11 @@
-home: Home
 motto: Why do we have to learn this???
+
+main_navbar:
+  about: About
+  book: Math in real word
+  book.introduction: Introduction
+  book.spyrometry: How is the result of medical test related to math?
+  book.chapter1: Spirometry curve
+  book.chapter2: Volume time curve
+  book.chapter3: Flow volume loop
+  contact: Contact
