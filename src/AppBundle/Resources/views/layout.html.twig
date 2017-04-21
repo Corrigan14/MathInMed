@@ -1,21 +1,67 @@
 {% extends "::base.html.twig" %}
 
 {% block metadata %}
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="Martina Babinska"/>
     <meta name="description" content="">
-    <meta name="author" content="">
+{% endblock %}
+
+{% block favicon %}
+    {#{% image 'bundles/app/templateEvanto/images/favicon.ico' %}#}
+    {#<link rel="shortcut icon" href="{{ asset_url }}" type="image/x-icon">#}
+    {#<link rel="icon" href="{{ asset_url }}" type="image/x-icon">#}
+    {#{% endimage %}#}
 {% endblock %}
 
 {% block stylesheets %}
-    {% stylesheets 'bundles/app/template/css/*' filter='cssrewrite' %}
+    {% stylesheets 'bundles/app/templateEvanto/css/ionicons.min.css' %}
     <link rel="stylesheet" href="{{ asset_url }}">
     {% endstylesheets %}
 
-    {#<link rel="stylesheet" type="text/css" href="{{ asset('bundles/app/css/custom.css') }}">#}
+    {% stylesheets 'bundles/app/templateEvanto/css/animate.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}">
+    {% endstylesheets %}
+
+    {% stylesheets 'bundles/app/templateEvanto/css/bootstrap/bootstrap.min.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}">
+    {% endstylesheets %}
+
+    {% stylesheets 'bundles/app/templateEvanto/css/font-awesome.min.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}">
+    {% endstylesheets %}
+
+    {% stylesheets 'bundles/app/templateEvanto/css/main.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}">
+    {% endstylesheets %}
+
+    {% stylesheets 'bundles/app/templateEvanto/css/style.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}">
+    {% endstylesheets %}
+
+    {% stylesheets 'bundles/app/templateEvanto/css/responsive.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}">
+    {% endstylesheets %}
+
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    {% stylesheets 'bundles/app/templateEvanto/rs-plugin/css/settings.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="screen">
+    {% endstylesheets %}
+
+    <!-- COLORS -->
+    {% stylesheets 'bundles/app/templateEvanto/css/default.css' %}
+    <link rel="stylesheet" id="color" href="{{ asset_url }}">
+    {% endstylesheets %}
+{% endblock %}
+
+{% block javascriptTop %}
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/modernizr.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
 {% endblock %}
 
 {% block body %}
+
     {% include 'AppBundle:Includes:header.html.twig' %}
 
     <section>
@@ -23,22 +69,47 @@
     </section>
 
     {% include 'AppBundle:Includes:footer.html.twig' %}
+
 {% endblock %}
 
 {% block javascripts %}
-    {% javascripts '@AppBundle/Resources/public/template/js/jquery.js' %}
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery/jquery.min.js' %}
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
-    {% javascripts '@AppBundle/Resources/public/template/js/bootstrap.min.js' %}
+
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/wow.min.js' %}
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
-    {% javascripts '@AppBundle/Resources/public/template/js/lightbox.min.js' %}
+
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/bootstrap.min.js' %}
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
-    {% javascripts '@AppBundle/Resources/public/template/js/wow.min.js' %}
+
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/own-menu.js' %}
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
-    {% javascripts '@AppBundle/Resources/public/template/js/main.js' %}
+
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/flexslider/jquery.flexslider-min.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.countTo.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.isotope.min.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.bxslider.min.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.sticky.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/color-switcher.js' %}
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
 {% endblock %}

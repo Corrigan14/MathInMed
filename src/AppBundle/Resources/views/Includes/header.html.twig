@@ -1,59 +1,63 @@
-{#<header>#}
-    {#<p>{{ 'motto'|trans }}</p>#}
-    {#<nav>#}
-        {#<ul>#}
-            {#<li>#}
-                {#<a href="#">{{ 'home'|trans }}</a>#}
-            {#</li>#}
-        {#</ul>#}
-    {#</nav>#}
-{#</header>#}
-
-<header id="header">
-    <div class="navbar navbar-inverse" role="banner">
+<!-- Header -->
+<header class="header single-pages" style="background: grey">
+    <div class="sticky dark-header">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <a class="navbar-brand" href="{{ path('app_homepage') }}">
-                    <h1>
-                        {% image '@AppBundle/Resources/public/template/images/logo.png' %}
-                        <img src="{{ asset_url }}"alt="logo">
-                        {% endimage %}
-                    </h1>
+            <div class="logo">
+                <a href=href="{{ path('app_homepage') }}">
+                    {% image '@AppBundle/Resources/public/templateEvanto/images/logo.png' %}
+                    <img src="{{ asset_url }}"alt="logo">
+                    {% endimage %}
                 </a>
-
             </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="{{ path('app_homepage') }}">{{ 'main_navbar.about'|trans }}</a></li>
-                    <li class="dropdown"><a href="{{ path('app_book_main_introudction') }}">{{ 'main_navbar.book'|trans }} <i class="fa fa-angle-down"></i></a>
-                        <ul role="menu" class="sub-menu">
-                            <li><a href="#">{{ 'main_navbar.book.introduction'|trans }}</a></li>
-                            <li><a href="#">{{ 'main_navbar.book.spyrometry'|trans }}</a></li>
-                            <li><a href="#">{{ 'main_navbar.book.chapter1'|trans }}</a></li>
-                            <li><a href="#">{{ 'main_navbar.book.chapter2'|trans }}</a></li>
-                            <li><a href="#">{{ 'main_navbar.book.chapter3'|trans }}</a></li>
-                        </ul>
+
+            <!-- Nav -->
+            <nav>
+                <ul id="ownmenu" class="ownmenu">
+                    <li class="scroll active"><a href="#wrap">HOME</a></li>
+                    <li class="scroll"><a href="#about">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">Pages</a>
+                        <!--======= MEGA MENU =========-->
+                        <div class="megamenu full-width animated-3s fadeInUp">
+                            <div class="row nav-post">
+                                <div class="col-sm-3">
+                                    <h6>INTERACTIVE ELEMENTS</h6>
+                                    <hr>
+                                    <ul>
+                                        <li><a href="#"> Accordion</a></li>
+                                        <li><a href="#"> Buttons</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h6>COMMON ELEMENTS</h6>
+                                    <hr>
+                                    <ul>
+                                        <li><a href="#"> Accordion</a></li>
+                                        <li><a href="#"> Buttons</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h6>HOME PAGES</h6>
+                                    <hr>
+                                    <ul>
+                                        <li><a href="#"> Accordion</a></li>
+                                        <li><a href="#"> Buttons</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h6>OTHER</h6>
+                                    <hr>
+                                    <ul>
+                                        <li><a href="#"> Accordion</a></li>
+                                        <li><a href="#"> Buttons</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li><a href="#">{{ 'main_navbar.contact'|trans }}</a></li>
                 </ul>
-            </div>
-
-            <div class="search">
-                <form role="form">
-                    <i class="fa fa-search"></i>
-                    <div class="field-toggle">
-                        <input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                    </div>
-                </form>
-            </div>
+            </nav>
         </div>
     </div>
 </header>
-<!--/#header-->
+<!-- End Header -->
