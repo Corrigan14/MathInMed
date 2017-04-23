@@ -39,7 +39,8 @@
     'bundles/app/templateEvanto/css/main.css'
     'bundles/app/templateEvanto/css/style.css'
     'bundles/app/templateEvanto/css/animate.css'
-    'bundles/app/templateEvanto/css/responsive.css' %}
+    'bundles/app/templateEvanto/css/responsive.css'
+    'bundles/app/css/custom.css' %}
     <link rel="stylesheet" href="{{ asset_url }}">
     {% endstylesheets %}
 
@@ -65,7 +66,9 @@
     {% include 'AppBundle:Includes:loader.html.twig' %}
 
     <div id="wrap">
-        {% include 'AppBundle:Includes:header.html.twig' %}
+        {% block header %}
+            {% include 'AppBundle:Includes:header.html.twig' %}
+        {% endblock %}
 
         <section>
             {% block section %}{% endblock %}
@@ -87,7 +90,8 @@
     '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.bxslider.min.js'
     '@AppBundle/Resources/public/templateEvanto/js/vendors/owl.carousel.min.js'
     '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.sticky.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/color-switcher.js' %}
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/color-switcher.js'
+    '@AppBundle/Resources/public/js/custom.js' %}
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
 

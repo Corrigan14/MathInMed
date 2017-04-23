@@ -247,7 +247,7 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 		
 		$lateral_menu_trigger.toggleClass('is-clicked');
-		$navigation.toggleClass('lateral-menu-is-open');
+		$navigation.toggleClass('lateral-menu-is-open hide-element');
 		$content_wrapper.toggleClass('lateral-menu-is-open').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
 			// firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
 			$('body').toggleClass('overflow-hidden');
@@ -264,7 +264,7 @@ jQuery(document).ready(function($){
 	$content_wrapper.on('click', function(event){
 		if( !$(event.target).is('#cd-menu-trigger, #cd-menu-trigger span') ) {
 			$lateral_menu_trigger.removeClass('is-clicked');
-			$navigation.removeClass('lateral-menu-is-open');
+			$navigation.removeClass('lateral-menu-is-open hide-element');
 			$content_wrapper.removeClass('lateral-menu-is-open').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
 				$('body').removeClass('overflow-hidden');
 			});
