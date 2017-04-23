@@ -1,0 +1,46 @@
+<!-- Nav Icon -->
+<a id="cd-menu-trigger" class="dark" href="#."><span class="cd-menu-icon"></span></a>
+
+<!-- Header Left -->
+<nav id="cd-lateral-nav" class="left-header">
+
+    <!-- Logo -->
+    <div class="text-center">
+        {% include 'AppBundle:Includes:logo.html.twig' %}
+    </div>
+
+    <!-- Menu -->
+    <ul class="cd-navigation">
+        <li><a href={{ path('app_book_main_introudction') }}>{{ 'main_navbar.book.introduction'|trans }}</a></li>
+        <li><a href="#">{{ 'main_navbar.book.spyrometry'|trans }}</a></li>
+        <li class="item-has-children"><a href="#.">{{ 'main_navbar.book.chapter1'|trans }}</a>
+            <ul class="sub-menu">
+                <li><a href="#">{{ 'main_navbar.book.chapter11'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter12'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter13'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter14'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter1game'|trans }}</a></li>
+            </ul>
+        </li>
+        <li class="item-has-children"><a href="#.">{{ 'main_navbar.book.chapter2'|trans }}</a>
+            <ul class="sub-menu">
+                <li><a href="#">{{ 'main_navbar.book.chapter21'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter22'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter23'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter24'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter2game'|trans }}</a></li>
+            </ul>
+        </li>
+        <li class="item-has-children"><a href="#.">{{ 'main_navbar.book.chapter3'|trans }}</a>
+            <ul class="sub-menu">
+                <li><a href="#">{{ 'main_navbar.book.chapter31'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter32'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter33'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter34'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter35'|trans }}</a></li>
+                <li><a href="#">{{ 'main_navbar.book.chapter3game'|trans }}</a></li>
+            </ul>
+        </li>
+        <li><a href="#">{{ 'main_navbar.book.game'|trans }}</a></li>
+    </ul>
+</nav>

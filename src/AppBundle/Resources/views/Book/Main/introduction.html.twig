@@ -1,6 +1,10 @@
 {% extends "AppBundle::layout.html.twig" %}
 
 {% block section %}
-    {% include 'AppBundle:Book:Includes/slider.html.twig' %}
+    {% include 'AppBundle:Book:Includes/leftNavbar.html.twig' %}
+
+    <main class="cd-main-content">
+        {% include 'AppBundle:Book:Includes/slider.html.twig' %}
+    </main>
 {% endblock %}
 
