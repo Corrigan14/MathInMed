@@ -14,32 +14,32 @@
     {#{% endimage %}#}
 {% endblock %}
 
+{% block fonts %}
+    <!-- FontsOnline -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic'
+          rel='stylesheet' type='text/css'>
+
+    {% stylesheets
+    'bundles/app/templateEvanto/fonts/fontawesome-webfont.ttf'
+    'bundles/app/templateEvanto/fonts/fontawesome-webfont.woff'
+    'bundles/app/templateEvanto/fonts/fontawesome-webfont.woff2'
+    'bundles/app/templateEvanto/fonts/montserrat-fonts.css'
+    'bundles/app/templateEvanto/rs-plugin/font/revicons.ttf'
+    'bundles/app/templateEvanto/rs-plugin/font/revicons.woff' %}
+    <link rel="stylesheet" id="color" href="{{ asset_url }}">
+    {% endstylesheets %}
+{% endblock %}
+
 {% block stylesheets %}
-    {% stylesheets 'bundles/app/templateEvanto/css/ionicons.min.css' %}
-    <link rel="stylesheet" href="{{ asset_url }}">
-    {% endstylesheets %}
-
-    {% stylesheets 'bundles/app/templateEvanto/css/animate.css' %}
-    <link rel="stylesheet" href="{{ asset_url }}">
-    {% endstylesheets %}
-
-    {% stylesheets 'bundles/app/templateEvanto/css/bootstrap/bootstrap.min.css' %}
-    <link rel="stylesheet" href="{{ asset_url }}">
-    {% endstylesheets %}
-
-    {% stylesheets 'bundles/app/templateEvanto/css/font-awesome.min.css' %}
-    <link rel="stylesheet" href="{{ asset_url }}">
-    {% endstylesheets %}
-
-    {% stylesheets 'bundles/app/templateEvanto/css/main.css' %}
-    <link rel="stylesheet" href="{{ asset_url }}">
-    {% endstylesheets %}
-
-    {% stylesheets 'bundles/app/templateEvanto/css/style.css' %}
-    <link rel="stylesheet" href="{{ asset_url }}">
-    {% endstylesheets %}
-
-    {% stylesheets 'bundles/app/templateEvanto/css/responsive.css' %}
+    {% stylesheets
+    'bundles/app/templateEvanto/css/ionicons.min.css'
+    'bundles/app/templateEvanto/css/bootstrap/bootstrap.min.css'
+    'bundles/app/templateEvanto/css/font-awesome.min.css'
+    'bundles/app/templateEvanto/css/main.css'
+    'bundles/app/templateEvanto/css/style.css'
+    'bundles/app/templateEvanto/css/animate.css'
+    'bundles/app/templateEvanto/css/responsive.css' %}
     <link rel="stylesheet" href="{{ asset_url }}">
     {% endstylesheets %}
 
@@ -62,54 +62,40 @@
 
 {% block body %}
 
-    {% include 'AppBundle:Includes:header.html.twig' %}
+    {% include 'AppBundle:Includes:loader.html.twig' %}
 
-    <section>
-        {% block section %}{% endblock %}
-    </section>
+    <div id="wrap">
+        {% include 'AppBundle:Includes:header.html.twig' %}
 
-    {% include 'AppBundle:Includes:footer.html.twig' %}
+        <section>
+            {% block section %}{% endblock %}
+        </section>
 
+        {% include 'AppBundle:Includes:footer.html.twig' %}
+    </div>
 {% endblock %}
 
 {% block javascripts %}
-    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery/jquery.min.js' %}
+    {% javascripts
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery/jquery.min.js'
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/wow.min.js'
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/bootstrap.min.js'
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/own-menu.js'
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/flexslider/jquery.flexslider-min.js'
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.countTo.js'
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.isotope.min.js'
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.bxslider.min.js'
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/owl.carousel.min.js'
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.sticky.js'
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/color-switcher.js' %}
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
 
-    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/wow.min.js' %}
-    <script src="{{ asset_url }}"></script>
-    {% endjavascripts %}
-
-    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/bootstrap.min.js' %}
-    <script src="{{ asset_url }}"></script>
-    {% endjavascripts %}
-
-    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/own-menu.js' %}
-    <script src="{{ asset_url }}"></script>
-    {% endjavascripts %}
-
-    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/flexslider/jquery.flexslider-min.js' %}
-    <script src="{{ asset_url }}"></script>
-    {% endjavascripts %}
-
-    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.countTo.js' %}
-    <script src="{{ asset_url }}"></script>
-    {% endjavascripts %}
-
-    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.isotope.min.js' %}
-    <script src="{{ asset_url }}"></script>
-    {% endjavascripts %}
-
-    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.bxslider.min.js' %}
-    <script src="{{ asset_url }}"></script>
-    {% endjavascripts %}
-
-    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.sticky.js' %}
-    <script src="{{ asset_url }}"></script>
-    {% endjavascripts %}
-
-    {% javascripts '@AppBundle/Resources/public/templateEvanto/js/vendors/color-switcher.js' %}
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    {% javascripts
+    '@AppBundle/Resources/public/templateEvanto/rs-plugin/js/jquery.themepunch.tools.min.js'
+    '@AppBundle/Resources/public/templateEvanto/rs-plugin/js/jquery.themepunch.revolution.min.js'
+    '@AppBundle/Resources/public/templateEvanto/js/zap.js' %}
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
 {% endblock %}

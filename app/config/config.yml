@@ -75,3 +75,28 @@ assetic:
     use_controller: '%kernel.debug%'
     filters:
         cssrewrite: ~
+    bundles:
+        - AppBundle
+    assets:
+        font-awesome-webfont-ttf:
+            inputs: '@AppBundle/Resources/public/templateEvanto/fonts/fontawesome-webfont.ttf'
+            output: 'fonts/fontawesome-webfont.ttf'
+        font-awesome-webfont-woff:
+            inputs: '@AppBundle/Resources/public/templateEvanto/fonts/fontawesome-webfont.woff'
+            output: 'fonts/fontawesome-webfont.woff'
+        font-awesome-webfont-woff2:
+            inputs: '@AppBundle/Resources/public/templateEvanto/fonts/fontawesome-webfont.woff2'
+            output: 'fonts/fontawesome-webfont.woff2'
+        monasterat-font:
+            inputs: '@AppBundle/Resources/public/templateEvanto/fonts/montserrat-fonts.css'
+            output: 'fonts/montserrat-fonts.css'
+        revicons-ttf:
+            inputs: '@AppBundle/Resources/public/templateEvanto/rs-plugin/font/revicons.ttf'
+            output: 'font/revicons.ttf'
+        revicons-woff:
+            inputs: '@AppBundle/Resources/public/templateEvanto/rs-plugin/font/revicons.woff'
+            output: 'font/revicons.woff'
+        animate-css:
+            inputs: '@AppBundle/Resources/public/templateEvanto/css/animate.css'
+            output: 'css/animate.css'
+

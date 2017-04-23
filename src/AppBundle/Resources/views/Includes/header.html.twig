@@ -1,60 +1,29 @@
 <!-- Header -->
-<header class="header single-pages" style="background: grey">
+<header class="header single-pages">
     <div class="sticky dark-header">
         <div class="container">
             <div class="logo">
-                <a href=href="{{ path('app_homepage') }}">
+                <a href="{{ path('app_homepage') }}">
                     {% image '@AppBundle/Resources/public/templateEvanto/images/logo.png' %}
-                    <img src="{{ asset_url }}"alt="logo">
+                    <img src="{{ asset_url }}" alt="logo">
                     {% endimage %}
                 </a>
             </div>
 
-            <!-- Nav -->
+            <!-- Vertical Navbar -->
             <nav>
                 <ul id="ownmenu" class="ownmenu">
-                    <li class="scroll active"><a href="#wrap">HOME</a></li>
-                    <li class="scroll"><a href="#about">ABOUT</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">Pages</a>
-                        <!--======= MEGA MENU =========-->
-                        <div class="megamenu full-width animated-3s fadeInUp">
-                            <div class="row nav-post">
-                                <div class="col-sm-3">
-                                    <h6>INTERACTIVE ELEMENTS</h6>
-                                    <hr>
-                                    <ul>
-                                        <li><a href="#"> Accordion</a></li>
-                                        <li><a href="#"> Buttons</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3">
-                                    <h6>COMMON ELEMENTS</h6>
-                                    <hr>
-                                    <ul>
-                                        <li><a href="#"> Accordion</a></li>
-                                        <li><a href="#"> Buttons</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3">
-                                    <h6>HOME PAGES</h6>
-                                    <hr>
-                                    <ul>
-                                        <li><a href="#"> Accordion</a></li>
-                                        <li><a href="#"> Buttons</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3">
-                                    <h6>OTHER</h6>
-                                    <hr>
-                                    <ul>
-                                        <li><a href="#"> Accordion</a></li>
-                                        <li><a href="#"> Buttons</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                    <li class="scroll active">
+                        <a href="{{ path('app_homepage') }}">
+                            {{ 'main_navbar.about'|trans }}
+                        </a>
                     </li>
+                    <li class="scroll">
+                        <a href="{{ path('app_book_main_introudction') }}">
+                            {{ 'main_navbar.book'|trans }}
+                        </a>
+                    </li>
+                    <li class="scroll"><a href="#footer">{{ 'main_navbar.contact'|trans }}</a></li>
                 </ul>
             </nav>
         </div>
