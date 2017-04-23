@@ -96,6 +96,12 @@ assetic:
         revicons-woff:
             inputs: '@AppBundle/Resources/public/templateEvanto/rs-plugin/font/revicons.woff'
             output: 'font/revicons.woff'
+        ionicons-ttf:
+            inputs: '@AppBundle/Resources/public/templateEvanto/fonts/ionicons.ttf'
+            output: 'fonts/ionicons.ttf'
+        ionicons-woff:
+            inputs: '@AppBundle/Resources/public/templateEvanto/fonts/ionicons.woff'
+            output: 'fonts/ionicons.woff'
         animate-css:
             inputs: '@AppBundle/Resources/public/templateEvanto/css/animate.css'
             output: 'css/animate.css'

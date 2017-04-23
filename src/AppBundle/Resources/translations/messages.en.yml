@@ -34,3 +34,7 @@ left_navbar:
   book.chapter35: How the doctor view the Flow-Volume Loop?
   book.chapter3game: Game - part 3
   book.game: Game - the way how to decode the answer :)
+
+right_navbar:
+  book.answers: Answers
+  book.helpers: Helpers

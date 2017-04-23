@@ -26,7 +26,9 @@
     'bundles/app/templateEvanto/fonts/fontawesome-webfont.woff2'
     'bundles/app/templateEvanto/fonts/montserrat-fonts.css'
     'bundles/app/templateEvanto/rs-plugin/font/revicons.ttf'
-    'bundles/app/templateEvanto/rs-plugin/font/revicons.woff' %}
+    'bundles/app/templateEvanto/rs-plugin/font/revicons.woff'
+    'bundles/app/templateEvanto/fonts/ionicons.ttf'
+    'bundles/app/templateEvanto/fonts/ionicons.woff' %}
     <link rel="stylesheet" id="color" href="{{ asset_url }}">
     {% endstylesheets %}
 {% endblock %}
@@ -66,9 +68,7 @@
     {% include 'AppBundle:Includes:loader.html.twig' %}
 
     <div id="wrap">
-        {% block header %}
-            {% include 'AppBundle:Includes:header.html.twig' %}
-        {% endblock %}
+        {% include 'AppBundle:Includes:header.html.twig' %}
 
         <section>
             {% block section %}{% endblock %}
@@ -76,6 +76,8 @@
 
         {% include 'AppBundle:Includes:footer.html.twig' %}
     </div>
+
+    {% block rightNavigation %}{% endblock %}
 {% endblock %}
 
 {% block javascripts %}
