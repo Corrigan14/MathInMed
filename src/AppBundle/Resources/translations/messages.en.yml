@@ -37,4 +37,6 @@ left_navbar:
 
 right_navbar:
   book.answers: Answers
+  book.answer: Answer
+  book.answer11: Text of the answer 1.1
   book.helpers: Helpers
