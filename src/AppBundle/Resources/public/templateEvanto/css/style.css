@@ -1343,13 +1343,13 @@ header.coporate-header .is-sticky .sticky .ownmenu > li > .megamenu {
 }
 #cd-menu-trigger {
 	position: fixed;
-	left: 380px;
-	top: 50px;
+	right: 0;
+	top: 150px;
 	z-index: 9999999;
 	width: 60px;
 	height: 60px;
 	padding: 20px;
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,1);
 }
 /*=======================================================
       LEFT MENU

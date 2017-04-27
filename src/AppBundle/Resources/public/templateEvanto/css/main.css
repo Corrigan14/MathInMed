@@ -5353,7 +5353,7 @@ header.is-fixed {
 	width: 266px;
 	position: fixed;
 	right: -266px;
-	top: 150px;
+	top: 220px;
 	z-index: 999;
 	padding: 0px;
 	-webkit-transition: all 500ms ease;
