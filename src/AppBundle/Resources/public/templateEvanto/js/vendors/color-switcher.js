@@ -367,11 +367,11 @@
 		  
 		  
 		  // picker buttton
-		  jQuery(".picker_close").click(function(){
-			  
-			  	jQuery("#choose_color").toggleClass("position");
-			  
-		   });
+		  // jQuery(".picker_close").click(function(){
+          //
+			//   	jQuery("#choose_color").toggleClass("position");
+          //
+		  //  });
 		   
 		   //header
 			

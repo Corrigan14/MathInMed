@@ -40,3 +40,7 @@ right_navbar:
   book.answer: Answer
   book.answer11: Text of the answer 1.1
   book.helpers: Helpers
+  book.helper: Helper
+  book.chat: Chat
+  book.chat.work: We are preparing a new chat for you!
+  book.chat.email: If you have any question or you need a help, I will be glad to help you! Please send me an email :)

@@ -41,7 +41,6 @@ jQuery(document).ready(function ($) {
         $answers.removeClass('hide-element');
         $helpers.addClass('hide-element');
         $chat.addClass('hide-element');
-        $rightNavigationHolder.addClass('clicked');
     });
 
     $rightNavigationHelpsers.on('click', function (event) {
