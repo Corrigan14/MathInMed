@@ -1,60 +1,26 @@
 <!--ANSWERS-->
 <div class="color-switcher" id="choose_color">
-    <a href="#." class="picker_close display-block">
+    <a href="#." id="choose_color_answers" class="picker_close">
         <i class="ion-android-done"></i>
     </a>
-    <a href="#." class="picker_close display-block top-100" style="top: 63px">
+    <a href="#." id="choose_color_helpers" class="picker_close" style="top: 63px">
         <i class="ion-android-bulb"></i>
     </a>
-    <a href="#." class="picker_close display-block top-100" style="top: 126px">
+    <a href="#." id="choose_color_chat" class="picker_close" style="top: 126px">
         <i class="ion-compose"></i>
     </a>
 
     <div class="theme-colours">
-        <div id="answers">
-            <h3>{{ 'right_navbar.book.answers'|trans }}</h3>
-            <a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleAnswer(11)">
-                {{ 'right_navbar.book.answer'|trans }} 1.1
-            </a>
-            <p id="answer11" class="font-crimson font-italic font-14px line-height-24 hide-element">
-                {{ 'right_navbar.book.answer11'|trans }}
-            </p>
-
-            <a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleAnswer(12)">
-                {{ 'right_navbar.book.answer'|trans }} 1.2
-            </a>
-            <p id="answer12" class="font-crimson font-italic font-14px line-height-24 hide-element">
-                {{ 'right_navbar.book.answer11'|trans }}
-            </p>
-
-            <a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleAnswer(13)">
-                {{ 'right_navbar.book.answer'|trans }} 1.3
-            </a>
-            <p id="answer13" class="font-crimson font-italic font-14px line-height-24 hide-element">
-                {{ 'right_navbar.book.answer11'|trans }}
-            </p>
-
-            <a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleAnswer(14)">
-                {{ 'right_navbar.book.answer'|trans }} 1.4
-            </a>
-            <p id="answer14" class="font-crimson font-italic font-14px line-height-24 hide-element">
-                {{ 'right_navbar.book.answer11'|trans }}
-            </p>
-
-            <a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleAnswer(15)">
-                {{ 'right_navbar.book.answer'|trans }} 1.5
-            </a>
-            <p id="answer15" class="font-crimson font-italic font-14px line-height-24 hide-element">
-                {{ 'right_navbar.book.answer11'|trans }}
-            </p>
-
-            <a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleAnswer(16)">
-                {{ 'right_navbar.book.answer'|trans }} 1.6
-            </a>
-            <p id="answer16" class="font-crimson font-italic font-14px line-height-24 hide-element">
-                {{ 'right_navbar.book.answer11'|trans }}
-            </p>
+        <div id="answers" class="hide-element">
+            {% include 'AppBundle:Book:Includes/answer.html.twig' %}
         </div>
 
+        <div id="helpers" class="hide-element">
+            {% include 'AppBundle:Book:Includes/helper.html.twig' %}
+        </div>
+
+        <div id="chat" class="hide-element">
+            {% include 'AppBundle:Book:Includes/chat.html.twig' %}
+        </div>
     </div>
 </div>

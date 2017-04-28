@@ -1,7 +1,11 @@
 function toggleAnswer(param) {
     var $answerId = '#answer' + param;
-    console.log($answerId);
     $($answerId).toggle(1000);
+}
+
+function toggleHelper(param) {
+    var $helperId = '#helper' + param;
+    $($helperId).toggle(1000);
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -17,4 +21,40 @@ jQuery(document).ready(function ($) {
         $leftMenuTrigger.toggleClass('hide-element');
         $rightNavigation.toggleClass('hide-element');
     });
+});
+
+/*-----------------------------------------------------------------------------------*/
+/*	RIGHT MENU
+ /*-----------------------------------------------------------------------------------*/
+jQuery(document).ready(function ($) {
+    var $rightNavigationHolder = $('#choose_color'),
+        $rightNavigationAnswers = $('#choose_color_answers'),
+        $rightNavigationHelpsers = $('#choose_color_helpers'),
+        $rightNavigationChat = $('#choose_color_chat'),
+        $answers = $('#answers'),
+        $helpers = $('#helpers'),
+        $chat = $('#chat');
+
+    //hide leftMenuNavigation and rightNavigation if topMenu is opened
+    $rightNavigationAnswers.on('click', function (event) {
+        $rightNavigationHolder.addClass('position');
+        $answers.removeClass('hide-element');
+        $helpers.addClass('hide-element');
+        $chat.addClass('hide-element');
+        $rightNavigationHolder.addClass('clicked');
+    });
+
+    $rightNavigationHelpsers.on('click', function (event) {
+        $rightNavigationHolder.addClass('position');
+        $helpers.removeClass('hide-element');
+        $answers.addClass('hide-element');
+        $chat.addClass('hide-element');
+    });
+
+    $rightNavigationChat.on('click', function (event) {
+        $rightNavigationHolder.addClass('position');
+        $chat.removeClass('hide-element');
+        $answers.addClass('hide-element');
+        $helpers.addClass('hide-element');
+    })
 });
