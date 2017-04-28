@@ -1,3 +1,7 @@
 .hide-element{
     display: none;
 }
+
+.display-block{
+    display: block;
+}
