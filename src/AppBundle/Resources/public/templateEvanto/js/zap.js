@@ -231,7 +231,7 @@ jQuery(document).ready(function ($) {
         $('nav').find('.scroll a').each(function () {
             contentTop.push($($(this).attr('href')).offset().top);
             contentBottom.push($($(this).attr('href')).offset().top + $($(this).attr('href')).height());
-        })
+        });
         $.each(contentTop, function (i) {
             if (winTop > contentTop[i] - rangeTop) {
                 $('nav li.scroll')
