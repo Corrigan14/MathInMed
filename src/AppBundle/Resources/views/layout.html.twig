@@ -70,9 +70,7 @@
     <div id="wrap">
         {% include 'AppBundle:Includes:header.html.twig' %}
 
-        <section>
-            {% block section %}{% endblock %}
-        </section>
+        {% block content %}{% endblock %}
 
         {% include 'AppBundle:Includes:footer.html.twig' %}
     </div>

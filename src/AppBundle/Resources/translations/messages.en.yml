@@ -44,3 +44,16 @@ right_navbar:
   book.chat: Chat
   book.chat.work: We are preparing a new chat for you!
   book.chat.email: If you have any question or you need a help, I will be glad to help you! Please send me an email :)
+
+book:
+  introduction.citation: Who tries to learn something without understanding, never will ...
+  introduction.author.citation: Jan Amos Comenius
+  introduction.part1.headline: What is this website about?
+  introduction.part1.text: ...
+  introduction.part2.headline: Do I need to know "a lot of" from math?
+  introduction.part2.text: ...
+  introduction.part3.headline: Why did we created this website?
+  introduction.part3.text: ...
+  introduction.part4.headline: Who we are?
+  introduction.part4.text: ...
+  introduction.part4.button: Download PDF

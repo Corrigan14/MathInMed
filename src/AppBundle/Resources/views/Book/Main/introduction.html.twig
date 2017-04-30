@@ -1,14 +1,129 @@
 {% extends "AppBundle::layout.html.twig" %}
 
-{% block section %}
+{% block content %}
     {% include 'AppBundle:Book:Includes/leftNavbar.html.twig' %}
 
     <main class="cd-main-content">
         {% include 'AppBundle:Book:Includes/slider.html.twig' %}
+
+        <div id="content">
+            <!-- OUR CORE FEATURES -->
+            <section class="padding-top-80 padding-bottom-80">
+                <div class="container">
+                    <!-- MAIN HEADING -->
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        <h3>{{ 'book.introduction.citation'|trans }}</h3>
+                        <hr class="color">
+                        <span>{{ 'book.introduction.author.citation'|trans }}</span>
+                    </div>
+
+                    <!-- Intro Style 1 -->
+                    <div class="intro-5 margin-top-20">
+                        <div class="row">
+                            <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
+                                <div class="heading-block no-margin-bottom margin-top-100"><span
+                                            class="margin-bottom-15 margin-top-20">We work with passion</span>
+                                    <h2 class="margin-bottom-20 margin-top-1">
+                                        {{ 'book.introduction.part1.headline'|trans }}
+                                    </h2>
+                                </div>
+                                <p> {{ 'book.introduction.part1.text'|trans }}</p>
+                            </div>
+
+                            <!-- Image -->
+                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-5.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive">
+                                {% endimage %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Intro Style 2 -->
+                    <div class="intro-5 margin-top-20">
+                        <div class="row">
+
+                            <!-- Image -->
+                            <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-6.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive">
+                                {% endimage %}
+                            </div>
+                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
+                                <div class="heading-block no-margin-bottom margin-top-0">
+                                    <span class="margin-bottom-15">A truly multi - concept theme</span>
+                                    <h2 class="margin-bottom-20 margin-top-1">
+                                        {{ 'book.introduction.part2.headline'|trans }}
+                                    </h2>
+                                </div>
+                                <p>{{ 'book.introduction.part2.text'|trans }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Intro Style 3 -->
+                    <div class="intro-5 margin-top-20">
+                        <div class="row">
+                            <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
+                                <div class="heading-block no-margin-bottom margin-top-100"><span
+                                            class="margin-bottom-15 margin-top-20">We work with passion</span>
+                                    <h2 class="margin-bottom-20 margin-top-1">
+                                        {{ 'book.introduction.part3.headline'|trans }}
+                                    </h2>
+                                </div>
+                                <p> {{ 'book.introduction.part3.text'|trans }}</p>
+                            </div>
+
+                            <!-- Image -->
+                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-5.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive">
+                                {% endimage %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Intro Style 4 -->
+                    <div class="intro-5 margin-top-20">
+                        <div class="row">
+
+                            <!-- Image -->
+                            <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-6.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive">
+                                {% endimage %}
+                            </div>
+                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
+                                <div class="heading-block no-margin-bottom margin-top-0">
+                                    <span class="margin-bottom-15">A truly multi - concept theme</span>
+                                    <h2 class="margin-bottom-20 margin-top-1">
+                                        {{ 'book.introduction.part4.headline'|trans }}
+                                    </h2>
+                                </div>
+                                <p>{{ 'book.introduction.part4.text'|trans }}</p>
+                                <a href="#." class="btn btn-large dark-border font-normal margin-top-50 letter-space-1">
+                                    {{ 'book.introduction.part4.button'|trans }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Let's begin -->
+            <section class="blog padding-top-80 padding-bottom-80 border-top">
+                <div class="container">
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        <a href="#." class="btn btn-med btn-color">
+                            {{ 'slider.book.lets_begin'|trans }}
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 {% endblock %}
 
 {% block rightNavigation %}
     {% include 'AppBundle:Book:Includes/rightNavbar.html.twig' %}
 {% endblock %}
-
