@@ -228,10 +228,10 @@ jQuery(document).ready(function ($) {
         var winTop = $(window).scrollTop();
         var rangeTop = 70;
         var rangeBottom = 1000;
-        $('nav').find('.scroll a').each(function () {
-            contentTop.push($($(this).attr('href')).offset().top);
-            contentBottom.push($($(this).attr('href')).offset().top + $($(this).attr('href')).height());
-        });
+        // $('nav').find('.scroll a').each(function () {
+        //     contentTop.push($($(this).attr('href')).offset().top);
+        //     contentBottom.push($($(this).attr('href')).offset().top + $($(this).attr('href')).height());
+        // });
         $.each(contentTop, function (i) {
             if (winTop > contentTop[i] - rangeTop) {
                 $('nav li.scroll')
