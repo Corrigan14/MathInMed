@@ -6,8 +6,154 @@
                 <!-- SLIDE  -->
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                     <!-- MAIN IMAGE -->
-                    {% image '@AppBundle/Resources/public/templateEvanto/images/sliders/1/slide-1.jpg' %}
+                    {% image '@AppBundle/Resources/public/images/book/house1.jpg' %}
                     <img src="{{ asset_url }}" alt="home-2-slider" data-bgposition="center top" data-bgfit="cover"
+                         data-bgrepeat="no-repeat">
+                    {% endimage %}
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption sfb tp-resizeme"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="-90"
+                         data-speed="600"
+                         data-start="1000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="chars"
+                         data-splitout="none"
+                         data-elementdelay="0.07"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 5; font-size:40px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+                        {{ 'slider.book.motto_part1'|trans }}
+                    </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption sfb tp-resizeme"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="0"
+                         data-speed="600"
+                         data-start="3000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="chars"
+                         data-splitout="none"
+                         data-elementdelay="0.07"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 5; font-size:40px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+                        {{ 'slider.book.motto_part2'|trans }}
+                    </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption font-crimson font-italic sfb tp-resizeme"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="100"
+                         data-speed="600"
+                         data-start="5000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="none"
+                         data-splitout="none"
+                         data-elementdelay="0.1"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 6; font-size:24px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+                        {{ 'slider.book.motto_part3'|trans }}
+                    </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption skewfromleft tp-resizeme"
+                         data-x="center" data-hoffset="0"
+                         data-y="bottom" data-voffset="-50"
+                         data-speed="400"
+                         data-start="6000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="none"
+                         data-splitout="none"
+                         data-elementdelay="0.1"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;">
+                        <a href="#." class="btn btn-med btn-color">{{ 'slider.book.lets_begin'|trans }}</a>
+                    </div>
+                </li>
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                    <!-- MAIN IMAGE -->
+                    {% image '@AppBundle/Resources/public/images/book/house5.jpg' %}
+                    <img src="{{ asset_url }}" alt="home_slider2" data-bgposition="center top" data-bgfit="cover"
+                         data-bgrepeat="no-repeat">
+                    {% endimage %}
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption sfb tp-resizeme"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="-90"
+                         data-speed="600"
+                         data-start="1000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="chars"
+                         data-splitout="none"
+                         data-elementdelay="0.07"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 5; font-size:40px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+                        {{ 'slider.book.motto_part1'|trans }}
+                    </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption sfb tp-resizeme"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="0"
+                         data-speed="600"
+                         data-start="3000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="chars"
+                         data-splitout="none"
+                         data-elementdelay="0.07"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 5; font-size:40px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+                        {{ 'slider.book.motto_part2'|trans }}
+                    </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption font-crimson font-italic sfb tp-resizeme"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="100"
+                         data-speed="600"
+                         data-start="5000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="none"
+                         data-splitout="none"
+                         data-elementdelay="0.1"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 6; font-size:24px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+                        {{ 'slider.book.motto_part3'|trans }}
+                    </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption skewfromleft tp-resizeme"
+                         data-x="center" data-hoffset="0"
+                         data-y="bottom" data-voffset="-50"
+                         data-speed="400"
+                         data-start="6000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="none"
+                         data-splitout="none"
+                         data-elementdelay="0.1"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;">
+                        <a href="#." class="btn btn-med btn-color">{{ 'slider.book.lets_begin'|trans }}</a>
+                    </div>
+                </li>
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                    <!-- MAIN IMAGE -->
+                    {% image '@AppBundle/Resources/public/images/book/house3.JPG' %}
+                    <img src="{{ asset_url }}" alt="home_slider3" data-bgposition="center top" data-bgfit="cover"
                          data-bgrepeat="no-repeat">
                     {% endimage %}
                     <!-- LAYERS -->

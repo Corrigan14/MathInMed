@@ -1,39 +1,39 @@
-motto: Why do we have to learn this???
+motto: Why do we have to learn that???
 
 main_navbar:
   about: About
-  book: Math in the real word
+  book: Math and the real word
   contact: Contact
 
 slider:
-  book.motto_part1: HOW MUCH OF THE MATHEMATICS IS IN THE ONE
+  book.motto_part1: HOW MUCH OF MATHEMATICS IS IN ONE
   book.motto_part2: MEDICAL ASSESMENT?
-  book.motto_part3: Unconventional set of the tasks
+  book.motto_part3: Unconventional Set of Tasks
   book.lets_begin: Let's BEGIN!
 
 left_navbar:
   book.introduction: Introduction
-  book.spyrometry: How is the result of the medical test related to the math?
+  book.spyrometry: How is the Medical Assesment Result Related to The Math?
   book.chapter1: Spirometry Curve
-  book.chapter11: Breath problems - what parameters signalize them?
-  book.chapter12: Breath diseases
-  book.chapter13: Compared Spirometry Curve - the curve of the healthy person
-  book.chapter14: How the doctor view the Spirometry Curve?
+  book.chapter11: Parameteres Signalized Respiratory Problems
+  book.chapter12: Respiratory System Diseases
+  book.chapter13: Compared Spirometry Curve - Curve of The Healthy Person
+  book.chapter14: The Doctor's View of The Spirometry Curve
   book.chapter1game: Game - part 1
   book.chapter2: Volume-Time Curve
-  book.chapter21: Forced expiratory volume in 1 second (FEV1)
+  book.chapter21: Forced Expiratory Volume
   book.chapter22: Volume-Time Curve
-  book.chapter23: Time development of the FEV1
-  book.chapter24: How the doctor view the Volume-Time Curve?
+  book.chapter23: FEV1 in Time
+  book.chapter24:  The Doctor's View of The Volume-Time Curve?
   book.chapter2game: Game - part 2
   book.chapter3: Flow-Volume Loop
   book.chapter31: Flow
   book.chapter32: Loop
-  book.chapter33: Breath diseases
-  book.chapter34: Rise over the run
-  book.chapter35: How the doctor view the Flow-Volume Loop?
+  book.chapter33: Respiratory System Diseases
+  book.chapter34: Rise Over the Run ... Let's Repeat That
+  book.chapter35:  The Doctor's View of The Flow-Volume Loop?
   book.chapter3game: Game - part 3
-  book.game: Game - the way how to decode the answer :)
+  book.game: Game - Encode The Answer :)
 
 right_navbar:
   book.answers: Answers
@@ -41,19 +41,25 @@ right_navbar:
   book.answer11: Text of the answer 1.1
   book.helpers: Helpers
   book.helper: Helper
+  book.helper11: Text of the helper 1.1
+  book.helper12: Text of the helper 1.2
+  book.helper13: Text of the helper 1.3
+  book.helper14: Text of the helper 1.4
+  book.helper15: Text of the helper 1.5
+  book.helper16: Text of the helper 1.6
   book.chat: Chat
   book.chat.work: We are preparing a new chat for you!
-  book.chat.email: If you have any question or you need a help, I will be glad to help you! Please send me an email :)
+  book.chat.email: If you have any questions or if you need a help, I will be glad to help you! Please send me an email (babinskam@aol.com)
 
 book:
   introduction.citation: Who tries to learn something without understanding, never will ...
   introduction.author.citation: Jan Amos Comenius
-  introduction.part1.headline: What is this website about?
+  introduction.part1.headline: What is This Website About?
   introduction.part1.text: ...
-  introduction.part2.headline: Do I need to know "a lot of" from math?
+  introduction.part2.headline: Do I Need To Know "a lot of" From Mathematics?
   introduction.part2.text: ...
-  introduction.part3.headline: Why did we created this website?
+  introduction.part3.headline: Why Did We Create This Website?
   introduction.part3.text: ...
-  introduction.part4.headline: Who we are?
+  introduction.part4.headline: Who Are We?
   introduction.part4.text: ...
   introduction.part4.button: Download PDF
