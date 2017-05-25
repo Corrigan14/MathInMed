@@ -22,7 +22,7 @@
                         <div class="row">
                             <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
                                 <div class="heading-block no-margin-bottom margin-top-100"><span
-                                            class="margin-bottom-15 margin-top-20">We work with passion</span>
+                                            class="margin-bottom-15 margin-top-20">{{ 'book.introduction.part1.slogan'|trans }}</span>
                                     <h2 class="margin-bottom-20 margin-top-1">
                                         {{ 'book.introduction.part1.headline'|trans }}
                                     </h2>
@@ -31,9 +31,9 @@
                             </div>
 
                             <!-- Image -->
-                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-5.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive">
+                            <div class="col-md-6 animate fadeInRight text-center" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/images/book/book-cover.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive max-height-500">
                                 {% endimage %}
                             </div>
                         </div>

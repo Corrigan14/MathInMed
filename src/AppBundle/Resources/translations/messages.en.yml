@@ -52,8 +52,9 @@ right_navbar:
   book.chat.email: If you have any questions or if you need a help, I will be glad to help you! Please send me an email (babinskam@aol.com)
 
 book:
-  introduction.citation: Who tries to learn something without understanding, never will ...
-  introduction.author.citation: Jan Amos Comenius
+  introduction.citation: Much can be learned in play that will afterwards be of use when the circumstances demand it.
+  introduction.author.citation: John Amos Comenius
+  introduction.part1.slogan: Mathematics doesn't have to be an "apparition"
   introduction.part1.headline: What is This Website About?
   introduction.part1.text: ...
   introduction.part2.headline: Do I Need To Know "a lot of" From Mathematics?
