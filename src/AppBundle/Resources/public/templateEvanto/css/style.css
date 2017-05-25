@@ -962,7 +962,7 @@ header nav li a {
     text-decoration: none;
     line-height: 20px;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     letter-spacing: 2px;
     float: left;
     font-size: 13px;
@@ -970,6 +970,7 @@ header nav li a {
     position: relative;
     border-bottom: 2px solid #fff;
     border-color: transparent;
+    font-weight: bold;
 }
 
 header.dark-text nav .ownmenu li a {
@@ -981,11 +982,13 @@ header nav .ownmenu li {
 }
 
 header nav li a:hover {
-    color: #fff;
+    color: #000;
+    font-weight: bold;
 }
 
 header nav li.active a {
-    color: #fff;
+    color: #000;
+    font-weight: bold;
     border-bottom: 2px solid #eeb013;
     border-color: transparent;
 }

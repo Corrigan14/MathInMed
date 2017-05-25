@@ -1244,7 +1244,7 @@ opacity:0;
 	position: relative
 }
 .bootstrap-select.btn-group .dropdown-menu li.active small {
-	color: #fff
+	color: #000;
 }
 .bootstrap-select.btn-group .dropdown-menu li.disabled a {
 	cursor: not-allowed
