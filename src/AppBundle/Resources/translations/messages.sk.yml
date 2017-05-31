@@ -28,7 +28,7 @@ left_navbar:
   book.chapter2game: Hra - časť druhá
   book.chapter3: Prietokovo-objemová krivka
   book.chapter31: Prietok
-  book.chapter32: "\Slučka"\
+  book.chapter32: Slučka
   book.chapter33: Ochorenia, ktoré výsledky spirometrie signalizujú
   book.chapter34: Rýchlosť zmeny ... opakujeme si
   book.chapter35: Ako prietokovo-objemovú krivku vidí lekár?
@@ -49,7 +49,7 @@ right_navbar:
   book.helper16: Text 1.6
   book.chat: Chat
   book.chat.work: Pripravjeme nový Chat!
-  book.chat.email: Ak máš otázky alebo potrebuješ pomoc, radi Ti pomôžeme! Prosím, kontaktuj nás prostredníctvom emailu: babinskam@aol.com
+  book.chat.email: Ak máš otázky alebo potrebuješ pomoc, radi Ti pomôžeme! Prosím, kontaktuj nás prostredníctvom emailu babinskam@aol.com
 
 
 book:

@@ -962,7 +962,7 @@ header nav li a {
     text-decoration: none;
     line-height: 20px;
     text-transform: uppercase;
-    color: #000;
+    color: white;
     letter-spacing: 2px;
     float: left;
     font-size: 13px;
@@ -982,12 +982,12 @@ header nav .ownmenu li {
 }
 
 header nav li a:hover {
-    color: #000;
+    color: white;
     font-weight: bold;
 }
 
 header nav li.active a {
-    color: #000;
+    color: white;
     font-weight: bold;
     border-bottom: 2px solid #eeb013;
     border-color: transparent;

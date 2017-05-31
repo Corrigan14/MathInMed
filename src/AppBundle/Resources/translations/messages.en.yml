@@ -9,7 +9,10 @@ slider:
   book.motto_part1: HOW MUCH OF MATHEMATICS IS IN ONE
   book.motto_part2: MEDICAL ASSESMENT?
   book.motto_part3: Unconventional Set of Tasks
+  book.motto_part4: MATHEMATICS HELPS EVEN IN MEDICINE
+  book.motto_part5: DO YOU WANT TO KNOW HOW?
   book.lets_begin: Let's BEGIN!
+  book.lets_discover: Let's DISCOVER IT!
 
 left_navbar:
   book.introduction: Introduction

@@ -700,7 +700,7 @@
 									if (opt.slideamount >1) createBullets(container,opt);
 
 									if (opt.slideamount >1 && opt.navigationType=="thumb") createThumbs(container,opt);
-									if (opt.slideamount >1) createArrows(container,opt);
+									// if (opt.slideamount >1) createArrows(container,opt);
 									if (opt.keyboardNavigation=="on") createKeyboard(container,opt);
 
 
