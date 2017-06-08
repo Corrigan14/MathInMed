@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6e51c0c4-1463-48ef-b18b-369ef9e464fb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/css/style.css" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/rs-plugin/js/jquery.themepunch.revolution.js" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/rs-plugin/js/jquery.themepunch.revolution.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.sk.yml" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.sk.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/slider.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/slider.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/header.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/header.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/layout.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,65 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="messages.en.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="messages.en.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slider.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/slider.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="100" column="72" lean-forward="false" selection-start-line="100" selection-start-column="72" selection-end-line="100" selection-end-column="72" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/header.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/js/zap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="216" column="39" lean-forward="false" selection-start-line="216" selection-start-column="39" selection-end-line="216" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1512">
-              <caret line="989" column="17" lean-forward="false" selection-start-line="989" selection-start-column="17" selection-end-line="989" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="158">
+              <caret line="57" column="70" lean-forward="false" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -92,8 +33,8 @@
       <file leaf-file-name="messages.sk.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.sk.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="51" column="120" lean-forward="false" selection-start-line="51" selection-start-column="120" selection-end-line="51" selection-end-column="120" />
+            <state relative-caret-position="126">
+              <caret line="55" column="117" lean-forward="false" selection-start-line="55" selection-start-column="117" selection-end-line="55" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -180,15 +121,15 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Main/introduction.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/css/main.css" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/js/custom.js" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/rs-plugin/js/jquery.themepunch.revolution.js" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.sk.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/header.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/css/style.css" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/js/zap.js" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/slider.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.sk.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" />
       </list>
     </option>
   </component>
@@ -343,7 +284,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -816,6 +756,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -932,18 +873,20 @@
       <workItem from="1495471599816" duration="13737000" />
       <workItem from="1495680661194" duration="14000" />
       <workItem from="1495687881620" duration="8074000" />
-      <workItem from="1496209302328" duration="4976000" />
+      <workItem from="1496209302328" duration="5014000" />
+      <workItem from="1496901389838" duration="174000" />
+      <workItem from="1496903252420" duration="2408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112605000" />
+    <option name="totallyTimeSpent" value="115225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.340497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34989926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1208,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="1246" column="16" lean-forward="false" selection-start-line="1246" selection-start-column="16" selection-end-line="1246" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,15 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1534">
           <caret line="24" column="127" lean-forward="false" selection-start-line="24" selection-start-column="127" selection-end-line="24" selection-end-column="127" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,7 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="105" column="89" lean-forward="false" selection-start-line="105" selection-start-column="89" selection-end-line="105" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,9 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="0" column="28414" lean-forward="false" selection-start-line="0" selection-start-column="28397" selection-end-line="0" selection-end-column="28414" />
-          <folding>
-            <marker date="1495479885938" expanded="true" signature="3794:3861" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,17 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6277">
           <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.sk.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="51" column="120" lean-forward="false" selection-start-line="51" selection-start-column="120" selection-end-line="51" selection-end-column="120" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,7 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,7 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="6268" column="16" lean-forward="false" selection-start-line="6268" selection-start-column="16" selection-end-line="6268" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1284,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1292,7 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,7 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1308,7 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="0" column="29676" lean-forward="false" selection-start-line="0" selection-start-column="29671" selection-end-line="0" selection-end-column="29676" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,59 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="698" column="53" lean-forward="true" selection-start-line="698" selection-start-column="53" selection-end-line="698" selection-end-column="53" />
-          <folding>
-            <marker date="1496211219404" expanded="true" signature="14593:14666" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="14835:14877" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="16457:16524" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="22369:22386" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="33892:33905" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="57865:57907" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="58001:58037" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="58161:58197" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="58897:58920" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="60582:60775" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="60994:61004" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="63039:63249" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="63347:63540" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="63571:63938" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="64762:64980" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="65025:65188" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="65215:65576" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="65903:65925" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="66127:66350" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="66399:66579" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="66608:66990" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="67321:67344" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="101864:101905" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="102261:102294" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="102387:102420" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="102579:102615" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="129234:129248" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="129358:129392" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="129692:129706" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="129817:129851" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="133291:133445" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="139281:139338" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="200325:200393" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="200436:200637" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="207502:207568" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="213169:213369" ph="..." />
-            <marker date="1496211219404" expanded="true" signature="217663:217669" ph=" " />
-            <marker date="1496211219404" expanded="true" signature="217669:217675" ph=" " />
-            <marker date="1496211219404" expanded="true" signature="217675:217681" ph=" " />
-            <marker date="1496211219404" expanded="true" signature="217828:217834" ph=" " />
-            <marker date="1496211219404" expanded="true" signature="217834:217840" ph=" " />
-            <marker date="1496211219404" expanded="true" signature="217840:217846" ph=" " />
-            <marker date="1496211219404" expanded="true" signature="217931:217960" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1382,7 +1241,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1512">
+        <state relative-caret-position="17802">
           <caret line="989" column="17" lean-forward="false" selection-start-line="989" selection-start-column="17" selection-end-line="989" selection-end-column="17" />
           <folding />
         </state>
@@ -1390,7 +1249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/js/zap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="3888">
           <caret line="216" column="39" lean-forward="false" selection-start-line="216" selection-start-column="39" selection-end-line="216" selection-end-column="39" />
           <folding />
         </state>
@@ -1398,13 +1257,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/slider.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="100" column="72" lean-forward="false" selection-start-line="100" selection-start-column="72" selection-end-line="100" selection-end-column="72" />
+        <state relative-caret-position="1044">
+          <caret line="58" column="77" lean-forward="false" selection-start-line="58" selection-start-column="77" selection-end-line="58" selection-end-column="77" />
           <folding>
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.sk.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="55" column="117" lean-forward="false" selection-start-line="55" selection-start-column="117" selection-end-line="55" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="57" column="70" lean-forward="false" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>

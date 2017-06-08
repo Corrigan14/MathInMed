@@ -12,7 +12,7 @@ slider:
   book.motto_part4: MATHEMATICS HELPS EVEN IN MEDICINE
   book.motto_part5: DO YOU WANT TO KNOW HOW?
   book.lets_begin: Let's BEGIN!
-  book.lets_discover: Let's DISCOVER IT!
+  book.lets_discover: Let's DISCOVER!
 
 left_navbar:
   book.introduction: Introduction
@@ -55,7 +55,7 @@ right_navbar:
   book.chat.email: If you have any questions or if you need a help, I will be glad to help you! Please send me an email (babinskam@aol.com)
 
 book:
-  introduction.citation: Much can be learned in play that will afterwards be of use when the circumstances demand it.
+  introduction.citation: Show a s tudent how he can use his knowledge!
   introduction.author.citation: John Amos Comenius
   introduction.part1.slogan: Mathematics doesn't have to be an "apparition"
   introduction.part1.headline: What is This Website About?
