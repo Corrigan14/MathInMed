@@ -3,5 +3,7 @@ app_homepage:
     defaults: { _controller: AppBundle:Default:index }
 
 app_book_main_introudction:
-    path:     /book/introduction
-    defaults: { _controller: AppBundle:Book/Main:introduction }
+    path:     /{_locale}/book/introduction
+    defaults: { _controller: AppBundle:Book/Main:introduction, _locale: en }
+    requirements:
+        _locale:  en|sk

@@ -9,18 +9,26 @@
             <!-- Vertical Navbar -->
             <nav>
                 <ul id="ownmenu" class="ownmenu">
-                    <li class="scroll active">
+                    <li class="{% if app.request.attributes.get('_route') == 'app_homepage' %}scroll active{% else %}scroll{% endif %}">
                         <a id="navbar_homepage" href="{{ path('app_homepage') }}">
                             {{ 'main_navbar.about'|trans }}
                         </a>
                     </li>
-                    <li class="scroll">
+                    <li class="{% if 'book' in app.request.attributes.get('_route') %}scroll active{% else %}scroll{% endif %}">
                         <a href="{{ path('app_book_main_introudction') }}">
                             {{ 'main_navbar.book'|trans }}
                         </a>
                     </li>
                     <li class="scroll">
                         <a href="#footer">{{ 'main_navbar.contact'|trans }}</a>
+                    </li>
+                    <li class="scroll">
+                        <a id="navbar_en" href="#">
+                            SK
+                        </a>
+                        <a id="navbar_sk" href="#">
+                            EN
+                        </a>
                     </li>
                 </ul>
             </nav>

@@ -15,9 +15,10 @@ class MainController extends Controller
     /**
      * @Template()
      *
+     * @param string|boolean $locale
      * @return array
      */
-    public function introductionAction()
+    public function introductionAction($locale = false)
     {
         return [];
     }
