@@ -51,10 +51,18 @@ right_navbar:
   book.chat.work: Pripravjeme nový Chat!
   book.chat.email: Ak máš otázky alebo potrebuješ pomoc, radi Ti pomôžeme! Prosím, kontaktuj nás prostredníctvom emailu babinskam@aol.com
 
+footer:
+  headline: Kreatívny tím - SK
+  headline.text: Ahoj všetci! Volám sa Martina. Som učiteľ, výskumník a vo voľnom čase PHP web-developer. Som hrdou držiteľkou PhD. titulu v odbore Teória vyučovania matematiky. Viem že matematika môže byť pre nás výzvou avšak dobrou výzvou, ktorú môže každý z nás zvládnuť. Otázkou je, ako. Jednou z efektívnych ciest je objavovať matematiku prostredníctvom vlastnej skúsenosti!
+  email: E-mail
+  phone: Tel
+  address: Adresa
+  slovakia: Slovenská Republika
+
 
 book:
-  introduction.citation: Uľahčíš žiakovi prácu, ak mu ukážeš vo všetkom, čo ho budeš učiť, na čo sa to v každodennom živote používa!
-  introduction.author.citation: Ján Amos Komenský
+  introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
+  introduction.author.citation: Carl Rogers
   introduction.part1.headline: O čom je táto www stránka?
   introduction.part1.text: ...
   introduction.part2.headline: Potrebujem vedieť "veľa" matematiky?

@@ -7,3 +7,9 @@ app_book_main_introudction:
     defaults: { _controller: AppBundle:Book/Main:introduction, _locale: en }
     requirements:
         _locale:  en|sk
+
+app_book_main_result:
+    path:     /{_locale}/book/result
+    defaults: { _controller: AppBundle:Book/Main:result, _locale: en }
+    requirements:
+        _locale:  en|sk

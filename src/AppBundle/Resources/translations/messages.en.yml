@@ -16,7 +16,7 @@ slider:
 
 left_navbar:
   book.introduction: Introduction
-  book.spyrometry: How is the Medical Assesment Result Related to The Math?
+  book.spyrometry: How is the Medical Assesment Result Related to Mathematics?
   book.chapter1: Spirometry Curve
   book.chapter11: Parameteres Signalized Respiratory Problems
   book.chapter12: Respiratory System Diseases
@@ -54,9 +54,17 @@ right_navbar:
   book.chat.work: We are preparing a new chat for you!
   book.chat.email: If you have any questions or if you need a help, I will be glad to help you! Please send me an email (babinskam@aol.com)
 
+footer:
+  headline: Creative team - SK
+  headline.text: Hi everybody! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud holder of PhD. degree from The Theory of Teaching of Mathematics. I know that mathematics can be challenging but it can be a good chalenge and everybody can learn it. The only question is, how. One of the effective ways is to doscover it by yourself!
+  email: E-mail
+  phone: Phone
+  address: Address
+  slovakia: Slovak Republic
+
 book:
-  introduction.citation: Show students how they can use their knowledge!
-  introduction.author.citation: John Amos Comenius
+  introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
+  introduction.author.citation: Carl Rogers
   introduction.part1.slogan: Mathematics doesn't have to be an "apparition"
   introduction.part1.headline: What is This Website About?
   introduction.part1.text: ...
@@ -67,3 +75,5 @@ book:
   introduction.part4.headline: Who Are We?
   introduction.part4.text: ...
   introduction.part4.button: Download PDF
+  result.headline: The result of the medical assesment - Spirometry
+  result.nextPage: How is some medical assesment related to mathematics???
