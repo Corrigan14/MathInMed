@@ -4,6 +4,7 @@ main_navbar:
   about: About
   book: Math and the real word
   contact: Contact
+  continue: Continue
 
 slider:
   book.motto_part1: HOW MUCH OF MATHEMATICS IS IN ONE
@@ -13,6 +14,8 @@ slider:
   book.motto_part5: DO YOU WANT TO KNOW HOW?
   book.lets_begin: Let's BEGIN!
   book.lets_discover: Let's DISCOVER!
+  book.spirometry-result-part1: Spirometry
+  book.spirometry-result-part2: PRE/POST result values
 
 left_navbar:
   book.introduction: Introduction
@@ -62,6 +65,14 @@ footer:
   address: Address
   slovakia: Slovak Republic
 
+about:
+  main.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
+  main.author.citation: Carl Rogers
+  main.part1.headline: Who Are We?
+  main.part1.text: ...
+  main.part2.headline: Why Did We Create This Website?
+  main.part2.text: ...
+
 book:
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
@@ -70,10 +81,8 @@ book:
   introduction.part1.text: ...
   introduction.part2.headline: Do I Need To Know "a lot of" From Mathematics?
   introduction.part2.text: ...
-  introduction.part3.headline: Why Did We Create This Website?
+  introduction.part3.headline: The result of the medical assesment - Spirometry
   introduction.part3.text: ...
-  introduction.part4.headline: Who Are We?
-  introduction.part4.text: ...
-  introduction.part4.button: Download PDF
+  introduction.part3.button: Download PDF
+  introduction.nextPage: How is some medical assesment related to mathematics???
   result.headline: The result of the medical assesment - Spirometry
-  result.nextPage: How is some medical assesment related to mathematics???

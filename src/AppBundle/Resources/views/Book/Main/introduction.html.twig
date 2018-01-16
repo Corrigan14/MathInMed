@@ -21,8 +21,10 @@
                     <div class="intro-5 margin-top-20">
                         <div class="row">
                             <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
-                                <div class="heading-block no-margin-bottom margin-top-100"><span
-                                            class="margin-bottom-15 margin-top-20">{{ 'book.introduction.part1.slogan'|trans }}</span>
+                                <div class="heading-block no-margin-bottom margin-top-100">
+                                    <span class="margin-bottom-15 margin-top-20">
+                                        {{ 'book.introduction.part1.slogan'|trans }}
+                                    </span>
                                     <h2 class="margin-bottom-20 margin-top-1">
                                         {{ 'book.introduction.part1.headline'|trans }}
                                     </h2>
@@ -42,7 +44,6 @@
                     <!-- Intro Style 2 -->
                     <div class="intro-5 margin-top-20">
                         <div class="row">
-
                             <!-- Image -->
                             <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
                                 {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-6.png' %}
@@ -61,12 +62,14 @@
                         </div>
                     </div>
 
-                    <!-- Intro Style 3 -->
+                    <!-- Intro Style 1 -->
                     <div class="intro-5 margin-top-20">
                         <div class="row">
                             <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
-                                <div class="heading-block no-margin-bottom margin-top-100"><span
-                                            class="margin-bottom-15 margin-top-20">We work with passion</span>
+                                <div class="heading-block no-margin-bottom margin-top-100">
+                                    <span class="margin-bottom-15 margin-top-20">
+                                        {{ 'book.introduction.part1.slogan'|trans }}
+                                    </span>
                                     <h2 class="margin-bottom-20 margin-top-1">
                                         {{ 'book.introduction.part3.headline'|trans }}
                                     </h2>
@@ -75,47 +78,23 @@
                             </div>
 
                             <!-- Image -->
-                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-5.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive">
+                            <div class="col-md-6 animate fadeInRight text-center" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/images/book/result/spirometry-result.png' %}
+                                <img src="{{ asset_url }}" alt="spirometry-result" class="img-responsive"
+                                     style="max-width: 350px">
                                 {% endimage %}
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Intro Style 4 -->
-                    <div class="intro-5 margin-top-20">
-                        <div class="row">
-
-                            <!-- Image -->
-                            <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-6.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive">
-                                {% endimage %}
-                            </div>
-                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
-                                <div class="heading-block no-margin-bottom margin-top-0">
-                                    <span class="margin-bottom-15">A truly multi - concept theme</span>
-                                    <h2 class="margin-bottom-20 margin-top-1">
-                                        {{ 'book.introduction.part4.headline'|trans }}
-                                    </h2>
-                                </div>
-                                <p>{{ 'book.introduction.part4.text'|trans }}</p>
-                                <a href="#." class="btn btn-large dark-border font-normal margin-top-50 letter-space-1">
-                                    {{ 'book.introduction.part4.button'|trans }}
-                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Let's begin -->
+            <!-- Next page -->
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
                         <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
-                            {{ 'slider.book.lets_begin'|trans }}
+                            {{ 'book.introduction.nextPage'|trans }}
                         </a>
                     </div>
                 </div>

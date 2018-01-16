@@ -4,15 +4,24 @@
     {% include 'AppBundle:Book:Includes/leftNavbar.html.twig' %}
 
     <main class="cd-main-content">
-        {% include 'AppBundle:Book:Includes/slider.html.twig' %}
+        {% include 'AppBundle:Book:Includes/slider-spirometry.html.twig' %}
 
         <div id="content">
-            <!-- OUR CORE FEATURES -->
             <section class="padding-top-80 padding-bottom-80">
                 <div class="container">
                     <!-- MAIN HEADING -->
-                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                    <div class="heading-block text-center margin-bottom-50 animate fadeInUp" data-wow-delay="0.8s">
                         <h3>{{ 'book.result.headline'|trans }}</h3>
+                        <hr class="color">
+                    </div>
+
+                    <div class="row animate fadeInUp" data-wow-delay="1.5s">
+                        <div class="col-md-12 text-center">
+                            {% image '@AppBundle/Resources/public/images/book/result/spirometry-result.png' %}
+                            <img src="{{ asset_url }}" alt="spirometry-result" class="img-responsive"
+                                 style="max-width: 594px">
+                            {% endimage %}
+                        </div>
                     </div>
                 </div>
             </section>
@@ -22,7 +31,7 @@
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
                         <a href="#." class="btn btn-med btn-color">
-                            {{ 'book.result.nextPage'|trans }}
+                            {{ 'main_navbar.continue'|trans }}
                         </a>
                     </div>
                 </div>
