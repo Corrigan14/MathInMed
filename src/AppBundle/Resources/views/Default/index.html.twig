@@ -20,42 +20,49 @@
                     <div class="intro-5 margin-top-20">
                         <div class="row">
                             <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
-                                <div class="heading-block no-margin-bottom margin-top-100"><span
-                                            class="margin-bottom-15 margin-top-20">We work with passion</span>
+                                <div class="heading-block no-margin-bottom">
+                                    <span class="margin-bottom-15 margin-top-20">
+                                         {{ 'about.main.part1.slogan'|trans }}
+                                    </span>
                                     <h2 class="margin-bottom-20 margin-top-1">
                                         {{ 'about.main.part1.headline'|trans }}
                                     </h2>
                                 </div>
-                                <p> {{ 'about.main.part1.text'|trans }}</p>
+                                <p> {{ 'about.main.part1-1.text'|trans }}</p>
+                                <p> {{ 'about.main.part1-2.text'|trans }}</p>
                             </div>
 
                             <!-- Image -->
-                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-5.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive">
+                            <div class="col-md-6 animate fadeInRight text-center" data-wow-delay="0.4s">
+                                {% image  '@AppBundle/Resources/public/images/general/researcher.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive" style="max-width: 300px">
                                 {% endimage %}
                             </div>
                         </div>
                     </div>
 
                     <!-- Intro Style 4 -->
-                    <div class="intro-5 margin-top-20">
+                    <div class="intro-5 margin-top-100">
                         <div class="row">
 
                             <!-- Image -->
-                            <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-6.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive">
+                            <div class="col-md-6 animate fadeInLeft text-center margin-top-60" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/images/general/web-site-screen.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive" style="max-width: 500px">
                                 {% endimage %}
                             </div>
                             <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
                                 <div class="heading-block no-margin-bottom margin-top-0">
-                                    <span class="margin-bottom-15">A truly multi - concept theme</span>
+                                    <span class="margin-bottom-15">
+                                         {{ 'about.main.part2.slogan'|trans }}
+                                    </span>
                                     <h2 class="margin-bottom-20 margin-top-1">
                                         {{ 'about.main.part2.headline'|trans }}
                                     </h2>
                                 </div>
-                                <p>{{ 'about.main.part2.text'|trans }}</p>
+                                <p>{{ 'about.main.part2.text2-1'|trans }}</p>
+                                <p>{{ 'about.main.part2.text2-2'|trans }}</p>
+                                <p>{{ 'about.main.part2.text2-3'|trans }}</p>
                             </div>
                         </div>
                     </div>
@@ -65,9 +72,13 @@
             <!-- Let's begin -->
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
-                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.6s">
                         <a href="{{ path('app_book_main_introudction') }}" class="btn btn-med btn-color">
-                            {{ 'main_navbar.continue'|trans }}
+                            {{ 'main_navbar.mathinmed'|trans }}
+                        </a>
+
+                        <a href="{{ path('app_book_main_introudction') }}" class="btn btn-med btn-color margin-left-20">
+                            {{ 'main_navbar.tutoring'|trans }}
                         </a>
                     </div>
                 </div>
