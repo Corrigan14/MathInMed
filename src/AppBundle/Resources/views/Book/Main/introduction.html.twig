@@ -17,19 +17,75 @@
                         <span>{{ 'book.introduction.author.citation'|trans }}</span>
                     </div>
 
-                    <!-- Intro Style 1 -->
+                    <!-- PART 1 -->
                     <div class="intro-5 margin-top-20">
                         <div class="row">
                             <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
-                                <div class="heading-block no-margin-bottom margin-top-100">
+                                <div class="heading-block no-margin-bottom">
                                     <span class="margin-bottom-15 margin-top-20">
-                                        {{ 'book.introduction.part1.slogan'|trans }}
+                                         {{ 'book.introduction.part1.slogan'|trans }}
                                     </span>
                                     <h2 class="margin-bottom-20 margin-top-1">
                                         {{ 'book.introduction.part1.headline'|trans }}
                                     </h2>
                                 </div>
-                                <p> {{ 'book.introduction.part1.text'|trans }}</p>
+                                <p> {{ 'book.introduction.part1.text1-1'|trans }}</p>
+                                <p> {{ 'book.introduction.part1.text1-2'|trans }}</p>
+                                <p> {{ 'book.introduction.part1.text1-3'|trans }}</p>
+                                <p> {{ 'book.introduction.part1.text1-4'|trans }}</p>
+                            </div>
+
+                            <!-- Image -->
+                            <div class="col-md-6 animate fadeInRight text-center" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/images/book/introduction/doctor-2.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive" style="max-height: 400px">
+                                {% endimage %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PART 2 -->
+                    <div class="intro-5 margin-top-100">
+                        <div class="row">
+
+                            <!-- Image -->
+                            <div class="col-md-6 animate fadeInLeft text-center margin-top-60" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/images/book/result/spirometry-result.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive" style="max-width: 500px">
+                                {% endimage %}
+                            </div>
+                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
+                                <div class="heading-block no-margin-bottom margin-top-0">
+                                    <span class="margin-bottom-15">
+                                         {{ 'book.introduction.part2.slogan'|trans }}
+                                    </span>
+                                    <h2 class="margin-bottom-20 margin-top-1">
+                                        {{ 'book.introduction.part2.headline'|trans }}
+                                    </h2>
+                                </div>
+                                <p>{{ 'book.introduction.part2.text2-1'|trans }}</p>
+                                <p>{{ 'book.introduction.part2.text2-2'|trans }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Intro PART 3 -->
+                    <div class="intro-5 margin-top-100">
+                        <div class="row">
+                            <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
+                                <div class="heading-block no-margin-bottom">
+                                    <span class="margin-bottom-15 margin-top-20">
+                                         {{ 'book.introduction.part3.slogan'|trans }}
+                                    </span>
+                                    <h2 class="margin-bottom-20 margin-top-1">
+                                        {{ 'book.introduction.part3.headline'|trans }}
+                                    </h2>
+                                </div>
+                                <p> {{ 'book.introduction.part3.text3-1'|trans }}</p>
+                                <p> {{ 'book.introduction.part3.text3-2'|trans }}</p>
+                                <p> {{ 'book.introduction.part3.text3-3'|trans }}</p>
+                                <p> {{ 'book.introduction.part3.text3-4'|trans }}</p>
+                                <p> {{ 'book.introduction.part3.text3-5'|trans }}</p>
                             </div>
 
                             <!-- Image -->
@@ -41,47 +97,50 @@
                         </div>
                     </div>
 
-                    <!-- Intro Style 2 -->
-                    <div class="intro-5 margin-top-20">
+                    <!-- Intro PART 4 -->
+                    <div class="intro-5 margin-top-100">
                         <div class="row">
+
                             <!-- Image -->
-                            <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/templateEvanto/images/intro/intro-6.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive">
+                            <div class="col-md-6 animate fadeInLeft text-center margin-top-60" data-wow-delay="0.4s">
+                                {% image  '@AppBundle/Resources/public/images/book/book-cover.png'  %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive" style="max-width: 500px">
                                 {% endimage %}
                             </div>
                             <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
                                 <div class="heading-block no-margin-bottom margin-top-0">
-                                    <span class="margin-bottom-15">A truly multi - concept theme</span>
+                                    <span class="margin-bottom-15">
+                                         {{ 'book.introduction.part4.slogan'|trans }}
+                                    </span>
                                     <h2 class="margin-bottom-20 margin-top-1">
-                                        {{ 'book.introduction.part2.headline'|trans }}
+                                        {{ 'book.introduction.part4.headline'|trans }}
                                     </h2>
                                 </div>
-                                <p>{{ 'book.introduction.part2.text'|trans }}</p>
+                                <p>{{ 'book.introduction.part4.text4-1'|trans }}</p>
+                                <p>{{ 'book.introduction.part4.text4-2'|trans }}</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Intro Style 1 -->
-                    <div class="intro-5 margin-top-20">
+                    <!-- Intro PART 5 -->
+                    <div class="intro-5 margin-top-100">
                         <div class="row">
                             <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
-                                <div class="heading-block no-margin-bottom margin-top-100">
+                                <div class="heading-block no-margin-bottom">
                                     <span class="margin-bottom-15 margin-top-20">
-                                        {{ 'book.introduction.part1.slogan'|trans }}
+                                         {{ 'book.introduction.part5.slogan'|trans }}
                                     </span>
                                     <h2 class="margin-bottom-20 margin-top-1">
-                                        {{ 'book.introduction.part3.headline'|trans }}
+                                        {{ 'book.introduction.part5.headline'|trans }}
                                     </h2>
                                 </div>
-                                <p> {{ 'book.introduction.part3.text'|trans }}</p>
+                                <p> {{ 'book.introduction.part5.text5-1'|trans }}</p>
                             </div>
 
                             <!-- Image -->
                             <div class="col-md-6 animate fadeInRight text-center" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/images/book/result/spirometry-result.png' %}
-                                <img src="{{ asset_url }}" alt="spirometry-result" class="img-responsive"
-                                     style="max-width: 350px">
+                                {% image '@AppBundle/Resources/public/images/book/book-cover.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive max-height-500">
                                 {% endimage %}
                             </div>
                         </div>

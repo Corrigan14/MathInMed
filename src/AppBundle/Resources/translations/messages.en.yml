@@ -9,10 +9,26 @@ main_navbar:
   tutoring: Preparation help
 
 slider:
-  book.motto_part1: HOW MUCH OF MATHEMATICS IS IN ONE
-  book.motto_part2: MEDICAL ASSESMENT?
-  book.motto_part3: Unconventional Set of Tasks
-  book.motto_part4: MATHEMATICS HELPS EVEN IN MEDICINE
+  default.joke-1-1: How do you stay warm in a cold emty room?
+  default.joke-1-2: Go into the corner where it is always 90 degrees.
+  default.joke-2-1: Why do plants hate math?
+  default.joke-2-2: Because it gives them square roots.
+  default.joke-3-1: Parallel lines have so much in common...
+  default.joke-3-2: it’s a shame they’ll never meet!
+  default.joke-4-1: Why didn't the Romans find algebra very challenging?
+  default.joke-4-2: Because they always knew X was 10.
+  default.joke-5-1: Why did the 30-60-90 degree triangle
+  default.joke-5-2: marry the 45-45-90 degree triangle?
+  default.joke-5-3: Because they were right for each other.
+  default.joke-6-1: My girlfriend is the square root of -100.
+  default.joke-6-2: She's a perfect 10, but purely imaginary.
+  default.joke-7-1: If nothing is better than life,
+  default.joke-7-2: and if a ham sandwich is better than nothing,
+  default.joke-7-3: does that mean that a ham sandwich is worth dying for?
+  book.motto_part1: MATHEMATICS AND THE WORLD AROUND US
+  book.motto_part2: HOW MUCH OF MATHEMATICS IS IN ONE
+  book.motto_part3: MEDICAL ASSESMENT?
+  book.motto_part4: Unconventional Set of Tasks
   book.motto_part5: DO YOU WANT TO KNOW HOW?
   book.lets_begin: Let's BEGIN!
   book.lets_discover: Let's DISCOVER!
@@ -85,12 +101,27 @@ book:
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
   introduction.part1.slogan: Mathematics doesn't have to be an "apparition"
-  introduction.part1.headline: What is This Website About?
-  introduction.part1.text: ...
-  introduction.part2.headline: Do I Need To Know "a lot of" From Mathematics?
-  introduction.part2.text: ...
-  introduction.part3.headline: The result of the medical assesment - Spirometry
-  introduction.part3.text: ...
-  introduction.part3.button: Download PDF
-  introduction.nextPage: How is some medical assesment related to mathematics???
-  result.headline: The result of the medical assesment - Spirometry
+  introduction.part1.headline: Mathematics in Medicine
+  introduction.part1.text1-1: You had probably already heard about the "importance of mathematics in medicine". But, are you asking why? Why is it so important? How REALY can we use our knowledge in this field?
+  introduction.part1.text1-2: The answer to these questions is offered on the next pages.
+  introduction.part1.text1-3: We will look together on a special medical result of the assessment called SPIROMETRY.
+  introduction.part1.text1-4: We will go through this result and learn how it is constructed from the measured values.
+  introduction.part2.slogan: The Medical Assessment
+  introduction.part2.headline:  Spirometry?
+  introduction.part2.text1-1: Spirometry is a medical assesment which..
+  introduction.part3.slogan: Mathematics hidden inside
+  introduction.part3.headline: What can I expect from Mathematics?
+  introduction.part3.text3-1: From the Mathematics point of view you can find answers on questions like:
+  introduction.part3.text3-2: Why do we have Mathematical Functions at school?
+  introduction.part3.text3-3: Why is it importatnt to understand the work with Graphs?
+  introduction.part3.text3-4: Why did somebody invent Derivatives?
+  introduction.part3.text3-5: And much more...
+  introduction.part4.slogan: Is it difficult?
+  introduction.part4.headline: Do I Need To Know "a lot of" From Mathematics?
+  introduction.part4.text: ...
+  introduction.part5.slogan: What else had been prepared
+  introduction.part5.headline: Offline version - booklet
+  introduction.part5.text: ...
+  introduction.part5.button: Download PDF (SK)
+  introduction.nextPage: Let's look closer on the Spirometry result
+  result.headline: SPIROMETRY
