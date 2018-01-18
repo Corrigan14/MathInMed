@@ -102,26 +102,36 @@ book:
   introduction.author.citation: Carl Rogers
   introduction.part1.slogan: Mathematics doesn't have to be an "apparition"
   introduction.part1.headline: Mathematics in Medicine
-  introduction.part1.text1-1: You had probably already heard about the "importance of mathematics in medicine". But, are you asking why? Why is it so important? How REALY can we use our knowledge in this field?
+  introduction.part1.text1-1: You had probably already heard about the "importance of mathematics in medicine". But, are you asking why? Why is it so important? How can we REALY use our mathematical knowledge in this field?
   introduction.part1.text1-2: The answer to these questions is offered on the next pages.
   introduction.part1.text1-3: We will look together on a special medical result of the assessment called SPIROMETRY.
   introduction.part1.text1-4: We will go through this result and learn how it is constructed from the measured values.
-  introduction.part2.slogan: The Medical Assessment
+  introduction.part2.slogan: A Medical Assessment
   introduction.part2.headline:  Spirometry?
-  introduction.part2.text1-1: Spirometry is a medical assesment which..
-  introduction.part3.slogan: Mathematics hidden inside
-  introduction.part3.headline: What can I expect from Mathematics?
-  introduction.part3.text3-1: From the Mathematics point of view you can find answers on questions like:
-  introduction.part3.text3-2: Why do we have Mathematical Functions at school?
-  introduction.part3.text3-3: Why is it importatnt to understand the work with Graphs?
-  introduction.part3.text3-4: Why did somebody invent Derivatives?
-  introduction.part3.text3-5: And much more...
-  introduction.part4.slogan: Is it difficult?
-  introduction.part4.headline: Do I Need To Know "a lot of" From Mathematics?
-  introduction.part4.text: ...
-  introduction.part5.slogan: What else had been prepared
-  introduction.part5.headline: Offline version - booklet
-  introduction.part5.text: ...
-  introduction.part5.button: Download PDF (SK)
+  introduction.part2.text2-1: Spirometry is a medical assessment which helps doctors to test the pulmonary function - function of our lungs. Practically, it measures the movement of air into and out of the lungs.
+  introduction.part2.text2-2: Spirometry in the past
+  introduction.part2.text2-3: One of the first constructed spirometer is called WATER SPIROMETER. As you can see in the picture (left), the patient was breathing into a machine. The machine was drawing graph - spirometry curve based on the patient's breathing intensity.
+  introduction.part2.text2-4: Spirometry today
+  introduction.part2.text2-5: Modern spirometers are small computer machines connected to the breathing mouthpiece (picture right). Assessment result is printed from the computer to the paper sheet.
+  introduction.part3.slogan: Computers help
+  introduction.part3.headline:  Spirometry Result
+  introduction.part3.text3-1: To help a doctor make a diagnosis, the modern computer assessment result does not contain only siprometry curve, but also:
+  introduction.part3.text3-2: o Key measured values
+  introduction.part3.text3-3: o Volume-time curve
+  introduction.part3.text3-4: o Flow-Volume loop
+  introduction.part3.text3-5: o Comparable values (values, which should be achieved by the healthy man/woman)
+  introduction.part3.text3-6: To understand how this result is beeing created inside "in the computer" and what the numbers and curves can tell the doctor about patients healthy conditions - these are our tasks for the next pages.
+  introduction.part4.slogan: Mathematics hidden inside
+  introduction.part4.headline: What can I expect from Mathematics?
+  introduction.part4.text4-1: o Functions and its characteristics
+  introduction.part4.text4-2: o Graphs and formulas
+  introduction.part4.text4-3: o Derivatives
+  introduction.part4.text4-4: o Reading with understanding
+  introduction.part4.text4-5: o Deduction
+  introduction.part4.text4-6: And much more...
+  introduction.part5.slogan: Is it difficult?
+  introduction.part5.headline: Do I Need To Know "a lot of" From Mathematics?
+  introduction.part5.text5-1: The answer is NO. Do not be worried! The only things what you need  are a little bit of time and a mode of thinking ;).
+  introduction.part5.text5-2: Every problem what is waiting for you contains HELPER. This you can find in a right menu, under the BULB icon. You can use these helpers every time, when you need.
   introduction.nextPage: Let's look closer on the Spirometry result
   result.headline: SPIROMETRY

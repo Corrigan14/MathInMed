@@ -38,7 +38,8 @@
                             <!-- Image -->
                             <div class="col-md-6 animate fadeInRight text-center" data-wow-delay="0.4s">
                                 {% image '@AppBundle/Resources/public/images/book/introduction/doctor-2.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive" style="max-height: 400px">
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
+                                     style="max-height: 400px">
                                 {% endimage %}
                             </div>
                         </div>
@@ -49,9 +50,9 @@
                         <div class="row">
 
                             <!-- Image -->
-                            <div class="col-md-6 animate fadeInLeft text-center margin-top-60" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/images/book/result/spirometry-result.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive" style="max-width: 500px">
+                            <div class="col-md-6 animate fadeInLeft text-center" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/images/book/introduction/spirometer.png' %}
+                                <img src="{{ asset_url }}" alt="water-spirometer" class="img-responsive">
                                 {% endimage %}
                             </div>
                             <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
@@ -64,7 +65,19 @@
                                     </h2>
                                 </div>
                                 <p>{{ 'book.introduction.part2.text2-1'|trans }}</p>
-                                <p>{{ 'book.introduction.part2.text2-2'|trans }}</p>
+                                <h5>{{ 'book.introduction.part2.text2-2'|trans }}</h5>
+                                <p>{{ 'book.introduction.part2.text2-3'|trans }}</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h5>{{ 'book.introduction.part2.text2-4'|trans }}</h5>
+                                        <p>{{ 'book.introduction.part2.text2-5'|trans }}</p>
+                                    </div>
+                                    <div class="col-md-6 text-center">
+                                        {% image '@AppBundle/Resources/public/images/book/introduction/spirometer-today.jpg' %}
+                                        <img src="{{ asset_url }}" alt="spirometer-today" class="img-responsive">
+                                        {% endimage %}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -82,16 +95,20 @@
                                     </h2>
                                 </div>
                                 <p> {{ 'book.introduction.part3.text3-1'|trans }}</p>
-                                <p> {{ 'book.introduction.part3.text3-2'|trans }}</p>
-                                <p> {{ 'book.introduction.part3.text3-3'|trans }}</p>
-                                <p> {{ 'book.introduction.part3.text3-4'|trans }}</p>
-                                <p> {{ 'book.introduction.part3.text3-5'|trans }}</p>
+                                <div class="margin-left-20">
+                                    <p> {{ 'book.introduction.part3.text3-2'|trans }}</p>
+                                    <p> {{ 'book.introduction.part3.text3-3'|trans }}</p>
+                                    <p> {{ 'book.introduction.part3.text3-4'|trans }}</p>
+                                    <p> {{ 'book.introduction.part3.text3-5'|trans }}</p>
+                                </div>
+                                <p>{{ 'book.introduction.part3.text3-6'|trans }}</p>
                             </div>
 
                             <!-- Image -->
                             <div class="col-md-6 animate fadeInRight text-center" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/images/book/book-cover.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive max-height-500">
+                                {% image '@AppBundle/Resources/public/images/book/result/spirometry-result.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1"
+                                     class="img-responsive" style="max-height: 450px">
                                 {% endimage %}
                             </div>
                         </div>
@@ -102,9 +119,10 @@
                         <div class="row">
 
                             <!-- Image -->
-                            <div class="col-md-6 animate fadeInLeft text-center margin-top-60" data-wow-delay="0.4s">
-                                {% image  '@AppBundle/Resources/public/images/book/book-cover.png'  %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive" style="max-width: 500px">
+                            <div class="col-md-6 animate fadeInLeft text-center" data-wow-delay="0.4s">
+                                {% image  '@AppBundle/Resources/public/images/book/introduction/mathematician-3.jpg' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
+                                     style="max-width: 500px">
                                 {% endimage %}
                             </div>
                             <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
@@ -116,8 +134,14 @@
                                         {{ 'book.introduction.part4.headline'|trans }}
                                     </h2>
                                 </div>
-                                <p>{{ 'book.introduction.part4.text4-1'|trans }}</p>
-                                <p>{{ 'book.introduction.part4.text4-2'|trans }}</p>
+                                <div class="margin-left-20">
+                                    <p>{{ 'book.introduction.part4.text4-1'|trans }}</p>
+                                    <p>{{ 'book.introduction.part4.text4-2'|trans }}</p>
+                                    <p>{{ 'book.introduction.part4.text4-3'|trans }}</p>
+                                    <p>{{ 'book.introduction.part4.text4-4'|trans }}</p>
+                                    <p>{{ 'book.introduction.part4.text4-5'|trans }}</p>
+                                    <p>{{ 'book.introduction.part4.text4-6'|trans }}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -139,8 +163,9 @@
 
                             <!-- Image -->
                             <div class="col-md-6 animate fadeInRight text-center" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/images/book/book-cover.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive max-height-500">
+                                {% image '@AppBundle/Resources/public/images/book/introduction/thinking.png' %}
+                                <img src="{{ asset_url }}" alt="introduction-picture1"
+                                     class="img-responsive max-height-500">
                                 {% endimage %}
                             </div>
                         </div>
