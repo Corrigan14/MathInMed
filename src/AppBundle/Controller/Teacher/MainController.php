@@ -1,14 +1,13 @@
 <?php
 
-namespace AppBundle\Controller\Book;
+namespace AppBundle\Controller\Teacher;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 /**
  * Class MainController
- *
- * @package AppBundle\Controller\Book
+ * @package AppBundle\Controller\Teacher
  */
 class MainController extends Controller
 {
@@ -19,17 +18,6 @@ class MainController extends Controller
      * @return array
      */
     public function introductionAction($locale = false): array
-    {
-        return [];
-    }
-
-    /**
-     * @Template()
-     *
-     * @param string|bool $locale
-     * @return array
-     */
-    public function resultAction($locale = false):array
     {
         return [];
     }

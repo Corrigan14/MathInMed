@@ -13,3 +13,15 @@ app_book_main_result:
     defaults: { _controller: AppBundle:Book/Main:result, _locale: en }
     requirements:
         _locale:  en|sk
+
+app_students_main_introudction:
+    path:     /{_locale}/students/introduction
+    defaults: { _controller: AppBundle:Student/Main:introduction, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_teachers_main_introudction:
+    path:     /{_locale}/teachers/introduction
+    defaults: { _controller: AppBundle:Teacher/Main:introduction, _locale: en }
+    requirements:
+        _locale:  en|sk

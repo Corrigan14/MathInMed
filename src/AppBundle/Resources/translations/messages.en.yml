@@ -7,6 +7,10 @@ main_navbar:
   continue: Continue
   mathinmed: Math Around Us
   tutoring: Preparation help
+  teachers: Teachers section
+  developers: Developers
+  development.note1: Website development is in progres...
+  development.note2: We are comming soon!
 
 slider:
   default.joke-1-1: How do you stay warm in a cold emty room?
@@ -90,12 +94,15 @@ about:
   main.part1.headline: Who Are We?
   main.part1-1.text: We are a team of young researchers with the main work place at Comenius University in Bratislava. Our research is focused on a student's learning practice in mathematics, self-inner-motivation and tutoring.
   main.part1-2.text: The main goal of our work is to find ways to help students with mathematics understanding and their mathematics learning inner-motivation.
-  main.part2.slogan: We work with passion
+  main.part2.slogan: We work with passion ... for students
   main.part2.headline: Why Did We Create This Website?
   main.part2.text2-1: The first reason is Mathematics an its practicality - real-world usage. Many students do not understand why they have to learn many "weird and complicated" formulas, especially in a higher grade. For these students website offers a real mathematical application in a medical assessment called Spirometry. Students have the opportunity to understand a crucial Mathematical Functions role in this assessment's result creation.
   main.part2.text2-2: The second reason is Mathematics understanding. Sometime, only small help can open student's understanding and allows self-invention experience which brings inner-motivation. Moderated Online Tutoring is offering this help for everybody who likes to us it.
-  main.part2.text2-3: The website development is still in progress and we hope (believe) we will have many opprotunities to improve it in next years.
-
+  main.part3.slogan: We work with passion ... for teachers
+  main.part3.headline: What is This Website offering for Teachers?
+  main.part3.text3-1: Cooperation is crucial in an excellent teacher development. Internet allows to spread this cooperation out of schools or regions.
+  main.part3.text3-2: It is not important if you are an experienced or novice teacher. You can find a place for your questions, thoughts, research, materials and experience sharing here.
+  main.part4.text4-1: The website development is still in progress. Please forgive us mistakes. If you have any suggestion how we can improwe, please feel free to contact us.
 
 book:
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.

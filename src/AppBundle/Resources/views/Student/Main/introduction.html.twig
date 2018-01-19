@@ -1,0 +1,23 @@
+{% extends "AppBundle::layout.html.twig" %}
+
+{% block content %}
+    <main class="cd-main-content">
+        {% include 'AppBundle:Default:Includes/slider.html.twig' %}
+
+        <div id="content">
+            <section class="padding-top-80 padding-bottom-80">
+                <div class="container">
+                    <!-- MAIN HEADING -->
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        <h3>
+                            {{ 'main_navbar.development.note1'|trans }}
+                            {{ 'main_navbar.development.note2'|trans }}
+                        </h3>
+                        <hr class="color">
+                        <span>{{ 'main_navbar.developers'|trans }}</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+{% endblock %}
