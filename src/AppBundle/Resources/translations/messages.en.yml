@@ -41,7 +41,7 @@ slider:
 
 left_navbar:
   book.introduction: Introduction
-  book.spyrometry: How is the Medical Assesment Result Related to Mathematics?
+  book.spyrometry: Spirometry Result
   book.chapter1: Spirometry Curve
   book.chapter11: Parameteres Signalized Respiratory Problems
   book.chapter12: Respiratory System Diseases
@@ -111,8 +111,7 @@ book:
   introduction.part1.headline: Mathematics in Medicine
   introduction.part1.text1-1: You had probably already heard about the "importance of mathematics in medicine". But, are you asking why? Why is it so important? How can we REALY use our mathematical knowledge in this field?
   introduction.part1.text1-2: The answer to these questions is offered on the next pages.
-  introduction.part1.text1-3: We will look together on a special medical result of the assessment called SPIROMETRY.
-  introduction.part1.text1-4: We will go through this result and learn how it is constructed from the measured values.
+  introduction.part1.text1-3: We are looking together on a result of medical assessment called SPIROMETRY. We are going through this result and constructing it from the measured values.
   introduction.part2.slogan: A Medical Assessment
   introduction.part2.headline:  Spirometry?
   introduction.part2.text2-1: Spirometry is a medical assessment which helps doctors to test the pulmonary function - function of our lungs. Practically, it measures the movement of air into and out of the lungs.
@@ -127,7 +126,7 @@ book:
   introduction.part3.text3-3: o Volume-time curve
   introduction.part3.text3-4: o Flow-Volume loop
   introduction.part3.text3-5: o Comparable values (values, which should be achieved by the healthy man/woman)
-  introduction.part3.text3-6: To understand how this result is beeing created inside "in the computer" and what the numbers and curves can tell the doctor about patients healthy conditions - these are our tasks for the next pages.
+  introduction.part3.text3-6: To understand how this WHOLE result is beeing created inside "in the computer" and what the numbers and curves can tell the doctor about patients healthy conditions - these are our tasks for the next pages.
   introduction.part4.slogan: Mathematics hidden inside
   introduction.part4.headline: What can I expect from Mathematics?
   introduction.part4.text4-1: o Functions and its characteristics
@@ -141,4 +140,10 @@ book:
   introduction.part5.text5-1: The answer is NO. Do not be worried! The only things what you need  are a little bit of time and a mode of thinking ;).
   introduction.part5.text5-2: Every problem what is waiting for you contains HELPER. This you can find in a right menu, under the BULB icon. You can use these helpers every time, when you need.
   introduction.nextPage: Let's look closer on the Spirometry result
-  result.headline: SPIROMETRY
+  result.headline: SPIROMETRY -  pulmonary function test
+  result.part1.text1-1: WHAT DOES THE RESULT CONTAIN?
+  result.part1.text1-2: As you can see, many numbers and graphs :)
+  result.part2.text2-1: WHAT ARE WE GOING TO DO?
+  result.part2.text2-2: ...3 pictures
+  result.part3.text3-1: HOW?
+  result.part3.text3-2: ... 3 pictures HELPERS, ANSWERS, FORUM
