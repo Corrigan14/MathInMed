@@ -81,7 +81,7 @@ right_navbar:
 
 footer:
   headline: Creative team - SK
-  headline.text: Hi everybody! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud holder of PhD. degree from The Theory of Teaching of Mathematics. I know that mathematics can be challenging but it can be a good chalenge and everybody can learn it. The only question is, how. One of the effective ways is to doscover it by yourself!
+  headline.text: Hi everybody! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud holder of a PhD. degree from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how. One of the effective ways is to discover it by yourself!
   email: E-mail
   phone: Phone
   address: Address
@@ -123,9 +123,9 @@ book:
   introduction.part3.headline:  Spirometry Result
   introduction.part3.text3-1: To help a doctor make a diagnosis, the modern computer assessment result does not contain only siprometry curve, but also:
   introduction.part3.text3-2: o Key measured values
-  introduction.part3.text3-3: o Volume-time curve
+  introduction.part3.text3-3: o Volume-Time curve
   introduction.part3.text3-4: o Flow-Volume loop
-  introduction.part3.text3-5: o Comparable values (values, which should be achieved by the healthy man/woman)
+  introduction.part3.text3-5: o Comparable values (values, which should be achieved by a healthy man/woman)
   introduction.part3.text3-6: To understand how this WHOLE result is beeing created inside "in the computer" and what the numbers and curves can tell the doctor about patients healthy conditions - these are our tasks for the next pages.
   introduction.part4.slogan: Mathematics hidden inside
   introduction.part4.headline: What can I expect from Mathematics?
@@ -143,7 +143,32 @@ book:
   result.headline: SPIROMETRY -  pulmonary function test
   result.part1.text1-1: WHAT DOES THE RESULT CONTAIN?
   result.part1.text1-2: As you can see, many numbers and graphs :)
+  result.part1.text1-3-1: SPIROMETRY CURVE
+  result.part1.text1-3-2: A special way of basic spirometry curve representation using a graph called BOX-PLOT.
+  result.part1.text1-4-1: VOLUME-TIME CURVE
+  result.part1.text1-4-2: A special curve created from the Spirometry curve.
+  result.part1.text1-5-1: FLOW-VOLUME CURVE
+  result.part1.text1-5-2: A special curve created from the Volume-Time curve.
+  result.part1.text1-6-1: DATE AND TIME
+  result.part1.text1-6-2: The dates and times of provided spirometry assessments. The first spirometry was provided on April 17th, 2012 (denoted as PRE). The second spirometry was provided on May 3th, 2012 (denoted as POST).
+  result.part1.text1-7-1: PREDICTED VALUES
+  result.part1.text1-7-2: The values which should be achieved by a healthy human - non-smoker, who has the same sex, height and weight as a tested patient.
+  result.part1.text1-8-1: MEASURED VALUES
+  result.part1.text1-8-2: The key measured patient's values during the two assessments, PRE (April 17th, 2012) and POST (May 3th, 2012).
   result.part2.text2-1: WHAT ARE WE GOING TO DO?
-  result.part2.text2-2: ...3 pictures
+  result.part2.text2-2: We are going to go through a result parts. At first, we look at the Spirometry curve and a values which it represents. The second part is dedicated to the Volume-time curve and the last one, to the Flow-volume curve.
+  result.part2.text2-3: At the end of every part there is a summary and a game - a price for your hard work :). The final task allows us to prepare our own assumed summary of the patient's healthy conditions.
   result.part3.text3-1: HOW?
-  result.part3.text3-2: ... 3 pictures HELPERS, ANSWERS, FORUM
+  result.part3.text3-2: Every part contains some tasks - small problems. These problems solutions show you, how can be the curve created and what exactly it represents from the medical point of view. If you can solve all these probems, you will understand the whole spirometry result at the end.
+  result.part4.text4-1: Help - if you need it
+  result.part4.text4-2: HELPERS
+  result.part4.text4-3-1: Helpers are..
+  result.part5.text5-1: Check your sollutions...
+  result.part5.text5-2: ANSWERS
+  result.part5.text5-3: ...
+  result.part6.text6-1: Ask friends...
+  result.part6.text6-2: FORUM - CHAT
+  result.part6.text6-3: ...
+  result.part7.text7-1: Navigation system
+  result.part7.text7-2: LEFT MENU
+  result.part7.text7-3: ...

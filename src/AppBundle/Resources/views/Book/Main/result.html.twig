@@ -15,7 +15,7 @@
                         <hr class="color">
                     </div>
 
-                    <div class="row animate fadeInUp" data-wow-delay="1.5s">
+                    <div class="row animate fadeInUp" data-wow-delay="0.8s">
                         <div class="col-md-12 text-center">
                             {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-aj.png' %}
                             <img src="{{ asset_url }}" alt="spirometry-result" class="img-responsive"
@@ -26,52 +26,211 @@
                 </div>
             </section>
 
-            <section class="services-coporate padding-top-80 padding-bottom-80 ">
+            <section class="services-coporate padding-bottom-80 ">
                 <div class="container">
                     <!-- HEADING BLOCK -->
-                    <div class="heading-block style-6 text-center margin-bottom-80 animate fadeInUp" data-wow-delay="0.4s">
-                        <h4>{{ 'book.result.part1.text1-1'|trans }}</h4>
-                        <hr class="color">
-                        <p class="font-crimson margin-top-20">{{ 'book.result.part1.text1-2'|trans }}</p>
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s"
+                         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <h3>{{ 'book.result.part1.text1-1'|trans }}</h3>
+                        <div class="divider divider-short divider-center">
+                            {% image '@AppBundle/Resources/public/images/general/dividers/devider-6-1.png' %}
+                            <img src="{{ asset_url }}" alt="Divider-Icon-Image" class="i-div">
+                            {% endimage %}
+                        </div>
+                        <span>{{ 'book.result.part1.text1-2'|trans }}</span>
                     </div>
 
-                    <!-- Icon Row -->
+                    <!-- Icon Row 1 -->
                     <ul class="row">
-
-                        <!-- Services -->
-                        <li class="col-md-4 animate fadeInUp" data-wow-delay="0.4s"> <img class="img-responsive" src="images/services/img-1.jpg" alt="" > <i class="fa fa-laptop margin-top-20"></i>
-                            <h6>WEB DESIGN</h6>
+                        <!-- Picture of result 1 -->
+                        <li class="col-md-4 animate fadeInUp text-center" data-wow-delay="0.4s">
+                            {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-SC.png' %}
+                            <img src="{{ asset_url }}" alt="result-spirometry-curve"
+                                 class="img-responsive margin-bottom-20" style="max-height: 480px">
+                            {% endimage %}
+                            <h6>{{ 'book.result.part1.text1-3-1'|trans }}</h6>
                             <hr class="black">
-                            <p>Paetos dignissim at cursus elefeind norma arcu.velim pellentesque uter justo.</p>
+                            <p>{{ 'book.result.part1.text1-3-2'|trans }}</p>
                         </li>
 
-                        <!-- Services -->
-                        <li class="col-md-4 animate fadeInUp" data-wow-delay="0.6s"> <img class="img-responsive" src="images/services/img-2.jpg" alt="" > <i class="fa fa-tree margin-top-20"></i>
-                            <h6>MOTION GRAPHIC</h6>
+                        <!-- Picture of result 2 -->
+                        <li class="col-md-4 animate fadeInUp text-center" data-wow-delay="0.4s">
+                            {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-VTC.png' %}
+                            <img src="{{ asset_url }}" alt="result-spirometry-curve"
+                                 class="img-responsive margin-bottom-20" style="max-height: 480px">
+                            {% endimage %}
+                            <h6>{{ 'book.result.part1.text1-4-1'|trans }}</h6>
                             <hr class="black">
-                            <p>Paetos dignissim at cursus elefeind norma arcu.velim pellentesque uter justo.</p>
+                            <p>{{ 'book.result.part1.text1-4-2'|trans }}</p>
                         </li>
 
-                        <!-- Services -->
-                        <li class="col-md-4 animate fadeInUp" data-wow-delay="0.8s"> <img class="img-responsive" src="images/services/img-3.jpg" alt="" > <i class="fa fa-motorcycle margin-top-20"></i>
-                            <h6>BRANDING DESIGN</h6>
+                        <!-- Picture of result 3 -->
+                        <li class="col-md-4 animate fadeInUp text-center" data-wow-delay="0.4s">
+                            {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-FVC.png' %}
+                            <img src="{{ asset_url }}" alt="result-spirometry-curve"
+                                 class="img-responsive margin-bottom-20" style="max-height: 480px">
+                            {% endimage %}
+                            <h6>{{ 'book.result.part1.text1-5-1'|trans }}</h6>
                             <hr class="black">
-                            <p>Paetos dignissim at cursus elefeind norma arcu.velim pellentesque uter justo.</p>
+                            <p>{{ 'book.result.part1.text1-5-2'|trans }}</p>
+                        </li>
+                    </ul>
+
+                    <!-- Icon Row 2 -->
+                    <ul class="row margin-top-30">
+                        <!-- Picture of result 4 -->
+                        <li class="col-md-4 animate fadeInUp text-center" data-wow-delay="0.4s">
+                            {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-DT.png' %}
+                            <img src="{{ asset_url }}" alt="result-spirometry-curve"
+                                 class="img-responsive margin-bottom-20" style="max-height: 480px">
+                            {% endimage %}
+                            <h6>{{ 'book.result.part1.text1-6-1'|trans }}</h6>
+                            <hr class="black">
+                            <p>{{ 'book.result.part1.text1-6-2'|trans }}</p>
+                        </li>
+
+                        <!-- Picture of result 5 -->
+                        <li class="col-md-4 animate fadeInUp text-center" data-wow-delay="0.4s">
+                            {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-PV.png' %}
+                            <img src="{{ asset_url }}" alt="result-spirometry-curve"
+                                 class="img-responsive margin-bottom-20" style="max-height: 480px">
+                            {% endimage %}
+                            <h6>{{ 'book.result.part1.text1-7-1'|trans }}</h6>
+                            <hr class="black">
+                            <p>{{ 'book.result.part1.text1-7-2'|trans }}</p>
+                        </li>
+
+                        <!-- Picture of result 6 -->
+                        <li class="col-md-4 animate fadeInUp text-center" data-wow-delay="0.4s">
+                            {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-MV.png' %}
+                            <img src="{{ asset_url }}" alt="result-spirometry-curve"
+                                 class="img-responsive margin-bottom-20" style="max-height: 480px">
+                            {% endimage %}
+                            <h6>{{ 'book.result.part1.text1-8-1'|trans }}</h6>
+                            <hr class="black">
+                            <p>{{ 'book.result.part1.text1-8-2'|trans }}</p>
                         </li>
                     </ul>
 
                     <!-- HEADING BLOCK -->
-                    <div class="heading-block style-6 text-center margin-bottom-80 margin-top-80 animate fadeInUp" data-wow-delay="0.4s">
-                        <h4>{{ 'book.result.part2.text2-1'|trans }}</h4>
-                        <hr class="color">
-                        <p class="font-crimson margin-top-20">{{ 'book.result.part2.text2-2'|trans }}</p>
+                    <div class="heading-block text-center animate fadeInUp padding-top-80" data-wow-delay="0.4s"
+                         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <h3>{{ 'book.result.part2.text2-1'|trans }}</h3>
+                        <div class="divider divider-short divider-center">
+                            {% image '@AppBundle/Resources/public/images/general/dividers/devider-6-1.png' %}
+                            <img src="{{ asset_url }}" alt="Divider-Icon-Image" class="i-div">
+                            {% endimage %}
+                        </div>
+                        <span>{{ 'book.result.part2.text2-2'|trans }}</span>
+                        <span>{{ 'book.result.part2.text2-3'|trans }}</span>
                     </div>
 
                     <!-- HEADING BLOCK -->
-                    <div class="heading-block style-6 text-center margin-bottom-80 margin-top-80 animate fadeInUp" data-wow-delay="0.4s">
-                        <h4>{{ 'book.result.part3.text3-1'|trans }}</h4>
-                        <hr class="color">
-                        <p class="font-crimson margin-top-20">{{ 'book.result.part3.text3.2'|trans }}</p>
+                    <div class="heading-block text-center animate fadeInUp padding-top-80" data-wow-delay="0.4s"
+                         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <h3>{{ 'book.result.part3.text3-1'|trans }}</h3>
+                        <div class="divider divider-short divider-center">
+                            {% image '@AppBundle/Resources/public/images/general/dividers/devider-6-1.png' %}
+                            <img src="{{ asset_url }}" alt="Divider-Icon-Image" class="i-div">
+                            {% endimage %}
+                        </div>
+                        <span>{{ 'book.result.part3.text3-2'|trans }}</span>
+                    </div>
+
+                    <!-- PART 1 -->
+                    <div class="intro-5 margin-top-20">
+                        <div class="row">
+                            <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
+                                <div class="heading-block no-margin-bottom">
+                                    <span class="margin-bottom-15 margin-top-20">
+                                        {{ 'book.result.part4.text4-1'|trans }}
+                                    </span>
+                                    <h2 class="margin-bottom-20 margin-top-1">
+                                        {{ 'book.result.part4.text4-2'|trans }}
+                                    </h2>
+                                </div>
+                                <p> {{ 'book.result.part4.text4-3'|trans }}</p>
+                            </div>
+
+                            <!-- Image -->
+                            <div class="col-md-6 animate fadeInRight text-center" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/images/book/result/screen-helpers-arrow-2.png' %}
+                                <img src="{{ asset_url }}" alt="result-helpers" class="img-responsive">
+                                {% endimage %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PART 2 -->
+                    <div class="intro-5 margin-top-80">
+                        <div class="row">
+
+                            <!-- Image -->
+                            <div class="col-md-6 animate fadeInLeft text-center vertical-center" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/images/book/result/screen-answers-arrow-2.png' %}
+                                <img src="{{ asset_url }}" alt="result-answers" class="img-responsive">
+                                {% endimage %}
+                            </div>
+                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
+                                <div class="heading-block no-margin-bottom margin-top-0">
+                                    <span class="margin-bottom-15">
+                                        {{ 'book.result.part5.text5-1'|trans }}
+                                    </span>
+                                    <h2 class="margin-bottom-20 margin-top-1">
+                                        {{ 'book.result.part5.text5-2'|trans }}
+                                    </h2>
+                                </div>
+                                <p>{{ 'book.result.part5.text5-3'|trans }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Intro PART 3 -->
+                    <div class="intro-5 margin-top-80">
+                        <div class="row">
+                            <div class="col-md-6 animate fadeInLeft" data-wow-delay="0.4s">
+                                <div class="heading-block no-margin-bottom">
+                                    <span class="margin-bottom-15 margin-top-20">
+                                         {{ 'book.result.part6.text6-1'|trans }}
+                                    </span>
+                                    <h2 class="margin-bottom-20 margin-top-1">
+                                        {{ 'book.result.part6.text6-2'|trans }}
+                                    </h2>
+                                </div>
+                                <p>  {{ 'book.result.part6.text6-3'|trans }}</p>
+                            </div>
+
+                            <!-- Image -->
+                            <div class="col-md-6 animate fadeInRight text-center" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/images/book/result/screen-forum-arrow-2.png' %}
+                                <img src="{{ asset_url }}" alt="result-forum" class="img-responsive">
+                                {% endimage %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PART 4 -->
+                    <div class="intro-5 margin-top-80">
+                        <div class="row">
+
+                            <!-- Image -->
+                            <div class="col-md-6 animate fadeInLeft text-center vertical-center" data-wow-delay="0.4s">
+                                {% image '@AppBundle/Resources/public/images/book/result/screen-left-menu-arrow.png' %}
+                                <img src="{{ asset_url }}" alt="result-left-menu" class="img-responsive">
+                                {% endimage %}
+                            </div>
+                            <div class="col-md-6 animate fadeInRight" data-wow-delay="0.4s">
+                                <div class="heading-block no-margin-bottom margin-top-0">
+                                    <span class="margin-bottom-15">
+                                          {{ 'book.result.part7.text7-1'|trans }}
+                                    </span>
+                                    <h2 class="margin-bottom-20 margin-top-1">
+                                        {{ 'book.result.part7.text7-2'|trans }}
+                                    </h2>
+                                </div>
+                                <p>{{ 'book.result.part7.text7-3'|trans }}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
