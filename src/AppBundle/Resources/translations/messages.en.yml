@@ -13,7 +13,7 @@ main_navbar:
   development.note2: We are comming soon!
 
 slider:
-  default.joke-1-1: How do you stay warm in a cold emty room?
+  default.joke-1-1: How do you stay warm in a cold empty room?
   default.joke-1-2: Go into the corner where it is always 90 degrees.
   default.joke-2-1: Why do plants hate math?
   default.joke-2-2: Because it gives them square roots.
@@ -97,7 +97,7 @@ about:
   main.part2.slogan: We work with passion ... for students
   main.part2.headline: Why Did We Create This Website?
   main.part2.text2-1: The first reason is Mathematics an its practicality - real-world usage. Many students do not understand why they have to learn many "weird and complicated" formulas, especially in a higher grade. For these students website offers a real mathematical application in a medical assessment called Spirometry. Students have the opportunity to understand a crucial Mathematical Functions role in this assessment's result creation.
-  main.part2.text2-2: The second reason is Mathematics understanding. Sometime, only small help can open student's understanding and allows self-invention experience which brings inner-motivation. Moderated Online Tutoring is offering this help for everybody who likes to us it.
+  main.part2.text2-2: The second reason is Mathematics understanding. Sometime, only a small help can open student's understanding and allows self-invention experience which brings inner-motivation. Moderated Online Tutoring is offering this help for everybody who likes to us it.
   main.part3.slogan: We work with passion ... for teachers
   main.part3.headline: What is This Website offering for Teachers?
   main.part3.text3-1: Cooperation is crucial in an excellent teacher development. Internet allows to spread this cooperation out of schools or regions.
@@ -109,9 +109,9 @@ book:
   introduction.author.citation: Carl Rogers
   introduction.part1.slogan: Mathematics doesn't have to be an "apparition"
   introduction.part1.headline: Mathematics in Medicine
-  introduction.part1.text1-1: You had probably already heard about the "importance of mathematics in medicine". But, are you asking why? Why is it so important? How can we REALY use our mathematical knowledge in this field?
+  introduction.part1.text1-1: Have you ever heard about the "importance of mathematics in medicine". Do you believe it? Can you imagine why should be mathematics important to medicine? How can we REALY use our mathematical knowledge in this field?
   introduction.part1.text1-2: The answer to these questions is offered on the next pages.
-  introduction.part1.text1-3: We are looking together on a result of medical assessment called SPIROMETRY. We are going through this result and constructing it from the measured values.
+  introduction.part1.text1-3: We are looking together to a result of medical assessment called SPIROMETRY. By solving small problems, step by step, we are discovering how this result is constructed and why is the mathematics necessary in this process.
   introduction.part2.slogan: A Medical Assessment
   introduction.part2.headline:  Spirometry?
   introduction.part2.text2-1: Spirometry is a medical assessment which helps doctors to test the pulmonary function - function of our lungs. Practically, it measures the movement of air into and out of the lungs.
@@ -147,28 +147,37 @@ book:
   result.part1.text1-3-2: A special way of basic spirometry curve representation using a graph called BOX-PLOT.
   result.part1.text1-4-1: VOLUME-TIME CURVE
   result.part1.text1-4-2: A special curve created from the Spirometry curve.
-  result.part1.text1-5-1: FLOW-VOLUME CURVE
+  result.part1.text1-5-1: FLOW-VOLUME LOOP
   result.part1.text1-5-2: A special curve created from the Volume-Time curve.
   result.part1.text1-6-1: DATE AND TIME
-  result.part1.text1-6-2: The dates and times of provided spirometry assessments. The first spirometry was provided on April 17th, 2012 (denoted as PRE). The second spirometry was provided on May 3th, 2012 (denoted as POST).
+  result.part1.text1-6-2: The dates and times of provided spirometry assessments. The first spirometry was provided on April 17th, 2012 (denoted by PRE). The second spirometry was provided on May 3th, 2012 (denoted by POST).
   result.part1.text1-7-1: PREDICTED VALUES
   result.part1.text1-7-2: The values which should be achieved by a healthy human - non-smoker, who has the same sex, height and weight as a tested patient.
   result.part1.text1-8-1: MEASURED VALUES
   result.part1.text1-8-2: The key measured patient's values during the two assessments, PRE (April 17th, 2012) and POST (May 3th, 2012).
   result.part2.text2-1: WHAT ARE WE GOING TO DO?
-  result.part2.text2-2: We are going to go through a result parts. At first, we look at the Spirometry curve and a values which it represents. The second part is dedicated to the Volume-time curve and the last one, to the Flow-volume curve.
-  result.part2.text2-3: At the end of every part there is a summary and a game - a price for your hard work :). The final task allows us to prepare our own assumed summary of the patient's healthy conditions.
-  result.part3.text3-1: HOW?
-  result.part3.text3-2: Every part contains some tasks - small problems. These problems solutions show you, how can be the curve created and what exactly it represents from the medical point of view. If you can solve all these probems, you will understand the whole spirometry result at the end.
-  result.part4.text4-1: Help - if you need it
+  result.part2.text2-2: We are going to solve small mathematical problems which, step by step, help us to create this whole result only from the basic measured values and to understand the medical meaning of all its parts.
+  result.part2.text2-3: The tasks are split into 3 parts. We are looking at the Spirometry curve and values which it represents in the first of these parts. The second part is dedicated to the Volume-time curve and the last one, to the Flow-volume loop.
+  result.part2.text2-4: At the end of every part there is a summary and a game - a price for your hard work :). The final task allows us to prepare our own assumed summary of the patient's healthy conditions.
+  result.part3.text3-1: WHAT IF I DO NOT KNOW THE PROBLEM SOLUTION? OR IF IT IS TOO DIFFICULT FOR ME?
+  result.part3.text3-2: Do not be worried! There is a helper for every task.
+  result.part4.text4-1: Ask for a help if you need it...
   result.part4.text4-2: HELPERS
-  result.part4.text4-3-1: Helpers are..
-  result.part5.text5-1: Check your sollutions...
+  result.part4.text4-3-1: If you do not know how to solve the problem, ask helper!
+  result.part4.text4-3-2: Helpers are small advices, which show you, how you should think about the problem to find its solution.
+  result.part4.text4-3-3: Helpers are denoted by the same number as tasks and you can find them on every page if you click on a BULB on a menu located in the top-right corner.
+  result.part5.text5-1: Check your solutions...
   result.part5.text5-2: ANSWERS
-  result.part5.text5-3: ...
-  result.part6.text6-1: Ask friends...
+  result.part5.text5-3-1: If you find an answer, you can check it!
+  result.part5.text5-3-2: Similary, as helpers, the answers are also denoted by task's numbers and they are available on every page. You can find them if you click on a CHECK MARK on a menu located in the top-right corner.
+  result.part5.text5-3-3: If you want to close the right menu, you only have to click somewhere outside this menu.
+  result.part6.text6-1: Ask your friends...
   result.part6.text6-2: FORUM - CHAT
-  result.part6.text6-3: ...
+  result.part6.text6-3-1: If you do not know how to solve some problem, ask your friends!
+  result.part6.text6-3-2: Many times, if you have a problem, there are probably many people, who were in the same situation as well. For these situations, we prepared the forum for you. You can discuss freely, without any annoying registration there!
+  result.part6.text6-3-3: Forum, or Chat, is also located on every page and you can find it if you click on a PEN on a menu in the top-right corner,
   result.part7.text7-1: Navigation system
   result.part7.text7-2: LEFT MENU
-  result.part7.text7-3: ...
+  result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu will be opened.
+  result.part7.text7-3-2: This menu is allows the quick orientation between the Spirometry result parts and its tasks.
+  result.nextPage: Let's look on a first result part - Spirometry Curve
