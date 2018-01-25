@@ -4,18 +4,18 @@
     {% include 'AppBundle:Book:Includes/leftNavbar.html.twig' %}
 
     <main class="cd-main-content">
-        {% include 'AppBundle:Book:Includes/slider-spirometry.html.twig' %}
+        {% include 'AppBundle:Book:Includes/slider.html.twig' %}
 
         <div id="content">
             <section class="padding-top-80 padding-bottom-80">
                 <div class="container">
                     <!-- MAIN HEADING -->
-                    <div class="heading-block text-center margin-bottom-50 animate fadeInUp" data-wow-delay="0.8s">
+                    <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
                         <h3>{{ 'book.result.headline'|trans }}</h3>
                         <hr class="color">
                     </div>
 
-                    <div class="row animate fadeInUp" data-wow-delay="0.8s">
+                    <div class="row" data-wow-delay="0.8s">
                         <div class="col-md-12 text-center">
                             {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-aj.png' %}
                             <img src="{{ asset_url }}" alt="spirometry-result" class="img-responsive"
@@ -29,7 +29,7 @@
             <section class="services-coporate padding-bottom-80 ">
                 <div class="container">
                     <!-- HEADING BLOCK -->
-                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s"
+                    <div class="heading-block animate fadeInUp  text-center" data-wow-delay="0.4s"
                          style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <h3>{{ 'book.result.part1.text1-1'|trans }}</h3>
                         <div class="divider divider-short divider-center">
@@ -43,7 +43,7 @@
                     <!-- Icon Row 1 -->
                     <ul class="row">
                         <!-- Picture of result 1 -->
-                        <li class="col-md-4 animate fadeInUp text-center" data-wow-delay="0.4s">
+                        <li class="col-md-4 animate fadeInUp  text-center" data-wow-delay="0.4s">
                             {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-SC.png' %}
                             <img src="{{ asset_url }}" alt="result-spirometry-curve"
                                  class="img-responsive margin-bottom-20" style="max-height: 480px">
@@ -247,7 +247,7 @@
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
-                        <a href="#." class="btn btn-med btn-color">
+                        <a href="{{ path('app_book_first_capture_tasks') }}" class="btn btn-med btn-color">
                             {{ 'book.result.nextPage'|trans }}
                         </a>
                     </div>

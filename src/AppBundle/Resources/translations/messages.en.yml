@@ -155,8 +155,8 @@ book:
   result.part1.text1-7-2: The values which should be achieved by a healthy human - non-smoker, who has the same sex, height and weight as a tested patient.
   result.part1.text1-8-1: MEASURED VALUES
   result.part1.text1-8-2: The key measured patient's values during the two assessments, PRE (April 17th, 2012) and POST (May 3th, 2012).
-  result.part2.text2-1: WHAT ARE WE GOING TO DO?
-  result.part2.text2-2: We are going to solve small mathematical problems which, step by step, help us to create this whole result only from the basic measured values and to understand the medical meaning of all its parts.
+  result.part2.text2-1: WHAT ARE WE GOING TO DO WITH THAT RESULT?
+  result.part2.text2-2: We are going to solve small mathematical problems which, step by step, help us to create the whole result only from the basic measured values. In addition, the problems also show us the medical meaning of the all result parts.
   result.part2.text2-3: The tasks are split into 3 parts. We are looking at the Spirometry curve and values which it represents in the first of these parts. The second part is dedicated to the Volume-time curve and the last one, to the Flow-volume loop.
   result.part2.text2-4: At the end of every part there is a summary and a game - a price for your hard work :). The final task allows us to prepare our own assumed summary of the patient's healthy conditions.
   result.part3.text3-1: WHAT IF I DO NOT KNOW THE PROBLEM SOLUTION? OR IF IT IS TOO DIFFICULT FOR ME?
@@ -164,20 +164,20 @@ book:
   result.part4.text4-1: Ask for a help if you need it...
   result.part4.text4-2: HELPERS
   result.part4.text4-3-1: If you do not know how to solve the problem, ask helper!
-  result.part4.text4-3-2: Helpers are small advices, which show you, how you should think about the problem to find its solution.
+  result.part4.text4-3-2: Helpers are small advices which show you, how you should think about the problem to find its solution.
   result.part4.text4-3-3: Helpers are denoted by the same number as tasks and you can find them on every page if you click on a BULB on a menu located in the top-right corner.
   result.part5.text5-1: Check your solutions...
   result.part5.text5-2: ANSWERS
   result.part5.text5-3-1: If you find an answer, you can check it!
-  result.part5.text5-3-2: Similary, as helpers, the answers are also denoted by task's numbers and they are available on every page. You can find them if you click on a CHECK MARK on a menu located in the top-right corner.
+  result.part5.text5-3-2: The same as helpers, the answers are also denoted by task's numbers and they are available on every page. You can find them if you click on a CHECK MARK on a menu located in the top-right corner.
   result.part5.text5-3-3: If you want to close the right menu, you only have to click somewhere outside this menu.
   result.part6.text6-1: Ask your friends...
   result.part6.text6-2: FORUM - CHAT
   result.part6.text6-3-1: If you do not know how to solve some problem, ask your friends!
-  result.part6.text6-3-2: Many times, if you have a problem, there are probably many people, who were in the same situation as well. For these situations, we prepared the forum for you. You can discuss freely, without any annoying registration there!
+  result.part6.text6-3-2: Many times, if you have a problem, there are probably many people who were in the same situation as well. For these situations we prepared the forum for you. You can discuss freely, without any annoying registration there!
   result.part6.text6-3-3: Forum, or Chat, is also located on every page and you can find it if you click on a PEN on a menu in the top-right corner,
   result.part7.text7-1: Navigation system
   result.part7.text7-2: LEFT MENU
   result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu will be opened.
-  result.part7.text7-3-2: This menu is allows the quick orientation between the Spirometry result parts and its tasks.
+  result.part7.text7-3-2: This menu allows the quick orientation between the Spirometry result parts and its tasks.
   result.nextPage: Let's look on a first result part - Spirometry Curve

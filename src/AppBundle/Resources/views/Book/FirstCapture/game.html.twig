@@ -1,0 +1,28 @@
+{% extends "AppBundle::layout.html.twig" %}
+
+{% block content %}
+    {% include 'AppBundle:Book:Includes/leftNavbar.html.twig' %}
+
+    <main class="cd-main-content">
+        {% include 'AppBundle:Book:Includes/slider.html.twig' %}
+
+        <p>GAME</p>
+
+        <div id="content">
+            <!-- Next page -->
+            <section class="blog padding-top-80 padding-bottom-80 border-top">
+                <div class="container">
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
+                            {{ 'book.introduction.nextPage'|trans }}
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+{% endblock %}
+
+{% block rightNavigation %}
+    {% include 'AppBundle:Book:Includes/rightNavbar.html.twig' %}
+{% endblock %}
