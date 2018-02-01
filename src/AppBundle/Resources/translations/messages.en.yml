@@ -30,10 +30,7 @@ slider:
   default.joke-7-2: and if a ham sandwich is better than nothing,
   default.joke-7-3: does that mean that a ham sandwich is worth dying for?
   book.motto_part1: MATHEMATICS AND THE WORLD AROUND US
-  book.motto_part2: HOW MUCH OF MATHEMATICS IS IN ONE
-  book.motto_part3: MEDICAL ASSESMENT?
-  book.motto_part4: Unconventional Set of Tasks
-  book.motto_part5: DO YOU WANT TO KNOW HOW?
+  book.motto_part2: REAL-LIFE, REALISTIC, CONTEX-BASED, APPLIED MATHEMATICS
   book.lets_begin: Let's BEGIN!
   book.lets_discover: Let's DISCOVER!
   book.spirometry-result-part1: Spirometry
@@ -81,7 +78,8 @@ right_navbar:
 
 footer:
   headline: Creative team - SK
-  headline.text: Hi everybody! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud holder of a PhD. degree from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how. One of the effective ways is to discover it by yourself!
+  headline.text1: Hi everybody! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud PhD. degree holder from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how. One of the effective ways is to discover it by yourself!
+  headline.text2: Visit my personal Web-page
   email: E-mail
   phone: Phone
   address: Address
