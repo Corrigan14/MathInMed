@@ -103,6 +103,7 @@ about:
   main.part4.text4-1: The website development is still in progress. Please forgive us mistakes. If you have any suggestion how we can improwe, please feel free to contact us.
 
 book:
+  historical-block-headline: A piece of history
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
   introduction.part1.slogan: Mathematics doesn't have to be an "apparition"
@@ -179,3 +180,14 @@ book:
   result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu will be opened.
   result.part7.text7-3-2: This menu allows the quick orientation between the Spirometry result parts and its tasks.
   result.nextPage: Let's look on a first result part - Spirometry Curve
+  first-capture.subcapture1.headline:
+  first-capture.subcapture1.text1-1: One of the main patient's respiratory problems indicator is a (FORCED) VITAL CAPACITY denoted by FVC.
+  first-capture.subcapture1.text1-2: FVC represents the volume of air maximally forcely breathed out after the deepest inhalation.
+  first-capture.subcapture1.text1-3: The healthy, non-smoker person's FVC is defined by
+  first-capture.subcapture1.text1-4: TABLES
+  first-capture.subcapture1.text1-5: If the patient's FVC is different from the table - predicted value, it can signalized that the patient's has a dissease.
+  first-capture.subcapture1.text1-6: Our first task is to FIND PATIENT'S VITAL CAPACITY and to COMPARE IT WITH A TABLE (PREDICTED) VALUE. If teher is nearly no difference between these two values, we do not have to expect problems with a lung function in our patient.
+  first-capture.subcapture1.text2-1: text
+  first-capture.subcapture1.help-question1-1: Do not you know
+  first-capture.subcapture1.help-question1-2: how to solve
+  first-capture.subcapture1.help-question1-3: the problems?

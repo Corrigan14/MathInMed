@@ -8,6 +8,12 @@ function toggleHelper(param) {
     $($helperId).toggle(1000);
 }
 
+function toggleTable(param) {
+    console.log(1);
+    var $tableId = '#table' + param;
+    $($tableId).toggle(1000);
+}
+
 jQuery(document).ready(function () {
     var $topNavbar = $('#undefined-sticky-wrapper'),
         $owmenu = $('#ownmenu');

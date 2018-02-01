@@ -6,15 +6,134 @@
     <main class="cd-main-content">
         {% include 'AppBundle:Book:Includes/slider.html.twig' %}
 
-        <p>TASKS</p>
-
         <div id="content">
+            <section class="padding-top-80">
+                <div class="container">
+                    <!-- MAIN HEADING -->
+                    <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
+                        <h3>{{ 'left_navbar.book.chapter1'|trans }}</h3>
+                        <hr class="color">
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="list-heading" style="text-transform: uppercase">
+                                <h6>
+                                    <span>I. </span>
+                                    {{ 'left_navbar.book.chapter11'|trans }}
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 relative margin-top-40">
+                            <p>  {{ 'book.first-capture.subcapture1.text1-1'|trans }}</p>
+                            <p>  {{ 'book.first-capture.subcapture1.text1-2'|trans }}</p>
+                            <p>
+                                {{ 'book.first-capture.subcapture1.text1-3'|trans }}
+                                <span onclick="toggleTable('FVC')" class="text-color-primary">
+                                    {{ 'book.first-capture.subcapture1.text1-4'|trans }}.
+                                </span>
+                            </p>
+                            <div id="tableFVC" class="hide-element">
+                                table
+                            </div>
+                            <p>  {{ 'book.first-capture.subcapture1.text1-5'|trans }}</p>
+                            <p class="margin-top-30">  {{ 'book.first-capture.subcapture1.text1-6'|trans }}</p>
+                        </div>
+
+                        <! -- Historical facts -->
+                        <div class="col-md-4">
+                            <div class="icon-box ib-style-5 ib-center ib-text-alt ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-circle">
+                                <div class="ib-icon">
+                                    {#<i class="fa fa-diamond"></i>#}
+                                    {% image '@AppBundle/Resources/public/images/book/first-capture/history-1.jpg' %}
+                                    <img src="{{ asset_url }}" alt="History: medical sign" style="max-width: 80px">
+                                    {% endimage %}
+                                </div>
+                                <div class="ib-info">
+                                    <h4 class="h6">{{ 'book.historical-block-headline'|trans }}</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 relative margin-top-20">
+                            <p> {{ 'book.first-capture.subcapture1.text2-1'|trans }}</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 relative margin-top-20">
+                            <h6>PROBLEM 1.1</h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <! -- Need Help? -->
+            <section class="blog padding-top-80 padding-bottom-80">
+                <section class="promo dark">
+                    <div class="container">
+                        <h3 class="font-crimson text-white font-italic">
+                            {{ 'book.first-capture.subcapture1.help-question1-1'|trans }}
+                            <span class="text-color-primary"> {{ 'book.first-capture.subcapture1.help-question1-2'|trans }} </span>
+                            {{ 'book.first-capture.subcapture1.help-question1-3'|trans }}
+                        </h3>
+                        <a href="#." class="btn btn-color btn-med">NO PROBLEM!</a>
+                    </div>
+                </section>
+
+                <section class="padding-top-30">
+                    <div class="container">
+                        <!--======= PROCESS STYLE 1 =========-->
+                        <div class="process">
+                            <div class="process-style-1 margin-top-30">
+                                <ul>
+                                    <!-- 1 -->
+                                    <li>
+                                        <div class="thumb"><img src="images/work-process/work-process-1a.png"
+                                                                alt="Work Process Image"/> <span>01</span></div>
+                                        <h6>Brainstroming</h6>
+                                    </li>
+                                    <!-- 2 -->
+                                    <li>
+                                        <div class="thumb"><img src="images/work-process/work-process-1b.png"
+                                                                alt="Work Process Image"/> <span>02</span></div>
+                                        <h6>CONCEPT protoype</h6>
+                                    </li>
+                                    <!-- 3 -->
+                                    <li>
+                                        <div class="thumb"><img src="images/work-process/work-process-1c.png"
+                                                                alt="Work Process Image"/> <span>03</span></div>
+                                        <h6>DESIGN LAYOUT</h6>
+                                    </li>
+                                    <!-- 4 -->
+                                    <li>
+                                        <div class="thumb"><img src="images/work-process/work-process-1d.png"
+                                                                alt="Work Process Image"/> <span>04</span></div>
+                                        <h6>DEVELOPMENT</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
             <!-- Next page -->
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
-                        <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
-                            {{ 'book.introduction.nextPage'|trans }}
+                        <a href="{{ path('app_book_first_capture_tasks') }}" class="btn btn-med btn-color">
+                            {{ 'left_navbar.book.chapter14'|trans }}
                         </a>
                     </div>
                 </div>
