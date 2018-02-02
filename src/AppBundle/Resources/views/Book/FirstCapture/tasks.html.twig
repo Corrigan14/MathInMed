@@ -41,17 +41,17 @@
                                 </span>
                             </p>
                             <div id="tableFVC" class="hide-element">
-                                table
+                                {% include 'AppBundle:Book:Includes/tableFVC.html.twig' %}
                             </div>
                             <p>  {{ 'book.first-capture.subcapture1.text1-5'|trans }}</p>
-                            <p class="margin-top-30">  {{ 'book.first-capture.subcapture1.text1-6'|trans }}</p>
+                            <p class="margin-top-30"><b>{{ 'book.first-capture.subcapture1.text1-6'|trans }}</b></p>
+                            <p> {{ 'book.first-capture.subcapture1.text1-7'|trans }}</p>
                         </div>
 
                         <! -- Historical facts -->
                         <div class="col-md-4">
                             <div class="icon-box ib-style-5 ib-center ib-text-alt ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-circle">
                                 <div class="ib-icon">
-                                    {#<i class="fa fa-diamond"></i>#}
                                     {% image '@AppBundle/Resources/public/images/book/first-capture/history-1.jpg' %}
                                     <img src="{{ asset_url }}" alt="History: medical sign" style="max-width: 80px">
                                     {% endimage %}
@@ -64,15 +64,49 @@
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-8 relative margin-top-20">
-                            <p> {{ 'book.first-capture.subcapture1.text2-1'|trans }}</p>
+                    <div class="row margin-top-30">
+                        <div class="col-md-12">
+                            <p><b>{{ 'book.first-capture.subcapture1.text2-1'|trans }}</b></p>
+                        </div>
+                        <div class="col-md-4">
+                            <p> {{ 'book.first-capture.subcapture1.text2-2'|trans }}</p>
+                            <p> {{ 'book.first-capture.subcapture1.text2-3'|trans }}</p>
+
+                            <div class="row margin-top-30">
+                                <div class="col-md-4">
+                                    <h6 class="problem">{{ 'book.problem'|trans }} 1.1:</h6>
+                                </div>
+                                <div class="col-md-8">
+                                    <h6 class="problem">{{ 'book.first-capture.problem-1-1'|trans }} </h6>
+                                </div>
+                            </div>
+
+                            <div class="row margin-top-20">
+                                <div class="col-md-4">
+                                    <h6 class="problem">{{ 'book.problem'|trans }} 1.2:</h6>
+                                </div>
+                                <div class="col-md-8">
+                                    <h6 class="problem">{{ 'book.first-capture.problem-1-2-1'|trans }} </h6>
+                                    <h6>
+                                        ({{ 'book.first-capture.problem-1-2-2'|trans }}
+                                        <span onclick="toggleTable('FVC-2')" class="text-color-primary">
+                                        {{ 'book.first-capture.problem-1-2-3'|trans }}
+                                        </span>)
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 text-center">
+                            {% image '@AppBundle/Resources/public/images/book/first-capture/00-spirometry-curve.png' %}
+                            <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive">
+                            {% endimage %}
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="col-md-8 relative margin-top-20">
-                            <h6>PROBLEM 1.1</h6>
+                    <div class="row margin-top-30">
+                        <div class="col-md-12">
+                            <div id="tableFVC-2" class="hide-element">
+                                {% include 'AppBundle:Book:Includes/tableFVC.html.twig' %}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -87,7 +121,8 @@
                             <span class="text-color-primary"> {{ 'book.first-capture.subcapture1.help-question1-2'|trans }} </span>
                             {{ 'book.first-capture.subcapture1.help-question1-3'|trans }}
                         </h3>
-                        <a href="#." class="btn btn-color btn-med">NO PROBLEM!</a>
+                        <a href="#."
+                           class="btn btn-color btn-med">{{ 'book.first-capture.subcapture1.help-question1-4'|trans }}</a>
                     </div>
                 </section>
 

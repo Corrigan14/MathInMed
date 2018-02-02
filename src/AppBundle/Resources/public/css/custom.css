@@ -21,3 +21,12 @@
 .white-font{
     color: black; !important;
 }
+
+.uppercase-transform{
+    text-transform: uppercase !important;
+}
+
+.problem{
+    text-transform: uppercase !important;
+    line-height: 30px !important;
+}

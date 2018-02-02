@@ -43,20 +43,20 @@ left_navbar:
   book.chapter11: Parameteres Signalized Respiratory Problems
   book.chapter12: Respiratory System Diseases
   book.chapter13: Compared Spirometry Curve - Curve of The Healthy Person
-  book.chapter14: The Doctor's View of The Spirometry Curve
+  book.chapter14: Doctor's View of The Spirometry Curve
   book.chapter1game: Game - part 1
   book.chapter2: Volume-Time Curve
   book.chapter21: Forced Expiratory Volume
   book.chapter22: Volume-Time Curve
   book.chapter23: FEV1 in Time
-  book.chapter24:  The Doctor's View of The Volume-Time Curve?
+  book.chapter24:  Doctor's View of The Volume-Time Curve?
   book.chapter2game: Game - part 2
   book.chapter3: Flow-Volume Loop
   book.chapter31: Flow
   book.chapter32: Loop
   book.chapter33: Respiratory System Diseases
   book.chapter34: Rise Over the Run ... Let's Repeat That
-  book.chapter35:  The Doctor's View of The Flow-Volume Loop?
+  book.chapter35:  Doctor's View of The Flow-Volume Loop?
   book.chapter3game: Game - part 3
   book.game: Game - Encode The Answer :)
 
@@ -103,6 +103,10 @@ about:
   main.part4.text4-1: The website development is still in progress. Please forgive us mistakes. If you have any suggestion how we can improwe, please feel free to contact us.
 
 book:
+  problem: Problem
+  table.FVC-text-1: Vital Capacity Predicted Values for MEN
+  table.FVC-text-2: AGE (years)
+  table.FVC-text-3: HEIGHT (inches)
   historical-block-headline: A piece of history
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
@@ -181,13 +185,25 @@ book:
   result.part7.text7-3-2: This menu allows the quick orientation between the Spirometry result parts and its tasks.
   result.nextPage: Let's look on a first result part - Spirometry Curve
   first-capture.subcapture1.headline:
-  first-capture.subcapture1.text1-1: One of the main patient's respiratory problems indicator is a (FORCED) VITAL CAPACITY denoted by FVC.
-  first-capture.subcapture1.text1-2: FVC represents the volume of air maximally forcely breathed out after the deepest inhalation.
+  first-capture.subcapture1.text1-1: One of the main patient's respiratory problem indicators is a (FORCED) VITAL CAPACITY denoted by FVC.
+  first-capture.subcapture1.text1-2: FVC represents the volume of air maximally fiercely breathed out after the deep inhalation.
   first-capture.subcapture1.text1-3: The healthy, non-smoker person's FVC is defined by
   first-capture.subcapture1.text1-4: TABLES
-  first-capture.subcapture1.text1-5: If the patient's FVC is different from the table - predicted value, it can signalized that the patient's has a dissease.
-  first-capture.subcapture1.text1-6: Our first task is to FIND PATIENT'S VITAL CAPACITY and to COMPARE IT WITH A TABLE (PREDICTED) VALUE. If teher is nearly no difference between these two values, we do not have to expect problems with a lung function in our patient.
-  first-capture.subcapture1.text2-1: text
+  first-capture.subcapture1.text1-5: If the patient's FVC is different from the table - predicted value, it can signalized various types of diseases.
+  first-capture.subcapture1.text1-6: Why do we need this information?
+  first-capture.subcapture1.text1-7: Our first task is to FIND PATIENT'S VITAL CAPACITY and to COMPARE IT with a table (predicted) value. If there is nearly no difference between these two values, we are not expecting patient's lung function problems.
+  first-capture.subcapture1.text2-1: The first patient
+  first-capture.subcapture1.text2-2: Our first patient is a MAN, 56 years old, 171 centimeters high. The result of his spirometry assessment was the next spirometry curve (picture right).
+  first-capture.subcapture1.text2-3: (the volume represented on a graph is an air volume, which is inhaled and exhaled into/out of the patient's lung)
   first-capture.subcapture1.help-question1-1: Do not you know
   first-capture.subcapture1.help-question1-2: how to solve
   first-capture.subcapture1.help-question1-3: the problems?
+  first-capture.subcapture1.help-question1-4: NO PROBLEM :)
+  first-capture.problem-1-1: What is the patient's Vital Capacity?
+  first-capture.problem-1-2-1: Is there a difference between our patient's measured vital capacity and a vital capacity of a healthy, 56 years old, 171 cm high man?
+  first-capture.problem-1-2-2: Table - predicted values of FVC are avilable
+  first-capture.problem-1-2-3: HERE
+  first-capture.problem-1-3:
+  first-capture.problem-1-4:
+  first-capture.problem-1-5:
+  first-capture.problem-1-6:
