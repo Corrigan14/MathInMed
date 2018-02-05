@@ -1,32 +1,37 @@
-.hide-element{
+.hide-element {
     display: none;
 }
 
-.display-block{
+.display-block {
     display: block;
 }
 
-.min-height-200{
+.min-height-200 {
     min-height: 200px;
 }
 
-.max-height-500{
+.max-height-500 {
     max-height: 500px;
 }
 
-.border-top{
+.border-top {
     border-top: 1px solid #ececec;
 }
 
-.white-font{
-    color: black; !important;
+.white-font {
+    color: black;
+!important;
 }
 
-.uppercase-transform{
+.uppercase-transform {
     text-transform: uppercase !important;
 }
 
-.problem{
+.problem {
     text-transform: uppercase !important;
     line-height: 30px !important;
+}
+
+.orange-color {
+    color: #f6b138 !important;
 }

@@ -58,7 +58,10 @@
                                 </div>
                                 <div class="ib-info">
                                     <h4 class="h6">{{ 'book.historical-block-headline'|trans }}</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
+                                    <p>{{ 'book.first-capture.historical-block-text-1-1'|trans }} </p>
+                                    <p>{{ 'book.first-capture.historical-block-text-1-2'|trans }} </p>
+                                    <p>{{ 'book.first-capture.historical-block-text-1-3'|trans }} </p>
+                                    <p>{{ 'book.first-capture.historical-block-text-1-4'|trans }} </p>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-8 text-center">
+                        <div class="col-md-8 text-right">
                             {% image '@AppBundle/Resources/public/images/book/first-capture/00-spirometry-curve.png' %}
                             <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive">
                             {% endimage %}
@@ -121,12 +124,14 @@
                             <span class="text-color-primary"> {{ 'book.first-capture.subcapture1.help-question1-2'|trans }} </span>
                             {{ 'book.first-capture.subcapture1.help-question1-3'|trans }}
                         </h3>
-                        <a href="#."
-                           class="btn btn-color btn-med">{{ 'book.first-capture.subcapture1.help-question1-4'|trans }}</a>
+                        <span class="scroll">
+                            <a href="#helpers-explanation"
+                               class="btn btn-color btn-med">{{ 'book.first-capture.subcapture1.help-question1-4'|trans }}</a>
+                        </span>
                     </div>
                 </section>
 
-                <section class="padding-top-30">
+                <section class="padding-top-30" id="helpers-explanation">
                     <div class="container">
                         <!--======= PROCESS STYLE 1 =========-->
                         <div class="process">
@@ -136,25 +141,25 @@
                                     <li>
                                         <div class="thumb"><img src="images/work-process/work-process-1a.png"
                                                                 alt="Work Process Image"/> <span>01</span></div>
-                                        <h6>Brainstroming</h6>
+                                        <h6>{{ 'book.first-capture.subcapture1.help-answer-1-1'|trans }}</h6>
                                     </li>
                                     <!-- 2 -->
                                     <li>
                                         <div class="thumb"><img src="images/work-process/work-process-1b.png"
                                                                 alt="Work Process Image"/> <span>02</span></div>
-                                        <h6>CONCEPT protoype</h6>
+                                        <h6>{{ 'book.first-capture.subcapture1.help-answer-2-1'|trans }}</h6>
                                     </li>
                                     <!-- 3 -->
                                     <li>
                                         <div class="thumb"><img src="images/work-process/work-process-1c.png"
                                                                 alt="Work Process Image"/> <span>03</span></div>
-                                        <h6>DESIGN LAYOUT</h6>
+                                        <h6>{{ 'book.first-capture.subcapture1.help-answer-3-1'|trans }}</h6>
                                     </li>
                                     <!-- 4 -->
                                     <li>
                                         <div class="thumb"><img src="images/work-process/work-process-1d.png"
                                                                 alt="Work Process Image"/> <span>04</span></div>
-                                        <h6>DEVELOPMENT</h6>
+                                        <h6>{{ 'book.first-capture.subcapture1.help-answer-4-1'|trans }}</h6>
                                     </li>
                                 </ul>
                             </div>
