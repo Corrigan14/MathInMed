@@ -9,7 +9,6 @@ function toggleHelper(param) {
 }
 
 function toggleTable(param) {
-    console.log(1);
     var $tableId = '#table' + param;
     $($tableId).toggle(1000);
 }

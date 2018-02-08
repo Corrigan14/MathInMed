@@ -72,8 +72,8 @@ right_navbar:
   book.helper14: Text of the helper 1.4
   book.helper15: Text of the helper 1.5
   book.helper16: Text of the helper 1.6
-  book.chat: Chat
-  book.chat.work: We are preparing a new chat for you!
+  book.chat: Forum
+  book.chat.work: We are preparing a new forum for you!
   book.chat.email: If you have any questions or if you need a help, I will be glad to help you! Please send me an email (babinskam@aol.com)
 
 footer:
@@ -201,9 +201,24 @@ book:
   first-capture.subcapture1.help-question1-3: the problems?
   first-capture.subcapture1.help-question1-4: NO PROBLEM :)
   first-capture.subcapture1.help-answer-1-1: Read again
+  first-capture.subcapture1.help-answer-1-2: Try to red the
+  first-capture.subcapture1.help-answer-1-3: previous text
+  first-capture.subcapture1.help-answer-1-4: again and find, what FORCED VITAL CAPACITY represents.
   first-capture.subcapture1.help-answer-2-1: Use a helper
+  first-capture.subcapture1.help-answer-2-2: If you still need a help, use a HELPER denoted by the same number as your problem (right menu -
+  first-capture.subcapture1.help-answer-2-3: bulb
+  first-capture.subcapture1.help-answer-2-4: picture :))
   first-capture.subcapture1.help-answer-3-1: Controll your answer
-  first-capture.subcapture1.help-answer-4-1: Continue or help your friend :)
+  first-capture.subcapture1.help-answer-3-2: It is every time a good idea to check your answer. For this reason you can use available answers (right menu -
+  first-capture.subcapture1.help-answer-3-3: check mark
+  first-capture.subcapture1.help-answer-3-4: picture :))
+  first-capture.subcapture1.help-answer-4-1: Continue or help your friends
+  first-capture.subcapture1.help-answer-4-2: When you find a correct answer,
+  first-capture.subcapture1.help-answer-4-3: the next problem
+  first-capture.subcapture1.help-answer-4-4: is waiting for you :)
+  first-capture.subcapture1.help-answer-4-5: OR You can also help your friends by checking
+  first-capture.subcapture1.help-answer-4-6: the forum
+  first-capture.subcapture1.help-answer-4-7: questions.
   first-capture.problem-1-1: What is the patient's Forced Vital Capacity?
   first-capture.problem-1-2-1: Is there a difference between our patient's measured forced vital capacity and a forced vital capacity of a healthy, 56 years old, 171 cm high man?
   first-capture.problem-1-2-2: Predicted FVC values are avilable
