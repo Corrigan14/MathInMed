@@ -42,7 +42,7 @@ left_navbar:
   book.chapter1: Spirometry Curve
   book.chapter11: Parameteres Signalized Respiratory Problems
   book.chapter12: Respiratory System Diseases
-  book.chapter13: Compared Spirometry Curve - Curve of The Healthy Person
+  book.chapter13: Compared Spirometry Curve - Helthy Human's curve
   book.chapter14: Doctor's View of The Spirometry Curve
   book.chapter1game: Game - part 1
   book.chapter2: Volume-Time Curve
@@ -104,10 +104,6 @@ about:
 
 book:
   problem: Problem
-  table.FVC-text-introduction: As the height unit, the INCH is used in a table. Inches are usually used in an anglophone districts, most common in the USA and the United Kingdom (1 inch = 2.54 cm).
-  table.FVC-text-1: Man's Forced Vital Capacity Predicted Values
-  table.FVC-text-2: AGE (years)
-  table.FVC-text-3: HEIGHT (inches)
   historical-block-headline: A piece of history
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
@@ -185,49 +181,65 @@ book:
   result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu will be opened.
   result.part7.text7-3-2: This menu allows the quick orientation between the Spirometry result parts and its tasks.
   result.nextPage: Let's look on a first result part - Spirometry Curve
-  first-capture.subcapture1.headline:
-  first-capture.subcapture1.text1-1: One of the main patient's respiratory problem indicators is a (FORCED) VITAL CAPACITY denoted by FVC.
-  first-capture.subcapture1.text1-2: FVC represents the volume of air maximally fiercely breathed out after the deep inhalation.
-  first-capture.subcapture1.text1-3: The healthy, non-smoker human's FVC is defined by
-  first-capture.subcapture1.text1-4: TABLES
-  first-capture.subcapture1.text1-5: If the patient's FVC is different from the table - predicted value, it can signalize various types of diseases.
-  first-capture.subcapture1.text1-6: Why do we need this information?
-  first-capture.subcapture1.text1-7: Our first task is to FIND PATIENT'S FORCED VITAL CAPACITY and to COMPARE IT with a table (predicted) value. If there is nearly no difference between these two values, we are not expecting patient's lung function problems.
-  first-capture.subcapture1.text2-1: The first patient
-  first-capture.subcapture1.text2-2: Our first patient is a MAN, 56 years old, 171 centimeters high. The result of his spirometry assessment is the next spirometry curve (picture right).
-  first-capture.subcapture1.text2-3: (the volume represented on a graph is an air volume, inhaled and exhaled into/out of the patient's lung)
-  first-capture.subcapture1.help-question1-1: Do not you know
-  first-capture.subcapture1.help-question1-2: how to solve
-  first-capture.subcapture1.help-question1-3: the problems?
-  first-capture.subcapture1.help-question1-4: NO PROBLEM :)
-  first-capture.subcapture1.help-answer-1-1: Read again
-  first-capture.subcapture1.help-answer-1-2: Try to red the
-  first-capture.subcapture1.help-answer-1-3: previous text
-  first-capture.subcapture1.help-answer-1-4: again and find, what FORCED VITAL CAPACITY represents.
-  first-capture.subcapture1.help-answer-2-1: Use a helper
-  first-capture.subcapture1.help-answer-2-2: If you still need a help, use a HELPER denoted by the same number as your problem (right menu -
-  first-capture.subcapture1.help-answer-2-3: bulb
-  first-capture.subcapture1.help-answer-2-4: picture :))
-  first-capture.subcapture1.help-answer-3-1: Controll your answer
-  first-capture.subcapture1.help-answer-3-2: It is every time a good idea to check your answer. For this reason you can use available answers (right menu -
-  first-capture.subcapture1.help-answer-3-3: check mark
-  first-capture.subcapture1.help-answer-3-4: picture :))
-  first-capture.subcapture1.help-answer-4-1: Continue or help your friends
-  first-capture.subcapture1.help-answer-4-2: When you find a correct answer,
-  first-capture.subcapture1.help-answer-4-3: the next problem
-  first-capture.subcapture1.help-answer-4-4: is waiting for you :)
-  first-capture.subcapture1.help-answer-4-5: OR You can also help your friends by checking
-  first-capture.subcapture1.help-answer-4-6: the forum
-  first-capture.subcapture1.help-answer-4-7: questions.
-  first-capture.problem-1-1: What is the patient's Forced Vital Capacity?
-  first-capture.problem-1-2-1: Is there a difference between our patient's measured forced vital capacity and a forced vital capacity of a healthy, 56 years old, 171 cm high man?
-  first-capture.problem-1-2-2: Predicted FVC values are avilable
-  first-capture.problem-1-2-3: HERE
-  first-capture.problem-1-3:
-  first-capture.problem-1-4:
-  first-capture.problem-1-5:
-  first-capture.problem-1-6:
-  first-capture.historical-block-text-1-1: There were many famous doctors studying human Vital Capacity during the last centuries.
-  first-capture.historical-block-text-1-2: One of the first was Galen, well-known famous Greek doctor (2th century).
-  first-capture.historical-block-text-1-3: Later, Giovannin Alfonso Borelli (1679) rapidly increased the measurement accuracy, using the patient's nose blocking.
-  first-capture.historical-block-text-1-4: John Hutchinson (1849) created the first fully functional spirometer (water spirometer). Later, based on 4000 measurements, found a linear dependence between the vital capacity and a human height.
+  first-chapter.subchapter1.headline:
+  first-chapter.subchapter1.text1-1: One of the main patient's respiratory problem indicators is a (FORCED) VITAL CAPACITY denoted by FVC.
+  first-chapter.subchapter1.text1-2: FVC represents the volume of air maximally fiercely breathed out after the deep inhalation.
+  first-chapter.subchapter1.text1-3: The healthy, non-smoker human's FVC is defined by
+  first-chapter.subchapter1.text1-4: TABLES
+  first-chapter.subchapter1.text1-5: If the patient's FVC is different from the table - predicted value, it can signalize various types of diseases.
+  first-chapter.subchapter1.text1-6: Why do we need this information?
+  first-chapter.subchapter1.text1-7: Our first task is to FIND PATIENT'S FORCED VITAL CAPACITY and to COMPARE IT with a table (predicted) value. If there is nearly no difference between these two values, we are not expecting patient's lung function problems.
+  first-chapter.subchapter1.text2-1: The first patient
+  first-chapter.subchapter1.text2-2: Our first patient is a MAN, 56 years old, 171 centimeters high. The result of his spirometry assessment is the next spirometry curve (picture right).
+  first-chapter.subchapter1.text2-3: (the volume represented on a graph is an air volume, inhaled and exhaled into/out of the patient's lung)
+  first-chapter.subchapter1.help-question1-1: Do not you know
+  first-chapter.subchapter1.help-question1-2: how to solve
+  first-chapter.subchapter1.help-question1-3: the problems?
+  first-chapter.subchapter1.help-question1-4: NO PROBLEM :)
+  first-chapter.subchapter1.help-answer-1-1: Read again
+  first-chapter.subchapter1.help-answer-1-2: Try to red the
+  first-chapter.subchapter1.help-answer-1-3: previous text
+  first-chapter.subchapter1.help-answer-1-4: again and find, what FORCED VITAL CAPACITY represents.
+  first-chapter.subchapter1.help-answer-2-1: Use a helper
+  first-chapter.subchapter1.help-answer-2-2: If you still need a help, use a HELPER denoted by the same number as your problem (right menu -
+  first-chapter.subchapter1.help-answer-2-3: bulb
+  first-chapter.subchapter1.help-answer-2-4: picture :))
+  first-chapter.subchapter1.help-answer-3-1: Controll your answer
+  first-chapter.subchapter1.help-answer-3-2: It is every time a good idea to check your answer. For this reason you can use available answers (right menu -
+  first-chapter.subchapter1.help-answer-3-3: check mark
+  first-chapter.subchapter1.help-answer-3-4: picture :))
+  first-chapter.subchapter1.help-answer-4-1: Continue or help your friends
+  first-chapter.subchapter1.help-answer-4-2: When you find a correct answer,
+  first-chapter.subchapter1.help-answer-4-3: the next problem
+  first-chapter.subchapter1.help-answer-4-4: is waiting for you :)
+  first-chapter.subchapter1.help-answer-4-5: OR You can also help your friends by checking
+  first-chapter.subchapter1.help-answer-4-6: the forum
+  first-chapter.subchapter1.help-answer-4-7: questions.
+  first-chapter.supchapter2.text1-1: The Problem 1.2 solution showed us, that our patien's FVC (FORCED VITAL CAPACITY) is
+  first-chapter.supchapter2.text1-2: decreased.
+  first-chapter.supchapter2.text1-3: But, what does it mean? What kind of disease can our patient have?
+  first-chapter.supchapter2.text1-4: To answer this question we need to know, what kind of pulmonary diseases exist. The list of existed pulmonary diseases and their description is available
+  first-chapter.supchapter2.text1-5: HERE.
+  first-chapter.problem-1-1: What is the patient's Forced Vital Capacity?
+  first-chapter.problem-1-2-1: Is there a difference between our patient's measured forced vital capacity and a forced vital capacity of a healthy, 56 years old, 171 cm high man?
+  first-chapter.problem-1-2-2: Predicted FVC values are avilable
+  first-chapter.problem-1-2-3: HERE
+  first-chapter.problem-1-3-1: What kind of a disease can be expected if patient's FORCED VITAL CAPACITY is decreased?
+  first-chapter.problem-1-3-2: Pulmonary diseases description is avilable
+  first-chapter.problem-1-3-3: HERE
+  first-chapter.problem-1-4:
+  first-chapter.problem-1-5:
+  first-chapter.problem-1-6:
+  first-chapter.historical-block-text-1-1: There were many famous doctors studying human Vital Capacity during the last centuries.
+  first-chapter.historical-block-text-1-2: One of the first was Galen, well-known famous Greek doctor (2th century).
+  first-chapter.historical-block-text-1-3: Later, Giovannin Alfonso Borelli (1679) rapidly increased the measurement accuracy, using the patient's nose blocking.
+  first-chapter.historical-block-text-1-4: John Hutchinson (1849) created the first fully functional spirometer (water spirometer). Later, based on 4000 measurements, found a linear dependence between the vital capacity and a human height.
+  table.FVC-text-introduction: As the height unit, the INCH is used in a table. Inches are usually used in an anglophone districts, most common in the USA and the United Kingdom (1 inch = 2.54 cm).
+  table.FVC-text-1: Man's Forced Vital Capacity Predicted Values
+  table.FVC-text-2: AGE (years)
+  table.FVC-text-3: HEIGHT (inches)
+  diseases.header: Pulmonary diseases
+  diseases.introduction: Pulmonary diseases can be divided into three groups.
+  diseases.header-11: Restrictive lung diseases
+  diseases.header-12: Obstructive lung diseases
+  diseases.header-13: Restrictive and Obstructive lung diseases combination

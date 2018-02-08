@@ -6,11 +6,11 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 /**
- * Class FirstCaptureController
+ * Class FirstChapterController
  *
  * @package AppBundle\Controller
  */
-class FirstCaptureController extends Controller
+class FirstChapterController extends Controller
 {
     /**
      * @Template()
