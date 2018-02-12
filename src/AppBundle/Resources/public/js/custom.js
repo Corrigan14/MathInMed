@@ -22,10 +22,8 @@ jQuery(document).ready(function () {
     var $topNavbar = $('#undefined-sticky-wrapper'),
         $owmenu = $('#ownmenu');
 
-    console.log(1);
     if($topNavbar.hasClass('is-sticky')){
         $owmenu.addClass('white-navbar');
-        console.log(2);
     }else{
         $owmenu.removeClass('white-navbar');
     }
