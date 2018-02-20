@@ -79,7 +79,7 @@ right_navbar:
 footer:
   headline: Creative team - SK
   headline.text1: Hi everybody! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud PhD. degree holder from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how. One of the effective ways is to discover it by yourself!
-  headline.text2: Visit my personal Web-page
+  headline.text2: Visit my profile Web-page
   email: E-mail
   phone: Phone
   address: Address
@@ -101,6 +101,18 @@ about:
   main.part3.text3-1: Cooperation is crucial in an excellent teacher development. Internet allows to spread this cooperation out of schools or regions.
   main.part3.text3-2: It is not important if you are an experienced or novice teacher. You can find a place for your questions, thoughts, research, materials and experience sharing here.
   main.part4.text4-1: The website development is still in progress. Please forgive us mistakes. If you have any suggestion how we can improwe, please feel free to contact us.
+
+personal:
+  martina.citation: Success is not final, failure is not fatal. It is the courage to continue that counts.
+  martina.author.citation: Winston Churchill
+  martina.part1.headlie: Research
+  martina.part2.headlie: Publications, Conferences and Awards
+  martina.part3.headlie: Teaching and Thesis
+  martina.part4.headlie: Education and Qualifications
+  martina.part5.headlie: Work Experience and Professional Skills
+  martina.part6.headlie: Referees or Free time and Interests
+  martina.part7.headlie: Personal Goals
+  martina.part8.headlie: Interests
 
 book:
   problem: Problem

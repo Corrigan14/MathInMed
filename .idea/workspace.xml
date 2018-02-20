@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e51c0c4-1463-48ef-b18b-369ef9e464fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/footer.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/footer.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Personal/BabinskaMartina/introduction.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Personal/BabinskaMartina/introduction.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,39 +22,24 @@
       <file leaf-file-name="messages.en.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1067">
-              <caret line="261" column="304" lean-forward="false" selection-start-line="261" selection-start-column="304" selection-end-line="261" selection-end-column="304" />
+            <state relative-caret-position="442">
+              <caret line="105" column="65" lean-forward="false" selection-start-line="105" selection-start-column="65" selection-end-line="105" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/tasks.html.twig">
+      <file leaf-file-name="introduction.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Personal/BabinskaMartina/introduction.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sup-chapter-2.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes/sup-chapter-2.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="44" column="76" lean-forward="false" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pulmonary-diseases.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes/pulmonary-diseases.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="17" column="66" lean-forward="false" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+              <folding>
+                <element signature="e#1455#1460#0#HTML" expanded="true" />
+                <element signature="e#2257#2263#0#HTML" expanded="true" />
+                <element signature="e#2266#2272#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>revol</find>
       <find>createArr</find>
       <find>tp-arr-allwrapper</find>
       <find>sticky</find>
@@ -98,6 +84,7 @@
       <find>diseas</find>
       <find>forced v</find>
       <find>flow</find>
+      <find>visit m</find>
     </findStrings>
     <replaceStrings>
       <replace>chapter</replace>
@@ -142,11 +129,9 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/Student/MainController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/Personal/MainController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/Personal/BabinskaMartinaController.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Personal/BabinskaMartina/introduction.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/app/template/css/main.css" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/tableFVC.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/footer.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/app/templateEvanto/css/style.css" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstCapture/tasks.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/Book/FirstChapterController.php" />
@@ -159,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes/sup-chapter-2.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/js/custom.js" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes/pulmonary-diseases.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/footer.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Personal/BabinskaMartina/introduction.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" />
       </list>
     </option>
@@ -463,7 +450,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Book" />
+              <option name="myItemId" value="Personal" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,11 +480,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Book" />
+              <option name="myItemId" value="Personal" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FirstChapter" />
+              <option name="myItemId" value="BabinskaMartina" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -524,18 +511,104 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Book" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstChapter" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mathinmed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mathinmed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mathinmed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mathinmed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Book" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mathinmed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mathinmed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Book" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -823,12 +896,12 @@
       <workItem from="1517930399136" duration="34000" />
       <workItem from="1518072415427" duration="14670000" />
       <workItem from="1518422187274" duration="10507000" />
-      <workItem from="1519136671047" duration="193000" />
+      <workItem from="1519136671047" duration="4907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252394000" />
+    <option name="totallyTimeSpent" value="257108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1053,24 +1126,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Personal/BabinskaMartina/introduction.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Main/introduction.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="168" column="19" lean-forward="false" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Main/result.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1386">
-          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1095,27 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="40" column="34" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="75" column="46" lean-forward="false" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1127,6 +1165,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,6 +1173,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,6 +1181,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,6 +1189,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="1727" column="1" lean-forward="false" selection-start-line="1727" selection-start-column="0" selection-end-line="1727" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,6 +1197,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="6383" column="34" lean-forward="true" selection-start-line="6383" selection-start-column="4" selection-end-line="6383" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,6 +1236,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,10 +1292,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Main/result.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="36" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="73" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1283">
+          <caret line="77" column="89" lean-forward="false" selection-start-line="77" selection-start-column="89" selection-end-line="77" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Personal/BabinskaMartina/introduction.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="66" lean-forward="false" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding>
+            <element signature="e#1455#1460#0#HTML" expanded="true" />
+            <element signature="e#2257#2263#0#HTML" expanded="true" />
+            <element signature="e#2266#2272#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1067">
-          <caret line="261" column="304" lean-forward="false" selection-start-line="261" selection-start-column="304" selection-end-line="261" selection-end-column="304" />
+        <state relative-caret-position="442">
+          <caret line="105" column="65" lean-forward="false" selection-start-line="105" selection-start-column="65" selection-end-line="105" selection-end-column="65" />
           <folding />
         </state>
       </provider>
