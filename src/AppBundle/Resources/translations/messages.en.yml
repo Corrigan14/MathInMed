@@ -103,6 +103,13 @@ about:
   main.part4.text4-1: The website development is still in progress. Please forgive us mistakes. If you have any suggestion how we can improwe, please feel free to contact us.
 
 personal:
+  programme: Programme of study
+  degree: Degree
+  graduation: Graduation
+  thesis: Thesis
+  goal: Goal of the thesis
+  read: Read more...
+  research: Type of the research
   martina.citation: Success is not final, failure is not fatal. It is the courage to continue that counts.
   martina.author.citation: Winston Churchill
   martina.sign: Martina Babinska
@@ -118,10 +125,43 @@ personal:
   martina.part2.headlie: Publications, Conferences and Awards
   martina.part3.headlie: Teaching and Thesis
   martina.part4.headlie: Education and Qualifications
+  martina.part4.headlie.text: During my studies I was focusing on Informatics, Applied Mathematics and The Theory of Teaching of Mathematics. After graduation, I absolved an English language course in Vancouver to improve my position in an international market.
   martina.part5.headlie: Work Experience and Professional Skills
-  martina.part6.headlie: Referees or Free time and Interests
+  martina.part6.headlie: Referees
   martina.part7.headlie: Personal Goals
   martina.part8.headlie: Interests
+  martina.part4.text-1-1: 03/2017 – 08/2017
+  martina.part4.text-1-2: ILAC International College, Vancouver
+  martina.part4.text-1-2-1: Intensive English – Business English (12 weeks)
+  martina.part4.text-1-2-2: Cambridge English Proficiency – CPE exam preparation (4 weeks)
+  martina.part4.text-1-2-3: University Pathway – academic preparation (4 weeks)
+  martina.part4.text-2-1: 09/2011 – 08/2015
+  martina.part4.text-2-2: Comenius University in Bratislava, Faculty of Mathematics, Physics and Informatics, Bratislava
+  martina.part4.text-2-2-1: The Theory of Teaching of Mathematics
+  martina.part4.text-2-2-2: Philosophiae Doctor (Ph.D.)
+  martina.part4.text-2-2-3: 26.8.2015
+  martina.part4.text-2-2-4: The Real Context of the Mathematical Problems as a Motivating Factor
+  martina.part4.text-2-2-5: Research of the attractiveness of real-world mathematical problems based on the medical context for senior high school students and lower grades of universities.
+  martina.part4.text-3-1: 09/2009 – 06/2011
+  martina.part4.text-3-2: Comenius University in Bratislava, Faculty of Mathematics, Physics and Informatics, Bratislava
+  martina.part4.text-3-2-1: Managerial Mathematics
+  martina.part4.text-3-2-2: Master (Mgr.)
+  martina.part4.text-3-2-3: 20.6.2011
+  martina.part4.text-3-2-4: E-learning Support of the Mathematics Education for High School and University Students
+  martina.part4.text-3-2-5: Create and prove the usability of e-learning support which was assigned to support the learning and the teaching of mathematical functions.
+  martina.part4.text-4-1: 09/2005 – 06/2009
+  martina.part4.text-4-2: Comenius University in Bratislava, Faculty of Mathematics, Physics and Informatics, Bratislava
+  martina.part4.text-4-2-1: Managerial Mathematics
+  martina.part4.text-4-2-2: Bachelor (Bc.)
+  martina.part4.text-4-2-3: 24.6.2009
+  martina.part4.text-4-2-4: Research and Development of Companies and their Impact on Market Structure
+  martina.part4.text-5-1: 09/1997 – 05/2005
+  martina.part4.text-5-2: Gymnazium of Martin Hattala, Trstená
+  martina.part4.text-5-2-1: Informatics
+  martina.part4.text-5-2-2: Secondary school
+  martina.part4.text-5-2-3: May 2005
+
+
 
 book:
   problem: Problem

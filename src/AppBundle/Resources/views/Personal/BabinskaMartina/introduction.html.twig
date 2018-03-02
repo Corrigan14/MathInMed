@@ -4,7 +4,7 @@
     <main class="cd-main-content">
         {% include 'AppBundle:Default:Includes/slider.html.twig' %}
 
-        <div id="services"  class="why-choose">
+        <div id="services" class="why-choose">
             <section class="padding-top-80 padding-bottom-80">
                 <div class="container">
                     <!-- MAIN HEADING -->
@@ -101,10 +101,11 @@
                         <!-- Services -->
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31">
-                                <div class="ib-icon"><i class="fa fa-moon-o"></i></div>
-                                <div class="ib-info">
+                                <div class="ib-icon"><i class="fa fa-graduation-cap"></i></div>
+                                <div class="ib-info" onclick="toggleText('Education')">
                                     <h4 class="h6">{{ 'personal.martina.part4.headlie'|trans }}</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                                    <p>{{ 'personal.martina.part4.headlie.text'|trans }}</p>
+                                    <p>{{ 'personal.read'|trans }}</p>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +113,7 @@
                         <!-- Services -->
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31">
-                                <div class="ib-icon"><i class="fa fa-heart-o"></i></div>
+                                <div class="ib-icon"><i class="fa fa-archive"></i></div>
                                 <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part5.headlie'|trans }}</h4>
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
@@ -124,7 +125,7 @@
                         <!-- Services -->
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.8s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31">
-                                <div class="ib-icon"><i class="fa fa-hdd-o"></i></div>
+                                <div class="ib-icon"><i class="fa fa-group"></i></div>
                                 <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part6.headlie'|trans }}</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
@@ -132,6 +133,12 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Education -->
+                    <div id="textEducation" class="hide-element">
+                        {% include 'AppBundle:Personal:BabinskaMartina/Includes/education.html.twig' %}
+                    </div>
+
                 </div>
             </section>
         </div>
