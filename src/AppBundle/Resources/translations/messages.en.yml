@@ -306,34 +306,41 @@ book:
   diseases.header-12: Obstructive lung diseases
   diseases.header-13: Restrictive and Obstructive lung diseases combination
   diseases.table1.text-1: Restrictive lung diseases - Spirometry results
+  diseases.table2.text-1: Obstructive lung diseases - Spirometry results
   diseases.table1.text-2: Parameter
   diseases.table1.text-3: A spirometry assessment result and a predicted value comparison
   diseases.table1.text-4: Forced Vital Capacity (FVC)
   diseases.table1.text-5: FVC is reduced below 80% of a predicted value
+  diseases.table2.text-5: FVC is normal or nearly normal (lightly decreased)
   diseases.table1.text-6: Forced expiratory volume in 1 second (FEV1)
   diseases.table1.text-7: FEV1 is reduced below 80% of a predicted value
   diseases.table1.text-8: FEV1/FVC ratio (FEV1%)
   diseases.table1.text-9: FEV1/FVC ratio is normal (value = 1)
+  diseases.table2.text-9: FEV1/FVC ratio is reduced on 0.7 or less (value = 1)
   diseases.table1.text-10: Peak expiratory flow (PEF)
   diseases.table1.text-11: PEF is reduced or normal
+  diseases.table2.text-11: PEF is reduced below 80% of a predicted value. The reduction is increasing with the disease substantiality (ASTHMA - low reduction, COPD - height reduction).
   diseases.table1.text-12: Forced expiratory flow (FEF)
+  diseases.table2.text-13: FEF25, FEF50 and FEF75 are reduced below 50% of a predicted value. The reduction is increasing with the disease substantiality.
   diseases.table1.text-13: FEF25, FEF50 and FEF75 values can be lightly reduced or extended, based on a FVC change
   diseases.table1.text-14: Flow-Volume Loop shape
   diseases.table1.text-15: Concave in a volume axis direction
+  diseases.table2.text-15: Convex in a volume axis direction
   diseases.note-1: The table does not contain PEAK INSPIRATORY FLOW (PIF) which represents the maximal air flow during the patient's inhalation. The reason is medical. The inspiration curve is less influenced by the lung defects as the expiratory curve. If the value of this parameter is reduced compared to the expected value, we usually have to find the cause outside of the lung (e.g. trachea cancer).
   diseases.part-11-text-1: Restrictive pulmonary diseases are also known as restrictive ventilatory defects or interstitial lung diseases.
   diseases.part-11-header-1: What is happening in a patient's respiratory system?
-  diseases.part-11-text-2: The lung tissue is defected. That defect causes decreased air volume stored in the lung.
+  diseases.part-11-text-2: The lung tissue is defected what causes decreased air volume stored in a lung.
   diseases.part-11-header-2: How are the restrictive lung diseases demonstrated by the Spirometry assessment?
   diseases.part-11-header-3: What are the causes of restrictive lung diseases?
   diseases.part-11-text-3: The causes can be splited into the two main categories:
-  diseases.part-11-text-3-1: Extrinsic (that are influencing the chest wall movement)
+  diseases.part-11-text-3-1: Extrinsic (they are influencing the chest wall movement)
   diseases.part-11-text-3-1-1: Obesity
   diseases.part-11-text-3-1-2: Scoliosis
   diseases.part-11-text-3-1-3: Respiratory muscle defects
   diseases.part-11-text-3-1-4: ...
-  diseases.part-11-text-3-2: Intrinsic (that are influencing the lung elasticity)
+  diseases.part-11-text-3-2: Intrinsic (they are influencing the lung elasticity)
   diseases.part-11-text-3-2-1: Partial surgery lung removal
   diseases.part-11-text-3-2-2: Sarcoidosis
   diseases.part-11-text-3-2-3: Pulmonary fibrosis
   diseases.part-11-text-3-2-4: ...
+  diseases.part-12-text-1: Bronchi and bronchioles are narrowed what caueses the airway obstruction. The result of the obstruction is a reduction of a quickly exhaled air.
