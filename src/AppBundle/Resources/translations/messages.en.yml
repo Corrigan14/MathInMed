@@ -305,6 +305,7 @@ book:
   diseases.header-11: Restrictive lung diseases
   diseases.header-12: Obstructive lung diseases
   diseases.header-13: Restrictive and Obstructive lung diseases combination
+  diseases.header-14: Spirometry is not the only one assessment necessary to diagnose and to confirm a patient's disease. Very important are also -  patient's anamnesis, x-ray, CT scan, bronchoscopy and others.
   diseases.table1.text-1: Restrictive lung diseases - Spirometry results
   diseases.table2.text-1: Obstructive lung diseases - Spirometry results
   diseases.table1.text-2: Parameter
@@ -316,7 +317,7 @@ book:
   diseases.table1.text-7: FEV1 is reduced below 80% of a predicted value
   diseases.table1.text-8: FEV1/FVC ratio (FEV1%)
   diseases.table1.text-9: FEV1/FVC ratio is normal (value = 1)
-  diseases.table2.text-9: FEV1/FVC ratio is reduced on 0.7 or less (value = 1)
+  diseases.table2.text-9: FEV1/FVC ratio is reduced on a value 0.7 or less (max value = 1)
   diseases.table1.text-10: Peak expiratory flow (PEF)
   diseases.table1.text-11: PEF is reduced or normal
   diseases.table2.text-11: PEF is reduced below 80% of a predicted value. The reduction is increasing with the disease substantiality (ASTHMA - low reduction, COPD - height reduction).
@@ -327,6 +328,7 @@ book:
   diseases.table1.text-15: Concave in a volume axis direction
   diseases.table2.text-15: Convex in a volume axis direction
   diseases.note-1: The table does not contain PEAK INSPIRATORY FLOW (PIF) which represents the maximal air flow during the patient's inhalation. The reason is medical. The inspiration curve is less influenced by the lung defects as the expiratory curve. If the value of this parameter is reduced compared to the expected value, we usually have to find the cause outside of the lung (e.g. trachea cancer).
+  diseases.note-2: COPD is one of the most common pulmonary obstructive diseases, mostly caused by smoking. There are two COPD forms - chronical bronchitis and aerification. Patients suffering from COPD usually have both of these forms.
   diseases.part-11-text-1: Restrictive pulmonary diseases are also known as restrictive ventilatory defects or interstitial lung diseases.
   diseases.part-11-header-1: What is happening in a patient's respiratory system?
   diseases.part-11-text-2: The lung tissue is defected what causes decreased air volume stored in a lung.
@@ -344,3 +346,7 @@ book:
   diseases.part-11-text-3-2-3: Pulmonary fibrosis
   diseases.part-11-text-3-2-4: ...
   diseases.part-12-text-1: Bronchi and bronchioles are narrowed what caueses the airway obstruction. The result of the obstruction is a reduction of a quickly exhaled air.
+  diseases.part-12-text-3-1: Asthma
+  diseases.part-12-text-3-2: Chronic obstructive pulmonary disease (COPD)
+  diseases.part-13-text-1: The restrictive and obstructive disease combination can be caused by two different diseases where the first one is restrictive and the second one is obstructive.
+  diseases.part-13-text-2: Another option is, if the disease causes both - restrictive as well as obstructive pulmonary defects. The example of this kind of disease is a cystic fibrosis.
