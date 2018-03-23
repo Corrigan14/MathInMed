@@ -9,6 +9,8 @@ main_navbar:
   tutoring: Preparation help
   teachers: Teachers section
   developers: Developers
+  here: HERE
+  check_answer: Check your answer
   development.note1: Website development is in progres...
   development.note2: We are comming soon!
 
@@ -63,15 +65,25 @@ left_navbar:
 right_navbar:
   book.answers: Answers
   book.answer: Answer
-  book.answer11: Text of the answer 1.1
+  book.answer.text1: PLEASE NOTICE that the answers taken from the graph's data are only approximate! The difference between yours and ours answers can be +-100ml.
+  book.answer11.text1: Forced Vital Capacity of our patient is approximately 2340ml.
+  book.answer11.text2: If there is a big difference between yours and our answer, try to check the HELPER to this problem.
+  book.answer11.text3: bulb picture
   book.helpers: Helpers
   book.helper: Helper
-  book.helper11: Text of the helper 1.1
-  book.helper12: Text of the helper 1.2
-  book.helper13: Text of the helper 1.3
-  book.helper14: Text of the helper 1.4
-  book.helper15: Text of the helper 1.5
-  book.helper16: Text of the helper 1.6
+  book.helper11.text1: To find a solution of our problem, it is necessary to understand the graph we are working with.
+  book.helper11.text2: Try to answer the next questions:
+  book.helper11.text3: 1. Which Spirometry Curve parts are related to the patient's inhalations and which one to his exhalations?
+  book.helper11.text3-1: To find an answer to this question, the imagine of a simple breathing can help. Try to close your eyes, inhale and exhale few times. Is the air volume in your lungs increasing or decreasing when you are inhaling air?
+  book.helper11.text4: 2. When the patient's greatest exhalation started? (the exhalation during which patient exhaled the greatest volume of an air)
+  book.helper11.text4-1: If there are more than one of this type of exhalations, we are interested in the first one. The first one was executed on behalf of a doctor's appeal, after a forced inhalation.
+  book.helper11.text5: 3. When the patient's greatest exhalation finished?
+  book.helper11.text6: I am sure, you can solve our problem easily now. What is the volume of an air exhaled during the greatest exhalation?
+  book.helper12: helper 1.2
+  book.helper13: helper 1.3
+  book.helper14: helper 1.4
+  book.helper15: helper 1.5
+  book.helper16: helper 1.6
   book.chat: Forum
   book.chat.work: We are preparing a new forum for you!
   book.chat.email: If you have any questions or if you need a help, I will be glad to help you! Please send me an email (babinskam@aol.com)

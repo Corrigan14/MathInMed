@@ -6,6 +6,12 @@
     display: block;
 }
 
+.scrollable {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .min-height-200 {
     min-height: 200px;
 }
@@ -34,4 +40,51 @@
 
 .orange-color {
     color: #f6b138 !important;
+}
+
+.blue-grey-color {
+    color: #2F4F4F !important;
+}
+
+.helper-section {
+    margin-left: 15px;
+}
+
+.red-small-text {
+    font-size: 12px !important;
+    line-height: 15px !important;
+    color: red !important;
+    font-weight: bold;
+}
+
+.smaller-p-tags p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #585858;
+}
+
+.h6-small-font-uppercase {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #636363;
+}
+
+.h5-small-font-uppercase {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 0px 0px 0px !important;
+    color: #636363;
+}
+
+.h4-small-font-uppercase {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 20px 0px 0px 0px !important;
+    color: #636363;
 }

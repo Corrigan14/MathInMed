@@ -1,43 +1,23 @@
-<h3>{{ 'right_navbar.book.helpers'|trans }}</h3>
+<h4 class="h4-small-font-uppercase">{{ 'right_navbar.book.helpers'|trans }}</h4>
 
-<a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleHelper(11)">
-    {{ 'right_navbar.book.helper'|trans }} 1.1
-</a>
-<p id="helper11" class="font-crimson font-italic font-14px line-height-24 hide-element">
-    {{ 'right_navbar.book.helper11'|trans }}
-</p>
+<div class="helper-section">
+    <div class="row">
+        <h5 class="h5-small-font-uppercase" onclick="toggleHelper(11)">
+            {{ 'right_navbar.book.helper'|trans }} 1.1
+        </h5>
+    </div>
+    <div class="row hide-element smaller-p-tags" id="helper11">
+        {% include 'AppBundle:Book:Includes/Helpers/helper-1-1.html.twig' %}
+    </div>
+</div>
 
-<a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleHelper(12)">
-    {{ 'right_navbar.book.helper'|trans }} 1.2
-</a>
-<p id="helper12" class="font-crimson font-italic font-14px line-height-24 hide-element">
-    {{ 'right_navbar.book.helper12'|trans }}
-</p>
-
-<a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleHelper(13)">
-    {{ 'right_navbar.book.helper'|trans }} 1.3
-</a>
-<p id="helper13" class="font-crimson font-italic font-14px line-height-24 hide-element">
-    {{ 'right_navbar.book.helper13'|trans }}
-</p>
-
-<a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleHelper(14)">
-    {{ 'right_navbar.book.helper'|trans }} 1.4
-</a>
-<p id="helper14" class="font-crimson font-italic font-14px line-height-24 hide-element">
-    {{ 'right_navbar.book.helper14'|trans }}
-</p>
-
-<a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleHelper(15)">
-    {{ 'right_navbar.book.helper'|trans }} 1.5
-</a>
-<p id="helper15" class="font-crimson font-italic font-14px line-height-24 hide-element">
-    {{ 'right_navbar.book.helper15'|trans }}
-</p>
-
-<a class="font-crimson font-bold font-16px margin-top-10 display-block" onclick="toggleHelper(16)">
-    {{ 'right_navbar.book.helper'|trans }} 1.6
-</a>
-<p id="helper16" class="font-crimson font-italic font-14px line-height-24 hide-element">
-    {{ 'right_navbar.book.helper16'|trans }}
-</p>
+<div class="helper-section">
+    <div class="row">
+        <h5 class="h5-small-font-uppercase" onclick="toggleHelper(11)">
+            {{ 'right_navbar.book.helper'|trans }} 1.2
+        </h5>
+    </div>
+    <div class="row hide-element smaller-p-tags" id="helper11">
+        {% include 'AppBundle:Book:Includes/Helpers/helper-1-1.html.twig' %}
+    </div>
+</div>

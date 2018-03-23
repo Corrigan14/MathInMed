@@ -5350,9 +5350,9 @@ header.is-fixed {
 			Style Switcher
 ========================================================*/
 .color-switcher {
-	width: 266px;
+	width: 450px;
 	position: fixed;
-	right: -266px;
+	right: -450px;
 	top: 220px;
 	z-index: 999;
 	padding: 0px;
