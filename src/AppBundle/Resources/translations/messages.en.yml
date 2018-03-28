@@ -65,22 +65,34 @@ left_navbar:
 right_navbar:
   book.answers: Answers
   book.answer: Answer
-  book.answer.text1: PLEASE NOTICE that the answers taken from the graph's data are only approximate! The difference between yours and ours answers can be +-100ml.
-  book.answer11.text1: Forced Vital Capacity of our patient is approximately 2340ml.
+  book.answer.text1: PLEASE NOTICE that the answers taken from the graph's data are only approximate! The difference between yours and our answers can be +-100ml.
+  book.answer11.text1: Our patient's Forced Vital Capacity is approximately 2340ml.
   book.answer11.text2: If there is a big difference between yours and our answer, try to check the HELPER to this problem.
   book.answer11.text3: bulb picture
+  book.answer12.text1: Yes, there is a difference.
+  book.answer12.text2: Forced Vital Capacity of a healthy, 56 years old man who is 171cm high should be 4.06l, but the patient's measured FVC is 2.34l.
+  book.answer12.text3: Our patient's Forced Vital capacity is
+  book.answer12.text4: decreased
+  book.answer13.text1: There can be
+  book.answer13.text2: Restrictive lung disease
+  book.answer13.text3: expected.
+  book.answer13.text4: But, to affirm patient's Restrictive lung disease suspicion, it is necessary to know values of another parameters like Forced expiratory volume in 1 second (FEV1) or Peak expiratory flow (PEF).
+  book.answer13.text5: These missing parameters are discussed and can be discovered and understood in the next chapters.
   book.helpers: Helpers
   book.helper: Helper
-  book.helper11.text1: To find a solution of our problem, it is necessary to understand the graph we are working with.
+  book.helper11.text1: Firstly, it is necessary to understand the graph we are working with.
   book.helper11.text2: Try to answer the next questions:
   book.helper11.text3: 1. Which Spirometry Curve parts are related to the patient's inhalations and which one to his exhalations?
   book.helper11.text3-1: To find an answer to this question, the imagine of a simple breathing can help. Try to close your eyes, inhale and exhale few times. Is the air volume in your lungs increasing or decreasing when you are inhaling air?
   book.helper11.text4: 2. When the patient's greatest exhalation started? (the exhalation during which patient exhaled the greatest volume of an air)
   book.helper11.text4-1: If there are more than one of this type of exhalations, we are interested in the first one. The first one was executed on behalf of a doctor's appeal, after a forced inhalation.
   book.helper11.text5: 3. When the patient's greatest exhalation finished?
-  book.helper11.text6: I am sure, you can solve our problem easily now. What is the volume of an air exhaled during the greatest exhalation?
-  book.helper12: helper 1.2
-  book.helper13: helper 1.3
+  book.helper11.text6: I am sure, you can solve the problem 1.1 easily now. What is the volume of an air exhaled during the greatest exhalation?
+  book.helper12.text1: Try to look to the Forced Vital Capacity predicted values table (a link is available after the problem 1.2 assignment or
+  book.helper12.text2: What Forced Vital Capacity should have a healthy man, who is 56 years old and 171cm high?
+  book.helper13.text1: Try to
+  book.helper13.text2:
+  book.helper13.text3:
   book.helper14: helper 1.4
   book.helper15: helper 1.5
   book.helper16: helper 1.6
@@ -308,7 +320,7 @@ book:
   first-chapter.historical-block-text-1-2: One of the first was Galen, well-known famous Greek doctor (2th century).
   first-chapter.historical-block-text-1-3: Later, Giovannin Alfonso Borelli (1679) rapidly increased the measurement accuracy, using the patient's nose blocking.
   first-chapter.historical-block-text-1-4: John Hutchinson (1849) created the first fully functional spirometer (water spirometer). Later, based on 4000 measurements, found a linear dependence between the vital capacity and a human height.
-  table.FVC-text-introduction: As the height unit, the INCH is used in a table. Inches are usually used in an anglophone districts, most common in the USA and the United Kingdom (1 inch = 2.54 cm).
+  table.FVC-text-introduction: As a height unit, INCH is used in a table. Inches are usually used in an anglophone districts, most common in the USA and the United Kingdom (1 inch = 2.54 cm).
   table.FVC-text-1: Man's Forced Vital Capacity Predicted Values
   table.FVC-text-2: AGE (years)
   table.FVC-text-3: HEIGHT (inches)
