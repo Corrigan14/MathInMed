@@ -25,8 +25,20 @@
 }
 
 .white-font {
-    color: black;
-!important;
+    color: black;  !important;
+}
+
+.red-font{
+    color: #D22C2C;
+}
+.green-font{
+    color: #009900;
+}
+.blue-font{
+    color: #000099;
+}
+.orange-font{
+    color: #FF9933;
 }
 
 .uppercase-transform {

@@ -44,21 +44,21 @@ left_navbar:
   book.chapter1: Spirometry Curve
   book.chapter11: Parameteres Signalized Respiratory Problems
   book.chapter12: Respiratory System Diseases
-  book.chapter13: Compared Spirometry Curve - Helthy Human's curve
-  book.chapter14: Doctor's View of The Spirometry Curve
+  book.chapter13: Compared Spirometry Curve - Helthy Humans' curve
+  book.chapter14: Spirometry Curve - Doctor's view
   book.chapter1game: Game - part 1
   book.chapter2: Volume-Time Curve
   book.chapter21: Forced Expiratory Volume
   book.chapter22: Volume-Time Curve
   book.chapter23: FEV1 in Time
-  book.chapter24:  Doctor's View of The Volume-Time Curve?
+  book.chapter24:  Volume-Time Curve - Doctor's view
   book.chapter2game: Game - part 2
   book.chapter3: Flow-Volume Loop
   book.chapter31: Flow
   book.chapter32: Loop
   book.chapter33: Respiratory System Diseases
   book.chapter34: Rise Over the Run ... Let's Repeat That
-  book.chapter35:  Doctor's View of The Flow-Volume Loop?
+  book.chapter35:  Flow-Volume Loop - Doctor's view
   book.chapter3game: Game - part 3
   book.game: Game - Encode The Answer :)
 
@@ -76,7 +76,7 @@ right_navbar:
   book.answer13.text1: There can be
   book.answer13.text2: Restrictive lung disease
   book.answer13.text3: expected.
-  book.answer13.text4: But, to affirm patient's Restrictive lung disease suspicion, it is necessary to know values of another parameters like Forced expiratory volume in 1 second (FEV1) or Peak expiratory flow (PEF).
+  book.answer13.text4: But, to affirm patient's Restrictive lung disease suspicion, it is necessary to know other parameters values like Forced expiratory volume in 1 second (FEV1) or Peak expiratory flow (PEF).
   book.answer13.text5: These missing parameters are discussed and can be discovered and understood in the next chapters.
   book.helpers: Helpers
   book.helper: Helper
@@ -90,9 +90,8 @@ right_navbar:
   book.helper11.text6: I am sure, you can solve the problem 1.1 easily now. What is the volume of an air exhaled during the greatest exhalation?
   book.helper12.text1: Try to look to the Forced Vital Capacity predicted values table (a link is available after the problem 1.2 assignment or
   book.helper12.text2: What Forced Vital Capacity should have a healthy man, who is 56 years old and 171cm high?
-  book.helper13.text1: Try to
-  book.helper13.text2:
-  book.helper13.text3:
+  book.helper13.text1: Try to look to the Pulmonary Diseases table (a link is available after the problem 1.3 assignment)
+  book.helper13.text2: What kind of a disease is signalized by a reduced Forced Vital Capacity?
   book.helper14: helper 1.4
   book.helper15: helper 1.5
   book.helper16: helper 1.6
@@ -302,10 +301,27 @@ book:
   first-chapter.subchapter1.help-answer-4-6: the forum
   first-chapter.subchapter1.help-answer-4-7: questions.
   first-chapter.supchapter2.text1-1: The Problem 1.2 solution showed us, that our patien's FVC (FORCED VITAL CAPACITY) is
-  first-chapter.supchapter2.text1-2: decreased.
-  first-chapter.supchapter2.text1-3: But, what does it mean? What kind of disease can our patient have?
+  first-chapter.supchapter2.text1-2: decreased/reduced.
+  first-chapter.supchapter2.text1-3: But, what does it mean? What kind of a disease can our patient have?
   first-chapter.supchapter2.text1-4: To answer this question we need to know, what kind of pulmonary diseases exist. The list of existed pulmonary diseases and their description is available
   first-chapter.supchapter2.text1-5: HERE.
+  first-chapter.supchapter3.text1-1: The Problem 1.2 solution showed us, that our patien's FVC (FORCED VITAL CAPACITY) is  decreased/reduced. As you probably remember, to find that this value is reduced, we had to go to the table and find it manually. To help a doctor and save his time a real spirometry result does not contain only measured values, but also these ideal values - values what should have a healthy human.
+  first-chapter.supchapter3.text1-2: These values are usually adduced in brackets or in the next column or there is a healthy human's spirometry curve chart marked by a dashed line included in a patient's measured spirometry curve chart.
+  first-chapter.supchapter3.text1-3: If we want to create this healthy human's spirometry curve, it is necessary to know a Forced Vital Capacity parameter, but it is not enough. Also parameters like Tidal Volume, Expiratory Reserve Volume, Inspiratory Reserve Volume and Residual Volume are needed.
+  first-chapter.supchapter3.text2-1: Tidal Volume (TD)
+  first-chapter.supchapter3.text2-2-1: that volume of air moved into or out of the lungs during quiet breathing (it is bordered by a
+  first-chapter.supchapter3.text2-2-2: red dashed lines
+  first-chapter.supchapter3.text2-2-3: on a right chart
+  first-chapter.supchapter3.text2-3: The halthy adult's TV value should be 15 - 18 % of his Forced Vital Capacity.
+  first-chapter.supchapter3.text3-1: Expiratory Reserve Volume (ERV)
+  first-chapter.supchapter3.text3-2: the maximal volume of air that can be exhaled from the end-expiratory position.
+  first-chapter.supchapter3.text3-3: The halthy adult's ERV should be 25 % of his Forced Vital Capacity.
+  first-chapter.supchapter3.text4-1: Inspiratory Reserve Volume (ERV)
+  first-chapter.supchapter3.text4-2: the maximal volume that can be inhaled from the end-inspiratory level.
+  first-chapter.supchapter3.text4-3: The halthy adult's IRV should be 60 % of his Forced Vital Capacity.
+  first-chapter.supchapter3.text5-1: Residual Volume (RV)
+  first-chapter.supchapter3.text5-2: the volume of air remaining in the lungs after a maximal exhalation.
+  first-chapter.supchapter3.text5-3: To measure this volume is possible only indirectly and that is the reason why we are not going to work with it in this chapter.
   first-chapter.problem-1-1: What is the patient's Forced Vital Capacity?
   first-chapter.problem-1-2-1: Is there a difference between our patient's measured forced vital capacity and a forced vital capacity of a healthy, 56 years old, 171 cm high man?
   first-chapter.problem-1-2-2: Predicted FVC values are avilable
