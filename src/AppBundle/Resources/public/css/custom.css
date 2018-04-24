@@ -100,3 +100,11 @@
     padding: 20px 0px 0px 0px !important;
     color: #636363;
 }
+
+.download-link a{
+    font-size: 16px;
+    color: #ff8000;
+}
+.download-link a:hover{
+    color: black;
+}

@@ -1,5 +1,8 @@
 motto: Why do we have to learn that???
 
+basic_words:
+  download_print: DOWNLOAD TO PRINT
+
 main_navbar:
   about: About
   book: Math and the real world
@@ -78,6 +81,9 @@ right_navbar:
   book.answer13.text3: expected.
   book.answer13.text4: But, to affirm patient's Restrictive lung disease suspicion, it is necessary to know other parameters values like Forced expiratory volume in 1 second (FEV1) or Peak expiratory flow (PEF).
   book.answer13.text5: These missing parameters are discussed and can be discovered and understood in the next chapters.
+  book.answer14.text1: Our patient's Tidal Volume is approximately 0.5 liter (look to the next graph)
+  book.answer14.text2: Our patient's  Expiratory Reserve Volume is approximately 0.82 liter.
+  book.answer14.text3: Our patient's  Inspiratory Reserve Volume is approximately 1.02 liter.
   book.helpers: Helpers
   book.helper: Helper
   book.helper11.text1: Firstly, it is necessary to understand the graph we are working with.
@@ -305,23 +311,23 @@ book:
   first-chapter.supchapter2.text1-3: But, what does it mean? What kind of a disease can our patient have?
   first-chapter.supchapter2.text1-4: To answer this question we need to know, what kind of pulmonary diseases exist. The list of existed pulmonary diseases and their description is available
   first-chapter.supchapter2.text1-5: HERE.
-  first-chapter.supchapter3.text1-1: The Problem 1.2 solution showed us, that our patien's FVC (FORCED VITAL CAPACITY) is  decreased/reduced. As you probably remember, to find that this value is reduced, we had to go to the table and find it manually. To help a doctor and save his time a real spirometry result does not contain only measured values, but also these ideal values - values what should have a healthy human.
+  first-chapter.supchapter3.text1-1: The Problem 1.2 solution showed us, that our patien's FVC (FORCED VITAL CAPACITY) is  decreased/reduced. As you probably remember, to find this fact, we had to go to the table and find FVC value manually. To help a doctor and save his time a real spirometry result does not contain only measured values, but also these ideal values - values what should have a healthy human.
   first-chapter.supchapter3.text1-2: These values are usually adduced in brackets or in the next column or there is a healthy human's spirometry curve chart marked by a dashed line included in a patient's measured spirometry curve chart.
   first-chapter.supchapter3.text1-3: If we want to create this healthy human's spirometry curve, it is necessary to know a Forced Vital Capacity parameter, but it is not enough. Also parameters like Tidal Volume, Expiratory Reserve Volume, Inspiratory Reserve Volume and Residual Volume are needed.
   first-chapter.supchapter3.text2-1: Tidal Volume (TD)
-  first-chapter.supchapter3.text2-2-1: that volume of air moved into or out of the lungs during quiet breathing (it is bordered by a
+  first-chapter.supchapter3.text2-2-1: that volume of air moved into or out of the lungs during quiet breathing (it is bordered by
   first-chapter.supchapter3.text2-2-2: red dashed lines
   first-chapter.supchapter3.text2-2-3: on a right chart
-  first-chapter.supchapter3.text2-3: The halthy adult's TV value should be 15 - 18 % of his Forced Vital Capacity.
+  first-chapter.supchapter3.text2-3: The healthy adult's TV value should be 15 - 18 % of his Forced Vital Capacity.
   first-chapter.supchapter3.text3-1: Expiratory Reserve Volume (ERV)
   first-chapter.supchapter3.text3-2: the maximal volume of air that can be exhaled from the end-expiratory position.
-  first-chapter.supchapter3.text3-3: The halthy adult's ERV should be 25 % of his Forced Vital Capacity.
+  first-chapter.supchapter3.text3-3: The healthy adult's ERV should be 25 % of his Forced Vital Capacity.
   first-chapter.supchapter3.text4-1: Inspiratory Reserve Volume (ERV)
   first-chapter.supchapter3.text4-2: the maximal volume that can be inhaled from the end-inspiratory level.
-  first-chapter.supchapter3.text4-3: The halthy adult's IRV should be 60 % of his Forced Vital Capacity.
+  first-chapter.supchapter3.text4-3: The healthy adult's IRV should be 60 % of his Forced Vital Capacity.
   first-chapter.supchapter3.text5-1: Residual Volume (RV)
   first-chapter.supchapter3.text5-2: the volume of air remaining in the lungs after a maximal exhalation.
-  first-chapter.supchapter3.text5-3: To measure this volume is possible only indirectly and that is the reason why we are not going to work with it in this chapter.
+  first-chapter.supchapter3.text5-3: It is not possible to measure this volume directlly. For that reason we are not going to work deeper with it now.
   first-chapter.problem-1-1: What is the patient's Forced Vital Capacity?
   first-chapter.problem-1-2-1: Is there a difference between our patient's measured forced vital capacity and a forced vital capacity of a healthy, 56 years old, 171 cm high man?
   first-chapter.problem-1-2-2: Predicted FVC values are avilable
@@ -329,9 +335,15 @@ book:
   first-chapter.problem-1-3-1: What kind of a disease can be expected if patient's FORCED VITAL CAPACITY is decreased?
   first-chapter.problem-1-3-2: Pulmonary diseases description is avilable
   first-chapter.problem-1-3-3: HERE
-  first-chapter.problem-1-4:
-  first-chapter.problem-1-5:
-  first-chapter.problem-1-6:
+  first-chapter.problem-1-4-1: Using our patient's spirometry curve (placed next to the
+  first-chapter.problem-1-4-2: problem 1.1
+  first-chapter.problem-1-4-3: find Tidal Volume, Expiratory Reserve Volume and Inspiratory Reserve Volume of his lung.
+  first-chapter.problem-1-5-1: Count TV, ERV and IRV values of a healthy, 56-years old man, who is not smoking and who is 171cm tall.
+  first-chapter.problem-1-5-2: Compare these values with the values which reached our patient.
+  first-chapter.problem-1-6-1: Take our patient's spirometry curve (placed next to the
+  first-chapter.problem-1-6-2: and create (to the same chart) the second one - spiromtery curve of a healthy, 56-years old man, non-smoker, 171cm tall.
+  first-chapter.problem-1-6-3: Created curve is called
+  first-chapter.problem-1-6-4: comparative curve
   first-chapter.historical-block-text-1-1: There were many famous doctors studying human Vital Capacity during the last centuries.
   first-chapter.historical-block-text-1-2: One of the first was Galen, well-known famous Greek doctor (2th century).
   first-chapter.historical-block-text-1-3: Later, Giovannin Alfonso Borelli (1679) rapidly increased the measurement accuracy, using the patient's nose blocking.

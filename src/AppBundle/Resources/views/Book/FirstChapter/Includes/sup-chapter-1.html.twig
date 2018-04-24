@@ -56,6 +56,7 @@
                 <p> {{ 'book.first-chapter.subchapter1.text2-2'|trans }}</p>
                 <p> {{ 'book.first-chapter.subchapter1.text2-3'|trans }}</p>
 
+                {#QUESTION 1.1#}
                 <div class="row margin-top-30">
                     <div class="col-md-4">
                         <h6 class="problem">{{ 'book.problem'|trans }} 1.1:</h6>
@@ -65,6 +66,7 @@
                     </div>
                 </div>
 
+                {#QUESTION 1.2#}
                 <div class="row margin-top-20">
                     <div class="col-md-4">
                         <h6 class="problem">{{ 'book.problem'|trans }} 1.2:</h6>
@@ -75,15 +77,22 @@
                             ({{ 'book.first-chapter.problem-1-2-2'|trans }}
                             <span onclick="toggleTable('FVC-2')" class="text-color-primary">
                                         {{ 'book.first-chapter.problem-1-2-3'|trans }}
-                                        </span>)
+                             </span>)
                         </h6>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 text-right" >
+            <div class="col-md-8 text-right" id="main-patients-spirometry-curve">
                 {% image '@AppBundle/Resources/public/images/book/first-chapter/00-spirometry-curve.png' %}
                 <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive">
                 {% endimage %}
+                <div class="text-center padding-top-20 download-link">
+                    {% image '@AppBundle/Resources/public/downloads/spirometry-curve.png' %}
+                    <a href="{{ asset_url }}" download="spirometry-curve.png">
+                        <b>{{ 'basic_words.download_print'|trans }}</b>
+                    </a>
+                    {% endimage %}
+                </div>
             </div>
         </div>
         <div class="row margin-top-30">
