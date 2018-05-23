@@ -80,10 +80,18 @@ right_navbar:
   book.answer13.text2: Restrictive lung disease
   book.answer13.text3: expected.
   book.answer13.text4: But, to affirm patient's Restrictive lung disease suspicion, it is necessary to know other parameters values like Forced expiratory volume in 1 second (FEV1) or Peak expiratory flow (PEF).
-  book.answer13.text5: These missing parameters are discussed and can be discovered and understood in the next chapters.
-  book.answer14.text1: Our patient's Tidal Volume is approximately 0.5 liter (look to the next graph)
-  book.answer14.text2: Our patient's  Expiratory Reserve Volume is approximately 0.82 liter.
-  book.answer14.text3: Our patient's  Inspiratory Reserve Volume is approximately 1.02 liter.
+  book.answer13.text5: Missing parameters are discussed and can be discovered and understood in the next chapters.
+  book.answer14.text1: Our patient's Tidal Volume is approximately 0.5 liter:
+  book.answer14.text2: Expiratory Reserve Volume is approximately 0.82 liter.
+  book.answer14.text3: Inspiratory Reserve Volume is approximately 1.02 liter.
+  book.answer14.text4: There was a small change in an exhaled air at the end of the Spirometry - patient exhaled deeper. Mentioned change is caused by a forced exhalation in 9 - 11 second and we can neglect it in our counts.
+  book.answer15.table11: 56 YEARS OLD MAN, 171 cm
+  book.answer15.table12: FVC [l]
+  book.answer15.table13: TV [l]
+  book.answer15.table14: ERV [l]
+  book.answer15.table15: IRV [l]
+  book.answer15.table21: MEASURED/PATIENT'S VALUES
+  book.answer15.table31: IDEAL/TABLE VALUES
   book.helpers: Helpers
   book.helper: Helper
   book.helper11.text1: Firstly, it is necessary to understand the graph we are working with.
@@ -339,7 +347,7 @@ book:
   first-chapter.problem-1-4-2: problem 1.1
   first-chapter.problem-1-4-3: find Tidal Volume, Expiratory Reserve Volume and Inspiratory Reserve Volume of his lung.
   first-chapter.problem-1-5-1: Count TV, ERV and IRV values of a healthy, 56-years old man, who is not smoking and who is 171cm tall.
-  first-chapter.problem-1-5-2: Compare these values with the values which reached our patient.
+  first-chapter.problem-1-5-2: Compare these values with the values reached by our patient.
   first-chapter.problem-1-6-1: Take our patient's spirometry curve (placed next to the
   first-chapter.problem-1-6-2: and create (to the same chart) the second one - spiromtery curve of a healthy, 56-years old man, non-smoker, 171cm tall.
   first-chapter.problem-1-6-3: Created curve is called
