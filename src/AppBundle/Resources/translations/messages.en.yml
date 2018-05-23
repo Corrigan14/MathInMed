@@ -92,6 +92,7 @@ right_navbar:
   book.answer15.table15: IRV [l]
   book.answer15.table21: MEASURED/PATIENT'S VALUES
   book.answer15.table31: IDEAL/TABLE VALUES
+  book.answer16.text1: Is the y-location (location against the volume ax) of a spirometry curve important? Is there any change on TV, IRV, ERV and FVC if we move it above/below?
   book.helpers: Helpers
   book.helper: Helper
   book.helper11.text1: Firstly, it is necessary to understand the graph we are working with.
@@ -203,6 +204,7 @@ personal:
 book:
   problem: Problem
   note: Note
+  thinkabout: something to think about
   historical-block-headline: A piece of history
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
