@@ -40,6 +40,9 @@
 .orange-font{
     color: #FF9933;
 }
+.colour-font{
+    color: #009999;
+}
 
 .uppercase-transform {
     text-transform: uppercase !important;
@@ -77,9 +80,7 @@
 
 .h6-small-font-uppercase {
     font-size: 12px;
-    text-transform: uppercase;
-    font-weight: normal;
-    color: #636363;
+    font-weight: bold;
 }
 
 .h5-small-font-uppercase {

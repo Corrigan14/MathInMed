@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e51c0c4-1463-48ef-b18b-369ef9e464fb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-4.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-5.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-6.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-5.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-5.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-6.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-6.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-1.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-1.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-2.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-2.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-3.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-3.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/helper.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/helper.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +26,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="messages.en.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="messages.en.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="21" />
+            <state relative-caret-position="208">
+              <caret line="103" column="46" lean-forward="false" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper-1-1.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-1.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/helper.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="631">
+              <caret line="64" column="62" lean-forward="false" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -33,8 +59,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+            <state relative-caret-position="504">
+              <caret line="82" column="22" lean-forward="false" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -92,9 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Student/Main/introduction.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Teacher/Main/introduction.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/slider-spirometry.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Includes/header.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/Book/MainController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstCapture/doctorsView.html.twig" />
@@ -122,27 +145,30 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes/table-obstructive-diseases.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes/pulmonary-diseases.html.twig" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-1.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-1.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/templateEvanto/css/main.css" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/rightNavbar.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/slider.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-2.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-2.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-3.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/helper.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-3.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/leftNavbar.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Personal/BabinskaMartina/introduction.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes/sup-chapter-2.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes/sup-chapter-1.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes/sup-chapter-3.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/answer.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-4.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-6.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-5.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/helper.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-4.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-5.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-6.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-3.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-2.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-1.html.twig" />
       </list>
     </option>
   </component>
@@ -500,7 +526,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Answers" />
+              <option name="myItemId" value="Helpers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -603,19 +629,19 @@
     <property name="SearchEverywhereHistoryKey" value="animate&#9;FILE&#9;file:///home/martina/Desktop/Symfony/mathinmed/web/bundles/app/templateEvanto/css/animate.css" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/public/downloads" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/Personal/BabinskaMartina/Includes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Controller/Personal" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Controller/Book" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Controller/Teacher" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Controller/Student" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers" />
-      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/public/downloads" />
-      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers" />
-      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/Book/FirstChapter/Includes" />
-      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/Personal/BabinskaMartina/Includes" />
     </key>
   </component>
   <component name="RunManager">
@@ -753,12 +779,12 @@
       <workItem from="1524575643025" duration="8414000" />
       <workItem from="1524755426838" duration="639000" />
       <workItem from="1527062168052" duration="7187000" />
-      <workItem from="1529329705959" duration="1468000" />
+      <workItem from="1529329705959" duration="4764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337812000" />
+    <option name="totallyTimeSpent" value="341108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,27 +848,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/Includes/slider.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5688">
-          <caret line="316" column="49" lean-forward="true" selection-start-line="316" selection-start-column="49" selection-end-line="316" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Student/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Personal/BabinskaMartinaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/app/template/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -976,13 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-1.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/app/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -997,31 +995,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-2.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="115" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/helper.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/public/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-3.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1101,13 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/rightNavbar.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="85" lean-forward="false" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/answer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -1143,14 +1113,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Answers/answer-1-6.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1175,10 +1137,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/rightNavbar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="85" lean-forward="false" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/helper.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="64" column="62" lean-forward="false" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-4.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-5.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-6.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-2.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="96" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-3.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="96" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.en.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="21" />
+        <state relative-caret-position="208">
+          <caret line="103" column="46" lean-forward="false" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/public/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="82" column="22" lean-forward="false" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Book/Includes/Helpers/helper-1-1.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding />
         </state>
       </provider>
