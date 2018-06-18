@@ -85,6 +85,10 @@ right_navbar:
   book.answer14.text2: Expiratory Reserve Volume is approximately 0.82 liter.
   book.answer14.text3: Inspiratory Reserve Volume is approximately 1.02 liter.
   book.answer14.text4: There was a small change in an exhaled air at the end of the Spirometry - patient exhaled deeper. Mentioned change is caused by a forced exhalation in 9 - 11 second and we can neglect it in our counts.
+  book.answer15.text1: Tidal volume of a healthy, 56 years old man, non-smoker who is 171 cm tall is lying in an interval <0.61 l ; 0.73 l> (15% - 18% of FVC of a healthy man, non-smoker, who has requested high and age).
+  book.answer15.text2: Expiratory Reserve Volume of a healthy, 56 years old man, non-smoker who is 171 cm tall is 1.02 liter.
+  book.answer15.text3: Inspiratory Reserve Volume of a healthy, 56 years old man, non-smoker who is 171 cm tall is 2.44 liter.
+  book.answer15.text4: Our patient's measured values in comparison to the values of a healthy man, 56 years old, non-smoker, who is 171 cm tall.
   book.answer15.table11: 56 YEARS OLD MAN, 171 cm
   book.answer15.table12: FVC [l]
   book.answer15.table13: TV [l]
@@ -92,7 +96,7 @@ right_navbar:
   book.answer15.table15: IRV [l]
   book.answer15.table21: MEASURED/PATIENT'S VALUES
   book.answer15.table31: IDEAL/TABLE VALUES
-  book.answer16.text1: Is the y-location (location against the volume ax) of a spirometry curve important? Is there any change on TV, IRV, ERV and FVC if we move it above/below?
+  book.answer16.text1: Is the y-location (location against the volume ax-axis) of a spirometry curve important? Is there any change on TV, IRV, ERV and FVC if we move it above/below?
   book.helpers: Helpers
   book.helper: Helper
   book.helper11.text1: Firstly, it is necessary to understand the graph we are working with.
