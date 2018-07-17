@@ -32,15 +32,21 @@ app_book_first_capture_game:
     requirements:
         _locale:  en|sk
 
-app_students_main_introudction:
+app_students_main_introduction:
     path:     /{_locale}/students/introduction
     defaults: { _controller: AppBundle:Student/Main:introduction, _locale: en }
     requirements:
         _locale:  en|sk
 
-app_teachers_main_introudction:
+app_teachers_main_introduction:
     path:     /{_locale}/teachers/introduction
     defaults: { _controller: AppBundle:Teacher/Main:introduction, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_researchers_main_resources:
+    path:     /{_locale}/researchers/resources
+    defaults: { _controller: AppBundle:Researcher/Main:resources, _locale: en }
     requirements:
         _locale:  en|sk
 
@@ -49,3 +55,4 @@ app_personal_martina_babinska:
     defaults: { _controller: AppBundle:Personal/BabinskaMartina:introduction, _locale: en }
     requirements:
         _locale:  en|sk
+

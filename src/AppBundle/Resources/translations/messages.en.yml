@@ -10,7 +10,8 @@ main_navbar:
   continue: Continue
   mathinmed: Math Around Us
   tutoring: Preparation help
-  teachers: Teachers section
+  teachers: Teachers
+  researches: Researches
   developers: Developers
   here: HERE
   check_answer: Check your answer
@@ -426,3 +427,9 @@ book:
   diseases.part-12-text-3-2: Chronic obstructive pulmonary disease (COPD)
   diseases.part-13-text-1: The restrictive and obstructive disease combination can be caused by two different diseases where the first one is restrictive and the second one is obstructive.
   diseases.part-13-text-2: Another option is, if the disease causes both - restrictive as well as obstructive pulmonary defects. The example of this kind of disease is a cystic fibrosis.
+
+researcher:
+  materials.citation: One of the roles of theory is to protect us from the limits of our own experience, which inevitably narrow our thinking.
+  materials.author.citation: Jo Boaler
+  materials.citation2: Theory is a vehicle for 'thinking otherwise'
+  materials.author.citation2: Stephen Ball

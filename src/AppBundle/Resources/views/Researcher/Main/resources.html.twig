@@ -1,0 +1,55 @@
+{% extends "AppBundle::layout.html.twig" %}
+
+{% block content %}
+    <main class="cd-main-content">
+        {% include 'AppBundle:Default:Includes/slider.html.twig' %}
+
+        <div id="content">
+            <!--======= Testimonial STYLE =========-->
+            <!-- OUR CORE FEATURES -->
+            <section class="padding-top-80">
+                <div class="container">
+                    <!-- MAIN HEADING -->
+                    <div class="heading-block text-center" data-wow-delay="0.4s">
+                        <h3>{{ 'researcher.materials.citation'|trans }}</h3>
+                        <hr class="color">
+                        <span>{{ 'researcher.materials.author.citation'|trans }}</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonial Style 3 -->
+            <section class="testimonial style-3 bg-parallax padding-bottom-80 padding-top-80">
+                <div class="container">
+                    <ul class="row">
+
+                        <!-- Testi -->
+                        <li class="col-md-12 margin-bottom-50">
+                            <div class="testi-in">
+                                <!-- Avatar -->
+                                <div class="avatar">
+                                    {% image '@AppBundle/Resources/public/images/book/first-chapter/history-1.jpg' %}
+                                    <img src="{{ asset_url }}" alt="Math is a set of formulas"
+                                         class="img-circle img-responsive">
+                                    {% endimage %}
+                                </div>
+
+                                <p>
+                                    <b>Boaler, J. 2002: </b>
+                                    <a href="https://www.amazon.com/Experiencing-School-Mathematics-Traditional-Mathematical/dp/0805840044/ref=mt_hardcover?_encoding=UTF8&me=&qid=&dpID=41G7mGUQ9ZL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=detail">
+                                        Experiencing School Mathematics: Traditional and Reform Approaches To Teaching and Their Impact on Student Learning
+                                    </a>
+                                </p>
+
+                                <h6>Mathematics =? collection of disconnected, standard procedures</h6>
+                                <span>In the UK and USA mathematics is believed by many students to be a collection of disconnected, standard procedures</span>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+{% endblock %}
