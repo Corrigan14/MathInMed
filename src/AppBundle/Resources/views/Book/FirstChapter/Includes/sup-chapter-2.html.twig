@@ -1,4 +1,4 @@
-<section id="problem1-3" class="blog">
+<section id="chapter12" class="blog">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -32,8 +32,11 @@
     </div>
 </section>
 
+{#QUESTIONS#}
 <section class="padding-bottom-60 padding-top-30">
     <div  class="container">
+
+        {#QUESTION 1.3#}
         <div class="row">
             <div class="col-md-2">
                 <h6 class="problem">{{ 'book.problem'|trans }} 1.3:</h6>
@@ -42,7 +45,7 @@
                 <h6 class="problem">{{ 'book.first-chapter.problem-1-3-1'|trans }} </h6>
                 <h6>
                     ( {{ 'book.first-chapter.problem-1-3-2'|trans }}
-                    <span class="text-color-primary" onclick="toggleText(2)">
+                    <span class="text-color-primary" onclick="toggleText('-pulmonary-diseases-1')">
                         {{ 'book.first-chapter.problem-1-3-3'|trans }}
                     </span>)
                 </h6>
@@ -50,7 +53,7 @@
         </div>
     </div>
 
-    <div id="text2" class="container hide-element margin-top-20 margin-bottom-20">
+    <div id="text-pulmonary-diseases-1" class="container hide-element margin-top-20 margin-bottom-20">
         {% include 'AppBundle:Book:FirstChapter/Includes/pulmonary-diseases.html.twig' %}
     </div>
 </section>

@@ -6,6 +6,12 @@
     display: block;
 }
 
+.scrollable {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .min-height-200 {
     min-height: 200px;
 }
@@ -19,8 +25,23 @@
 }
 
 .white-font {
-    color: black;
-!important;
+    color: black;  !important;
+}
+
+.red-font{
+    color: #D22C2C;
+}
+.green-font{
+    color: #009900;
+}
+.blue-font{
+    color: #000099;
+}
+.orange-font{
+    color: #FF9933;
+}
+.colour-font{
+    color: #009999;
 }
 
 .uppercase-transform {
@@ -34,4 +55,57 @@
 
 .orange-color {
     color: #f6b138 !important;
+}
+
+.blue-grey-color {
+    color: #2F4F4F !important;
+}
+
+.helper-section {
+    margin-left: 15px;
+}
+
+.red-small-text {
+    font-size: 12px !important;
+    line-height: 15px !important;
+    color: red !important;
+    font-weight: bold;
+}
+
+.smaller-p-tags p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #585858;
+}
+
+.h6-small-font-uppercase {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.h5-small-font-uppercase {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 0px 0px 0px !important;
+    color: #636363;
+}
+
+.h4-small-font-uppercase {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 20px 0px 0px 0px !important;
+    color: #636363;
+}
+
+.download-link a{
+    font-size: 16px;
+    color: #ff8000;
+}
+.download-link a:hover{
+    color: black;
 }

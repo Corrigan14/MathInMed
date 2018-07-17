@@ -1,0 +1,58 @@
+<div class="margin-bottom-20">
+    <p>
+        {{ 'right_navbar.book.helper11.text1-1'|trans }}
+        <span class="colour-font"><b>{{ 'right_navbar.book.helper11.text1-2'|trans }}</b></span>
+        {{ 'right_navbar.book.helper11.text1-3'|trans }}
+    </p>
+    <p class="margin-top-5">{{ 'right_navbar.book.helper11.text2'|trans }}</p>
+
+    <div class="margin-left-10">
+        <h6 class="h6-small-font-uppercase colour-font">{{ 'right_navbar.book.helper11.text3'|trans }}</h6>
+        <p><i>{{ 'right_navbar.book.helper11.text3-1'|trans }}</i></p>
+        <p class="margin-top-5">
+            {{ 'main_navbar.check_answer'|trans }}
+            <span class="text-color-primary"
+                  onclick="toggleText(toggleHelper(111))"><b>{{ 'main_navbar.here'|trans }}</b></span>
+        </p>
+
+        <div class="hide-element margin-top-10 margin-bottom-10" id="helper111">
+            {% image '@AppBundle/Resources/public/images/book/first-chapter/111-helper.png' %}
+            <img src="{{ asset_url }}" alt="Helper 1-1 graph">
+            {% endimage %}
+        </div>
+    </div>
+
+    <div class="margin-left-10">
+        <h6 class="h6-small-font-uppercase colour-font">{{ 'right_navbar.book.helper11.text4'|trans }}</h6>
+        <p><i>{{ 'book.note'|trans }}</i></p>
+        <p><i>{{ 'right_navbar.book.helper11.text4-1'|trans }}</i></p>
+        <p class="margin-top-5">
+            {{ 'main_navbar.check_answer'|trans }}
+            <span class="text-color-primary"
+                  onclick="toggleText(toggleHelper(112))"><b>{{ 'main_navbar.here'|trans }}</b></span>
+        </p>
+
+        <div class="hide-element margin-top-10 margin-bottom-10" id="helper112">
+            {% image '@AppBundle/Resources/public/images/book/first-chapter/112-helper.png' %}
+            <img src="{{ asset_url }}" alt="Helper 1-1 graph">
+            {% endimage %}
+        </div>
+    </div>
+
+    <div class="margin-left-10">
+        <h6 class="h6-small-font-uppercase colour-font">{{ 'right_navbar.book.helper11.text5'|trans }}</h6>
+        <p class="margin-top-5">
+            {{ 'main_navbar.check_answer'|trans }}
+            <span class="text-color-primary"
+                  onclick="toggleText(toggleHelper(113))"><b>{{ 'main_navbar.here'|trans }}</b></span>
+        </p>
+
+        <div class="hide-element margin-top-10 margin-bottom-10" id="helper113">
+            {% image '@AppBundle/Resources/public/images/book/first-chapter/113-helper.png' %}
+            <img src="{{ asset_url }}" alt="Helper 1-1 graph">
+            {% endimage %}
+        </div>
+    </div>
+
+    <p class="margin-top-15">{{ 'right_navbar.book.helper11.text6'|trans }}</p>
+</div>
