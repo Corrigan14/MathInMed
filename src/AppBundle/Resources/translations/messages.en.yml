@@ -103,7 +103,7 @@ right_navbar:
   book.helper11.text1-1: Firstly, it is necessary to
   book.helper11.text1-2: understand the graph
   book.helper11.text1-3:  we are working with.
-  book.helper11.text2: Try to answer the next questions:
+  book.helper11.text2: Try to answer the next questions
   book.helper11.text3: 1. Which Spirometry Curve parts are related to the patient's inhalations and which one to his exhalations?
   book.helper11.text3-1: To find an answer to this question, the imagine of a simple breathing can help. Try to close your eyes, inhale and exhale few times. Is the air volume in your lungs increasing or decreasing when you are inhaling air?
   book.helper11.text4: 2. When the patient's greatest exhalation started? (the exhalation during which patient exhaled the greatest volume of an air)
@@ -119,10 +119,26 @@ right_navbar:
   book.helper13.text1-3: (a link is available after problem 1.3 assignment)
   book.helper13.text2-1: What kind of a disease is signalized by a
   book.helper13.text2-2: reduced
-  book.helper14.text1: Try to go back to the text before problem 1.4, read it carefully again and pay attention to the graph.
-  book.helper14.text2:
-  book.helper14.text3:
-  book.helper15: helper 1.5
+  book.helper14.text1-1: Try to go back to the
+  book.helper14.text1-2: text before the problem 1.4
+  book.helper14.text1-3: read it carefully again and pay attention to the graph
+  book.helper14.text2-1: What exactly are describing concepts
+  book.helper14.text2-2: Tidal Volume, Expiratory Reserve Volume, Inspiratory Reserve Volume
+  book.helper14.text3-1: Which parts of
+  book.helper14.text3-2: our patient's Spirometry curve
+  book.helper14.text3-3: represent these volumes
+  book.helper15.text1-1: Try to go back to the
+  book.helper15.text1-2: text before the problem 1.4
+  book.helper15.text1-3: and read it carefully once again
+  book.helper15.text2-1: What
+  book.helper15.text2-2: Vital capacity
+  book.helper15.text2-3: should have a healthy man who is 56 years old and 171 centimeters tall
+  book.helper15.text3-1: What
+  book.helper15.text3-2: percentage of a Vital Capacity
+  book.helper15.text3-3: should be reached in Tidal Volume for a healthy human
+  book.helper15.text4: What percentage of a Vital Capacity should be reached in Expiratory and Inspiratory Reserve Volume
+  book.helper16.text1: What Tidal Volume, Expiratory Reserve Volume and Inspiratory Reserve Volume should he has
+  book.helper16.text2: Try to put these volumes to our patient's spirometry curve
   book.helper16: helper 1.6
   book.chat: Forum
   book.chat.work: We are preparing a new forum for you!
@@ -306,7 +322,7 @@ book:
   first-chapter.subchapter1.text1-6: Why do we need this information?
   first-chapter.subchapter1.text1-7: Our first task is to FIND PATIENT'S FORCED VITAL CAPACITY and to COMPARE IT with a table (predicted) value. If there is nearly no difference between these two values, we are not expecting patient's lung function problems.
   first-chapter.subchapter1.text2-1: The first patient
-  first-chapter.subchapter1.text2-2: Our first patient is a MAN, 56 years old, 171 centimeters high. The result of his spirometry assessment is the next spirometry curve (picture right).
+  first-chapter.subchapter1.text2-2: Our first patient is a MAN, 56 years old, 171 centimeters tall. The result of his spirometry assessment is the next spirometry curve (picture right).
   first-chapter.subchapter1.text2-3: (the volume represented on a graph is an air volume, inhaled and exhaled into/out of the patient's lung)
   first-chapter.subchapter1.help-question1-1: Do not you know
   first-chapter.subchapter1.help-question1-2: how to solve
