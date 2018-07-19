@@ -165,14 +165,14 @@ right_navbar:
   book.chat: Forum
   book.chat.work: We are preparing a new forum for you!
   book.chat.email.text1: If you have any questions or if you need a help, I will be glad to help you
-  book.chat.email.text2-1: Please send me an email
-  book.chat.email.text2-2: (babinskam@aol.com)
+  book.chat.email.text2: Please send me an email
 
 footer:
   headline: Creative team - SK
   headline.text1: Hi everybody! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud PhD. degree holder from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how. One of the effective ways is to discover it by yourself!
   headline.text2: Visit my profile Web-page
   email: E-mail
+  email.contact: martina.babinska.sk@gmail.com
   phone: Phone
   address: Address
   slovakia: Slovak Republic
