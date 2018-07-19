@@ -70,25 +70,43 @@ right_navbar:
   book.answers: Answers
   book.answer: Answer
   book.answer.text1: PLEASE NOTICE that the answers taken from the graph's data are only approximate! The difference between yours and our answers can be +-100ml.
-  book.answer11.text1: Our patient's Forced Vital Capacity is approximately 2340ml.
-  book.answer11.text2: If there is a big difference between yours and our answer, try to check the HELPER to this problem.
+  book.answer11.text1-1: Our patient's Forced Vital Capacity is
+  book.answer11.text1-2: approximately 2340ml
+  book.answer11.text2: If there is a big difference between yours and our answer, try to check the HELPER to this problem
   book.answer11.text3: bulb picture
-  book.answer12.text1: Yes, there is a difference.
-  book.answer12.text2: Forced Vital Capacity of a healthy, 56 years old man who is 171cm high should be 4.06l, but the patient's measured FVC is 2.34l.
+  book.answer12.text1-1: Yes,
+  book.answer12.text1-2: there is a difference
+  book.answer12.text2: Forced Vital Capacity of a healthy, 56 years old man who is 171cm tall should be 4.06l, but the patient's measured FVC is 2.34l.
   book.answer12.text3: Our patient's Forced Vital capacity is
   book.answer12.text4: decreased
   book.answer13.text1: There can be
   book.answer13.text2: Restrictive lung disease
-  book.answer13.text3: expected.
-  book.answer13.text4: But, to affirm patient's Restrictive lung disease suspicion, it is necessary to know other parameters values like Forced expiratory volume in 1 second (FEV1) or Peak expiratory flow (PEF).
+  book.answer13.text3: expected
+  book.answer13.text4-1: but
+  book.answer13.text4-2: to affirm this suspicion
+  book.answer13.text4-3: it is necessary to know other parameters' values like Forced expiratory volume in 1 second (FEV1) or Peak expiratory flow (PEF).
   book.answer13.text5: Missing parameters are discussed and can be discovered and understood in the next chapters.
-  book.answer14.text1: Our patient's Tidal Volume is approximately 0.5 liter:
-  book.answer14.text2: Expiratory Reserve Volume is approximately 0.82 liter.
-  book.answer14.text3: Inspiratory Reserve Volume is approximately 1.02 liter.
+  book.answer14.text1-1: Our patient's
+  book.answer14.text1-2: Tidal Volume
+  book.answer14.text1-3: is approximately
+  book.answer14.text1-4: 0.5 liter
+  book.answer14.text2-1: Expiratory Reserve Volume
+  book.answer14.text2-2: is approximately
+  book.answer14.text2-3: 0.82 liter
+  book.answer14.text3-1: Inspiratory Reserve Volume
+  book.answer14.text3-2: is approximately
+  book.answer14.text3-3: 1.02 liter
   book.answer14.text4: There was a small change in an exhaled air at the end of the Spirometry - patient exhaled deeper. Mentioned change is caused by a forced exhalation in 9 - 11 second and we can neglect it in our counts.
-  book.answer15.text1: Tidal volume of a healthy, 56 years old man, non-smoker who is 171 cm tall is lying in an interval <0.61 l ; 0.73 l> (15% - 18% of FVC of a healthy man, non-smoker, who has requested high and age).
-  book.answer15.text2: Expiratory Reserve Volume of a healthy, 56 years old man, non-smoker who is 171 cm tall is 1.02 liter.
-  book.answer15.text3: Inspiratory Reserve Volume of a healthy, 56 years old man, non-smoker who is 171 cm tall is 2.44 liter.
+  book.answer15.text1-1: Tidal volume
+  book.answer15.text1-2: of a healthy, 56 years old man, non-smoker who is 171 cm tall
+  book.answer15.text1-3: is lying in an interval <0.61 l ; 0.73 l>
+  book.answer15.text1-4: (15% - 18% of FVC of a healthy man, non-smoker, who has requested high and age)
+  book.answer15.text2-1: Expiratory Reserve Volume
+  book.answer15.text2-2: of a healthy, 56 years old man, non-smoker who is 171 cm tall is
+  book.answer15.text2-3: 1.02 liter
+  book.answer15.text3-1: Inspiratory Reserve Volume
+  book.answer15.text3-2: of a healthy, 56 years old man, non-smoker who is 171 cm tall is
+  book.answer15.text3-3: 2.44 liter
   book.answer15.text4: Our patient's measured values in comparison to the values of a healthy man, 56 years old, non-smoker, who is 171 cm tall.
   book.answer15.table11: 56 YEARS OLD MAN, 171 cm
   book.answer15.table12: FVC [l]
@@ -137,12 +155,18 @@ right_navbar:
   book.helper15.text3-2: percentage of a Vital Capacity
   book.helper15.text3-3: should be reached in Tidal Volume for a healthy human
   book.helper15.text4: What percentage of a Vital Capacity should be reached in Expiratory and Inspiratory Reserve Volume
-  book.helper16.text1: What Tidal Volume, Expiratory Reserve Volume and Inspiratory Reserve Volume should he has
-  book.helper16.text2: Try to put these volumes to our patient's spirometry curve
+  book.helper16.text1-1: What
+  book.helper16.text1-2: Tidal Volume, Expiratory Reserve Volume and Inspiratory Reserve Volume
+  book.helper16.text1-3: should he has
+  book.helper16.text2-1: Try to
+  book.helper16.text2-2: put these volumes
+  book.helper16.text2-3: to our patient's spirometry curve
   book.helper16: helper 1.6
   book.chat: Forum
   book.chat.work: We are preparing a new forum for you!
-  book.chat.email: If you have any questions or if you need a help, I will be glad to help you! Please send me an email (babinskam@aol.com)
+  book.chat.email.text1: If you have any questions or if you need a help, I will be glad to help you
+  book.chat.email.text2-1: Please send me an email
+  book.chat.email.text2-2: (babinskam@aol.com)
 
 footer:
   headline: Creative team - SK
