@@ -260,6 +260,7 @@ book:
   note: Note
   thinkabout: something to think about
   FVC: Forced Vital Capacity
+  doctors.view.header: How does Doctor view Spirometry Result?
   historical-block-headline: A piece of history
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
@@ -336,7 +337,7 @@ book:
   result.part7.text7-2: LEFT MENU
   result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu will be opened.
   result.part7.text7-3-2: This menu allows the quick orientation between the Spirometry result parts and its tasks.
-  result.nextPage: Let's look on a first result part - Spirometry Curve
+  result.nextPage: Let's look on a first results' part - Spirometry Curve
   first-chapter.subchapter1.headline:
   first-chapter.subchapter1.text1-1: One of the main patient's respiratory problem indicators is a (FORCED) VITAL CAPACITY denoted by FVC.
   first-chapter.subchapter1.text1-2: FVC represents the volume of air maximally fiercely breathed out after the deep inhalation.
@@ -409,6 +410,21 @@ book:
   first-chapter.problem-1-6-2: and create (to the same chart) the second one - spiromtery curve of a healthy, 56-years old man, non-smoker, 171cm tall.
   first-chapter.problem-1-6-3: Created curve is called
   first-chapter.problem-1-6-4: comparative curve
+  first-chapter.result.text1-1: COLORFULY
+  first-chapter.result.text1-2: BORDERED
+  first-chapter.result.text1-3: result's parts we already understand!
+  first-chapter.result.text2-1: RED BORDERED GRAPH
+  first-chapter.result.text2-2: It is a different representation of a Spirometry curve of the previously solved problems (problem 1.1 - 1.6)
+  first-chapter.result.text2-3: The first rectangle represents healthy human's (predict) RV, ERV, IRV and TV values.
+  first-chapter.result.text2-4: The second and the third rectangle represent the patient's results (the first one - stats from the first measurement, the second one - stats from the second measurement).
+  first-chapter.result.text2-5: Comparing these three graphs, doctor can immediately recognize, if the patient's measured values are increased/decreased or normal.
+  first-chapter.result.text3-1: ORANGE BORDERED GRAPH
+  first-chapter.result.text3-2: The difference between FVC (Forced Vital Capacity) and VC (Slow Vital Capacity) is in the exhalation.
+  first-chapter.result.text3-3: If a doctor asks a patient to exhale calmly and slowly, we are talking about Slow Vital Capacity.
+  first-chapter.result.text3-4: Contrarily, if the patient is exhaling forcefully and quickly, we are talking about Forced Vital Capacity.
+  first-chapter.result.text3-5: Exhaled air volume should be equal in both exhalation ways for a healthy human. If there is a big difference, we can expect Obstructive disease in our patient.
+  first-chapter.result.text3-6: In our problems we are not differentiating between values FVC and VC. We are always using FVC as a patient's Vital Capacity.
+  first-chapter.result.next: Finally... GAME TIME
   first-chapter.historical-block-text-1-1: There were many famous doctors studying human Vital Capacity during the last centuries.
   first-chapter.historical-block-text-1-2: One of the first was Galen, well-known famous Greek doctor (2th century).
   first-chapter.historical-block-text-1-3: Later, Giovannin Alfonso Borelli (1679) rapidly increased the measurement accuracy, using the patient's nose blocking.
