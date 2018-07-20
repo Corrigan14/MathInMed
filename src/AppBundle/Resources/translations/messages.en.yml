@@ -261,6 +261,7 @@ book:
   thinkabout: something to think about
   FVC: Forced Vital Capacity
   doctors.view.header: How does Doctor view Spirometry Result?
+  next.chapter: Next chapter
   historical-block-headline: A piece of history
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
@@ -483,6 +484,26 @@ book:
   diseases.part-12-text-3-2: Chronic obstructive pulmonary disease (COPD)
   diseases.part-13-text-1: The restrictive and obstructive disease combination can be caused by two different diseases where the first one is restrictive and the second one is obstructive.
   diseases.part-13-text-2: Another option is, if the disease causes both - restrictive as well as obstructive pulmonary defects. The example of this kind of disease is a cystic fibrosis.
+
+  game.header: A little bit of fun :)
+  game.task: task
+  game.joke.beginning.text-1: A physicist, a mathematician, and a computer programmer are discussing which is better to get, a wife or a lover.
+  game.joke.beginning.text-2-1: Physicist
+  game.joke.beginning.text-2-2: A lover. There is still space to experiment.
+  game.joke.beginning.text-3-1: Mathematician
+  game.joke.beginning.text-3-2: A wife. You know what you can expect.
+  game.joke.beginning.text-4-1: Computer programmer
+  game.joke.beginning.text-4-2: Both. ...
+  game.joke.end:
+  game.introduction.text1: Do you want to know how the joke continues?
+  game.introduction.text2: You can get if you find a solution of special short tasks at the end of every main chapter. These tasks are marked by sign
+  game.introduction.text3-1:
+  game.introduction.text3-2:
+  game.introduction.text3-3:
+  game.introduction.text4: We wish you a great time!
+  game.kryptlogy.header: Kryptology
+  game.kryptlogy.text1-1:
+
 
 researcher:
   materials.citation: One of the roles of theory is to protect us from the limits of our own experience, which inevitably narrow our thinking.

@@ -7,9 +7,9 @@
         {% include 'AppBundle:Book:Includes/slider.html.twig' %}
 
         <div id="content">
+            {#MAIN HEADING#}
             <section id="entry-chapter-text" class="padding-top-80">
                 <div class="container">
-                    <!-- MAIN HEADING -->
                     <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
                         <h3>{{ 'left_navbar.book.chapter1'|trans }}</h3>
                         <hr class="color">
@@ -17,16 +17,16 @@
                 </div>
             </section>
 
-            <!-- First Chapter -->
+            {#FIRST CHAPTER#}
             {% include 'AppBundle:Book:FirstChapter/Includes/sup-chapter-1.html.twig' %}
 
-            <!-- Second Chapter -->
+            {#SECOND CHAPTER#}
             {% include 'AppBundle:Book:FirstChapter/Includes/sup-chapter-2.html.twig' %}
 
-            <!-- Third Chapter -->
+            {#THIRD CHAPTER#}
             {% include 'AppBundle:Book:FirstChapter/Includes/sup-chapter-3.html.twig' %}
 
-            <!-- Next Chapter - Doctors View -->
+            {#NEXT CHAPTER: DOCTORS VIEW#}
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
@@ -36,6 +36,7 @@
                     </div>
                 </div>
             </section>
+
         </div>
     </main>
 {% endblock %}

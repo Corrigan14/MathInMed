@@ -19,6 +19,9 @@
 .max-height-500 {
     max-height: 500px;
 }
+.max-width-200{
+    max-width: 200px;
+}
 
 .margin-top-150{
     margin-top: 150px;
@@ -116,4 +119,14 @@
 }
 .download-link a:hover{
     color: black;
+}
+
+.information-box-picture{
+    position: relative;
+    top: -100px
+}
+.information-box-text{
+    position: relative;
+    top: -50px;
+    margin-bottom: 0px;
 }

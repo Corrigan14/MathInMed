@@ -6,15 +6,44 @@
     <main class="cd-main-content">
         {% include 'AppBundle:Book:Includes/slider.html.twig' %}
 
-        <p>GAME</p>
-
         <div id="content">
-            <!-- Next page -->
+            {#MAIN HEADING#}
+            <section id="entry-chapter-text" class="padding-top-80">
+                <div class="container">
+                    <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
+                        <h3>{{ 'book.game.header'|trans }}</h3>
+                        <hr class="color">
+                    </div>
+                </div>
+            </section>
+
+            {#INTRODUCTION#}
+            {% include 'AppBundle:Book:FirstChapter/Includes/Game/introduction.html.twig' %}
+
+
+            {#NEXT CHAPTER#}
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
+                    {#NEXT CHAPTER: GAME TASKS#}
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
                         <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
-                            {{ 'book.introduction.nextPage'|trans }}
+                            {{ 'book.game.task'|trans }} I
+                        </a>
+                        <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
+                            {{ 'book.game.task'|trans }} II
+                        </a>
+                        <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
+                            {{ 'book.game.task'|trans }} III
+                        </a>
+                        <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
+                            {{ 'book.game.task'|trans }} IV
+                        </a>
+                    </div>
+
+                    {#NEXT CHAPTER: CHAPTER 2#}
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
+                            {{ 'book.next.chapter'|trans }}: {{ 'left_navbar.book.chapter2'|trans }}
                         </a>
                     </div>
                 </div>
