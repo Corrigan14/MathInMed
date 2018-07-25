@@ -1,0 +1,98 @@
+{# JOKE #}
+<section class="testimonial style-4 padding-bottom-80 padding-top-20">
+    <div class="container">
+        <div class="testi">
+            <div class="text-in">
+                <p class="font-crimson margin-0">
+                    {{ 'book.game.joke.beginning.text-1'|trans }}
+                </p>
+                <p class="font-crimson margin-0">
+                    {{ 'book.game.joke.beginning.text-2-1'|trans }}:
+                    "{{ 'book.game.joke.beginning.text-2-2'|trans }}"
+                </p>
+                <p class="font-crimson margin-0">
+                    {{ 'book.game.joke.beginning.text-3-1'|trans }}:
+                    "{{ 'book.game.joke.beginning.text-3-2'|trans }}"
+                </p>
+                <p class="font-crimson margin-0">
+                    {{ 'book.game.joke.beginning.text-4-1'|trans }}:
+                    "{{ 'book.game.joke.beginning.text-4-2'|trans }}"
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="padding-bottom-80">
+    <div class="container">
+        <div class="row">
+            {# RULES EXPLANATION #}
+            <div class="col-md-6 relative margin-top-40">
+                <p>  {{ 'book.game.introduction.text1'|trans }}</p>
+                <p>
+                    {{ 'book.game.introduction.text2'|trans }}:
+                    <span class="uppercase-transform colour-font"><b>"{{ 'book.game.header'|trans }}"</b></span>
+                </p>
+                <p>
+                    {{ 'book.game.introduction.text3-1'|trans }}
+                    <span class="colour-font"><b>{{ 'book.game.introduction.text3-2'|trans }}</b></span>.
+                    {{ 'book.game.introduction.text3-3'|trans }}
+                    <span class="colour-font"><b>{{ 'book.game.introduction.text3-4'|trans }}</b></span>.
+                </p>
+                <h5 class="h5-small-font-uppercase margin-top-25">
+                    {{ 'book.game.introduction.text4'|trans }}?
+                </h5>
+                <p>
+                    {{ 'book.game.introduction.text5-1'|trans }}
+                    {{ 'book.game.introduction.text5-2'|trans }}
+                    <span>
+                        <b>
+                            <a href="#" class="text-color-primary">
+                            {{ 'book.game.introduction.text5-3'|trans }}
+                            </a>
+                        </b>
+                    </span>.
+                </p>
+                <p>
+                    {{ 'book.game.introduction.text6'|trans }}
+                </p>
+            </div>
+
+            {# KRYPTOLOGY FACTS #}
+            <div class="col-md-6">
+                <div class="icon-box ib-style-5 ib-center ib-text-alt ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-circle">
+                    <div class="ib-icon">
+                        {% image '@AppBundle/Resources/public/images/book/cipher.png' %}
+                        <img src="{{ asset_url }}" alt="Cryptography" style="max-height: 80px">
+                        {% endimage %}
+                    </div>
+                    <div class="ib-info">
+                        <h4 class="h6">{{ 'book.game.kryptlogy.header'|trans }}</h4>
+                        <p>
+                            {{ 'book.game.kryptlogy.text1-1'|trans }}
+                            <span class=""><b>{{ 'book.game.kryptlogy.text1-2'|trans }}</b></span>.
+                        </p>
+                        <p>
+                            {{ 'book.game.kryptlogy.text2-1'|trans }}
+                            <span class=""><b>{{ 'book.game.kryptlogy.text2-2'|trans }}</b></span>.
+                        </p>
+                        <p>
+                            {{ 'book.game.kryptlogy.text3'|trans }}.
+                        </p>
+
+                        <h4 class="h6 margin-top-30">{{ 'book.game.kryptlogy.history'|trans }}</h4>
+                        <p>
+                            {{ 'book.game.kryptlogy.text4'|trans }}.
+                        </p>
+                        <p>
+                            {{ 'book.game.kryptlogy.text5'|trans }}.
+                            {{ 'book.game.kryptlogy.text6'|trans }}.
+                            {{ 'book.game.kryptlogy.text7'|trans }}
+                            {{ 'book.game.kryptlogy.text8'|trans }}.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

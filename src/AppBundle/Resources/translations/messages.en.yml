@@ -2,6 +2,7 @@ motto: Why do we have to learn that???
 
 basic_words:
   download_print: DOWNLOAD TO PRINT
+  part: part
 
 main_navbar:
   about: About
@@ -64,7 +65,9 @@ left_navbar:
   book.chapter34: Rise Over the Run ... Let's Repeat That
   book.chapter35:  Flow-Volume Loop - Doctor's view
   book.chapter3game: Game - part 3
-  book.game: Game - Encode The Answer :)
+  book.game: Game
+  book.game.instruction: Instruction
+  book.game.decode: Decode The Answer
 
 right_navbar:
   book.answers: Answers
@@ -485,7 +488,7 @@ book:
   diseases.part-13-text-1: The restrictive and obstructive disease combination can be caused by two different diseases where the first one is restrictive and the second one is obstructive.
   diseases.part-13-text-2: Another option is, if the disease causes both - restrictive as well as obstructive pulmonary defects. The example of this kind of disease is a cystic fibrosis.
 
-  game.header: A little bit of fun :)
+  game.header: A game time
   game.task: task
   game.joke.beginning.text-1: A physicist, a mathematician, and a computer programmer are discussing which is better to get, a wife or a lover.
   game.joke.beginning.text-2-1: Physicist
@@ -496,14 +499,28 @@ book:
   game.joke.beginning.text-4-2: Both. ...
   game.joke.end:
   game.introduction.text1: Do you want to know how the joke continues?
-  game.introduction.text2: You can get if you find a solution of special short tasks at the end of every main chapter. These tasks are marked by sign
-  game.introduction.text3-1:
-  game.introduction.text3-2:
-  game.introduction.text3-3:
-  game.introduction.text4: We wish you a great time!
-  game.kryptlogy.header: Kryptology
-  game.kryptlogy.text1-1:
-
+  game.introduction.text2: You can get if you find a solution of special short tasks at the end of every main chapter. These tasks are marked by a sign
+  game.introduction.text3-1: In solving any task you get a
+  game.introduction.text3-2: group of letters
+  game.introduction.text3-3: These letters have to be kept because they are a part of a
+  game.introduction.text3-4: code
+  game.introduction.text4: Code
+  game.introduction.text5-1: Yes! A cipher - or code which has to be decoded first to understand the text it hides.
+  game.introduction.text5-2: Decoding algorithm will be found at the
+  game.introduction.text5-3: end of a game
+  game.introduction.text6: We wish you a great time!
+  game.kryptlogy.header: Cryptography & cryptology
+  game.kryptlogy.history: History
+  game.kryptlogy.text1-1: Cryptology is a scince concerned with a
+  game.kryptlogy.text1-2: secure communication
+  game.kryptlogy.text2-1: Cryptography, a special part of cryptology, is concerned with a
+  game.kryptlogy.text2-2: design and research of ciphers (codes) and cipher devices
+  game.kryptlogy.text3: The main goal of ciphers is to transform text to unreadable form
+  game.kryptlogy.text4: If we look into the history, we are finding thousands years old ciphers
+  game.kryptlogy.text5: Special hieroglyphs used in an ancient Egypt are denoted to be one of the first encrypting tries
+  game.kryptlogy.text6: Later, we are finding simple substitution cipher (well known is e.g. ATBASH - Hebrews philosophers substitution cipher)
+  game.kryptlogy.text7: From the beginning of the first century, there was discovered a simple transposition cipher, probably used in an ancient Sparta,
+  game.kryptlogy.text8: or Caesar's cipher used in an ancient Rome
 
 researcher:
   materials.citation: One of the roles of theory is to protect us from the limits of our own experience, which inevitably narrow our thinking.

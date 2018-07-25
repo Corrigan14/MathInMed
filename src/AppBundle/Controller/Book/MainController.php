@@ -33,4 +33,15 @@ class MainController extends Controller
     {
         return [];
     }
+
+    /**
+     * @Template()
+     *
+     * @param string|bool $locale
+     * @return array
+     */
+    public function gameInstructionAction($locale = false):array
+    {
+        return [];
+    }
 }

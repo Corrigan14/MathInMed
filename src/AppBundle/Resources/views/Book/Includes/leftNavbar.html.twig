@@ -19,7 +19,7 @@
                 <li><a href="{{ path('app_book_first_capture_tasks') }}#chapter12">{{ 'left_navbar.book.chapter12'|trans }}</a></li>
                 <li><a href="{{ path('app_book_first_capture_tasks') }}#chapter13">{{ 'left_navbar.book.chapter13'|trans }}</a></li>
                 <li><a href="{{ path('app_book_first_capture_result') }}#chapter1-doctors-view">{{ 'left_navbar.book.chapter14'|trans }}</a></li>
-                <li><a href="{{ path('app_book_first_capture_game') }}#chapter1-game">{{ 'left_navbar.book.chapter1game'|trans }}</a></li>
+                <li><a href="{{ path('app_book_first_chapter_game') }}#chapter1-game">{{ 'left_navbar.book.chapter1game'|trans }}</a></li>
             </ul>
         </li>
         <li class="item-has-children"><a href="#.">{{ 'left_navbar.book.chapter2'|trans }}</a>
@@ -41,6 +41,14 @@
                 <li><a href="#">{{ 'left_navbar.book.chapter3game'|trans }}</a></li>
             </ul>
         </li>
-        <li><a href="#">{{ 'left_navbar.book.game'|trans }}</a></li>
+        <li class="item-has-children"><a href="#.">{{ 'left_navbar.book.game'|trans }}</a>
+            <ul class="sub-menu">
+                <li><a href="{{ path('app_book_main_game_instruction') }}">{{ 'left_navbar.book.game.instruction'|trans }}</a></li>
+                <li><a href="{{ path('app_book_first_chapter_game') }}">{{ 'basic_words.part'|trans }} I</a></li>
+                <li><a href="#">{{ 'basic_words.part'|trans }} II</a></li>
+                <li><a href="#">{{ 'basic_words.part'|trans }} III</a></li>
+                <li><a href="#">{{ 'left_navbar.book.game.decode'|trans }}</a></li>
+             </ul>
+        </li>
     </ul>
 </nav>

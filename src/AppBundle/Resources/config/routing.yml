@@ -14,20 +14,26 @@ app_book_main_result:
     requirements:
         _locale:  en|sk
 
+app_book_main_game_instruction:
+    path:     /{_locale}/book/game-instruction
+    defaults: { _controller: AppBundle:Book/Main:gameInstruction, _locale: en }
+    requirements:
+        _locale:  en|sk
+
 app_book_first_capture_tasks:
-    path:     /{_locale}/book/first-capture/tasks
+    path:     /{_locale}/book/first-chapter/tasks
     defaults: { _controller: AppBundle:Book/FirstChapter:tasks, _locale: en }
     requirements:
         _locale:  en|sk
 
 app_book_first_capture_result:
-    path:     /{_locale}/book/first-capture/spirometry-result
+    path:     /{_locale}/book/first-chapter/spirometry-result
     defaults: { _controller: AppBundle:Book/FirstChapter:result, _locale: en }
     requirements:
         _locale:  en|sk
 
-app_book_first_capture_game:
-    path:     /{_locale}/book/first-capture/game
+app_book_first_chapter_game:
+    path:     /{_locale}/book/first-chapter/game
     defaults: { _controller: AppBundle:Book/FirstChapter:game, _locale: en }
     requirements:
         _locale:  en|sk
