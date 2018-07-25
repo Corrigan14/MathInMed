@@ -521,6 +521,26 @@ book:
   game.kryptlogy.text6: Later, we are finding simple substitution cipher (well known is e.g. ATBASH - Hebrews philosophers substitution cipher)
   game.kryptlogy.text7: From the beginning of the first century, there was discovered a simple transposition cipher, probably used in an ancient Sparta,
   game.kryptlogy.text8: or Caesar's cipher used in an ancient Rome
+  game.part1.text1-1: The next tasks prepare you (or remind you) school tasks related to
+  game.part1.text1-2: functions and its graphs
+  game.part1.text2: Do not be worried about its difficulty!
+  game.part1.text3-1: If you successfully passed problems in the previous chapter
+  game.part1.text3-2: Spirometry Curve
+  game.part1.text3-3: it will be easy for you ;)
+  game.part1.task1.header: Spirometry game
+  game.part1.task1.text1: Medical students had a good time trying spirometry assessment
+  game.part1.task1.text2-1: Finn
+  game.part1.task1.text2-2: I did not breath at the beginning of the assessment for 3 seconds
+  game.part1.task1.text3-1: Matias
+  game.part1.task1.text3-2: I inhaled deeply before we started so I had an opportunity to exhale deeply exactly at the beginning of the assessment
+  game.part1.task1.text4-1: Sophi
+  game.part1.task1.text4-2: I stopped breathing for a while after every inhalation
+  game.part1.task1.text5-1: Hana
+  game.part1.task1.text5-2: It is not possible to measure Vital Capacity based on my spirometry result
+  game.part1.task1.text6-1: Find authors of the next spirometry curves. The correct answer is made by a pair
+  game.part1.task1.text6-2: the first letter of a student's name + number of a spirometry curve
+  game.part1.task1.text7-1: Choose and remember the code (cipher) related to your answer in an
+  game.part1.task1.text7-2: answer table
 
 researcher:
   materials.citation: One of the roles of theory is to protect us from the limits of our own experience, which inevitably narrow our thinking.
