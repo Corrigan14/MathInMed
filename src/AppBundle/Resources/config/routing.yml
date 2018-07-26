@@ -38,6 +38,12 @@ app_book_first_chapter_game:
     requirements:
         _locale:  en|sk
 
+app_book_first_chapter_history_mathematicians:
+    path:     /{_locale}/book/first-chapter/history-mathematicians
+    defaults: { _controller: AppBundle:Book/FirstChapter:historyMathematicians, _locale: en }
+    requirements:
+        _locale:  en|sk
+
 app_students_main_introduction:
     path:     /{_locale}/students/introduction
     defaults: { _controller: AppBundle:Student/Main:introduction, _locale: en }

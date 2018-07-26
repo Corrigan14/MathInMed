@@ -39,7 +39,7 @@
             </section>
 
             {#GAME TASKS#}
-            <section class="padding-bottom-50">
+            <section class="padding-bottom-80">
                 <div class="container">
                     <div class="process">
                         <div class="process-style-1 margin-top-30">
@@ -47,7 +47,7 @@
                                 <!-- 1 -->
                                 <li onclick="toggleGameTask('1')">
                                     <div class="thumb">
-                                        {% image '@AppBundle/Resources/public/images/book/game/stethoscope.jpg' %}
+                                        {% image '@AppBundle/Resources/public/images/book/game/task1-icon.jpg' %}
                                         <img src="{{ asset_url }}" alt="Reading">
                                         {% endimage %}
                                         <span style="background: rgba(0, 0, 0, 0.2)">01</span>
@@ -59,10 +59,10 @@
                                 <!-- 2 -->
                                 <li onclick="toggleGameTask('2')">
                                     <div class="thumb">
-                                        {% image '@AppBundle/Resources/public/images/book/game/think.png' %}
+                                        {% image '@AppBundle/Resources/public/images/book/game/task2-icon.jpg' %}
                                         <img src="{{ asset_url }}" alt="Helpers">
                                         {% endimage %}
-                                        <span style="background: rgba(0, 0, 0, 0.2)">02</span>
+                                        <span style="background: rgba(0, 0, 0, 0.1)">02</span>
                                     </div>
                                     <div class="margin-left-20 margin-right-20">
                                         <h6>{{ 'book.game.task'|trans }} II</h6>
@@ -71,10 +71,10 @@
                                 <!-- 3 -->
                                 <li onclick="toggleGameTask('3')">
                                     <div class="thumb">
-                                        {% image '@AppBundle/Resources/public/images/book/first-chapter/screen-answers-arrow-small-2.png' %}
+                                        {% image '@AppBundle/Resources/public/images/book/game/task3-icon.png'  %}
                                         <img src="{{ asset_url }}" alt="Answers">
                                         {% endimage %}
-                                        <span style="background: rgba(0, 0, 0, 0.3)">03</span>
+                                        <span style="background: rgba(0, 0, 0, 0.2)">03</span>
                                     </div>
                                     <div class="margin-left-20 margin-right-20">
                                         <h6>{{ 'book.game.task'|trans }} III</h6>
@@ -83,10 +83,10 @@
                                 <!-- 4 -->
                                 <li onclick="toggleGameTask('4')">
                                     <div class="thumb">
-                                        {% image '@AppBundle/Resources/public/images/book/first-chapter/screen-forum-arrow-small-2.png' %}
+                                        {% image '@AppBundle/Resources/public/images/book/game/task4-icon.jpg'  %}
                                         <img src="{{ asset_url }}" alt="Forum">
                                         {% endimage %}
-                                        <span style="background: rgba(0, 0, 0, 0.3)">04</span>
+                                        <span style="background: rgba(0, 0, 0, 0.2)">04</span>
                                     </div>
                                     <div class="margin-left-20 margin-right-20">
                                         <h6>{{ 'book.game.task'|trans }} IV</h6>
@@ -96,22 +96,24 @@
                         </div>
                     </div>
                 </div>
+                {#GAME TASK 1#}
+                {% include '@App/Book/FirstChapter/Includes/game-task-1.html.twig' %}
+                {#GAME TASK 2#}
+                {% include '@App/Book/FirstChapter/Includes/game-task-2.html.twig' %}
+                {#GAME TASK 3#}
+
+                {#GAME TASK 4#}
             </section>
-
-            {#GAME TASK 1#}
-            {% include '@App/Book/FirstChapter/Includes/game-task-1.html.twig' %}
-
-
-
-            {#FAMOUS MATHEMATICIANS#}
-            {% include '@App/Book/FirstChapter/Includes/game-famous-mathematicians.html.twig' %}
-
 
             {#NEXT CHAPTER#}
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
-                    {#NEXT CHAPTER: CHAPTER 2#}
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        {#FAMOUS MATHEMATICIANS#}
+                        <a href="{{ path('app_book_first_chapter_history_mathematicians') }}" class="btn btn-med gary">
+                            {{ 'book.history'|trans }}
+                        </a>
+                        {#NEXT CHAPTER: CHAPTER 2#}
                         <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
                             {{ 'book.next.chapter'|trans }}: {{ 'left_navbar.book.chapter2'|trans }}
                         </a>

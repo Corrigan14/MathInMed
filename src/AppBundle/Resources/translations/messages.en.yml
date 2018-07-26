@@ -267,6 +267,8 @@ book:
   next.chapter: Next chapter
   answer: Answer
   answer.table: Table of answers
+  history: A bit of history
+  back: Back
   historical-block-headline: A piece of history
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
@@ -544,6 +546,19 @@ book:
   game.part1.task1.text6-2: the first letter of a student's name + number of a spirometry curve
   game.part1.task1.text7-1: Choose and remember the code (cipher) related to your answer in an
   game.part1.task1.text7-2: answer table
+  game.part1.task2.header: Truth - yes or no?
+  game.part1.task2.text1-1: After the spirometry assessment our students (Finn, Matias, Sophi and Hana) got another task.
+  game.part1.task2.text1-2: They had to find volume of an air inhaled during their normal breathing.
+  game.part1.task2.text2-1: After a while Sophi said
+  game.part1.task2.text2-2: It is very interesting! The result is not changing if I am moving the graph of a spirometry curve across the paper.
+  game.part1.task2.text2-3: For example, like this!
+  game.part1.task2.text2-4: (look to the right graph)
+  game.part1.task2.text3-1: Is Sophi true?
+  game.part1.task2.text3-2: What is the volume of an inhaled air in Sophi's example?
+  game.part1.task2.answer1: Yes, Sophi is true. The volume of normally inhaled air is approximately 600 ml.
+  game.part1.task2.answer2: No, Sophi is not true.
+  game.part1.task2.answer3: We do not know.
+  game.part1.task2.answer4: Yes, Sophi is true. The volume of normally inhaled air is approximately 200 ml.
   game.part1.history.header: Famous mathematicians who merited development of Mathematical Functions
   game.part1.history.newton: We build too many walls and not enough bridges.
   game.part1.history.newton2: Calculus

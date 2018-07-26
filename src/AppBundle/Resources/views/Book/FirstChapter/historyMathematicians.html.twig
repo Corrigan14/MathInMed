@@ -1,0 +1,106 @@
+{% extends "AppBundle::layout.html.twig" %}
+
+{% block content %}
+    {% include 'AppBundle:Book:Includes/leftNavbar.html.twig' %}
+
+    <main class="cd-main-content">
+        {% include 'AppBundle:Book:Includes/slider.html.twig' %}
+
+        <div id="content">
+            {#MAIN HEADING#}
+            <section id="entry-chapter-text" class="padding-top-80">
+                <div class="container">
+                    <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
+                        <h3>{{ 'book.game.part1.history.header'|trans }}</h3>
+                        <hr class="color">
+                    </div>
+                </div>
+            </section>
+
+            {# MATHEMATICIANS #}
+            <section class="testimonial style-3 bg-parallax padding-bottom-80 padding-top-40 ">
+                <div class="container">
+                    <ul class="row">
+                        {# NEWTON #}
+                        <li class="col-md-6 margin-bottom-50">
+                            <div class="testi-in">
+                                <div class="avatar">
+                                    {% image '@AppBundle/Resources/public/images/book/game/newton2.jpg' %}
+                                    <img src="{{ asset_url }}" alt="Newton" class="img-circle img-responsive">
+                                    {% endimage %}
+                                </div>
+                                <p>{{ 'book.game.part1.history.newton2'|trans }}</p>
+                                <p>”{{ 'book.game.part1.history.newton'|trans }}”</p>
+                                <h6 class="uppercase-transform">Isaac Newton</h6>
+                                <span>1642 - 1727</span></div>
+                        </li>
+
+                        {# RIEMANN #}
+                        <li class="col-md-6 margin-bottom-50">
+                            <div class="testi-in">
+                                <div class="avatar">
+                                    {% image '@AppBundle/Resources/public/images/book/game/riemann2.jpeg' %}
+                                    <img src="{{ asset_url }}" alt="Riemann" class="img-circle img-responsive">
+                                    {% endimage %}
+                                </div>
+                                <p>{{ 'book.game.part1.history.riemann2'|trans }}</p>
+                                <p>”{{ 'book.game.part1.history.riemann'|trans }}”</p>
+                                <h6 class="uppercase-transform">Georg F. Bernhard Riemann</h6>
+                                <span>1826 - 1866</span></div>
+                        </li>
+
+                        {# EULER #}
+                        <li class="col-md-6 margin-bottom-50">
+                            <div class="testi-in">
+                                <div class="avatar">
+                                    {% image '@AppBundle/Resources/public/images/book/game/euler2.jpg' %}
+                                    <img src="{{ asset_url }}" alt="Euler" class="img-circle img-responsive">
+                                    {% endimage %}
+                                </div>
+                                <p>{{ 'book.game.part1.history.euler2'|trans }}</p>
+                                <p>”{{ 'book.game.part1.history.euler'|trans }}”</p>
+                                <h6 class="uppercase-transform">Leonhard Euler</h6>
+                                <span>1707 - 1783</span></div>
+                        </li>
+
+                        {# LEIBNIZ #}
+                        <li class="col-md-6 margin-bottom-50">
+                            <div class="testi-in">
+                                <div class="avatar">
+                                    {% image '@AppBundle/Resources/public/images/book/game/leibniz2.jpg' %}
+                                    <img src="{{ asset_url }}" alt="Newton" class="img-circle img-responsive">
+                                    {% endimage %}
+                                </div>
+                                <p>{{ 'book.game.part1.history.leibniz2'|trans }}</p>
+                                <p>”{{ 'book.game.part1.history.leibniz'|trans }}”</p>
+                                <h6 class="uppercase-transform">Gottfried Wilhelm Leibniz</h6>
+                                <span>1646 - 1716</span></div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            {#NEXT CHAPTER#}
+            <section class="blog padding-top-80 padding-bottom-80 border-top">
+                <div class="container">
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        {#BACK#}
+                        <a href="{{ path('app_book_first_chapter_game') }}" class="btn btn-med gary">
+                            {{ 'book.back'|trans }}
+                        </a>
+                        {#NEXT CHAPTER: CHAPTER 2#}
+                        <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
+                            {{ 'book.next.chapter'|trans }}: {{ 'left_navbar.book.chapter2'|trans }}
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+{% endblock %}
+
+{% block rightNavigation %}
+    {% include 'AppBundle:Book:Includes/rightNavbar.html.twig' %}
+{% endblock %}
+

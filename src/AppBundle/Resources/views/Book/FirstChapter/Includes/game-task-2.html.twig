@@ -1,0 +1,72 @@
+<div id="task2" class="container hide-element margin-top-50">
+    {# HEADER #}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="list-heading uppercase-transform">
+                <h6>
+                    {{ 'book.game.task'|trans }}
+                    <span>II: </span>
+                    {{ 'book.game.part1.task2.header'|trans }}
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    {# TASK #}
+    <div class="row">
+        <div class="col-md-5">
+            <p>
+                {{ 'book.game.part1.task2.text1-1'|trans }}
+                {{ 'book.game.part1.task2.text1-2'|trans }}
+            </p>
+            <p>
+                {{ 'book.game.part1.task2.text2-1'|trans }}:
+                <span><i>"{{ 'book.game.part1.task2.text2-2'|trans }}
+                        {{ 'book.game.part1.task2.text2-3'|trans }}"</i></span>
+                {{ 'book.game.part1.task2.text2-4'|trans }}
+
+            </p>
+            <p class="padding-top-20">
+                    <span>
+                        <b>
+                            {{ 'book.game.part1.task2.text3-1'|trans }}
+                            <br>
+                            {{ 'book.game.part1.task2.text3-2'|trans }}
+                        </b>
+                    </span>
+            </p>
+        </div>
+        <div class="col-md-7">
+            {% image '@AppBundle/Resources/public/images/book/game/part1/task2-1.png' %}
+            <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive">
+            {% endimage %}
+        </div>
+    </div>
+
+    {# ANSWERS TABLE #}
+    <div id="answerTable1" class="row padding-top-30">
+        <div class="col-md-12">
+            <h6 class="problem">{{ 'book.answer.table'|trans }}</h6>
+            <table class="table table-bordered margin-bottom-15 margin-top-15">
+                <thead>
+                <tr class="active uppercase-transform">
+                    <th>{{ 'book.answer'|trans }}</th>
+                    <th>{{ 'book.game.part1.task2.answer1'|trans }}</th>
+                    <th>{{ 'book.game.part1.task2.answer2'|trans }}</th>
+                    <th>{{ 'book.game.part1.task2.answer3'|trans }}</th>
+                    <th>{{ 'book.game.part1.task2.answer4'|trans }}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="active uppercase-transform"><b>{{ 'book.game.cipher'|trans }}</b></td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
