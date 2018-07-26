@@ -265,6 +265,8 @@ book:
   FVC: Forced Vital Capacity
   doctors.view.header: How does Doctor view Spirometry Result?
   next.chapter: Next chapter
+  answer: Answer
+  answer.table: Table of answers
   historical-block-headline: A piece of history
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
@@ -490,6 +492,7 @@ book:
 
   game.header: A game time
   game.task: task
+  game.cipher: code/cipher
   game.joke.beginning.text-1: A physicist, a mathematician, and a computer programmer are discussing which is better to get, a wife or a lover.
   game.joke.beginning.text-2-1: Physicist
   game.joke.beginning.text-2-2: A lover. There is still space to experiment.
@@ -541,6 +544,15 @@ book:
   game.part1.task1.text6-2: the first letter of a student's name + number of a spirometry curve
   game.part1.task1.text7-1: Choose and remember the code (cipher) related to your answer in an
   game.part1.task1.text7-2: answer table
+  game.part1.history.header: Famous mathematicians who merited development of Mathematical Functions
+  game.part1.history.newton: We build too many walls and not enough bridges.
+  game.part1.history.newton2: Calculus
+  game.part1.history.riemann: The greatest strategy is doomed if it's implemented badly.
+  game.part1.history.riemann2: Riemann integral, Fourier series
+  game.part1.history.euler: Now I will have less distraction
+  game.part1.history.euler2: Modern mathematical terminology, notation
+  game.part1.history.leibniz: He who hasn't tasted bitter things hasn't earned sweet things.
+  game.part1.history.leibniz2: Calculus
 
 researcher:
   materials.citation: One of the roles of theory is to protect us from the limits of our own experience, which inevitably narrow our thinking.
