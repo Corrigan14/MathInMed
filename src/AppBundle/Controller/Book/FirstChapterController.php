@@ -48,6 +48,46 @@ class FirstChapterController extends Controller
      * @param bool|string $locale
      * @return array
      */
+    public function gameTask1Action($locale = false):array {
+        return [];
+    }
+
+    /**
+     * @Template()
+     *
+     * @param bool|string $locale
+     * @return array
+     */
+    public function gameTask2Action($locale = false):array {
+        return [];
+    }
+
+    /**
+     * @Template()
+     *
+     * @param bool|string $locale
+     * @return array
+     */
+    public function gameTask3Action($locale = false):array {
+        return [];
+    }
+
+    /**
+     * @Template()
+     *
+     * @param bool|string $locale
+     * @return array
+     */
+    public function gameTask4Action($locale = false):array {
+        return [];
+    }
+
+    /**
+     * @Template()
+     *
+     * @param bool|string $locale
+     * @return array
+     */
     public function historyMathematiciansAction($locale = false):array {
         return [];
     }

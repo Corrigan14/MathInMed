@@ -45,48 +45,56 @@
                         <div class="process-style-1 margin-top-30">
                             <ul>
                                 <!-- 1 -->
-                                <li onclick="toggleGameTask('1')">
+                                <li>
                                     <div class="thumb">
-                                        {% image '@AppBundle/Resources/public/images/book/game/task1-icon.jpg' %}
-                                        <img src="{{ asset_url }}" alt="Reading">
-                                        {% endimage %}
-                                        <span style="background: rgba(0, 0, 0, 0.2)">01</span>
+                                        <a href="{{ path('app_book_first_chapter_game_task1') }}">
+                                            {% image '@AppBundle/Resources/public/images/book/game/task1-icon.jpg' %}
+                                            <img src="{{ asset_url }}" alt="Reading">
+                                            {% endimage %}
+                                            <span style="background: rgba(0, 0, 0, 0.2)">01</span>
+                                        </a>
                                     </div>
                                     <div class="margin-left-20 margin-right-20">
                                         <h6>{{ 'book.game.task'|trans }} I</h6>
                                     </div>
                                 </li>
                                 <!-- 2 -->
-                                <li onclick="toggleGameTask('2')">
+                                <li>
                                     <div class="thumb">
-                                        {% image '@AppBundle/Resources/public/images/book/game/task2-icon.jpg' %}
-                                        <img src="{{ asset_url }}" alt="Helpers">
-                                        {% endimage %}
-                                        <span style="background: rgba(0, 0, 0, 0.1)">02</span>
+                                        <a href="{{ path('app_book_first_chapter_game_task2') }}">
+                                            {% image '@AppBundle/Resources/public/images/book/game/task2-icon.jpg' %}
+                                            <img src="{{ asset_url }}" alt="Helpers">
+                                            {% endimage %}
+                                            <span style="background: rgba(0, 0, 0, 0.1)">02</span>
+                                        </a>
                                     </div>
                                     <div class="margin-left-20 margin-right-20">
                                         <h6>{{ 'book.game.task'|trans }} II</h6>
                                     </div>
                                 </li>
                                 <!-- 3 -->
-                                <li onclick="toggleGameTask('3')">
+                                <li>
                                     <div class="thumb">
-                                        {% image '@AppBundle/Resources/public/images/book/game/task3-icon.png'  %}
-                                        <img src="{{ asset_url }}" alt="Answers">
-                                        {% endimage %}
-                                        <span style="background: rgba(0, 0, 0, 0.2)">03</span>
+                                        <a href="{{ path('app_book_first_chapter_game_task3') }}">
+                                            {% image '@AppBundle/Resources/public/images/book/game/task3-icon.png' %}
+                                            <img src="{{ asset_url }}" alt="Answers">
+                                            {% endimage %}
+                                            <span style="background: rgba(0, 0, 0, 0.2)">03</span>
+                                        </a>
                                     </div>
                                     <div class="margin-left-20 margin-right-20">
                                         <h6>{{ 'book.game.task'|trans }} III</h6>
                                     </div>
                                 </li>
                                 <!-- 4 -->
-                                <li onclick="toggleGameTask('4')">
+                                <li>
                                     <div class="thumb">
-                                        {% image '@AppBundle/Resources/public/images/book/game/task4-icon.jpg'  %}
-                                        <img src="{{ asset_url }}" alt="Forum">
-                                        {% endimage %}
-                                        <span style="background: rgba(0, 0, 0, 0.2)">04</span>
+                                        <a href="{{ path('app_book_first_chapter_game_task4') }}">
+                                            {% image '@AppBundle/Resources/public/images/book/game/task4-icon.jpg' %}
+                                            <img src="{{ asset_url }}" alt="Forum">
+                                            {% endimage %}
+                                            <span style="background: rgba(0, 0, 0, 0.2)">04</span>
+                                        </a>
                                     </div>
                                     <div class="margin-left-20 margin-right-20">
                                         <h6>{{ 'book.game.task'|trans }} IV</h6>
@@ -96,19 +104,16 @@
                         </div>
                     </div>
                 </div>
-                {#GAME TASK 1#}
-                {% include '@App/Book/FirstChapter/Includes/game-task-1.html.twig' %}
-                {#GAME TASK 2#}
-                {% include '@App/Book/FirstChapter/Includes/game-task-2.html.twig' %}
-                {#GAME TASK 3#}
-
-                {#GAME TASK 4#}
             </section>
 
             {#NEXT CHAPTER#}
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        {#BACK: GAME INSTRUCTIONS#}
+                        <a href="{{ path('app_book_main_game_instruction') }}" class="btn btn-med btn-color">
+                            {{ 'book.back'|trans }}: {{ 'left_navbar.book.game.instruction'|trans }}
+                        </a>
                         {#FAMOUS MATHEMATICIANS#}
                         <a href="{{ path('app_book_first_chapter_history_mathematicians') }}" class="btn btn-med gary">
                             {{ 'book.history'|trans }}
