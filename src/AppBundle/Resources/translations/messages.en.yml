@@ -495,6 +495,7 @@ book:
   game.header: A game time
   game.task: task
   game.cipher: code/cipher
+  game.alternative: alternative
   game.joke.beginning.text-1: A physicist, a mathematician, and a computer programmer are discussing which is better to get, a wife or a lover.
   game.joke.beginning.text-2-1: Physicist
   game.joke.beginning.text-2-2: A lover. There is still space to experiment.
@@ -566,7 +567,32 @@ book:
   game.part1.task3.text1-4: of a patient whom spirometry curve is on a right picture
   game.part1.task3.text2: What is the correct answer?
   game.part1.task3.answer1: It is not possible to find an answer because we do not have the whole minute breathing record
-
+  game.part1.task4.header: A little bit of "pure" math
+  game.part1.task4.text1: The next task has two alternatives
+  game.part1.task4.text2-1: Do you know
+  game.part1.task4.text2-2: sinus
+  game.part1.task4.text2-3: function
+  game.part1.task4.text3-1: If no, pick up
+  game.part1.task4.text3-2: the first alternative
+  game.part1.task4.text4-1: If you already know it, the first alternative could probably not be interesting for you a from that reason we prepared
+  game.part1.task4.text4-2: the second alternative
+  game.part1.task4.text4-3: for you
+  game.part1.task4.text5: If you like, you can of course solve both variants! In this way you can check your answer's accuracy
+  game.part1.task4-1.text1-1: The right graph is a graph of dependency between
+  game.part1.task4-1.text1-2: independent variable k
+  game.part1.task4-1.text1-3: and
+  game.part1.task4-1.text1-4: dependent variable m
+  game.part1.task4-1.text2-1: This dependency is in mathematics known as
+  game.part1.task4-1.text2-2: sinus
+  game.part1.task4-1.text3-1: The graph is then
+  game.part1.task4-1.text3-2: graph of a sinus function
+  game.part1.task4-1.text4: Which of the next propositions are correct (true) for our graph
+  game.part1.task4-1.text4:
+  game.part1.task4-1.text4:
+  game.part1.task4-1.text4:
+  game.part1.task4.text1:
+  game.part1.task4.text1:
+  game.part1.task4.text1:
   game.part1.history.header: Famous mathematicians who merited development of Mathematical Functions
   game.part1.history.newton: We build too many walls and not enough bridges.
   game.part1.history.newton2: Calculus

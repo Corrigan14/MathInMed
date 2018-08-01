@@ -1,0 +1,86 @@
+<div id="task4-1" class="container hide-element padding-top-30">
+    {# HEADING #}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="list-heading uppercase-transform">
+                <h6>
+                    {{ 'book.game.alternative'|trans }} I
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    {# TASK #}
+    <div class="row">
+        <div class="col-md-5">
+            <p>
+                {{ 'book.game.part1.task4-1.text1-1'|trans }}
+                <span>
+                    <b>
+                        {{ 'book.game.part1.task4-1.text1-2'|trans }}
+                    </b>
+                </span>
+                {{ 'book.game.part1.task4-1.text1-3'|trans }}
+                <span>
+                    <b>
+                        {{ 'book.game.part1.task4-1.text1-4'|trans }}
+                    </b>
+                </span>.
+            </p>
+            <p>
+                {{ 'book.game.part1.task4-1.text2-1'|trans }}
+                <span class="uppercase-transform text-color-primary">
+                    <b>
+                        {{ 'book.game.part1.task4-1.text2-2'|trans }}
+                    </b>
+                </span>.
+                {{ 'book.game.part1.task4-1.text3-1'|trans }}
+                <span class="uppercase-transform">
+                    <b>
+                        {{ 'book.game.part1.task4-1.text3-2'|trans }}
+                    </b>
+                </span>.
+            </p>
+
+            {# OPTIONS #}
+            <div class="margin-top-30 bold-p-tags">
+                <p>
+                    {{ 'book.game.part1.task4-1.text4'|trans }}?
+
+                </p>
+            </div>
+        </div>
+        <div class="col-md-7">
+            {% image '@AppBundle/Resources/public/images/book/game/part1/task3-1.png' %}
+            <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive">
+            {% endimage %}
+        </div>
+    </div>
+
+    {# ANSWERS TABLE #}
+    <div id="answerTable1" class="row padding-top-50">
+        <div class="col-md-12">
+            <h6 class="problem">{{ 'book.answer.table'|trans }}</h6>
+            <table class="table table-bordered margin-bottom-15 margin-top-15 vertical-middle">
+                <thead>
+                <tr class="active uppercase-transform">
+                    <th>{{ 'book.answer'|trans }}</th>
+                    <th class="min-width-200 text-center">A, B</th>
+                    <th class="min-width-200 text-center">A, C</th>
+                    <th class="min-width-200 text-center">B, C, D</th>
+                    <th class="min-width-200 text-center">A, B, C, D</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="active uppercase-transform"><b>{{ 'book.game.cipher'|trans }}</b></td>
+                    <td class="text-center">...</td>
+                    <td class="text-center">...</td>
+                    <td class="text-center">...</td>
+                    <td class="text-center">...</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

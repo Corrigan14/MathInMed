@@ -31,13 +31,13 @@
                 <p>  {{ 'book.game.introduction.text1'|trans }}</p>
                 <p>
                     {{ 'book.game.introduction.text2'|trans }}:
-                    <span class="uppercase-transform colour-font"><b>"{{ 'book.game.header'|trans }}"</b></span>
+                    <span class="uppercase-transform text-color-primary"><b>"{{ 'book.game.header'|trans }}"</b></span>
                 </p>
                 <p>
                     {{ 'book.game.introduction.text3-1'|trans }}
-                    <span class="colour-font"><b>{{ 'book.game.introduction.text3-2'|trans }}</b></span>.
+                    <span class="text-color-primary"><b>{{ 'book.game.introduction.text3-2'|trans }}</b></span>.
                     {{ 'book.game.introduction.text3-3'|trans }}
-                    <span class="colour-font"><b>{{ 'book.game.introduction.text3-4'|trans }}</b></span>.
+                    <span class="text-color-primary"><b>{{ 'book.game.introduction.text3-4'|trans }}</b></span>.
                 </p>
                 <h5 class="h5-small-font-uppercase margin-top-25">
                     {{ 'book.game.introduction.text4'|trans }}?
@@ -62,10 +62,11 @@
             <div class="col-md-6">
                 <div class="icon-box ib-style-5 ib-center ib-text-alt ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-circle">
                     <div class="ib-icon">
-                        {% image '@AppBundle/Resources/public/images/book/cipher.png' %}
-                        <img src="{{ asset_url }}" alt="Cryptography" style="max-height: 80px">
+                        {% image '@AppBundle/Resources/public/images/book/game/cipher.jpg' %}
+                        <img src="{{ asset_url }}" alt="Cipher">
                         {% endimage %}
                     </div>
+
                     <div class="ib-info">
                         <h4 class="h6">{{ 'book.game.kryptlogy.header'|trans }}</h4>
                         <p>

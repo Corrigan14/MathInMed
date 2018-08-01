@@ -87,6 +87,10 @@
     font-weight: bold;
 }
 
+.bold-p-tags p{
+    font-weight: bold;
+}
+
 .smaller-p-tags p {
     font-size: 12px;
     line-height: 15px;
