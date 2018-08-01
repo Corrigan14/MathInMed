@@ -23,8 +23,16 @@
     max-width: 200px;
 }
 
+.min-width-200{
+    min-width: 200px;
+}
+
 .margin-top-150{
     margin-top: 150px;
+}
+
+.vertical-middle thead tr th{
+    vertical-align: middle !important;
 }
 
 .border-top {

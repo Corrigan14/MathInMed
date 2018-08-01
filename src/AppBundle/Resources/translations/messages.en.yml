@@ -555,16 +555,17 @@ book:
   game.part1.task2.text2-4: (look to the right graph)
   game.part1.task2.text3-1: Is Sophi true?
   game.part1.task2.text3-2: What is the volume of an inhaled air in Sophi's example?
-  game.part1.task2.answer1: Yes, Sophi is true. The volume of normally inhaled air is approximately 600 ml.
-  game.part1.task2.answer2: No, Sophi is not true.
-  game.part1.task2.answer3: We do not know.
-  game.part1.task2.answer4: Yes, Sophi is true. The volume of normally inhaled air is approximately 200 ml.
+  game.part1.task2.answer1: Yes, Sophi is true. The volume of normally inhaled air is approximately 600 ml
+  game.part1.task2.answer2: No, Sophi is not true
+  game.part1.task2.answer3: We do not know
+  game.part1.task2.answer4: Yes, Sophi is true. The volume of normally inhaled air is approximately 200 ml
   game.part1.task3.header: Frequency - the number of repetitions
   game.part1.task3.text1-1: The last task of our students was to find a
   game.part1.task3.text1-2: breathing frequency
   game.part1.task3.text1-3: the number of repetitions of a normal inhalation and exhalation cycles in one minute
   game.part1.task3.text1-4: of a patient whom spirometry curve is on a right picture
   game.part1.task3.text2: What is the correct answer?
+  game.part1.task3.answer1: It is not possible to find an answer because we do not have the whole minute breathing record
 
   game.part1.history.header: Famous mathematicians who merited development of Mathematical Functions
   game.part1.history.newton: We build too many walls and not enough bridges.
