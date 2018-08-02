@@ -18,6 +18,11 @@ function toggleText(param) {
     $($tableId).toggle(1000);
 }
 
+function toggleGameTask(param) {
+    var $tableId = '#task' + param;
+    $($tableId).toggle(1000);
+}
+
 jQuery(document).ready(function () {
     var $topNavbar = $('#undefined-sticky-wrapper'),
         $owmenu = $('#ownmenu');

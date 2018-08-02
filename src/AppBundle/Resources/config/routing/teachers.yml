@@ -1,0 +1,5 @@
+app_teachers_main_introduction:
+    path:     /{_locale}/teachers/introduction
+    defaults: { _controller: AppBundle:Teacher/Main:introduction, _locale: en }
+    requirements:
+        _locale:  en|sk

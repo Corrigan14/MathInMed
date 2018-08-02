@@ -1,0 +1,51 @@
+<section id="task-4" class="padding-top-30 padding-bottom-80">
+    <div class="container">
+        {# HEADING #}
+        <div class="row">
+            <div class="col-md-12">
+                <div class="list-heading uppercase-transform">
+                    <h6>
+                        {{ 'book.game.task'|trans }} IV: {{ 'book.game.part1.task4.header'|trans }}
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+        {# BODY #}
+        <div class="row margin-top-20">
+            <div class="col-md-12">
+                <p>
+                    {{ 'book.game.part1.task4.text1'|trans }}.
+
+                    {{ 'book.game.part1.task4.text2-1'|trans }}
+                    <b class="uppercase-transform">{{ 'book.game.part1.task4.text2-2'|trans }}</b>
+                    {{ 'book.game.part1.task4.text2-3'|trans }}?
+
+                    {{ 'book.game.part1.task4.text3-1'|trans }}
+                    <span onclick="toggleGameTask('4-1')" class="text-color-primary">
+                    <b>
+                        {{ 'book.game.part1.task4.text3-2'|trans }}
+                    </b>
+                </span>.
+
+                    {{ 'book.game.part1.task4.text4-1'|trans }}
+                    <span onclick="toggleGameTask('4-2')" class="text-color-primary">
+                    <b>
+                        {{ 'book.game.part1.task4.text4-2'|trans }}
+                    </b>
+                </span>
+                    {{ 'book.game.part1.task4.text4-3'|trans }}.
+                </p>
+                <p>
+                    {{ 'book.game.part1.task4.text5'|trans }} :).
+                </p>
+            </div>
+        </div>
+    </div>
+
+    {#VARIANT 1#}
+    {% include '@App/Book/FirstChapter/Includes/game-task-4-variant-1.html.twig' %}
+
+    {#VARIANT 2#}
+    {% include '@App/Book/FirstChapter/Includes/game-task-4-variant-2.html.twig' %}
+</section>

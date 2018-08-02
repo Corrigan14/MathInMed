@@ -2,6 +2,7 @@ motto: Why do we have to learn that???
 
 basic_words:
   download_print: DOWNLOAD TO PRINT
+  part: part
 
 main_navbar:
   about: About
@@ -64,7 +65,9 @@ left_navbar:
   book.chapter34: Rise Over the Run ... Let's Repeat That
   book.chapter35:  Flow-Volume Loop - Doctor's view
   book.chapter3game: Game - part 3
-  book.game: Game - Encode The Answer :)
+  book.game: Game
+  book.game.instruction: Instruction
+  book.game.decode: Decode The Answer
 
 right_navbar:
   book.answers: Answers
@@ -260,6 +263,12 @@ book:
   note: Note
   thinkabout: something to think about
   FVC: Forced Vital Capacity
+  doctors.view.header: How does Doctor view Spirometry Result?
+  next.chapter: Next chapter
+  answer: Answer
+  answer.table: Table of answers
+  history: A bit of history
+  back: Back
   historical-block-headline: A piece of history
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
   introduction.author.citation: Carl Rogers
@@ -336,7 +345,7 @@ book:
   result.part7.text7-2: LEFT MENU
   result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu will be opened.
   result.part7.text7-3-2: This menu allows the quick orientation between the Spirometry result parts and its tasks.
-  result.nextPage: Let's look on a first result part - Spirometry Curve
+  result.nextPage: Let's look on a first results' part - Spirometry Curve
   first-chapter.subchapter1.headline:
   first-chapter.subchapter1.text1-1: One of the main patient's respiratory problem indicators is a (FORCED) VITAL CAPACITY denoted by FVC.
   first-chapter.subchapter1.text1-2: FVC represents the volume of air maximally fiercely breathed out after the deep inhalation.
@@ -409,6 +418,21 @@ book:
   first-chapter.problem-1-6-2: and create (to the same chart) the second one - spiromtery curve of a healthy, 56-years old man, non-smoker, 171cm tall.
   first-chapter.problem-1-6-3: Created curve is called
   first-chapter.problem-1-6-4: comparative curve
+  first-chapter.result.text1-1: COLORFULY
+  first-chapter.result.text1-2: BORDERED
+  first-chapter.result.text1-3: result's parts we already understand!
+  first-chapter.result.text2-1: RED BORDERED GRAPH
+  first-chapter.result.text2-2: It is a different representation of a Spirometry curve of the previously solved problems (problem 1.1 - 1.6)
+  first-chapter.result.text2-3: The first rectangle represents healthy human's (predict) RV, ERV, IRV and TV values.
+  first-chapter.result.text2-4: The second and the third rectangle represent the patient's results (the first one - stats from the first measurement, the second one - stats from the second measurement).
+  first-chapter.result.text2-5: Comparing these three graphs, doctor can immediately recognize, if the patient's measured values are increased/decreased or normal.
+  first-chapter.result.text3-1: ORANGE BORDERED GRAPH
+  first-chapter.result.text3-2: The difference between FVC (Forced Vital Capacity) and VC (Slow Vital Capacity) is in the exhalation.
+  first-chapter.result.text3-3: If a doctor asks a patient to exhale calmly and slowly, we are talking about Slow Vital Capacity.
+  first-chapter.result.text3-4: Contrarily, if the patient is exhaling forcefully and quickly, we are talking about Forced Vital Capacity.
+  first-chapter.result.text3-5: Exhaled air volume should be equal in both exhalation ways for a healthy human. If there is a big difference, we can expect Obstructive disease in our patient.
+  first-chapter.result.text3-6: In our problems we are not differentiating between values FVC and VC. We are always using FVC as a patient's Vital Capacity.
+  first-chapter.result.next: Finally... GAME TIME
   first-chapter.historical-block-text-1-1: There were many famous doctors studying human Vital Capacity during the last centuries.
   first-chapter.historical-block-text-1-2: One of the first was Galen, well-known famous Greek doctor (2th century).
   first-chapter.historical-block-text-1-3: Later, Giovannin Alfonso Borelli (1679) rapidly increased the measurement accuracy, using the patient's nose blocking.
@@ -467,6 +491,124 @@ book:
   diseases.part-12-text-3-2: Chronic obstructive pulmonary disease (COPD)
   diseases.part-13-text-1: The restrictive and obstructive disease combination can be caused by two different diseases where the first one is restrictive and the second one is obstructive.
   diseases.part-13-text-2: Another option is, if the disease causes both - restrictive as well as obstructive pulmonary defects. The example of this kind of disease is a cystic fibrosis.
+
+  game.header: A game time
+  game.task: task
+  game.cipher: code/cipher
+  game.alternative: alternative
+  game.joke.beginning.text-1: A physicist, a mathematician, and a computer programmer are discussing which is better to get, a wife or a lover.
+  game.joke.beginning.text-2-1: Physicist
+  game.joke.beginning.text-2-2: A lover. There is still space to experiment.
+  game.joke.beginning.text-3-1: Mathematician
+  game.joke.beginning.text-3-2: A wife. You know what you can expect.
+  game.joke.beginning.text-4-1: Computer programmer
+  game.joke.beginning.text-4-2: Both. ...
+  game.joke.end:
+  game.introduction.text1: Do you want to know how the joke continues?
+  game.introduction.text2: You can get if you find a solution of special short tasks at the end of every main chapter. These tasks are marked by a sign
+  game.introduction.text3-1: In solving any task you get a
+  game.introduction.text3-2: group of letters
+  game.introduction.text3-3: These letters have to be kept because they are a part of a
+  game.introduction.text3-4: code
+  game.introduction.text4: Code
+  game.introduction.text5-1: Yes! A cipher - or code which has to be decoded first to understand the text it hides.
+  game.introduction.text5-2: Decoding algorithm will be found at the
+  game.introduction.text5-3: end of a game
+  game.introduction.text6: We wish you a great time!
+  game.kryptlogy.header: Cryptography & cryptology
+  game.kryptlogy.history: History
+  game.kryptlogy.text1-1: Cryptology is a scince concerned with a
+  game.kryptlogy.text1-2: secure communication
+  game.kryptlogy.text2-1: Cryptography, a special part of cryptology, is concerned with a
+  game.kryptlogy.text2-2: design and research of ciphers (codes) and cipher devices
+  game.kryptlogy.text3: The main goal of ciphers is to transform text to unreadable form
+  game.kryptlogy.text4: If we look into the history, we are finding thousands years old ciphers
+  game.kryptlogy.text5: Special hieroglyphs used in an ancient Egypt are denoted to be one of the first encrypting tries
+  game.kryptlogy.text6: Later, we are finding simple substitution cipher (well known is e.g. ATBASH - Hebrews philosophers substitution cipher)
+  game.kryptlogy.text7: From the beginning of the first century, there was discovered a simple transposition cipher, probably used in an ancient Sparta,
+  game.kryptlogy.text8: or Caesar's cipher used in an ancient Rome
+  game.part1.text1-1: The next tasks prepare you (or remind you) school tasks related to
+  game.part1.text1-2: the functions and its graphs
+  game.part1.text2: Do not be worried about its difficulty!
+  game.part1.text3-1: If you successfully passed problems in the previous chapter
+  game.part1.text3-2: Spirometry Curve
+  game.part1.text3-3: it will be easy for you ;)
+  game.part1.task1.header: Spirometry game
+  game.part1.task1.text1: Medical students had a good time trying spirometry assessment
+  game.part1.task1.text2-1: Finn
+  game.part1.task1.text2-2: I did not breath at the beginning of the assessment for 3 seconds
+  game.part1.task1.text3-1: Matias
+  game.part1.task1.text3-2: I inhaled deeply before we started so I had an opportunity to exhale deeply exactly at the beginning of the assessment
+  game.part1.task1.text4-1: Sophi
+  game.part1.task1.text4-2: I stopped breathing for a while after every inhalation
+  game.part1.task1.text5-1: Hana
+  game.part1.task1.text5-2: It is not possible to measure Vital Capacity based on my spirometry result
+  game.part1.task1.text6-1: Find authors of the next spirometry curves. The correct answer is made by a pair
+  game.part1.task1.text6-2: the first letter of a student's name + number of a spirometry curve
+  game.part1.task1.text7-1: Choose and remember the code (cipher) related to your answer in an
+  game.part1.task1.text7-2: answer table
+  game.part1.task2.header: Truth - yes or no?
+  game.part1.task2.text1-1: After the spirometry assessment our students (Finn, Matias, Sophi and Hana) got another task.
+  game.part1.task2.text1-2: They had to find volume of an air inhaled during their normal breathing.
+  game.part1.task2.text2-1: After a while Sophi said
+  game.part1.task2.text2-2: It is very interesting! The result is not changing if I am moving the graph of a spirometry curve across the paper.
+  game.part1.task2.text2-3: For example, like this!
+  game.part1.task2.text2-4: (look to the right graph)
+  game.part1.task2.text3-1: Is Sophi true?
+  game.part1.task2.text3-2: What is the volume of an inhaled air in Sophi's example?
+  game.part1.task2.answer1: Yes, Sophi is true. The volume of normally inhaled air is approximately 600 ml
+  game.part1.task2.answer2: No, Sophi is not true
+  game.part1.task2.answer3: We do not know
+  game.part1.task2.answer4: Yes, Sophi is true. The volume of normally inhaled air is approximately 200 ml
+  game.part1.task3.header: Frequency - the number of repetitions
+  game.part1.task3.text1-1: The last task of our students was to find a
+  game.part1.task3.text1-2: breathing frequency
+  game.part1.task3.text1-3: the number of repetitions of a normal inhalation and exhalation cycles in one minute
+  game.part1.task3.text1-4: of a patient whom spirometry curve is on a right picture
+  game.part1.task3.text2: What is the correct answer?
+  game.part1.task3.answer1: It is not possible to find an answer because we do not have the whole minute breathing record
+  game.part1.task4.header: A little bit of "pure" math
+  game.part1.task4.text1: The next task has two alternatives
+  game.part1.task4.text2-1: Do you know
+  game.part1.task4.text2-2: sinus
+  game.part1.task4.text2-3: function
+  game.part1.task4.text3-1: If no, pick up
+  game.part1.task4.text3-2: the first alternative
+  game.part1.task4.text4-1: If you already know it, the first alternative could probably not be interesting for you a from that reason we prepared
+  game.part1.task4.text4-2: the second alternative
+  game.part1.task4.text4-3: for you
+  game.part1.task4.text5: If you like, you can of course solve both variants! In this way you can check your answer's accuracy
+  game.part1.task4-1.text1-1: The right graph is a graph of a dependency between
+  game.part1.task4-1.text1-2: independent variable
+  game.part1.task4-1.text1-3: and
+  game.part1.task4-1.text1-4: dependent variable
+  game.part1.task4-1.text2-1: This dependency is in mathematics known as
+  game.part1.task4-1.text2-2: sinus
+  game.part1.task4-1.text3-1: The graph is then
+  game.part1.task4-1.text3-2: graph of a sinus function
+  game.part1.task4-1.text4: Which of the next propositions are true for our graph
+  game.part1.task4-1.text5-1: Dependent variable
+  game.part1.task4-1.text5-2: only gets values of interval
+  game.part1.task4-1.text6-1: If independent variable
+  game.part1.task4-1.text6-2: the value of a dependent variable
+  game.part1.task4-1.text6-3: is
+  game.part1.task4-1.text7-1: If independent variable
+  game.part1.task4-1.text7-2: its increasing values bring also increase of a
+  game.part1.task4-1.text7-3: variable values
+  game.part1.task4-1.text8-1: Values of a dependent variable
+  game.part1.task4-1.text8-2: are repeating
+  game.part1.task4-1.text8-3: The repetition distance is
+  game.part1.task4-1.text8-4: repetition frequency is
+
+  game.part1.history.header: Famous mathematicians who merited development of Mathematical Functions
+  game.part1.history.newton: We build too many walls and not enough bridges.
+  game.part1.history.newton2: Calculus
+  game.part1.history.riemann: The greatest strategy is doomed if it's implemented badly.
+  game.part1.history.riemann2: Riemann integral, Fourier series
+  game.part1.history.euler: Now I will have less distraction
+  game.part1.history.euler2: Modern mathematical terminology, notation
+  game.part1.history.leibniz: He who hasn't tasted bitter things hasn't earned sweet things.
+  game.part1.history.leibniz2: Calculus
 
 researcher:
   materials.citation: One of the roles of theory is to protect us from the limits of our own experience, which inevitably narrow our thinking.

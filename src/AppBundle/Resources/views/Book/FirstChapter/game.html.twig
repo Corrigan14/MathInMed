@@ -6,15 +6,130 @@
     <main class="cd-main-content">
         {% include 'AppBundle:Book:Includes/slider.html.twig' %}
 
-        <p>GAME</p>
-
         <div id="content">
-            <!-- Next page -->
+            <section id="entry-chapter-text" class="padding-top-80">
+                <div class="container">
+                    {#MAIN HEADING#}
+                    <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
+                        <h3>{{ 'book.game.header'|trans }} - {{ 'basic_words.part'|trans }} I</h3>
+                        <hr class="color">
+                    </div>
+
+                    {#GAME PART I - INTRODUCTION#}
+                    <div class="text-center margin-bottom-50">
+                        <p>
+                            {{ 'book.game.part1.text1-1'|trans }}
+                            <span><b>{{ 'book.game.part1.text1-2'|trans }}</b></span>.
+                        </p>
+                        <p>
+                            {{ 'book.game.part1.text2'|trans }}!
+                            {{ 'book.game.part1.text3-1'|trans }}
+
+                            (<span>
+                        <b>
+                            <a href="{{ path('app_book_first_chapter_tasks') }}" class="text-color-primary">
+                           {{ 'book.game.part1.text3-2'|trans }}
+                            </a>
+                        </b>)
+                    </span>
+                            {{ 'book.game.part1.text3-3'|trans }}
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            {#GAME TASKS#}
+            <section class="padding-bottom-80">
+                <div class="container">
+                    <div class="process">
+                        <div class="process-style-1 margin-top-30">
+                            <ul>
+                                <!-- 1 -->
+                                <li>
+                                    <div class="thumb scroll">
+                                        <a href="#task-1">
+                                            {% image '@AppBundle/Resources/public/images/book/game/task1-icon.jpg' %}
+                                            <img src="{{ asset_url }}" alt="Reading">
+                                            {% endimage %}
+                                            <span style="background: rgba(0, 0, 0, 0.2)">01</span>
+                                        </a>
+                                    </div>
+                                    <div class="margin-left-20 margin-right-20">
+                                        <h6>{{ 'book.game.task'|trans }} I</h6>
+                                    </div>
+                                </li>
+                                <!-- 2 -->
+                                <li>
+                                    <div class="thumb scroll">
+                                        <a href="#task-2">
+                                            {% image '@AppBundle/Resources/public/images/book/game/task2-icon.png' %}
+                                            <img src="{{ asset_url }}" alt="Helpers">
+                                            {% endimage %}
+                                            <span style="background: rgba(0, 0, 0, 0.2)">02</span>
+                                        </a>
+                                    </div>
+                                    <div class="margin-left-20 margin-right-20">
+                                        <h6>{{ 'book.game.task'|trans }} II</h6>
+                                    </div>
+                                </li>
+                                <!-- 3 -->
+                                <li>
+                                    <div class="thumb scroll">
+                                        <a href="#task-3">
+                                            {% image '@AppBundle/Resources/public/images/book/game/task3-icon.jpg' %}
+                                            <img src="{{ asset_url }}" alt="Answers">
+                                            {% endimage %}
+                                            <span style="background: rgba(0, 0, 0, 0.2)">03</span>
+                                        </a>
+                                    </div>
+                                    <div class="margin-left-20 margin-right-20">
+                                        <h6>{{ 'book.game.task'|trans }} III</h6>
+                                    </div>
+                                </li>
+                                <!-- 4 -->
+                                <li>
+                                    <div class="thumb scroll">
+                                        <a href="#task-4">
+                                            {% image '@AppBundle/Resources/public/images/book/game/task4-icon.jpg' %}
+                                            <img src="{{ asset_url }}" alt="Forum">
+                                            {% endimage %}
+                                            <span style="background: rgba(0, 0, 0, 0.2)">04</span>
+                                        </a>
+                                    </div>
+                                    <div class="margin-left-20 margin-right-20">
+                                        <h6>{{ 'book.game.task'|trans }} IV</h6>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {#TASK I#}
+            {% include '@App/Book/FirstChapter/Includes/game-task-1.html.twig' %}
+            {#TASK II#}
+            {% include '@App/Book/FirstChapter/Includes/game-task-2.html.twig' %}
+            {#TASK III#}
+            {% include '@App/Book/FirstChapter/Includes/game-task-3.html.twig' %}
+            {#TASK IV#}
+            {% include '@App/Book/FirstChapter/Includes/game-task-4.html.twig' %}
+
+            {#NEXT CHAPTER#}
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
-                        <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
-                            {{ 'book.introduction.nextPage'|trans }}
+                        {#BACK: GAME INSTRUCTIONS#}
+                        <a href="{{ path('app_book_main_game_instruction') }}" class="btn btn-med btn-color">
+                            {{ 'book.back'|trans }}: {{ 'left_navbar.book.game.instruction'|trans }}
+                        </a>
+                        {#FAMOUS MATHEMATICIANS#}
+                        <a href="{{ path('app_book_first_chapter_history_mathematicians') }}" class="btn btn-med gary">
+                            {{ 'book.history'|trans }}
+                        </a>
+                        {#NEXT CHAPTER: CHAPTER 2#}
+                        <a href="{{ path('app_book_second_chapter_tasks') }}#chapter21" class="btn btn-med btn-color">
+                            {{ 'book.next.chapter'|trans }}: {{ 'left_navbar.book.chapter2'|trans }}
                         </a>
                     </div>
                 </div>

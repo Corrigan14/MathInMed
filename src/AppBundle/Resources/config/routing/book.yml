@@ -1,0 +1,47 @@
+app_book_main_introudction:
+    path:     /{_locale}/book/introduction
+    defaults: { _controller: AppBundle:Book/Main:introduction, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_book_main_result:
+    path:     /{_locale}/book/result
+    defaults: { _controller: AppBundle:Book/Main:result, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_book_main_game_instruction:
+    path:     /{_locale}/book/game-instruction
+    defaults: { _controller: AppBundle:Book/Main:gameInstruction, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_book_first_chapter_tasks:
+    path:     /{_locale}/book/first-chapter/tasks
+    defaults: { _controller: AppBundle:Book/FirstChapter:tasks, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_book_first_chapter_result:
+    path:     /{_locale}/book/first-chapter/spirometry-result
+    defaults: { _controller: AppBundle:Book/FirstChapter:result, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_book_first_chapter_game:
+    path:     /{_locale}/book/first-chapter/game
+    defaults: { _controller: AppBundle:Book/FirstChapter:game, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_book_first_chapter_history_mathematicians:
+    path:     /{_locale}/book/first-chapter/history-mathematicians
+    defaults: { _controller: AppBundle:Book/FirstChapter:historyMathematicians, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_book_second_chapter_tasks:
+    path:     /{_locale}/book/second-chapter/tasks
+    defaults: { _controller: AppBundle:Book/SecondChapter:tasks, _locale: en }
+    requirements:
+        _locale:  en|sk

@@ -19,6 +19,21 @@
 .max-height-500 {
     max-height: 500px;
 }
+.max-width-200{
+    max-width: 200px;
+}
+
+.min-width-200{
+    min-width: 200px;
+}
+
+.margin-top-150{
+    margin-top: 150px;
+}
+
+.vertical-middle thead tr th{
+    vertical-align: middle !important;
+}
 
 .border-top {
     border-top: 1px solid #ececec;
@@ -72,10 +87,21 @@
     font-weight: bold;
 }
 
+.bold-p-tags p{
+    font-weight: bold;
+}
+
 .smaller-p-tags p {
     font-size: 12px;
     line-height: 15px;
     color: #585858;
+}
+.smaller-p-tags-grey p {
+    font-size: 12px;
+    line-height: 15px;
+}
+.smaller-p-tags-line p {
+    line-height: 15px;
 }
 
 .h6-small-font-uppercase {
@@ -108,4 +134,14 @@
 }
 .download-link a:hover{
     color: black;
+}
+
+.information-box-picture{
+    position: relative;
+    top: -100px
+}
+.information-box-text{
+    position: relative;
+    top: -50px;
+    margin-bottom: 0px;
 }

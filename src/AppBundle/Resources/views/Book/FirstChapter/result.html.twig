@@ -6,15 +6,67 @@
     <main class="cd-main-content">
         {% include 'AppBundle:Book:Includes/slider.html.twig' %}
 
-        <p>RESULT</p>
-
         <div id="content">
-            <!-- Next page -->
+            {#SPIROMETRY RESULT - DOCTOR'S VIEW PART 1#}
+            <section class="padding-top-80 padding-bottom-80">
+                <div class="container">
+                    <div class="heading-block text-center margin-bottom-50">
+                        <h3>  {{ 'book.doctors.view.header'|trans }}</h3>
+                        <hr class="color">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3 text-center margin-top-150">
+                            <div class="animate fadeInLeft" data-wow-delay="1.5s">
+                                <p>
+                                    {% image '@AppBundle/Resources/public/images/book/smile.png' %}
+                                    <img src="{{ asset_url }}" alt="sun" class="img-responsive"
+                                         style="max-width: 100px">
+                                    {% endimage %}
+                                    <span class="red-font"><b>{{ 'book.first-chapter.result.text1-1'|trans }}</b></span>
+                                    <span class="orange-font"><b>{{ 'book.first-chapter.result.text1-2'|trans }}</b></span>
+                                    {{ 'book.first-chapter.result.text1-3'|trans }}
+                                </p>
+                            </div>
+
+                            <div class="animate fadeInRight margin-top-40 smaller-p-tags-grey" data-wow-delay="2.5s">
+                                <p>
+                                    <span class="red-font"><b>{{ 'book.first-chapter.result.text2-1'|trans }}</b></span>
+                                    <br>
+                                    <i>{{ 'book.first-chapter.result.text2-2'|trans }}</i>
+                                </p>
+                                <p><i>{{ 'book.first-chapter.result.text2-3'|trans }}</i></p>
+                                <p><i>{{ 'book.first-chapter.result.text2-4'|trans }}</i></p>
+                                <p><i>{{ 'book.first-chapter.result.text2-5'|trans }}</i></p>
+                            </div>
+
+                            <div class="animate fadeInLeft margin-top-30 smaller-p-tags-grey" data-wow-delay="2.5s">
+                                <p>
+                                    <span class="orange-font"><b>{{ 'book.first-chapter.result.text3-1'|trans }}</b></span>
+                                    <br>
+                                    <i>{{ 'book.first-chapter.result.text3-2'|trans }}</i>
+                                </p>
+                                <p><i>{{ 'book.first-chapter.result.text3-3'|trans }}</i></p>
+                                <p><i>{{ 'book.first-chapter.result.text3-4'|trans }}</i></p>
+                                <p><i>{{ 'book.first-chapter.result.text3-5'|trans }}</i></p>
+                                <p><i>{{ 'book.first-chapter.result.text3-6'|trans }}</i></p>
+                            </div>
+                        </div>
+                        <div class="col-md-9 text-center">
+                            {% image '@AppBundle/Resources/public/images/book/first-chapter/doctor-result.png' %}
+                            <img src="{{ asset_url }}" alt="spirometry-result" class="img-responsive">
+                            {% endimage %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {#NEXT PAGE: GAME, PART 1#}
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
-                        <a href="{{ path('app_book_main_result') }}" class="btn btn-med btn-color">
-                            {{ 'book.introduction.nextPage'|trans }}
+                        <a href="{{ path('app_book_main_game_instruction') }}" class="btn btn-med btn-color">
+                            {{ 'book.first-chapter.result.next'|trans }}
                         </a>
                     </div>
                 </div>

@@ -1,0 +1,28 @@
+{% extends "AppBundle::layout.html.twig" %}
+
+{% block content %}
+    {% include 'AppBundle:Book:Includes/leftNavbar.html.twig' %}
+
+    <main class="cd-main-content">
+        {% include 'AppBundle:Book:Includes/slider.html.twig' %}
+
+        <div id="content">
+            {#MAIN HEADING#}
+            <section id="entry-chapter-text" class="padding-top-80">
+                <div class="container">
+                    <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
+                        <h3>{{ 'left_navbar.book.chapter2'|trans }}</h3>
+                        <hr class="color">
+                    </div>
+                </div>
+            </section>
+
+            {#FIRST CHAPTER#}
+            {% include 'AppBundle:Book:SecondChapter/Includes/sup-chapter-1.html.twig' %}
+        </div>
+    </main>
+{% endblock %}
+
+{% block rightNavigation %}
+    {% include 'AppBundle:Book:Includes/rightNavbar.html.twig' %}
+{% endblock %}

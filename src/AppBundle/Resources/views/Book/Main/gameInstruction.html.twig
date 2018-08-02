@@ -11,32 +11,34 @@
             <section id="entry-chapter-text" class="padding-top-80">
                 <div class="container">
                     <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
-                        <h3>{{ 'left_navbar.book.chapter1'|trans }}</h3>
+                        <h3>{{ 'book.game.header'|trans }}!</h3>
                         <hr class="color">
                     </div>
                 </div>
             </section>
 
-            {#FIRST CHAPTER#}
-            {% include 'AppBundle:Book:FirstChapter/Includes/sup-chapter-1.html.twig' %}
+            {#INTRODUCTION#}
+            {% include '@App/Book/Main/Includes/introduction.html.twig' %}
 
-            {#SECOND CHAPTER#}
-            {% include 'AppBundle:Book:FirstChapter/Includes/sup-chapter-2.html.twig' %}
 
-            {#THIRD CHAPTER#}
-            {% include 'AppBundle:Book:FirstChapter/Includes/sup-chapter-3.html.twig' %}
-
-            {#NEXT CHAPTER: DOCTORS VIEW#}
+            {#NEXT CHAPTER#}
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
+                    {#NEXT CHAPTER: GAME PART I#}
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
-                        <a href="{{ path('app_book_first_chapter_result') }}" class="btn btn-med btn-color">
-                            {{ 'left_navbar.book.chapter14'|trans }}
+                        <a href="{{ path('app_book_first_chapter_game') }}" class="btn btn-med btn-color">
+                            {{ 'book.game.header'|trans }} - {{ 'basic_words.part'|trans }} I
+                        </a>
+                    </div>
+
+                    {#NEXT CHAPTER: CHAPTER 2#}
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        <a href="{{ path('app_book_second_chapter_tasks') }}#chapter21" class="btn btn-med btn-color">
+                            {{ 'book.next.chapter'|trans }}: {{ 'left_navbar.book.chapter2'|trans }}
                         </a>
                     </div>
                 </div>
             </section>
-
         </div>
     </main>
 {% endblock %}
