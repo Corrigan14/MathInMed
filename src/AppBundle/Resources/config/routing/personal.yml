@@ -1,0 +1,5 @@
+app_personal_martina_babinska:
+    path:     /{_locale}/personal/babinska-martina
+    defaults: { _controller: AppBundle:Personal/BabinskaMartina:introduction, _locale: en }
+    requirements:
+        _locale:  en|sk

@@ -1,0 +1,5 @@
+app_researchers_main_resources:
+    path:     /{_locale}/researchers/resources
+    defaults: { _controller: AppBundle:Researcher/Main:resources, _locale: en }
+    requirements:
+        _locale:  en|sk
