@@ -578,7 +578,7 @@ book:
   game.part1.task4.text4-2: the second alternative
   game.part1.task4.text4-3: for you
   game.part1.task4.text5: If you like, you can of course solve both variants! In this way you can check your answer's accuracy
-  game.part1.task4-1.text1-1: The right graph is a graph of dependency between
+  game.part1.task4-1.text1-1: The right graph is a graph of a dependency between
   game.part1.task4-1.text1-2: independent variable k
   game.part1.task4-1.text1-3: and
   game.part1.task4-1.text1-4: dependent variable m
@@ -586,9 +586,19 @@ book:
   game.part1.task4-1.text2-2: sinus
   game.part1.task4-1.text3-1: The graph is then
   game.part1.task4-1.text3-2: graph of a sinus function
-  game.part1.task4-1.text4: Which of the next propositions are correct (true) for our graph
-  game.part1.task4-1.text4:
-  game.part1.task4-1.text4:
+  game.part1.task4-1.text4: Which of the next propositions are true for our graph
+  game.part1.task4-1.text5-1: Dependent variable
+  game.part1.task4-1.text5-2: only gets values of the interval
+  game.part1.task4-1.text6-1: If independent variable
+  game.part1.task4-1.text6-2: the value of a dependent variable
+  game.part1.task4-1.text6-3: is
+  game.part1.task4-1.text7-1: If independent variable
+  game.part1.task4-1.text7-2: its increasing values bring also increase of a
+  game.part1.task4-1.text7-3: variable values
+  game.part1.task4-1.text8-1: Values of a dependent variable
+  game.part1.task4-1.text8-2: are repeating
+  game.part1.task4-1.text8-3: The repetition distance is
+  game.part1.task4-1.text8-4: repetition frequency is
   game.part1.task4-1.text4:
   game.part1.task4.text1:
   game.part1.task4.text1:
