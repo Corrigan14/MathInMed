@@ -34,30 +34,6 @@ app_book_first_chapter_game:
     requirements:
         _locale:  en|sk
 
-app_book_first_chapter_game_task1:
-    path:     /{_locale}/book/first-chapter/game/task1
-    defaults: { _controller: AppBundle:Book/FirstChapter:gameTask1, _locale: en }
-    requirements:
-        _locale:  en|sk
-
-app_book_first_chapter_game_task2:
-    path:     /{_locale}/book/first-chapter/game/task2
-    defaults: { _controller: AppBundle:Book/FirstChapter:gameTask2, _locale: en }
-    requirements:
-        _locale:  en|sk
-
-app_book_first_chapter_game_task3:
-    path:     /{_locale}/book/first-chapter/game/task3
-    defaults: { _controller: AppBundle:Book/FirstChapter:gameTask3, _locale: en }
-    requirements:
-        _locale:  en|sk
-
-app_book_first_chapter_game_task4:
-    path:     /{_locale}/book/first-chapter/game/task4
-    defaults: { _controller: AppBundle:Book/FirstChapter:gameTask4, _locale: en }
-    requirements:
-        _locale:  en|sk
-
 app_book_first_chapter_history_mathematicians:
     path:     /{_locale}/book/first-chapter/history-mathematicians
     defaults: { _controller: AppBundle:Book/FirstChapter:historyMathematicians, _locale: en }

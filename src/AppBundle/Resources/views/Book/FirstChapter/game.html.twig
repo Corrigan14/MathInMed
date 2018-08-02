@@ -46,8 +46,8 @@
                             <ul>
                                 <!-- 1 -->
                                 <li>
-                                    <div class="thumb">
-                                        <a href="{{ path('app_book_first_chapter_game_task1') }}">
+                                    <div class="thumb scroll">
+                                        <a href="#task-1">
                                             {% image '@AppBundle/Resources/public/images/book/game/task1-icon.jpg' %}
                                             <img src="{{ asset_url }}" alt="Reading">
                                             {% endimage %}
@@ -60,8 +60,8 @@
                                 </li>
                                 <!-- 2 -->
                                 <li>
-                                    <div class="thumb">
-                                        <a href="{{ path('app_book_first_chapter_game_task2') }}">
+                                    <div class="thumb scroll">
+                                        <a href="#task-2">
                                             {% image '@AppBundle/Resources/public/images/book/game/task2-icon.png' %}
                                             <img src="{{ asset_url }}" alt="Helpers">
                                             {% endimage %}
@@ -74,8 +74,8 @@
                                 </li>
                                 <!-- 3 -->
                                 <li>
-                                    <div class="thumb">
-                                        <a href="{{ path('app_book_first_chapter_game_task3') }}">
+                                    <div class="thumb scroll">
+                                        <a href="#task-3">
                                             {% image '@AppBundle/Resources/public/images/book/game/task3-icon.jpg' %}
                                             <img src="{{ asset_url }}" alt="Answers">
                                             {% endimage %}
@@ -88,8 +88,8 @@
                                 </li>
                                 <!-- 4 -->
                                 <li>
-                                    <div class="thumb">
-                                        <a href="{{ path('app_book_first_chapter_game_task4') }}">
+                                    <div class="thumb scroll">
+                                        <a href="#task-4">
                                             {% image '@AppBundle/Resources/public/images/book/game/task4-icon.jpg' %}
                                             <img src="{{ asset_url }}" alt="Forum">
                                             {% endimage %}
@@ -105,6 +105,15 @@
                     </div>
                 </div>
             </section>
+
+            {#TASK I#}
+            {% include '@App/Book/FirstChapter/Includes/game-task-1.html.twig' %}
+            {#TASK II#}
+            {% include '@App/Book/FirstChapter/Includes/game-task-2.html.twig' %}
+            {#TASK III#}
+            {% include '@App/Book/FirstChapter/Includes/game-task-3.html.twig' %}
+            {#TASK IV#}
+            {% include '@App/Book/FirstChapter/Includes/game-task-4.html.twig' %}
 
             {#NEXT CHAPTER#}
             <section class="blog padding-top-80 padding-bottom-80 border-top">
