@@ -7,22 +7,20 @@
         <div id="services" class="why-choose">
             <section class="padding-top-80 padding-bottom-80">
                 <div class="container">
-                    <!-- MAIN HEADING -->
+                    {# CITATION #}
                     <div class="heading-block text-center">
                         <h3>{{ 'personal.martina.citation'|trans }}</h3>
                         <div class="divider divider-short divider-center">
                             {% image '@AppBundle/Resources/public/images/general/dividers/hammers.png' %}
-                            <img src="{{ asset_url }}" alt="Divider-Icon-Image" class="i-div">
+                                <img src="{{ asset_url }}" alt="Divider-Icon-Image" class="i-div" >
                             {% endimage %}
                         </div>
                         <span>{{ 'personal.martina.author.citation'|trans }}</span>
                     </div>
 
-                    <!-- Why Choose Us  ROW-->
+                    {# INTRODUCTION INFO #}
                     <div class="row">
                         <div class="col-md-7">
-
-                            <!-- Tittle -->
                             <div class="heading-block margin-bottom-10">
                                 <span class="margin-bottom-10">
                                     {{ 'personal.martina.introduction-headline-1'|trans }}
@@ -49,59 +47,70 @@
                             </div>
 
                         </div>
-
-                        <!-- Foto -->
                         <div class="col-md-5 text-right margin-top-70">
                             {% image '@AppBundle/Resources/public/images/personal/martina.jpg' %}
-                            <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                 style="max-width: 400px">
+                                <img
+                                        src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
+                                        style="max-width: 400px"
+                                >
                             {% endimage %}
                         </div>
                     </div>
 
-                    <!-- Services ROW -->
+                    {# CV DETAILS #}
                     <div class="row margin-top-60">
-
-                        <!-- Services -->
+                        {# RESEARCH #}
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
-                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-15 border-bottom-1 border-light">
-                                <div class="ib-icon"><i class="fa fa-paper-plane-o"></i></div>
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-15">
+                                <div class="ib-icon">
+                                    <i class="fa fa-paper-plane-o"></i>
+                                </div>
                                 <div class="ib-info">
                                     <h4 class="h6"> {{ 'personal.martina.part1.headlie'|trans }}</h4>
-                                    <p>Contrary to popular belief , Lorem Ipsum is not simply random text. It has roots
-                                        in a piece</p>
+                                    <p>{{ 'personal.martina.part4.headlie.text'|trans }}</p>
+                                    <p>{{ 'personal.read'|trans }}</p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Services -->
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
-                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-15 border-bottom-1 border-light">
-                                <div class="ib-icon"><i class="fa fa-tencent-weibo"></i></div>
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-15">
+                                <div class="ib-icon">
+                                    <i class="fa fa-tencent-weibo"></i>
+                                </div>
                                 <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part2.headlie'|trans }}</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem not simply random
-                                        accusantium</p>
+                                        accusantium
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Services -->
                         <div class="col-md-4 margin-bottom-30 animate fadeInUp" data-wow-delay="0.8s">
-                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-15 border-bottom-1 border-light">
-                                <div class="ib-icon"><i class="fa fa-sliders"></i></div>
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-15">
+                                <div class="ib-icon">
+                                    <i class="fa fa-sliders"></i>
+                                </div>
                                 <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part3.headlie'|trans }}</h4>
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-                                        in a piece</p>
+                                        in a piece
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- Services -->
-                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
-                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31">
-                                <div class="ib-icon"><i class="fa fa-graduation-cap"></i></div>
+                    <div class="row margin-top-20">
+                        {# EDUCATION #}
+                        <div class="col-md-4 animate fadeInUp border-bottom-1 " data-wow-delay="0.4s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
+                                <div class="ib-icon">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
                                 <div class="ib-info" onclick="toggleText('Education')">
                                     <h4 class="h6">{{ 'personal.martina.part4.headlie'|trans }}</h4>
                                     <p>{{ 'personal.martina.part4.headlie.text'|trans }}</p>
@@ -112,20 +121,25 @@
 
                         <!-- Services -->
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
-                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31">
-                                <div class="ib-icon"><i class="fa fa-archive"></i></div>
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
+                                <div class="ib-icon">
+                                    <i class="fa fa-archive"></i>
+                                </div>
                                 <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part5.headlie'|trans }}</h4>
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-                                        in a piece</p>
+                                        in a piece
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Services -->
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.8s">
-                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31">
-                                <div class="ib-icon"><i class="fa fa-group"></i></div>
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
+                                <div class="ib-icon">
+                                    <i class="fa fa-group"></i>
+                                </div>
                                 <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part6.headlie'|trans }}</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
@@ -134,7 +148,7 @@
                         </div>
                     </div>
 
-                    <!-- Education -->
+                    {# EDUCATION #}
                     <div id="textEducation" class="hide-element">
                         {% include 'AppBundle:Personal:BabinskaMartina/Includes/education.html.twig' %}
                     </div>
