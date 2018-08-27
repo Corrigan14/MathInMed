@@ -65,21 +65,20 @@
                                 <div class="ib-icon">
                                     <i class="fa fa-paper-plane-o"></i>
                                 </div>
-                                <div class="ib-info">
+                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Research')">
                                     <h4 class="h6"> {{ 'personal.martina.part1.headlie'|trans }}</h4>
                                     <p>{{ 'personal.martina.part4.headlie.text'|trans }}</p>
-                                    <p>{{ 'personal.read'|trans }}</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Services -->
+                        {# PUBLICATIONS #}
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-15">
                                 <div class="ib-icon">
                                     <i class="fa fa-tencent-weibo"></i>
                                 </div>
-                                <div class="ib-info">
+                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Publication')">
                                     <h4 class="h6">{{ 'personal.martina.part2.headlie'|trans }}</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem not simply random
                                         accusantium
@@ -88,13 +87,13 @@
                             </div>
                         </div>
 
-                        <!-- Services -->
+                        {# TEACHING AND STUDENTS' WORK #}
                         <div class="col-md-4 margin-bottom-30 animate fadeInUp" data-wow-delay="0.8s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-15">
                                 <div class="ib-icon">
                                     <i class="fa fa-sliders"></i>
                                 </div>
-                                <div class="ib-info">
+                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Teaching')">
                                     <h4 class="h6">{{ 'personal.martina.part3.headlie'|trans }}</h4>
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
                                         in a piece
@@ -106,26 +105,25 @@
 
                     <div class="row margin-top-20">
                         {# EDUCATION #}
-                        <div class="col-md-4 animate fadeInUp border-bottom-1 " data-wow-delay="0.4s">
+                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
                                 <div class="ib-icon">
                                     <i class="fa fa-graduation-cap"></i>
                                 </div>
-                                <div class="ib-info" onclick="toggleText('Education')">
+                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Education')">
                                     <h4 class="h6">{{ 'personal.martina.part4.headlie'|trans }}</h4>
                                     <p>{{ 'personal.martina.part4.headlie.text'|trans }}</p>
-                                    <p>{{ 'personal.read'|trans }}</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Services -->
+                        {# WORK EXPERIENCE #}
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
                                 <div class="ib-icon">
                                     <i class="fa fa-archive"></i>
                                 </div>
-                                <div class="ib-info">
+                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Work')">
                                     <h4 class="h6">{{ 'personal.martina.part5.headlie'|trans }}</h4>
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
                                         in a piece
@@ -134,13 +132,13 @@
                             </div>
                         </div>
 
-                        <!-- Services -->
+                        {# REFERENCES #}
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.8s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
                                 <div class="ib-icon">
                                     <i class="fa fa-group"></i>
                                 </div>
-                                <div class="ib-info">
+                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Reference')">
                                     <h4 class="h6">{{ 'personal.martina.part6.headlie'|trans }}</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
                                 </div>
@@ -148,9 +146,34 @@
                         </div>
                     </div>
 
+                    {# RESEARCH #}
+                    <div id="infoResearch" class="hide-element">
+                        {% include '@App/Personal/BabinskaMartina/Includes/research.html.twig' %}
+                    </div>
+
+                    {# PUBLICATIONS #}
+                    <div id="infoPublication" class="hide-element">
+                       publications
+                    </div>
+
+                    {# TEACHING AND STUDENTS' WORK #}
+                    <div id="infoTeaching" class="hide-element">
+                        teaching
+                    </div>
+
                     {# EDUCATION #}
-                    <div id="textEducation" class="hide-element">
+                    <div id="infoEducation" class="hide-element">
                         {% include 'AppBundle:Personal:BabinskaMartina/Includes/education.html.twig' %}
+                    </div>
+
+                    {# WORK EXPERIENCE #}
+                    <div id="infoWork" class="hide-element">
+                        work
+                    </div>
+
+                    {# REFERENCES #}
+                    <div id="infoReference" class="hide-element">
+                        references
                     </div>
 
                 </div>

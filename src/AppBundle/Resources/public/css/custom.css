@@ -12,6 +12,10 @@
     overflow-x: hidden;
 }
 
+.cursor-hand{
+    cursor: pointer;
+}
+
 .min-height-200 {
     min-height: 200px;
 }
@@ -144,4 +148,16 @@
     position: relative;
     top: -50px;
     margin-bottom: 0px;
+}
+
+.icon-box-h6 .ib-icon {
+    background-color: transparent;
+    display: inline-block;
+    font-size: 26px;
+    float: left;
+    width: 5rem;
+    margin-right: 2.14286rem;
+    position: relative;
+    text-align: center;
+    bottom: 5px;
 }

@@ -18,6 +18,42 @@ function toggleText(param) {
     $($tableId).toggle(1000);
 }
 
+function togglePersonalInfo(param) {
+    var $infoResearch = $('#infoResearch'),
+    $infoPublication = $('#infoPublication'),
+    $infoTeaching = $('#infoTeaching'),
+    $infoEducation = $('#infoEducation'),
+    $infoWork = $('#infoWork'),
+    $infoReference = $('#infoReference'),
+    $tableId = '#info' + param;
+
+    if($tableId !== $infoResearch){
+        $infoResearch.hide();
+    }
+
+    if($tableId !== $infoPublication){
+        $infoPublication.hide();
+    }
+
+    if($tableId !== $infoTeaching){
+        $infoTeaching.hide();
+    }
+
+    if($tableId !== $infoEducation){
+        $infoEducation.hide();
+    }
+
+    if($tableId !== $infoWork){
+        $infoWork.hide();
+    }
+
+    if($tableId !== $infoReference){
+        $infoReference.hide();
+    }
+
+    $($tableId).toggle(1000);
+}
+
 function toggleGameTask(param) {
     var $tableId = '#task' + param;
     $($tableId).toggle(1000);
@@ -27,9 +63,9 @@ jQuery(document).ready(function () {
     var $topNavbar = $('#undefined-sticky-wrapper'),
         $owmenu = $('#ownmenu');
 
-    if($topNavbar.hasClass('is-sticky')){
+    if ($topNavbar.hasClass('is-sticky')) {
         $owmenu.addClass('white-navbar');
-    }else{
+    } else {
         $owmenu.removeClass('white-navbar');
     }
 });
