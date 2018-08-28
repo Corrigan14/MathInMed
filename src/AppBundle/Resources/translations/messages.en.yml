@@ -206,9 +206,11 @@ personal:
   read: Click to read more...
   research: Type of the research
   status: Status
-  analysis: Data analysis
+  inprogres: In progres
+  finished: Finished
+  methods: Methods
   publication: Publication
-  description: Project description
+  description: Goal and description
   martina.citation: Success is not final, failure is not fatal. It is the courage to continue that counts.
   martina.author.citation: Winston Churchill
   martina.sign: Martina Babinska
@@ -235,8 +237,16 @@ personal:
   martina.part7.headlie: Personal Goals
   martina.part8.headlie: Interests
 
-  martina.part1.text-1-1: Present
-  martina.part1.text-1-2: Context vs Problem Type, students' opinion
+  martina.part1.text-1-1-1: Present
+  martina.part1.text-1-1-2: in progres
+  martina.part1.text-1-2: Context vs Problem Type, do students care?
+  martina.part1.text-1-3:
+  martina.part1.text-1-4: Opening and closing survey, six mathematical problems solutions, obervation, qualitative data analysis
+  martina.part1.text-1-4-1: Opening and closing survey
+  martina.part1.text-1-5-1: The main results were used during my thesis
+  The brief insight into data was published in a Slovak language in 2012
+  martina.part1.text-1-5-2: The study was repeated in 2018. Widened data are analyzed again in a present time.
+  And we are preparing the whole study English Article.
 
   martina.part1.text-2-1: Present
   martina.part1.text-2-2: The role of an extensive real world contextual mathematical problem in a self-studying process
