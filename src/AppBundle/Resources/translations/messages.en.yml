@@ -3,6 +3,7 @@ motto: Why do we have to learn that???
 basic_words:
   download_print: DOWNLOAD TO PRINT
   part: part
+  student: Student
 
 main_navbar:
   about: About
@@ -16,7 +17,7 @@ main_navbar:
   developers: Developers
   here: HERE
   check_answer: Check your answer
-  development.note1: Website development is in progres...
+  development.note1: Website development is in progress...
   development.note2: We are comming soon!
 
 slider:
@@ -206,7 +207,7 @@ personal:
   read: Click to read more...
   research: Type of the research
   status: Status
-  inprogres: In progres
+  inprogres: In progress project
   finished: Finished
   methods: Methods
   publication: Publication
@@ -238,18 +239,26 @@ personal:
   martina.part8.headlie: Interests
 
   martina.part1.text-1-1-1: Present
-  martina.part1.text-1-1-2: in progres
-  martina.part1.text-1-2: Context vs Problem Type, do students care?
-  martina.part1.text-1-3:
+  martina.part1.text-1-1-2: in progress
+  martina.part1.text-1-2-1: The importance of context and question type in mathematical tasks
+  martina.part1.text-1-2-2: Do students care
+  martina.part1.text-1-3-1: I just memorized mathematics in last years because I did not understand it so well and in this way, I got only the best grades. It is horrible! To memorize math, formulas, procedures.
+  martina.part1.text-1-3-2: I missed the explanations why to do what to do and how things are related to each other. We did everything manually, without thinking why we should do it in this way.
+  martina.part1.text-1-3-3: These two students’ statements are not new or surprising. The previous studies already showed, that many students see mathematics only like a set of formulas and standard procedures
+  martina.part1.text-1-3-4: One of the main goals of changing approach to the mathematics and its teaching and learning, is to change it.
+  martina.part1.text-1-3-5: But, even though the reform in Slovakia already started, it still needs time to affect majority of students.
+  martina.part1.text-1-3-6:
+  martina.part1.text-1-3-7:
+  martina.part1.text-1-3-8:
   martina.part1.text-1-4: Opening and closing survey, six mathematical problems solutions, obervation, qualitative data analysis
   martina.part1.text-1-4-1: Opening and closing survey
   martina.part1.text-1-5-1: The main results were used during my thesis
-  The brief insight into data was published in a Slovak language in 2012
-  martina.part1.text-1-5-2: The study was repeated in 2018. Widened data are analyzed again in a present time.
-  And we are preparing the whole study English Article.
+  martina.part1.text-1-5-2: The brief insight into data was published in a Slovak language in 2012
+  martina.part1.text-1-5-3: The study was repeated in 2018. Widened data are analyzed again in a present time.
+  martina.part1.text-1-5-4: And we are preparing the whole study English Article.
 
   martina.part1.text-2-1: Present
-  martina.part1.text-2-2: The role of an extensive real world contextual mathematical problem in a self-studying process
+  martina.part1.text-2-2: Extensive real world contextual mathematical problem in a self-studying process
 
   martina.part1.text-3-1: 2018
   martina.part1.text-3-2: Augmented reality and future mathematics teachers
@@ -317,7 +326,7 @@ book:
   introduction.part2.text2-5: Modern spirometers are small computer machines connected to the breathing mouthpiece (picture right). Assessment result is printed from the computer to the paper sheet.
   introduction.part3.slogan: Computers help
   introduction.part3.headline:  Spirometry Result
-  introduction.part3.text3-1: To help a doctor make a diagnosis, the modern computer assessment result does not contain only siprometry curve, but also:
+  introduction.part3.text3-1: To help a doctor make a diagnosis, the modern computer assessment result does not contain only siprometry curve, but also
   introduction.part3.text3-2: o Key measured values
   introduction.part3.text3-3: o Volume-Time curve
   introduction.part3.text3-4: o Flow-Volume loop
@@ -506,7 +515,7 @@ book:
   diseases.part-11-text-2: The lung tissue is defected what causes decreased air volume stored in a lung.
   diseases.part-11-header-2: How are the restrictive lung diseases demonstrated by the Spirometry assessment?
   diseases.part-11-header-3: What are the causes of restrictive lung diseases?
-  diseases.part-11-text-3: The causes can be splited into the two main categories:
+  diseases.part-11-text-3: The causes can be splited into the two main categories
   diseases.part-11-text-3-1: Extrinsic (they are influencing the chest wall movement)
   diseases.part-11-text-3-1-1: Obesity
   diseases.part-11-text-3-1-2: Scoliosis
