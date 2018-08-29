@@ -214,6 +214,8 @@ personal:
   study: Study
   publication: Publications
   description: Goal and description
+  employer: Employer
+  responsibility: Responsibility
   martina.citation: Success is not final, failure is not fatal. It is the courage to continue that counts.
   martina.author.citation: Winston Churchill
   martina.sign: Martina Babinska
@@ -315,6 +317,14 @@ personal:
   martina.part4.text-5-2-1: Informatics
   martina.part4.text-5-2-2: Secondary school
   martina.part4.text-5-2-3: May 2005
+
+  martina.part5.text-1: Research and teaching
+  martina.part5.text-2-1: 09/2014 – 11/2015
+  martina.part5.text-2-2: International Measurements Analyst
+  martina.part5.text-2-3: National Institute for Certified Educational Measurements (NÚCEM), Department of The International Measurements (OMM)
+  martina.part5.text-2-4: Participation in international quantitative research included data analyses from the international TALIS survey (The OECD Teaching and Learning International Survey) and National Slovak Republic Report preparation
+
+  martina.part5.text-8: Programming
 
 
 book:
