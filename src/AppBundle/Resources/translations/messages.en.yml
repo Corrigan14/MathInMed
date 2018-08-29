@@ -233,8 +233,12 @@ personal:
   martina.part3.headlie.text:
   martina.part4.headlie: Education and Qualifications
   martina.part4.headlie.text: During my studies I was focusing on Informatics, Applied Mathematics and The Theory of Teaching of Mathematics. After graduation, I absolved an English language course in Vancouver to improve my position in an international market.
-  martina.part5.headlie: Work Experience and Professional Skills
-  martina.part5.headlie.text:
+  martina.part5.headlie-1: Work Experience
+  martina.part5.headlie-2: Professional Skills
+  martina.part5.headlie.text-1: My work experience involves two main professional areas
+  martina.part5.headlie.text-2: programming and research
+  martina.part5.headlie.text-3: While programming takes place mostly in my free time, research and teaching are main areas of my professional interest
+  martina.part5.headlie.text-4: It started during my PhD. study, continued by work in a National Institute for Certified Educational Measurements where I gained experience with big data databases and quantitative data analysis and is still continuing by my actual work at Comenius University
   martina.part6.headlie: Referees
   martina.part6.headlie.text:
   martina.part7.headlie: Personal Goals

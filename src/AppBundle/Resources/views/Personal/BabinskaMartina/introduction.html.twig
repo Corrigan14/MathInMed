@@ -124,9 +124,12 @@
                                     <i class="fa fa-archive"></i>
                                 </div>
                                 <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Work')">
-                                    <h4 class="h6">{{ 'personal.martina.part5.headlie'|trans }}</h4>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-                                        in a piece
+                                    <h4 class="h6">{{ 'personal.martina.part5.headlie-1'|trans }}</h4>
+                                    <p>
+                                        {{  'personal.martina.part5.headlie.text-1'|trans }}:
+                                        {{  'personal.martina.part5.headlie.text-2'|trans }}.
+                                        {{  'personal.martina.part5.headlie.text-3'|trans }}.
+                                        {{  'personal.martina.part5.headlie.text-4'|trans }}.
                                     </p>
                                 </div>
                             </div>
@@ -168,7 +171,7 @@
 
                     {# WORK EXPERIENCE #}
                     <div id="infoWork" class="hide-element">
-                        work
+                        {% include 'AppBundle:Personal:BabinskaMartina/Includes/work.html.twig' %}
                     </div>
 
                     {# REFERENCES #}
