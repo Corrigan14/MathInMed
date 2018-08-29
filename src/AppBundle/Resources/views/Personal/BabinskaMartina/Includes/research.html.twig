@@ -14,131 +14,164 @@
     </div>
 </div>
 
-{# CONTENT - PROJECT 1 #}
+{# CONTENT - STUDENTS, IN PROGRES PROJECTS #}
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-5 text-left margin-top-20 padding-right-30">
+        {% image '@AppBundle/Resources/public/images/personal/students3.jpg' %}
+            <img src="{{ asset_url }}" alt="Students"  class="img-responsive">
+        {% endimage %}
     </div>
-    <div class="col-md-8">
+    <div class="col-md-7">
         <h6 class="problem">
-            {{ 'personal.martina.part1.text-1-2-1'|trans }}: {{ 'personal.martina.part1.text-1-2-2'|trans }}?
+            {{ 'personal.martina.part1.text-1-2-1'|trans }}: {{ 'personal.martina.part1.text-1-2-2'|trans }}
             <br>
             ({{ 'personal.inprogres'|trans }})
         </h6>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        {% image '@AppBundle/Resources/public/images/personal/students.png' %}
-            <img src="{{ asset_url }}" alt="Students" >
-        {% endimage %}
-    </div>
-    <div class="col-md-8">
         <div class="">
             <p>
-                <span><i>"{{ 'personal.martina.part1.text-1-3-1'|trans }}"</i></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span><i>"{{ 'personal.martina.part1.text-1-3-3'|trans }}"</i></span>
                 <b>{{ 'basic_words.student'|trans }} I</b>
             </p>
             <p>
-                <span><i>"{{ 'personal.martina.part1.text-1-3-2'|trans }}"</i></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span><i>"{{ 'personal.martina.part1.text-1-3-1'|trans }}"</i></span>
                 <b>{{ 'basic_words.student'|trans }} II</b>
+            </p>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span><i>"{{ 'personal.martina.part1.text-1-3-2'|trans }}"</i></span>
+                <b>{{ 'basic_words.student'|trans }} III</b>
             </p>
         </div>
         <p>
-            {{ 'personal.martina.part1.text-1-3-3'|trans }}
-            (<span class="colour-font"><b><a href="{{ path('app_researchers_main_resources') }}">Boaler, 2002</a></b></span>).
             {{ 'personal.martina.part1.text-1-3-4'|trans }}
+            (<span><b><a href="{{ path('app_researchers_main_resources') }}" target="_blank" class="colour-font">Boaler, 1997</a></b></span>).
             {{ 'personal.martina.part1.text-1-3-5'|trans }}
+            {{ 'personal.martina.part1.text-1-3-6'|trans }}
         </p>
         <p>
-            {{ 'personal.martina.part1.text-1-3-6'|trans }}
+            {{ 'personal.martina.part1.text-1-3-7'|trans }}
         </p>
     </div>
 </div>
 
-<div class="row smaller-p-tags-line margin-top-15">
-    <div class="col-md-4">
-        <p>
-            <b>{{ 'personal.methods'|trans }}</b>
+
+{# CONTENT - PROJECT 1 #}
+<div class="row margin-top-25">
+    <div class="col-md-2">
+        <p class="uppercase-transform">
+            <b>{{ 'personal.study'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-8">
-        <p>{{ 'personal.martina.part1.text-1-4'|trans }}</p>
+    <div class="col-md-10">
+        <h6 class="uppercase-transform">
+             {{ 'personal.martina.part1.text-2-1-1'|trans }}: {{ 'personal.martina.part1.text-2-1-2'|trans }}?
+        </h6>
     </div>
 </div>
-<div class="row smaller-p-tags-line">
-    <div class="col-md-4">
-        <p>
-            <b>{{ 'personal.publication'|trans }}</b>
+
+<div class="row">
+    <div class="col-md-2">
+        <p class="uppercase-transform">
+            <b>{{ 'personal.description'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-8">
-        <p>{{ 'personal.martina.part1.text-1-5-1'|trans }}</p>
-        <p>{{ 'personal.martina.part1.text-1-5-2'|trans }}</p>
+    <div class="col-md-10">
+        <p>{{ 'personal.martina.part1.text-2-3-1'|trans }}:
+            <br>
+            o &nbsp;<span><i>{{ 'personal.martina.part1.text-2-3-2'|trans }}?</i></span>
+            <br>
+            o &nbsp; <span><i>{{ 'personal.martina.part1.text-2-3-3'|trans }}?</i></span>
+            <br>
+            o &nbsp;<span><i>{{ 'personal.martina.part1.text-2-3-4'|trans }}?</i></span>
+        </p>
+        <p>
+            {{ 'personal.martina.part1.text-2-3-5-1'|trans }}
+            <span><b>{{ 'personal.martina.part1.text-2-3-5-2'|trans }}</b></span>,
+            <span><b>{{ 'personal.martina.part1.text-2-3-5-3'|trans }}</b></span>,
+            <span><b>{{ 'personal.martina.part1.text-2-3-5-4'|trans }}</b></span>.
+            <span>{{ 'personal.martina.part1.text-2-3-5-5'|trans }}</span>:
+            {{ 'personal.martina.part1.text-2-3-5-5-1'|trans }},
+            {{ 'personal.martina.part1.text-2-3-5-5-2'|trans }} (<span><b><a href="{{ path('app_researchers_main_resources') }}" target="_blank" class="colour-font">de Lange, 1979, 1999</a></b></span>),
+            {{ 'personal.martina.part1.text-2-3-5-5-3'|trans }} (<span><b><a href="{{ path('app_researchers_main_resources') }}" target="_blank" class="colour-font">de Lange, 1995</a></b></span>)
+            {{ 'personal.martina.part1.text-2-3-5-5-4'|trans }} (<span class="colour-font"><b>Revised Bloom’s Taxonomy</b></span>).
+        </p>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-md-2">
+        <p class="uppercase-transform">
+            <b>{{ 'personal.methods'|trans }}:</b>
+        </p>
+    </div>
+    <div class="col-md-10">
+        <p>{{ 'personal.martina.part1.text-2-2'|trans }}</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+        <p class="uppercase-transform">
+            <b>{{ 'personal.publication'|trans }}:</b>
+        </p>
+    </div>
+    <div class="col-md-10">
+        <p>
+            {{ 'personal.martina.part1.text-2-4-1-1'|trans }}: <b>{{ 'personal.martina.part1.text-2-4-1-2'|trans }}</b>
+            ({{ 'personal.martina.part1.text-2-4-1-3'|trans }}
+            <span class="colour-font"><b>{{ 'personal.martina.part1.text-2-4-1-4'|trans }}</b></span>)
+        </p>
+        <p>
+            {{ 'personal.martina.part1.text-2-4-2-1'|trans }}.
+            {{ 'personal.martina.part1.text-2-4-2-2'|trans }}.
+        </p>
+    </div>
+</div>
+
 
 
 {# CONTENT - PROJECT 2 #}
-<div class="row margin-top-30">
-    <div class="col-md-4">
-        <h6>{{ 'personal.martina.part1.text-2-1'|trans }}</h6>
-        <p>
-            <b>{{ 'personal.status'|trans }}</b>
-        </p>
-        <p>
-            <b>{{ 'personal.description'|trans }}</b>
-        </p>
-        <p>
-            <b>{{ 'personal.methods'|trans }}</b>
-        </p>
-        <p>
-            <b>{{ 'personal.publication'|trans }}</b>
+<div class="row margin-top-35">
+    <div class="col-md-2">
+        <p class="uppercase-transform">
+            <b>{{ 'personal.study'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-8">
-        <h6>{{ 'personal.martina.part1.text-2-2'|trans }}</h6>
-        <p>{{ 'personal.inprogres'|trans }}</p>
+    <div class="col-md-10">
+        <h6 class="uppercase-transform">
+            {{ 'personal.martina.part1.text-3-1'|trans }}
+        </h6>
     </div>
 </div>
-<div class="row margin-top-30">
-    <div class="col-md-4">
-        <h6>{{ 'personal.martina.part1.text-3-1'|trans }}</h6>
-        <p>
-            <b>{{ 'personal.status'|trans }}</b>
-        </p>
-        <p>
-            <b>{{ 'personal.description'|trans }}</b>
-        </p>
-        <p>
-            <b>{{ 'personal.methods'|trans }}</b>
-        </p>
-        <p>
-            <b>{{ 'personal.publication'|trans }}</b>
+
+<div class="row">
+    <div class="col-md-2">
+        <p class="uppercase-transform">
+            <b>{{ 'personal.description'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-8">
-        <h6>{{ 'personal.martina.part1.text-3-2'|trans }}</h6>
-        <p>{{ 'personal.finished'|trans }}</p>
+    <div class="col-md-10">
+        <p>...</p>
     </div>
 </div>
-<div class="row margin-top-30">
-    <div class="col-md-4">
-        <h6>{{ 'personal.martina.part1.text-4-1'|trans }}</h6>
-        <p>
-            <b>{{ 'personal.status'|trans }}</b>
-        </p>
-        <p>
-            <b>{{ 'personal.description'|trans }}</b>
-        </p>
-        <p>
-            <b>{{ 'personal.methods'|trans }}</b>
-        </p>
-        <p>
-            <b>{{ 'personal.publication'|trans }}</b>
+
+<div class="row">
+    <div class="col-md-2">
+        <p class="uppercase-transform">
+            <b>{{ 'personal.methods'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-8">
-        <h6>{{ 'personal.martina.part1.text-4-2'|trans }}</h6>
-        <p>{{ 'personal.finished'|trans }}</p>
+    <div class="col-md-10">
+        <p>...</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+        <p class="uppercase-transform">
+            <b>{{ 'personal.publication'|trans }}:</b>
+        </p>
+    </div>
+    <div class="col-md-10">
+        <p>..</p>
     </div>
 </div>

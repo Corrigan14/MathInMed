@@ -5,8 +5,6 @@
         {% include 'AppBundle:Default:Includes/slider.html.twig' %}
 
         <div id="content">
-            <!--======= Testimonial STYLE =========-->
-            <!-- OUR CORE FEATURES -->
             <section class="padding-top-80">
                 <div class="container">
                     <!-- MAIN HEADING -->
@@ -18,31 +16,61 @@
                 </div>
             </section>
 
-            <!-- Testimonial Style 3 -->
+            {# CONTENT - RESOURCES #}
             <section class="testimonial style-3 bg-parallax padding-bottom-80 padding-top-80">
                 <div class="container">
                     <ul class="row">
 
-                        <!-- Testi -->
+                        {# RESOURCE 1 - BOALER JO #}
                         <li class="col-md-12 margin-bottom-50">
                             <div class="testi-in">
-                                <!-- Avatar -->
-                                <div class="avatar">
-                                    {% image '@AppBundle/Resources/public/images/book/first-chapter/history-1.jpg' %}
+                                <div class="avatar margin-top-10">
+                                    {% image '@AppBundle/Resources/public/images/researcher/BoalerJo.jpg' %}
                                     <img src="{{ asset_url }}" alt="Math is a set of formulas"
                                          class="img-circle img-responsive">
                                     {% endimage %}
                                 </div>
 
                                 <p>
-                                    <b>Boaler, J. 2002: </b>
-                                    <a href="https://www.amazon.com/Experiencing-School-Mathematics-Traditional-Mathematical/dp/0805840044/ref=mt_hardcover?_encoding=UTF8&me=&qid=&dpID=41G7mGUQ9ZL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=detail">
-                                        Experiencing School Mathematics: Traditional and Reform Approaches To Teaching and Their Impact on Student Learning
-                                    </a>
+                                    <b>Boaler, J. (1997): </b>
+                                    Experiencing School Mathematics: Traditional and Reform Approaches To Teaching and Their Impact on Student Learning, Revised and Expanded Edition.
+                                    North America: Open University Press.
                                 </p>
 
-                                <h6>Mathematics =? collection of disconnected, standard procedures</h6>
-                                <span>In the UK and USA mathematics is believed by many students to be a collection of disconnected, standard procedures</span>
+                                <h6>Mathematics, a collection of disconnected standard procedures?</h6>
+                                <span>In the UK and the USA mathematics is believed by many students to be a collection of disconnected, standard procedures.</span>
+                            </div>
+                        </li>
+
+                        {# RESOURCE 2 - de LANGE #}
+                        <li class="col-md-12 margin-bottom-50">
+                            <div class="testi-in">
+                                <div class="avatar margin-top-10">
+                                    {% image '@AppBundle/Resources/public/images/researcher/deLange.jpg' %}
+                                    <img src="{{ asset_url }}" alt="Math is a set of formulas"
+                                         class="img-circle img-responsive">
+                                    {% endimage %}
+                                </div>
+
+                                <p>
+                                    <b>de Lange, J. (1979): </b>
+                                    Contextuele problemen [Contextual problems].
+                                    Euclides(55), 50-60
+                                </p>
+
+                                <p>
+                                    <b>de Lange, J. (1995): </b>
+                                    Assessment: No change without problems.
+                                </p>
+
+                                <p>
+                                    <b>de Lange, J. (1999): </b>
+                                    Framework for classroom assessment in mathematics.
+                                    Freudenthal Institute & National Center for Improving Student Learning and Achievement in Mathematics and Science.
+                                </p>
+
+                                <h6>MATHEMATICAL CONTEXTUAL PROBLEMS</h6>
+                                <span>The classification of mathematical context problems based on context's type and its relevance</span>
                             </div>
                         </li>
 

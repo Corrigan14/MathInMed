@@ -210,7 +210,8 @@ personal:
   inprogres: In progress project
   finished: Finished
   methods: Methods
-  publication: Publication
+  study: Study
+  publication: Publications
   description: Goal and description
   martina.citation: Success is not final, failure is not fatal. It is the courage to continue that counts.
   martina.author.citation: Winston Churchill
@@ -238,33 +239,46 @@ personal:
   martina.part7.headlie: Personal Goals
   martina.part8.headlie: Interests
 
-  martina.part1.text-1-1-1: Present
-  martina.part1.text-1-1-2: in progress
-  martina.part1.text-1-2-1: The importance of context and question type in mathematical tasks
-  martina.part1.text-1-2-2: Do students care
+  martina.part1.text-1-2-1: Students' inner motivation and mathematics
+  martina.part1.text-1-2-2: self-studying, self-preparation
   martina.part1.text-1-3-1: I just memorized mathematics in last years because I did not understand it so well and in this way, I got only the best grades. It is horrible! To memorize math, formulas, procedures.
   martina.part1.text-1-3-2: I missed the explanations why to do what to do and how things are related to each other. We did everything manually, without thinking why we should do it in this way.
-  martina.part1.text-1-3-3: These two students’ statements are not new or surprising. The previous studies already showed, that many students see mathematics only like a set of formulas and standard procedures
-  martina.part1.text-1-3-4: One of the main goals of changing approach to the mathematics and its teaching and learning, is to change it.
-  martina.part1.text-1-3-5: But, even though the reform in Slovakia already started, it still needs time to affect majority of students.
-  martina.part1.text-1-3-6:
-  martina.part1.text-1-3-7:
-  martina.part1.text-1-3-8:
-  martina.part1.text-1-4: Opening and closing survey, six mathematical problems solutions, obervation, qualitative data analysis
-  martina.part1.text-1-4-1: Opening and closing survey
-  martina.part1.text-1-5-1: The main results were used during my thesis
-  martina.part1.text-1-5-2: The brief insight into data was published in a Slovak language in 2012
-  martina.part1.text-1-5-3: The study was repeated in 2018. Widened data are analyzed again in a present time.
-  martina.part1.text-1-5-4: And we are preparing the whole study English Article.
+  martina.part1.text-1-3-3: Mathematics cannot be fun. It always will be boring
+  martina.part1.text-1-3-4: These students’ statements are not new or surprising. The previous studies already showed, that many students see mathematics only like a set of formulas and standard procedures
+  martina.part1.text-1-3-5: One of the main goals of changing approach to the mathematics and its teaching and learning, is to change it.
+  martina.part1.text-1-3-6: But, even though the reform in Slovakia already started, it still needs time to affect majority of students.
+  martina.part1.text-1-3-7: The long-term goal of my research is to study efficient ways of communication with students through contextual mathematical problems in their self-studying and school-preparation environment. These ways can be both, face-to-face and online.
 
-  martina.part1.text-2-1: Present
-  martina.part1.text-2-2: Extensive real world contextual mathematical problem in a self-studying process
+  martina.part1.text-2-1-1: The importance of context and question type in mathematical tasks
+  martina.part1.text-2-1-2:  Do students care
+  martina.part1.text-2-2: Two groups of students, opening and closing survey, solutions of varied mathematical problems, observation, unstructured interview, qualitative data analysis
+  martina.part1.text-2-3-1: The goal of a provided research is to study students’ opinion of the different contextual mathematical problems
+  martina.part1.text-2-3-2: Can students see the difference in contextual problems
+  martina.part1.text-2-3-3: Is context more/less important than the problem type
+  martina.part1.text-2-3-4: What contexts are suitable for a selected age group
+  martina.part1.text-2-3-5-1: With a view to answer these questions we are analyzing contexts’ attractiveness, contexts’ reality and the whole problem attractiveness, using
+  martina.part1.text-2-3-5-2: surveys
+  martina.part1.text-2-3-5-3: interviews
+  martina.part1.text-2-3-5-4: students’ solutions of mathematical problems
+  martina.part1.text-2-3-5-5: These problems are varied in
+  martina.part1.text-2-3-5-5-1: a context (topic)
+  martina.part1.text-2-3-5-5-2: context type
+  martina.part1.text-2-3-5-5-3: context’s relevance
+  martina.part1.text-2-3-5-5-4: and in a question’s type
+  martina.part1.text-2-4-1-1: Results from the research were partially published in a Slovak language at National Student Conference in 2013
+  martina.part1.text-2-4-1-2: Can Reality Motivate Students to Mathematics Study?
+  martina.part1.text-2-4-1-3: look for
+  martina.part1.text-2-4-1-4:  Publications, Conferences and Awards
+  martina.part1.text-2-4-2-1:  In 2018 we repeated the study to widen data
+  martina.part1.text-2-4-2-2:  At this time, we are working on an English article carrying main results from both studies
 
-  martina.part1.text-3-1: 2018
-  martina.part1.text-3-2: Augmented reality and future mathematics teachers
+  martina.part1.text-3-1: Extensive real world contextual mathematical problem in a self-studying process
 
-  martina.part1.text-4-1: 2014 - 2015
-  martina.part1.text-4-2: The OECD Teaching and Learning International Survey
+  martina.part1.text-4-1: 2018
+  martina.part1.text-4-2: Augmented reality and future mathematics teachers
+
+  martina.part1.text-5-1: 2014 - 2015
+  martina.part1.text-5-2: The OECD Teaching and Learning International Survey
 
   martina.part4.text-1-1: 03/2017 – 08/2017
   martina.part4.text-1-2: ILAC International College, Vancouver
