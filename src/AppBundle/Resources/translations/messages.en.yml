@@ -205,7 +205,7 @@ personal:
   graduation: Graduation
   thesis: Thesis
   goal: Goal of the thesis
-  read: Click to read more...
+  read: Read more...
   research: Type of the research
   status: Status
   inprogres: In progress project
@@ -224,11 +224,17 @@ personal:
   martina.introduction-headline-2: A few words about me
   martina.introduction-part-1-text-1: Hi! My name is Martina and If I am characterizing me, I would like to do it through my passions.
   martina.introduction-part-1-text-2: Except art, fashion, books and nature, there are two big passions in my life, teaching and programming.
-  martina.introduction-part-1-text-3: I was studying at Comenius University in Bratislava, where I attained a PhD. degree from The Theory of Teaching of Mathematics. After graduation I was working as an analytics and a PHP developer. Later,  I spent 6 months in Vancouver, improving my English skills and discovering a new culture.
-  martina.introduction-part-1-text-4: The idea of choosing one straight way, to be a programmer or to teach, showed unacceptable for me and so I decided to join them.
-  martina.introduction-part-1-text-5: I am working as a teacher and a researcher at Comenius University now. To use, nowadays great technology opportunities to help students, I am focusing on a student's online self-studying motivation and their opportunities in a mathematics learning.
+  martina.introduction-part-1-text-3: I studied at Comenius University in Bratislava, where I attained a PhD. degree from The Theory of Teaching of Mathematics. After graduation I worked as an data analytics and a software developer. Later,  I spent 6 months in Vancouver, improving my English skills and discovering new culture.
+  martina.introduction-part-1-text-4: The opportunity to join my passions I found at university, where I am working as teacher and researcher.
+  martina.introduction-part-1-text-5: Students and their motivation to learn mathematics became the main part of my interest.
+  martina.introduction-part-1-text-6: In a long-term I would like to focus on an ... constructivistic approach, online, self-preparation and self-studying.
+  martina.introduction-part-1-text-7-1: To find more about my research, publications, education, teaching or work experience follow
+  martina.introduction-part-1-text-7-2: the next lines
   martina.part1.headlie: Research
-  martina.part1.headlie.text: The main part of my research work is devoted to students and their inner motivation. I am focusing on self-studying, tutoring and a role of different types of real-life oriented mathematical problems in that process.
+  martina.part1.headlie.text-1: The main part of my research work is devoted to students and their inner motivation in a self-study process.
+  martina.part1.headlie.text-2: Using constructivism and real-life oriented mathematical problems, I am studying the most efficient and helpful ways to indirect communication with students.
+  martina.part1.headlie.text-3: My interest started when I was in the last grade of my Bachelor degree. Aa part-time job I started
+  martina.part1.headlie.text-5:
   martina.part2.headlie: Publications, Conferences and Awards
   martina.part3.headlie.text:
   martina.part3.headlie: Teaching and Thesis

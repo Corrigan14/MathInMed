@@ -12,7 +12,7 @@
                         <h3>{{ 'personal.martina.citation'|trans }}</h3>
                         <div class="divider divider-short divider-center">
                             {% image '@AppBundle/Resources/public/images/general/dividers/hammers.png' %}
-                                <img src="{{ asset_url }}" alt="Divider-Icon-Image" class="i-div" >
+                            <img src="{{ asset_url }}" alt="Divider-Icon-Image" class="i-div">
                             {% endimage %}
                         </div>
                         <span>{{ 'personal.martina.author.citation'|trans }}</span>
@@ -32,8 +32,19 @@
                             <p>{{ 'personal.martina.introduction-part-1-text-1'|trans }}</p>
                             <p>{{ 'personal.martina.introduction-part-1-text-2'|trans }}</p>
                             <p>{{ 'personal.martina.introduction-part-1-text-3'|trans }}</p>
-                            <p>{{ 'personal.martina.introduction-part-1-text-4'|trans }}</p>
-                            <p>{{ 'personal.martina.introduction-part-1-text-5'|trans }}</p>
+                            <p>
+                                {{ 'personal.martina.introduction-part-1-text-4'|trans }}
+                                {{ 'personal.martina.introduction-part-1-text-5'|trans }}
+                                {{ 'personal.martina.introduction-part-1-text-6'|trans }}
+                            </p>
+                            <p>
+                                <span>
+                                    <i>
+                                        {{ 'personal.martina.introduction-part-1-text-7-1'|trans }}
+                                        {{ 'personal.martina.introduction-part-1-text-7-2'|trans }}.
+                                    </i>
+                                </span>
+                            </p>
                             <div class="ultra-ser">
                                 <hr>
                                 <span>
@@ -49,25 +60,40 @@
                         </div>
                         <div class="col-md-5 text-right margin-top-70">
                             {% image '@AppBundle/Resources/public/images/personal/martina.jpg' %}
-                                <img
-                                        src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                        style="max-width: 400px"
-                                >
+                            <img
+                                    src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
+                                    style="max-width: 400px"
+                            >
                             {% endimage %}
                         </div>
                     </div>
 
                     {# CV DETAILS #}
-                    <div class="row margin-top-60">
+                    <div id="cv" class="row margin-top-60">
                         {# RESEARCH #}
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-15">
                                 <div class="ib-icon">
                                     <i class="fa fa-paper-plane-o"></i>
                                 </div>
-                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Research')">
+                                <div class="ib-info">
                                     <h4 class="h6"> {{ 'personal.martina.part1.headlie'|trans }}</h4>
-                                    <p>{{ 'personal.martina.part1.headlie.text'|trans }}</p>
+                                    <p>
+                                        {{ 'personal.martina.part1.headlie.text-1'|trans }}
+                                        {{ 'personal.martina.part1.headlie.text-2'|trans }}
+                                    </p>
+                                    <p>
+                                        {{ 'personal.martina.part1.headlie.text-3'|trans }}
+                                    </p>
+                                    <p>
+                                         <span class="scroll">
+                                             <b>
+                                                <a href="#infoResearch" class="text-color-primary">
+                                                    {{ 'personal.read'|trans }}
+                                                </a>
+                                             </b>
+                                         </span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -83,6 +109,7 @@
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem not simply random
                                         accusantium
                                     </p>
+                                    <p>{{ 'personal.read'|trans }}</p>
                                 </div>
                             </div>
                         </div>
@@ -98,6 +125,7 @@
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
                                         in a piece
                                     </p>
+                                    <p>{{ 'personal.read'|trans }}</p>
                                 </div>
                             </div>
                         </div>
@@ -113,6 +141,7 @@
                                 <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Education')">
                                     <h4 class="h6">{{ 'personal.martina.part4.headlie'|trans }}</h4>
                                     <p>{{ 'personal.martina.part4.headlie.text'|trans }}</p>
+                                    <p>{{ 'personal.read'|trans }}</p>
                                 </div>
                             </div>
                         </div>
@@ -126,11 +155,12 @@
                                 <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Work')">
                                     <h4 class="h6">{{ 'personal.martina.part5.headlie-1'|trans }}</h4>
                                     <p>
-                                        {{  'personal.martina.part5.headlie.text-1'|trans }}:
-                                        {{  'personal.martina.part5.headlie.text-2'|trans }}.
-                                        {{  'personal.martina.part5.headlie.text-3'|trans }}.
-                                        {{  'personal.martina.part5.headlie.text-4'|trans }}.
+                                        {{ 'personal.martina.part5.headlie.text-1'|trans }}:
+                                        {{ 'personal.martina.part5.headlie.text-2'|trans }}.
+                                        {{ 'personal.martina.part5.headlie.text-3'|trans }}.
+                                        {{ 'personal.martina.part5.headlie.text-4'|trans }}.
                                     </p>
+                                    <p>{{ 'personal.read'|trans }}</p>
                                 </div>
                             </div>
                         </div>
@@ -144,19 +174,20 @@
                                 <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Reference')">
                                     <h4 class="h6">{{ 'personal.martina.part6.headlie'|trans }}</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                                    <p>{{ 'personal.read'|trans }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     {# RESEARCH #}
-                    <div id="infoResearch" class="hide-element">
+                    <div id="infoResearch">
                         {% include '@App/Personal/BabinskaMartina/Includes/research.html.twig' %}
                     </div>
 
                     {# PUBLICATIONS #}
                     <div id="infoPublication" class="hide-element">
-                       publications
+                        publications
                     </div>
 
                     {# TEACHING AND STUDENTS' WORK #}
