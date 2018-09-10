@@ -5,6 +5,7 @@ basic_words:
   part: part
   student: Student
   and: and
+  this-webpage: this web-page
 
 main_navbar:
   about: About
@@ -220,6 +221,11 @@ personal:
   martina.author.citation: Winston Churchill
   martina.sign: Martina Babinska
   martina.possition: Creator
+
+  martina.research.student.quote-1: I just memorized mathematics in last years because I did not understand it so well and in this way, I got only the best grades. It is horrible! To memorize math, formulas, procedures.
+  martina.research.student.quote-2: I missed the explanations why to do what to do and how things are related to each other. We did everything manually, without thinking why we should do it in this way.
+  martina.research.student.quote-3: Mathematics cannot be fun. It always will be boring
+
   martina.introduction-headline-1: To do the best, to appreciate beauty ...
   martina.introduction-headline-2: A few words about me
   martina.introduction-part-1-text-1: Hi! My name is Martina and If I am characterizing me, I would like to do it through my passions.
@@ -227,14 +233,12 @@ personal:
   martina.introduction-part-1-text-3: I studied at Comenius University in Bratislava, where I attained a PhD. degree from The Theory of Teaching of Mathematics. After graduation I worked as an data analytics and a software developer. Later,  I spent 6 months in Vancouver, improving my English skills and discovering new culture.
   martina.introduction-part-1-text-4: The opportunity to join my passions I found at university, where I am working as teacher and researcher.
   martina.introduction-part-1-text-5: Students and their motivation to learn mathematics became the main part of my interest.
-  martina.introduction-part-1-text-6: In a long-term I would like to focus on an ... constructivistic approach, online, self-preparation and self-studying.
+  martina.introduction-part-1-text-6: In a long-term I would like to focus on a constructivistic approach to online and face-to-face self-study.
   martina.introduction-part-1-text-7-1: To find more about my research, publications, education, teaching or work experience follow
   martina.introduction-part-1-text-7-2: the next lines
   martina.part1.headlie: Research
-  martina.part1.headlie.text-1: The main part of my research work is devoted to students and their inner motivation in a self-study process.
-  martina.part1.headlie.text-2: Using constructivism and real-life oriented mathematical problems, I am studying the most efficient and helpful ways to indirect communication with students.
-  martina.part1.headlie.text-3: My interest started when I was in the last grade of my Bachelor degree. Aa part-time job I started
-  martina.part1.headlie.text-5:
+  martina.part1.headlie.text-1: The main part of my research work is devoted to inner motivation of self-study.
+  martina.part1.headlie.text-2: Following principles of Constructivism and RME (Realistic Mathematic Education), I am contemplating the most efficient and helpful ways to indirect communication with students.
   martina.part2.headlie: Publications, Conferences and Awards
   martina.part3.headlie.text:
   martina.part3.headlie: Teaching and Thesis
@@ -252,16 +256,25 @@ personal:
   martina.part7.headlie: Personal Goals
   martina.part8.headlie: Interests
 
-  martina.part1.text-1-2-1: Students' inner motivation and mathematics
-  martina.part1.text-1-2-2: self-studying, self-preparation
-  martina.part1.text-1-3-1: I just memorized mathematics in last years because I did not understand it so well and in this way, I got only the best grades. It is horrible! To memorize math, formulas, procedures.
-  martina.part1.text-1-3-2: I missed the explanations why to do what to do and how things are related to each other. We did everything manually, without thinking why we should do it in this way.
-  martina.part1.text-1-3-3: Mathematics cannot be fun. It always will be boring
-  martina.part1.text-1-3-4: These students’ statements are not new or surprising. The previous studies already showed, that many students see mathematics only like a set of formulas and standard procedures
-  martina.part1.text-1-3-5: One of the main goals of changing approach to the mathematics and its teaching and learning, is to change it.
-  martina.part1.text-1-3-6: But, even though the reform in Slovakia already started, it still needs time to affect majority of students.
-  martina.part1.text-1-3-7: The long-term goal of my research is to study efficient ways of communication with students through contextual mathematical problems in their self-studying and school-preparation environment. These ways can be both, face-to-face and online.
+  martina.part1.supheader-1-1: Students' inner motivation and mathematics
+  martina.part1.supheader-1-2: Why?
+  martina.part1.text-2-1: My interest in a question of self-study started when I was in the last grade of my Bachelor degree and some kids asked me to help them with mathematics.
+  martina.part1.text-2-2: Few classess had a great influence on me and tutoring became my part-time job untill the end of the University study.
+  martina.part1.text-3: I mostly cooperated with upper-secondary and university students and I found, that these students are many times hard workers and they relally want to understand mathematics, but they are struggeling with the school system.
+  martina.part1.text-4-1: Thankfully to great mentors at Comenius University I was allowed to devote my Diploma thesis to the learning-oriented topic.
+  martina.part1.text-4-2: We created online, e-learning support (web-page) which contained conventional counting mathematical problems with unconventional solutions
+  martina.part1.text-4-3: (set of helpers, based on a principle of Socratic questions, which step-by-step lead student to the solution).
+  martina.part1.text-5: Possitive students' feedback motivated me to present results on a students' conference and very possitive feedback from the comunity of researchers motivated me to continue.
+  martina.part1.text-6: I decided for doctor study in a Theory of Teaching Mathematics. Principles, intuitivelly applied in a diploma thesis, were spreaded and supported by the theory.
+  martina.part1.text-7-1: Based on constructivist theroy, RME (Realistic Mathematic Education) principles and my experience, we suggested a self-study material structure, which should increase students' inner motivation an spred his/her math understanding.
+  martina.part1.text-7-2: To prove usability of a suggested structer, we created and test the real sample.
+  martina.part1.text-8-1: we took a problem from the real word related to the spirometry assessment and we created a set of mathematical problems which lead student to understand this problem as well as discover the mathematical principle of derivatives.
+  martina.part1.text-8-2: Later, we provided 3 case studies, where students (individually) worked with created material.
+  martina.part1.text-9-1: During the doctor study we got possitively inidcated results, but, the research needed to be spreat.
+  martina.part1.text-9-2: We repeated the case study in 2017 and the results are being processed.
+  martina.part1.text-9-3: We also translated the forst part of the problem to the English langugae and created an online version available on
 
+  martina.part1.supheader-2: Current work and projects
   martina.part1.text-2-1-1: The importance of a context and question type in mathematical tasks
   martina.part1.text-2-1-2:  Do students care
   martina.part1.text-2-2: Two groups of students, opening and closing survey, solutions of varied mathematical problems, observation, unstructured interview, qualitative data analysis

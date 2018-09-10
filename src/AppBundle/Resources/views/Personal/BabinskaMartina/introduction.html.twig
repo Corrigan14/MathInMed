@@ -83,9 +83,6 @@
                                         {{ 'personal.martina.part1.headlie.text-2'|trans }}
                                     </p>
                                     <p>
-                                        {{ 'personal.martina.part1.headlie.text-3'|trans }}
-                                    </p>
-                                    <p>
                                          <span class="scroll">
                                              <b>
                                                 <a href="#infoResearch" class="text-color-primary">
@@ -104,12 +101,20 @@
                                 <div class="ib-icon">
                                     <i class="fa fa-tencent-weibo"></i>
                                 </div>
-                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Publication')">
+                                <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part2.headlie'|trans }}</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem not simply random
                                         accusantium
                                     </p>
-                                    <p>{{ 'personal.read'|trans }}</p>
+                                    <p>
+                                         <span class="scroll">
+                                             <b>
+                                                <a href="#infoPublication" class="text-color-primary">
+                                                    {{ 'personal.read'|trans }}
+                                                </a>
+                                             </b>
+                                         </span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -120,12 +125,20 @@
                                 <div class="ib-icon">
                                     <i class="fa fa-sliders"></i>
                                 </div>
-                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Teaching')">
+                                <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part3.headlie'|trans }}</h4>
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
                                         in a piece
                                     </p>
-                                    <p>{{ 'personal.read'|trans }}</p>
+                                    <p>
+                                         <span class="scroll">
+                                             <b>
+                                                <a href="#infoTeaching" class="text-color-primary">
+                                                    {{ 'personal.read'|trans }}
+                                                </a>
+                                             </b>
+                                         </span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -138,10 +151,18 @@
                                 <div class="ib-icon">
                                     <i class="fa fa-graduation-cap"></i>
                                 </div>
-                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Education')">
+                                <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part4.headlie'|trans }}</h4>
                                     <p>{{ 'personal.martina.part4.headlie.text'|trans }}</p>
-                                    <p>{{ 'personal.read'|trans }}</p>
+                                    <p>
+                                         <span class="scroll">
+                                             <b>
+                                                <a href="#infoEducation" class="text-color-primary">
+                                                    {{ 'personal.read'|trans }}
+                                                </a>
+                                             </b>
+                                         </span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +173,7 @@
                                 <div class="ib-icon">
                                     <i class="fa fa-archive"></i>
                                 </div>
-                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Work')">
+                                <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part5.headlie-1'|trans }}</h4>
                                     <p>
                                         {{ 'personal.martina.part5.headlie.text-1'|trans }}:
@@ -160,7 +181,15 @@
                                         {{ 'personal.martina.part5.headlie.text-3'|trans }}.
                                         {{ 'personal.martina.part5.headlie.text-4'|trans }}.
                                     </p>
-                                    <p>{{ 'personal.read'|trans }}</p>
+                                    <p>
+                                         <span class="scroll">
+                                             <b>
+                                                <a href="#infoWork" class="text-color-primary">
+                                                    {{ 'personal.read'|trans }}
+                                                </a>
+                                             </b>
+                                         </span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -171,10 +200,18 @@
                                 <div class="ib-icon">
                                     <i class="fa fa-group"></i>
                                 </div>
-                                <div class="ib-info cursor-hand" onclick="togglePersonalInfo('Reference')">
+                                <div class="ib-info">
                                     <h4 class="h6">{{ 'personal.martina.part6.headlie'|trans }}</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
-                                    <p>{{ 'personal.read'|trans }}</p>
+                                    <p>
+                                         <span class="scroll">
+                                             <b>
+                                                <a href="#infoReference" class="text-color-primary">
+                                                    {{ 'personal.read'|trans }}
+                                                </a>
+                                             </b>
+                                         </span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -186,27 +223,27 @@
                     </div>
 
                     {# PUBLICATIONS #}
-                    <div id="infoPublication" class="hide-element">
+                    <div id="infoPublication" class="padding-top-30">
                         publications
                     </div>
 
                     {# TEACHING AND STUDENTS' WORK #}
-                    <div id="infoTeaching" class="hide-element">
+                    <div id="infoTeaching"  class="padding-top-30">
                         teaching
                     </div>
 
                     {# EDUCATION #}
-                    <div id="infoEducation" class="hide-element">
+                    <div id="infoEducation"  class="padding-top-30">
                         {% include 'AppBundle:Personal:BabinskaMartina/Includes/education.html.twig' %}
                     </div>
 
                     {# WORK EXPERIENCE #}
-                    <div id="infoWork" class="hide-element">
+                    <div id="infoWork"  class="padding-top-30">
                         {% include 'AppBundle:Personal:BabinskaMartina/Includes/work.html.twig' %}
                     </div>
 
                     {# REFERENCES #}
-                    <div id="infoReference" class="hide-element">
+                    <div id="infoReference"  class="padding-top-30">
                         references
                     </div>
 
