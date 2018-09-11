@@ -264,17 +264,20 @@ personal:
   martina.part1.text-4-1: Thankfully to great mentors at Comenius University I was allowed to devote my Diploma thesis to the learning-oriented topic.
   martina.part1.text-4-2: We created online, e-learning support (web-page) which contained conventional counting mathematical problems with unconventional solutions
   martina.part1.text-4-3: (set of helpers, based on a principle of Socratic questions, which step-by-step lead student to the solution).
-  martina.part1.text-5: Possitive students' feedback motivated me to present results on a students' conference and very possitive feedback from the comunity of researchers motivated me to continue.
+  martina.part1.text-5: Possitive students' feedback motivated me to present results on a students' conference and very possitive feedback from the comunity of researchers motivated me to continue in this direction.
   martina.part1.text-6: I decided for doctor study in a Theory of Teaching Mathematics. Principles, intuitivelly applied in a diploma thesis, were spreaded and supported by the theory.
-  martina.part1.text-7-1: Based on constructivist theroy, RME (Realistic Mathematic Education) principles and my experience, we suggested a self-study material structure, which should increase students' inner motivation an spred his/her math understanding.
-  martina.part1.text-7-2: To prove usability of a suggested structer, we created and test the real sample.
-  martina.part1.text-8-1: we took a problem from the real word related to the spirometry assessment and we created a set of mathematical problems which lead student to understand this problem as well as discover the mathematical principle of derivatives.
-  martina.part1.text-8-2: Later, we provided 3 case studies, where students (individually) worked with created material.
-  martina.part1.text-9-1: During the doctor study we got possitively inidcated results, but, the research needed to be spreat.
-  martina.part1.text-9-2: We repeated the case study in 2017 and the results are being processed.
-  martina.part1.text-9-3: We also translated the forst part of the problem to the English langugae and created an online version available on
+  martina.part1.text-7-1: Based on constructivist theroy, RME (Realistic Mathematic Education) principles and my experience, we suggested a self-study material structure, which should increase students' inner motivation and spred his/her math understanding.
+  martina.part1.text-7-2: Later, we created a problem and researched individual students' work in suggested conditions.
+  martina.part1.text-8-1: During the doctor study we got possitively inidcated results, but, the research needed to be spreat.
+  martina.part1.text-8-2: We repeated the case study in 2017 and the results are being processed.
+  martina.part1.text-8-3: We also translated the forst part of the problem to the English langugae and created an online version available on
 
-  martina.part1.supheader-2: Current work and projects
+  martina.part1.supheader-2: Main ides of my research work
+  martina.part1.text-9-1: Chosen (real world) problem is related to the spirometry assessment. We created a set of mathematical problems which lead student to understand this problem as well as discover the mathematical principle of derivatives.
+  martina.part1.text-9-2: For a research method we chose case study where students (individually) worked with researched material. After the first case study, we had to change some content as well as som principles. Two later studies showed the correctnes of these changes and partially proved our assumes.
+
+
+  martina.part1.supheader-3: Current projects
   martina.part1.text-2-1-1: The importance of a context and question type in mathematical tasks
   martina.part1.text-2-1-2:  Do students care
   martina.part1.text-2-2: Two groups of students, opening and closing survey, solutions of varied mathematical problems, observation, unstructured interview, qualitative data analysis
