@@ -12,8 +12,13 @@
     overflow-x: hidden;
 }
 
-.cursor-hand{
+.cursor-hand {
     cursor: pointer;
+}
+
+.both-sides-text-alignment {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .min-height-200 {
@@ -23,19 +28,20 @@
 .max-height-500 {
     max-height: 500px;
 }
-.max-width-200{
+
+.max-width-200 {
     max-width: 200px;
 }
 
-.min-width-200{
+.min-width-200 {
     min-width: 200px;
 }
 
-.margin-top-150{
+.margin-top-150 {
     margin-top: 150px;
 }
 
-.vertical-middle thead tr th{
+.vertical-middle thead tr th {
     vertical-align: middle !important;
 }
 
@@ -44,22 +50,27 @@
 }
 
 .white-font {
-    color: black;  !important;
+    color: black;
+!important;
 }
 
-.red-font{
+.red-font {
     color: #D22C2C;
 }
-.green-font{
+
+.green-font {
     color: #009900;
 }
-.blue-font{
+
+.blue-font {
     color: #000099;
 }
-.orange-font{
+
+.orange-font {
     color: #FF9933;
 }
-.colour-font{
+
+.colour-font {
     color: #009999;
 }
 
@@ -91,7 +102,7 @@
     font-weight: bold;
 }
 
-.bold-p-tags p{
+.bold-p-tags p {
     font-weight: bold;
 }
 
@@ -100,13 +111,16 @@
     line-height: 15px;
     color: #585858;
 }
+
 .smaller-p-tags-grey p {
     font-size: 12px;
     line-height: 15px;
 }
+
 .smaller-p-tags-line p {
     line-height: 15px;
 }
+
 .smaller-p-tags-line-17 p {
     line-height: 17px;
 }
@@ -135,19 +149,21 @@
     color: #636363;
 }
 
-.download-link a{
+.download-link a {
     font-size: 16px;
     color: #ff8000;
 }
-.download-link a:hover{
+
+.download-link a:hover {
     color: black;
 }
 
-.information-box-picture{
+.information-box-picture {
     position: relative;
     top: -100px
 }
-.information-box-text{
+
+.information-box-text {
     position: relative;
     top: -50px;
     margin-bottom: 0px;

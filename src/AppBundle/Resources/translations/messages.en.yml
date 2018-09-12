@@ -175,7 +175,7 @@ right_navbar:
 
 footer:
   headline: Creative team - SK
-  headline.text1: Hi everybody! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud PhD. degree holder from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how. One of the effective ways is to discover it by yourself!
+  headline.text1: Hi! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud PhD. degree holder from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how. One of the effective ways is to discover it by yourself!
   headline.text2: Visit my profile Web-page
   email: E-mail
   email.contact: martina.babinska.sk@gmail.com
@@ -237,7 +237,7 @@ personal:
   martina.introduction-part-1-text-7-1: To find more about my research, publications, education, teaching or work experience follow
   martina.introduction-part-1-text-7-2: the next lines
   martina.part1.headlie: Research
-  martina.part1.headlie.text-1: The main part of my research work is devoted to inner motivation of self-study.
+  martina.part1.headlie.text-1: The main part of my research work is devoted to inner motivation of self-study and students' approach to mathematics.
   martina.part1.headlie.text-2: Following principles of Constructivism and RME (Realistic Mathematic Education), I am contemplating the most efficient and helpful ways to indirect communication with students.
   martina.part2.headlie: Publications, Conferences and Awards
   martina.part3.headlie.text:
@@ -268,40 +268,52 @@ personal:
   martina.part1.text-6: I decided for doctor study in a Theory of Teaching Mathematics. Principles, intuitivelly applied in a diploma thesis, were spreaded and supported by the theory.
   martina.part1.text-7-1: Based on constructivist theroy, RME (Realistic Mathematic Education) principles and my experience, we suggested a self-study material structure, which should increase students' inner motivation and spred his/her math understanding.
   martina.part1.text-7-2: Later, we created a problem and researched individual students' work in suggested conditions.
-  martina.part1.text-8-1: During the doctor study we got possitively inidcated results, but, the research needed to be spreat.
-  martina.part1.text-8-2: We repeated the case study in 2017 and the results are being processed.
-  martina.part1.text-8-3: We also translated the forst part of the problem to the English langugae and created an online version available on
+  martina.part1.text-8-1: During the doctor study we got possitively inidcated results.
+  martina.part1.text-8-2: One of the outcomes proved attractiveness of real-world mathematical problems for older students (senior high school students and lower grades of universities).
+  martina.part1.text-8-3: However, as already was proved before (), the context of a problem must be relevant for students and it also must be relevant in a view of mathematcal content and its difficulty.
+  martina.part1.text-8-4: Results also show that one of the possible attratctive contexts is medical context and that students do not have a problem with an extensive problems, if the problem is divided into small tasks with increasing difficulty.
+  martina.part1.text-8-5: The final observation concerns the internal motivation. Research has proved that we can assume that real mathematical problems of the medical context, which are leading the students to active work will lead to internal motivation of these students.
+  martina.part1.text-9-1: However, to find general conclusions, we needed to spread the research. We repeated the case study in 2018 and the results are still being processed.
+  martina.part1.text-9-2: We also translated the first part of created problem to the English langugae and prepared an online version available on
+  martina.part1.text-10: The future research is opening two main direstions. We would like to spread the research out of the Slovak Republic and start to test the online students work.
 
   martina.part1.supheader-2: Main ides of my research work
-  martina.part1.text-9-1: Chosen (real world) problem is related to the spirometry assessment. We created a set of mathematical problems which lead student to understand this problem as well as discover the mathematical principle of derivatives.
-  martina.part1.text-9-2: For a research method we chose case study where students (individually) worked with researched material. After the first case study, we had to change some content as well as som principles. Two later studies showed the correctnes of these changes and partially proved our assumes.
+  martina.part1.text-11-1: Are real-world, contextual mathematical problems convenient for self-study?
+  martina.part1.text-11-2: What is the best way for students to work (individually) with contextual mathematical problems?
+  martina.part1.text-11-3: Is real-world, contextual mathematical problem attractive for students if it contains many tasks and sub-tasks? Is the problem complexity issue in a self-study process?
+  martina.part1.text-11-4: What contexts and mathematical context problems are convenient for upper-secondary and university students?
 
+  martina.part1.supheader-3: Ideas in current projects
+  martina.part1.text-12-1: The importance of a context and question type in mathematical tasks
+  martina.part1.text-12-2:  Do students care
+  martina.part1.text-13-1: The goal of a provided research is to study students’ opinion of the different contextual mathematical problems
+  martina.part1.text-13-2: Can students see the difference in contextual problems
+  martina.part1.text-13-3: Is context of a mathematical problem more/less important than the question (problem) type of it
+  martina.part1.text-13-4: What contexts are convenient for upper-secondary and university students
+  martina.part1.text-14-1: Two groups of students, opening and closing survey, solutions of varied mathematical problems
+  martina.part1.text-14-2: variade in a
+  martina.part1.text-14-3: context/topic
+  martina.part1.text-14-4: context type
+  martina.part1.text-14-5: context’s relevance
+  martina.part1.text-14-6: in a question’s type
+  martina.part1.text-14-7: observation, unstructured interview, qualitative data analysis
+  martina.part1.text-15-1: Results from the research were partially published in a Slovak language at National Student Conference in 2013
+  martina.part1.text-15-2: Can Reality Motivate Students to Mathematics Study?
+  martina.part1.text-15-3: In 2018 we repeated the survey and we are preparing an English article carrying main results from both studies
 
-  martina.part1.supheader-3: Current projects
-  martina.part1.text-2-1-1: The importance of a context and question type in mathematical tasks
-  martina.part1.text-2-1-2:  Do students care
-  martina.part1.text-2-2: Two groups of students, opening and closing survey, solutions of varied mathematical problems, observation, unstructured interview, qualitative data analysis
-  martina.part1.text-2-3-1: The goal of a provided research is to study students’ opinion of the different contextual mathematical problems
-  martina.part1.text-2-3-2: Can students see the difference in contextual problems
-  martina.part1.text-2-3-3: Is context of a mathematical problem more/less important than the question (problem) type of it
-  martina.part1.text-2-3-4: What contexts are suitable for a particular age group of students
-  martina.part1.text-2-3-5-1: In a  qualitative data analysis we are focusing on a
-  martina.part1.text-2-3-5-1-1: contexts’ attractiveness
-  martina.part1.text-2-3-5-1-2: contexts’ reality
-  martina.part1.text-2-3-5-1-3: the whole problem attractiveness
-  martina.part1.text-2-3-5-2: As the main data resource we are using students’ solutions of mathematical problems varied in a
-  martina.part1.text-2-3-5-5-1: context (topic)
-  martina.part1.text-2-3-5-5-2: context type
-  martina.part1.text-2-3-5-5-3: context’s relevance
-  martina.part1.text-2-3-5-5-4: in a question’s type
-  martina.part1.text-2-4-1-1: Results from the research were partially published in a Slovak language at National Student Conference in 2013
-  martina.part1.text-2-4-1-2: Can Reality Motivate Students to Mathematics Study?
-  martina.part1.text-2-4-1-3: look for
-  martina.part1.text-2-4-1-4:  Publications, Conferences and Awards
-  martina.part1.text-2-4-2-1:  In 2018 we repeated the study to widen data
-  martina.part1.text-2-4-2-2:  At this time, we are working on an English article carrying main results from both studies
+  martina.part1.text-16: Real-world contextual mathematical problems and self-study
+  martina.part1.text-17-1: The goal of a provided research is to study students' individual work with real-world mathematical problems
+  martina.part1.text-17-2: Are real-world, contextual mathematical problems convenient for self-study
+  martina.part1.text-17-3: Is contextual mathematical problem complexity issue in a self-study process
+  martina.part1.text-17-4: Are students motivated to continue in a work on a problem, if they are leaded only by context and by increasing difficulty of tasks
+  martina.part1.text-17-5: Can students find tasks' solutions by themselves if they only are using prepared helpers
+  martina.part1.text-18-1: Case study (4 cases), unstructured interviews, observation, Fennema-Sherman mathematics attitudes scales, mathematical knowledge test, work with the
+  martina.part1.text-18-2: real-world mathematical problem
+  martina.part1.text-18-3: qualitative data analysis
+  martina.part1.text-19-1: Results from the research were partially published in a Slovak language as a part of my Thesis
+  martina.part1.text-19-2: The Real Context of the Mathematical Problems as a Motivating Factor
+  martina.part1.text-19-3: In 2018 we made another case study and we are preparing an English article carrying main results from all case studies
 
-  martina.part1.text-3-1: Extensive real world contextual mathematical problem in a self-studying process
 
   martina.part1.text-4-1: 2018
   martina.part1.text-4-2: Augmented reality and future mathematics teachers

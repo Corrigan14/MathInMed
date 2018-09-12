@@ -16,7 +16,7 @@
 
 {# CONTENT - STH ABOUT ME #}
 <div class="row">
-    <div class="col-md-7 padding-right-30">
+    <div class="col-md-7 padding-right-30 both-sides-text-alignment">
         <h6 class="problem">
             {{ 'personal.martina.part1.supheader-1-1'|trans }}:
             {{ 'personal.martina.part1.supheader-1-2'|trans }}
@@ -35,25 +35,18 @@
         </p>
         <p>
             {{ 'personal.martina.part1.text-5'|trans }}
+            {{ 'personal.martina.part1.text-6'|trans }}
         </p>
     </div>
-    <div class="col-md-5 text-left margin-top-20">
+    <div class="col-md-5 text-left margin-top-60">
         {% image '@AppBundle/Resources/public/images/personal/students3.jpg' %}
             <img src="{{ asset_url }}" alt="Students" class="img-responsive" >
         {% endimage %}
     </div>
 </div>
 
-<div class="row padding-top-25">
-    <div class="col-md-5 text-left margin-top-20 padding-right-30">
-        {% image '@AppBundle/Resources/public/images/personal/students3.jpg' %}
-            <img src="{{ asset_url }}" alt="Students" class="img-responsive" >
-        {% endimage %}
-    </div>
-    <div class="col-md-7">
-        <p>
-            {{ 'personal.martina.part1.text-6'|trans }}
-        </p>
+<div class="row padding-top-25 both-sides-text-alignment">
+    <div class="col-md-12">
         <p>
             {{ 'personal.martina.part1.text-7-1'|trans }}
             {{ 'personal.martina.part1.text-7-2'|trans }}
@@ -62,6 +55,12 @@
             {{ 'personal.martina.part1.text-8-1'|trans }}
             {{ 'personal.martina.part1.text-8-2'|trans }}
             {{ 'personal.martina.part1.text-8-3'|trans }}
+            {{ 'personal.martina.part1.text-8-4'|trans }}
+            {{ 'personal.martina.part1.text-8-5'|trans }}
+        </p>
+        <p>
+            {{ 'personal.martina.part1.text-9-1'|trans }}
+            {{ 'personal.martina.part1.text-9-2'|trans }}
             <span>
                 <b>
                     <a class="text-color-primary" target="_blank" href={{ path('app_book_main_introudction') }}>
@@ -69,44 +68,76 @@
                     </a>
                 </b>
             </span>
+            .
+        </p>
+        <p>
+            {{ 'personal.martina.part1.text-10'|trans }}
         </p>
     </div>
 </div>
 
 {# CONTENT - MAIN IDEAS #}
-<div class="row padding-top-40">
+<div class="row padding-top-30">
     <div class="col-md-12">
         <h6 class="problem">
             {{ 'personal.martina.part1.supheader-2'|trans }}
         </h6>
     </div>
-    <div class="col-md-12">
+    <div class="col-md-12 both-sides-text-alignment">
         <p>
-            {{ 'personal.martina.part1.text-8-1'|trans }}
-            {{ 'personal.martina.part1.text-8-2'|trans }}
+            <span>
+                <i>
+                    - &nbsp;&nbsp; {{ 'personal.martina.part1.text-11-1'|trans }}
+                </i>
+            </span>
+        </p>
+        <p>
+             <span>
+                <i>
+                    - &nbsp;&nbsp; {{ 'personal.martina.part1.text-11-2'|trans }}
+                </i>
+            </span>
+        </p>
+        <p>
+            <span>
+                <i>
+                    - &nbsp;&nbsp; {{ 'personal.martina.part1.text-11-3'|trans }}
+                </i>
+            </span>
+        </p>
+        <p>
+            <span>
+                <i>
+                    - &nbsp;&nbsp; {{ 'personal.martina.part1.text-11-4'|trans }}
+                </i>
+            </span>
         </p>
     </div>
 </div>
 
 
 {# CONTENT - PROJECTS #}
-<div class="row padding-top-40">
+<div class="row padding-top-30">
     <div class="col-md-12">
         <h6 class="problem">
             {{ 'personal.martina.part1.supheader-3'|trans }}
         </h6>
     </div>
 </div>
+
+{# CONTENT - PROJECT 1 #}
 <div class="row margin-top-10">
     <div class="col-md-2">
         <p class="uppercase-transform">
             <b>{{ 'personal.study'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-10">
-        <h6 class="uppercase-transform">
-            {{ 'personal.martina.part1.text-2-1-1'|trans }}: {{ 'personal.martina.part1.text-2-1-2'|trans }}?
-        </h6>
+    <div class="col-md-10 both-sides-text-alignment">
+        <p class="uppercase-transform">
+            <b>
+                {{ 'personal.martina.part1.text-12-1'|trans }}: {{ 'personal.martina.part1.text-12-2'|trans }}?
+            </b>
+        </p>
     </div>
 </div>
 
@@ -116,42 +147,14 @@
             <b>{{ 'personal.description'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-10">
-        <p>{{ 'personal.martina.part1.text-2-3-1'|trans }}:
+    <div class="col-md-10 both-sides-text-alignment">
+        <p>{{ 'personal.martina.part1.text-13-1'|trans }}:
             <br>
-            o &nbsp;<span><i>{{ 'personal.martina.part1.text-2-3-2'|trans }}?</i></span>
+            - &nbsp;&nbsp;<span><i>{{ 'personal.martina.part1.text-13-2'|trans }}?</i></span>
             <br>
-            o &nbsp;
-            <span><i>{{ 'personal.martina.part1.text-2-3-3'|trans }}?</i></span>
+            - &nbsp;&nbsp;<span><i>{{ 'personal.martina.part1.text-13-3'|trans }}?</i></span>
             <br>
-            o &nbsp;<span><i>{{ 'personal.martina.part1.text-2-3-4'|trans }}?</i></span>
-        </p>
-        <p>
-            {{ 'personal.martina.part1.text-2-3-5-1'|trans }}:
-            <span><b>{{ 'personal.martina.part1.text-2-3-5-1-1'|trans }}</b></span>
-            ,
-            <span><b>{{ 'personal.martina.part1.text-2-3-5-1-2'|trans }}</b></span>
-            {{ 'basic_words.and'|trans }}
-            <span><b>{{ 'personal.martina.part1.text-2-3-5-1-3'|trans }}</b></span>
-            .
-        </p>
-        <p>
-            {{ 'personal.martina.part1.text-2-3-5-2'|trans }}:
-            <span><b> {{ 'personal.martina.part1.text-2-3-5-5-1'|trans }}</b></span>
-            ,
-            <span><b>{{ 'personal.martina.part1.text-2-3-5-5-2'|trans }}</b></span>
-            (
-            <span><b><a href="{{ path('app_researchers_main_resources') }}" target="_blank" class="colour-font">de Lange, 1979, 1999</a></b></span>
-            ),
-            <span><b>{{ 'personal.martina.part1.text-2-3-5-5-3'|trans }}</b></span>
-            (
-            <span><b><a href="{{ path('app_researchers_main_resources') }}" target="_blank" class="colour-font">de Lange, 1995</a></b></span>
-            )
-            {{ 'basic_words.and'|trans }}
-            <span><b>{{ 'personal.martina.part1.text-2-3-5-5-4'|trans }}</b></span>
-            (
-            <span class="colour-font"><b>Revised Bloom’s Taxonomy</b></span>
-            ).
+            - &nbsp;&nbsp;<span><i>{{ 'personal.martina.part1.text-13-4'|trans }}?</i></span>
         </p>
     </div>
 </div>
@@ -162,8 +165,29 @@
             <b>{{ 'personal.methods'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-10">
-        <p>{{ 'personal.martina.part1.text-2-2'|trans }}</p>
+    <div class="col-md-10 both-sides-text-alignment">
+        <p>{{ 'personal.martina.part1.text-14-1'|trans }}
+            <span>
+                <i>
+                    (
+                    {{ 'personal.martina.part1.text-14-2'|trans }}
+                    {{ 'personal.martina.part1.text-14-3'|trans }}, {{ 'personal.martina.part1.text-14-4'|trans }}
+                    :
+                    <span><b><a href="{{ path('app_researchers_main_resources') }}" target="_blank" class="colour-font">de Lange, 1979, 1999</a></b></span>
+                    ,
+                    {{ 'personal.martina.part1.text-14-5'|trans }}
+                    :
+                    <span><b><a href="{{ path('app_researchers_main_resources') }}" target="_blank" class="colour-font">de Lange, 1995</a></b></span>
+
+                    {{ 'basic_words.and'|trans }}
+                    {{ 'personal.martina.part1.text-14-6'|trans }}
+                    :
+                    <span class="colour-font"><b>Revised Bloom’s Taxonomy</b></span>
+                    ),
+                    </i>
+            </span>
+            {{ 'personal.martina.part1.text-14-7'|trans }}
+        </p>
     </div>
 </div>
 
@@ -173,17 +197,19 @@
             <b>{{ 'personal.publication'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-10">
+    <div class="col-md-10 both-sides-text-alignment">
         <p>
-            {{ 'personal.martina.part1.text-2-4-1-1'|trans }}:
-            <b>{{ 'personal.martina.part1.text-2-4-1-2'|trans }}</b>
-            ({{ 'personal.martina.part1.text-2-4-1-3'|trans }}
-            <span class="colour-font"><b>{{ 'personal.martina.part1.text-2-4-1-4'|trans }}</b></span>
-            )
+            {{ 'personal.martina.part1.text-15-1'|trans }}:
+            <span class="scrollable">
+                <b>
+                    <a class="text-color-primary" href="#infoPublication">
+                         {{ 'personal.martina.part1.text-15-2'|trans }}
+                    </a>
+                </b>
+            </span>
         </p>
         <p>
-            {{ 'personal.martina.part1.text-2-4-2-1'|trans }}.
-            {{ 'personal.martina.part1.text-2-4-2-2'|trans }}.
+            {{ 'personal.martina.part1.text-15-3'|trans }}.
         </p>
     </div>
 </div>
@@ -197,9 +223,11 @@
         </p>
     </div>
     <div class="col-md-10">
-        <h6 class="uppercase-transform">
-            {{ 'personal.martina.part1.text-3-1'|trans }}
-        </h6>
+        <p class="uppercase-transform">
+            <b>
+                {{ 'personal.martina.part1.text-16'|trans }}
+            </b>
+        </p>
     </div>
 </div>
 
@@ -210,7 +238,16 @@
         </p>
     </div>
     <div class="col-md-10">
-        <p>...</p>
+        <p>{{ 'personal.martina.part1.text-17-1'|trans }}:
+            <br>
+            - &nbsp;&nbsp;<span><i>{{ 'personal.martina.part1.text-17-2'|trans }}?</i></span>
+            <br>
+            - &nbsp;&nbsp;<span><i>{{ 'personal.martina.part1.text-17-3'|trans }}?</i></span>
+            <br>
+            - &nbsp;&nbsp;<span><i>{{ 'personal.martina.part1.text-17-4'|trans }}?</i></span>
+            <br>
+            - &nbsp;&nbsp;<span><i>{{ 'personal.martina.part1.text-17-5'|trans }}?</i></span>
+        </p>
     </div>
 </div>
 
@@ -221,7 +258,18 @@
         </p>
     </div>
     <div class="col-md-10">
-        <p>...</p>
+        <p>
+            {{ 'personal.martina.part1.text-18-1'|trans }}
+            <span>
+                <b>
+                    <a class="text-color-primary" target="_blank" href={{ path('app_book_main_introudction') }}>
+                           {{ 'personal.martina.part1.text-18-2'|trans }}
+                    </a>
+                </b>
+            </span>
+            ,
+            {{ 'personal.martina.part1.text-18-3'|trans }}
+        </p>
     </div>
 </div>
 
@@ -232,6 +280,18 @@
         </p>
     </div>
     <div class="col-md-10">
-        <p>..</p>
+        <p>
+            {{ 'personal.martina.part1.text-19-1'|trans }}:
+            <span class="scrollable">
+                <b>
+                    <a class="text-color-primary" href="#infoPublication">
+                         {{ 'personal.martina.part1.text-19-2'|trans }}
+                    </a>
+                </b>
+            </span>
+        </p>
+        <p>
+            {{ 'personal.martina.part1.text-19-3'|trans }}.
+        </p>
     </div>
 </div>
