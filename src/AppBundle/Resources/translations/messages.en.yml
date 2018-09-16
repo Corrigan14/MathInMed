@@ -40,7 +40,7 @@ slider:
   default.joke-7-2: and if a ham sandwich is better than nothing,
   default.joke-7-3: does that mean that a ham sandwich is worth dying for?
   book.motto_part1: MATHEMATICS AND THE WORLD AROUND US
-  book.motto_part2: REAL-LIFE, REALISTIC, CONTEX-BASED, APPLIED MATHEMATICS
+  book.motto_part2: REAL-LIFE, REAL-WORLD, CONTEX-BASED, APPLIED MATHEMATICS
   book.lets_begin: Let's BEGIN!
   book.lets_discover: Let's DISCOVER!
   book.spirometry-result-part1: Spirometry
@@ -175,7 +175,7 @@ right_navbar:
 
 footer:
   headline: Creative team - SK
-  headline.text1: Hi! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud PhD. degree holder from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how. One of the effective ways is to discover it by yourself!
+  headline.text1: Hi! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud PhD. degree holder from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how. One effective way is to discover it by yourself!
   headline.text2: Visit my profile Web-page
   email: E-mail
   email.contact: martina.babinska.sk@gmail.com
@@ -230,8 +230,8 @@ personal:
   martina.introduction-headline-2: A few words about me
   martina.introduction-part-1-text-1: Hi! My name is Martina and If I am characterizing me, I would like to do it through my passions.
   martina.introduction-part-1-text-2: Except art, fashion, books and nature, there are two big passions in my life, teaching and programming.
-  martina.introduction-part-1-text-3: I studied at Comenius University in Bratislava, where I attained a PhD. degree from The Theory of Teaching of Mathematics. After graduation I worked as an data analytics and a software developer. Later,  I spent 6 months in Vancouver, improving my English skills and discovering new culture.
-  martina.introduction-part-1-text-4: The opportunity to join my passions I found at university, where I am working as teacher and researcher.
+  martina.introduction-part-1-text-3: I studied at Comenius University in Bratislava, where I attained a PhD. degree from The Theory of Teaching of Mathematics. After graduation I worked as a data analytics and a software developer. Later,  I spent 6 months in Vancouver, improving my English skills and discovering new culture.
+  martina.introduction-part-1-text-4: I managed to join my passions at university, where I am working as teacher and researcher.
   martina.introduction-part-1-text-5: Students and their motivation to learn mathematics became the main part of my interest.
   martina.introduction-part-1-text-6: In a long-term I would like to focus on a constructivistic approach to online and face-to-face self-study.
   martina.introduction-part-1-text-7-1: To find more about my research, publications, education, teaching or work experience follow
@@ -391,24 +391,24 @@ book:
   introduction.author.citation: Carl Rogers
   introduction.part1.slogan: Mathematics doesn't have to be an "apparition"
   introduction.part1.headline: Mathematics in Medicine
-  introduction.part1.text1-1: Have you ever heard about the "importance of mathematics in medicine". Do you believe it? Can you imagine why should be mathematics important to medicine? How can we REALY use our mathematical knowledge in this field?
-  introduction.part1.text1-2: The answer to these questions is offered on the next pages.
-  introduction.part1.text1-3: We are looking together to a result of medical assessment called SPIROMETRY. By solving small problems, step by step, we are discovering how this result is constructed and why is the mathematics necessary in this process.
+  introduction.part1.text1-1: Have you ever heard about the "importance of mathematics in medicine"? Do you believe it? Can you imagine why should be mathematics important to medicine? How can we REALLY APPLY our mathematical knowledge in this field?
+  introduction.part1.text1-2: The answer for these questions is offered on the next pages.
+  introduction.part1.text1-3: We are looking together for a result of medical assessment named SPIROMETRY. By solving small problems, step by step, we are discovering how this result is constructed and why is mathematics necessary in this process.
   introduction.part2.slogan: A Medical Assessment
   introduction.part2.headline:  Spirometry?
   introduction.part2.text2-1: Spirometry is a medical assessment which helps doctors to test the pulmonary function - function of our lungs. Practically, it measures the movement of air into and out of the lungs.
   introduction.part2.text2-2: Spirometry in the past
-  introduction.part2.text2-3: One of the first constructed spirometer is called WATER SPIROMETER. As you can see in the picture (left), the patient was breathing into a machine. The machine was drawing graph - spirometry curve based on the patient's breathing intensity.
+  introduction.part2.text2-3: One of the first constructed spirometer was named WATER SPIROMETER. As you can see in the picture (left), the patient was breathing into a machine. Simultaneously, the machine was drawing the graph - spirometry curve based on the patient's breathing intensity.
   introduction.part2.text2-4: Spirometry today
-  introduction.part2.text2-5: Modern spirometers are small computer machines connected to the breathing mouthpiece (picture right). Assessment result is printed from the computer to the paper sheet.
-  introduction.part3.slogan: Computers help
+  introduction.part2.text2-5: Modern spirometers are small computer machines connected to the breathing mouthpiece (picture right). Assessment result is printed out.
+  introduction.part3.slogan: Help of a computer
   introduction.part3.headline:  Spirometry Result
   introduction.part3.text3-1: To help a doctor make a diagnosis, the modern computer assessment result does not contain only siprometry curve, but also
   introduction.part3.text3-2: o Key measured values
   introduction.part3.text3-3: o Volume-Time curve
   introduction.part3.text3-4: o Flow-Volume loop
   introduction.part3.text3-5: o Comparable values (values, which should be achieved by a healthy man/woman)
-  introduction.part3.text3-6: To understand how this WHOLE result is beeing created inside "in the computer" and what the numbers and curves can tell the doctor about patients healthy conditions - these are our tasks for the next pages.
+  introduction.part3.text3-6: Our tasks for the next pages is to understand how this whole result is beeing created 'in the computer'. We will also find out what the numbers and curves can tell the doctor about the patients' healthy conditions.
   introduction.part4.slogan: Mathematics hidden inside
   introduction.part4.headline: What can I expect from Mathematics?
   introduction.part4.text4-1: o Functions and its characteristics
@@ -418,8 +418,8 @@ book:
   introduction.part4.text4-5: o Deduction
   introduction.part4.text4-6: And much more...
   introduction.part5.slogan: Is it difficult?
-  introduction.part5.headline: Do I Need To Know "a lot of" From Mathematics?
-  introduction.part5.text5-1: The answer is NO. Do not be worried! The only things what you need  are a little bit of time and a mode of thinking ;).
+  introduction.part5.headline: Do I Need To Know 'a lot of' Mathematics?
+  introduction.part5.text5-1: The answer is NO. Do not worry! The only thing what you need is a little bit of time and to have a fancy for thinking ;).
   introduction.part5.text5-2: Every problem what is waiting for you contains HELPER. This you can find in a right menu, under the BULB icon. You can use these helpers every time, when you need.
   introduction.nextPage: Let's look closer on the Spirometry result
   result.headline: SPIROMETRY -  pulmonary function test
