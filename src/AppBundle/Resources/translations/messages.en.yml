@@ -237,7 +237,7 @@ personal:
   martina.introduction-part-1-text-7-1: To find more about my research, publications, education, teaching or work experience follow
   martina.introduction-part-1-text-7-2: the next lines
   martina.part1.headlie: Research
-  martina.part1.headlie.text-1: The main part of my research work is devoted to inner motivation of self-study and students' approach to mathematics.
+  martina.part1.headlie.text-1: The main part of my research work is devoted to self-study, inner motivation and students' approach to mathematics.
   martina.part1.headlie.text-2: Following principles of Constructivism and RME (Realistic Mathematic Education), I am contemplating the most efficient and helpful ways to indirect communication with students.
   martina.part2.headlie: Publications, Conferences and Awards
   martina.part3.headlie.text:
@@ -256,20 +256,20 @@ personal:
   martina.part7.headlie: Personal Goals
   martina.part8.headlie: Interests
 
-  martina.part1.supheader-1-1: Students' inner motivation and mathematics
-  martina.part1.supheader-1-2: Why?
-  martina.part1.text-2-1: My interest in a question of self-study started when I was in the last grade of my Bachelor degree and some kids asked me to help them with mathematics.
-  martina.part1.text-2-2: Few classess had a great influence on me and tutoring became my part-time job untill the end of the University study.
-  martina.part1.text-3: I mostly cooperated with upper-secondary and university students and I found, that these students are many times hard workers and they relally want to understand mathematics, but they are struggeling with the school system.
-  martina.part1.text-4-1: Thankfully to great mentors at Comenius University I was allowed to devote my Diploma thesis to the learning-oriented topic.
-  martina.part1.text-4-2: We created online, e-learning support (web-page) which contained conventional counting mathematical problems with unconventional solutions
-  martina.part1.text-4-3: (set of helpers, based on a principle of Socratic questions, which step-by-step lead student to the solution).
-  martina.part1.text-5: Possitive students' feedback motivated me to present results on a students' conference and very possitive feedback from the comunity of researchers motivated me to continue in this direction.
-  martina.part1.text-6: I decided for doctor study in a Theory of Teaching Mathematics. Principles, intuitivelly applied in a diploma thesis, were spreaded and supported by the theory.
-  martina.part1.text-7-1: Based on constructivist theroy, RME (Realistic Mathematic Education) principles and my experience, we suggested a self-study material structure, which should increase students' inner motivation and spred his/her math understanding.
-  martina.part1.text-7-2: Later, we created a problem and researched individual students' work in suggested conditions.
-  martina.part1.text-8-1: During the doctor study we got possitively inidcated results.
-  martina.part1.text-8-2: One of the outcomes proved attractiveness of real-world mathematical problems for older students (senior high school students and lower grades of universities).
+  martina.part1.supheader-1-1: Why self-study and work with students?
+  martina.part1.research-history-1: Short answer for this question is tutoring.
+  martina.part1.research-history-2: Thanks to it I met many hard-working students who got a great effort to understand mathematics, but who were struggeling with a school system.
+  martina.part1.research-history-3: And so my way started.
+  martina.part1.research-history-4: As a part of my Diploma thesis I created a web-page with conventional mathematical problems and I researched the unconventional way of solutions there.
+  martina.part1.research-history-5: Based on an idea of Socratic questions, system was not answering, but it was asking. If student needed a help, system asked a set of questions which lead him/her to problem's understanding.
+  martina.part1.research-history-6: Later, already as a doctor student, I developed this idea.
+  martina.part1.research-history-7: What if I do not take the conventional mathematical problem, but, the contextual one?
+  martina.part1.research-history-8: We researched contexts, real-world problems  as well as mathematical task's types which shoul attract older students (senior high school students and lower grades of universities).
+  martina.part1.research-history-9: We chose medical context, prepared a set of tasks which lead student through the spirometry assesment, researched its efficiency and motivational effect.
+
+  martina.part1.research-history-7: Based on constructivist theroy, RME (Realistic Mathematic Education) principles and my experience, we suggested a self-study material structure, which should increase students' inner motivation and spred his/her math understanding.
+
+  martina.part1.text-8-2: One of the outcomes proved attractiveness of real-world mathematical problems for older students .
   martina.part1.text-8-3: However, as already was proved before (), the context of a problem must be relevant for students and it also must be relevant in a view of mathematcal content and its difficulty.
   martina.part1.text-8-4: Results also show that one of the possible attratctive contexts is medical context and that students do not have a problem with an extensive problems, if the problem is divided into small tasks with increasing difficulty.
   martina.part1.text-8-5: The final observation concerns the internal motivation. Research has proved that we can assume that real mathematical problems of the medical context, which are leading the students to active work will lead to internal motivation of these students.
@@ -278,10 +278,20 @@ personal:
   martina.part1.text-10: The future research is opening two main direstions. We would like to spread the research out of the Slovak Republic and start to test the online students work.
 
   martina.part1.supheader-2: Main ides of my research work
-  martina.part1.text-11-1: Are real-world, contextual mathematical problems convenient for self-study?
-  martina.part1.text-11-2: What is the best way for students to work (individually) with contextual mathematical problems?
-  martina.part1.text-11-3: Is real-world, contextual mathematical problem attractive for students if it contains many tasks and sub-tasks? Is the problem complexity issue in a self-study process?
-  martina.part1.text-11-4: What contexts and mathematical context problems are convenient for upper-secondary and university students?
+  martina.main-research-ideas-1: What motivates students to study at home?
+  martina.main-research-ideas-slide-1: Why are students studying at home?
+  martina.main-research-ideas-2: Can self-study material positively influence students' inner motivation?
+  martina.main-research-ideas-slide-2-1: Can self-study material positivelly
+  martina.main-research-ideas-slide-2-2: influence students' inner motivation?
+  martina.main-research-ideas-3: Are real-world, contextual mathematical problems convenient for self-study?
+  martina.main-research-ideas-slide-3-1: Are contextual mathematical problems
+  martina.main-research-ideas-slide-3-2: convenient for self-study?
+  martina.main-research-ideas-4: Is complexity of mathematical contextual problems issue in a self-study process?
+  martina.main-research-ideas-slide-4-1: Is complexity of a contextual problem
+  martina.main-research-ideas-slide-4-2: problem?
+  martina.main-research-ideas-5: Which contexts and mathematical contextual problems are convenient for upper-secondary and university students?
+  martina.main-research-ideas-slide-5-1: How to find an attractive context
+  martina.main-research-ideas-slide-5-2: in mathematics and real-world?
 
   martina.part1.supheader-3: Ideas in current projects
   martina.part1.text-12-1: The importance of a context and question type in mathematical tasks
