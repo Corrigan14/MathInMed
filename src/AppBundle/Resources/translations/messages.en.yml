@@ -9,10 +9,10 @@ basic_words:
 
 main_navbar:
   about: About
-  book: Math and the real world
+  book: Maths and the real world
   contact: Contact
   continue: Continue
-  mathinmed: Math Around Us
+  mathinmed: Maths Around Us
   tutoring: Preparation help
   teachers: Teachers
   researches: Researches
@@ -48,34 +48,34 @@ slider:
 
 left_navbar:
   book.introduction: Introduction
-  book.spyrometry: Spirometry Result
+  book.spyrometry: Spirometry Results
   book.chapter1: Spirometry Curve
-  book.chapter11: Parameteres Signalized Respiratory Problems
+  book.chapter11: Parameteres Signalizing Respiratory Problems
   book.chapter12: Respiratory System Diseases
-  book.chapter13: Compared Spirometry Curve - Helthy Humans' curve
-  book.chapter14: Spirometry Curve - Doctor's view
-  book.chapter1game: Game - part 1
+  book.chapter13: Comparison between Spirometry Curves
+  book.chapter14: Doctor's perspective
+  book.chapter1game: Game - part I
   book.chapter2: Volume-Time Curve
   book.chapter21: Forced Expiratory Volume
   book.chapter22: Volume-Time Curve
   book.chapter23: FEV1 in Time
   book.chapter24:  Volume-Time Curve - Doctor's view
-  book.chapter2game: Game - part 2
+  book.chapter2game: Game - part II
   book.chapter3: Flow-Volume Loop
   book.chapter31: Flow
   book.chapter32: Loop
   book.chapter33: Respiratory System Diseases
   book.chapter34: Rise Over the Run ... Let's Repeat That
   book.chapter35:  Flow-Volume Loop - Doctor's view
-  book.chapter3game: Game - part 3
+  book.chapter3game: Game - part III
   book.game: Game
-  book.game.instruction: Instruction
+  book.game.instruction: Instructions
   book.game.decode: Decode The Answer
 
 right_navbar:
   book.answers: Answers
   book.answer: Answer
-  book.answer.text1: PLEASE NOTICE that the answers taken from the graph's data are only approximate! The difference between yours and our answers can be +-100ml.
+  book.answer.text1: PLEASE NOTE that the answers taken from the graph's data are only approximate! The difference between yours and our answers can be +-100ml.
   book.answer11.text1-1: Our patient's Forced Vital Capacity is
   book.answer11.text1-2: approximately 2340ml
   book.answer11.text2: If there is a big difference between yours and our answer, try to check the HELPER to this problem
@@ -127,7 +127,7 @@ right_navbar:
   book.helper11.text1-1: Firstly, it is necessary to
   book.helper11.text1-2: understand the graph
   book.helper11.text1-3:  we are working with.
-  book.helper11.text2: Try to answer the next questions
+  book.helper11.text2: Try to answer following questions
   book.helper11.text3: 1. Which Spirometry Curve parts are related to the patient's inhalations and which one to his exhalations?
   book.helper11.text3-1: To find an answer to this question, the imagine of a simple breathing can help. Try to close your eyes, inhale and exhale few times. Is the air volume in your lungs increasing or decreasing when you are inhaling air?
   book.helper11.text4: 2. When the patient's greatest exhalation started? (the exhalation during which patient exhaled the greatest volume of an air)
@@ -170,12 +170,12 @@ right_navbar:
   book.helper16: helper 1.6
   book.chat: Forum
   book.chat.work: We are preparing a new forum for you!
-  book.chat.email.text1: If you have any questions or if you need a help, I will be glad to help you
-  book.chat.email.text2: Please send me an email
+  book.chat.email.text1: If you have any questions or if you need any help, I will be glad to help you
+  book.chat.email.text2: Please feel free to send me an email
 
 footer:
   headline: Creative team - SK
-  headline.text1: Hi! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud PhD. degree holder from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how. One effective way is to discover it by yourself!
+  headline.text1: Hi! My name is Martina. I am a teacher, researcher and free-time PHP web-developer. I am a proud PhD. degree holder from The Theory of Teaching of Mathematics. I know that mathematics can be challenging, but it can be a good challenge and everybody can learn it. The only question is, how? One effective way is to discover it by yourself!
   headline.text2: Visit my profile Web-page
   email: E-mail
   email.contact: martina.babinska.sk@gmail.com
@@ -188,17 +188,17 @@ about:
   main.author.citation: John Amos Comenius
   main.part1.slogan: Dear visitor...
   main.part1.headline: Who Are We?
-  main.part1-1.text: We are a team of young researchers with the main work place at Comenius University in Bratislava. Our research is focused on a student's learning practice in mathematics, self-inner-motivation and tutoring.
-  main.part1-2.text: The main goal of our work is to find ways to help students with mathematics understanding and their mathematics learning inner-motivation.
-  main.part2.slogan: We work with passion ... for students
+  main.part1-1.text: We are a team of young researchers with the main work place at Comenius University in Bratislava. Our research focuses on a learning of mathematics, student's work, self-study, inner-motivation.
+  main.part1-2.text:
+  main.part2.slogan: Dear student...
   main.part2.headline: Why Did We Create This Website?
-  main.part2.text2-1: The first reason is Mathematics an its practicality - real-world usage. Many students do not understand why they have to learn many "weird and complicated" formulas, especially in a higher grade. For these students website offers a real mathematical application in a medical assessment called Spirometry. Students have the opportunity to understand a crucial Mathematical Functions role in this assessment's result creation.
-  main.part2.text2-2: The second reason is Mathematics understanding. Sometime, only a small help can open student's understanding and allows self-invention experience which brings inner-motivation. Moderated Online Tutoring is offering this help for everybody who likes to us it.
-  main.part3.slogan: We work with passion ... for teachers
-  main.part3.headline: What is This Website offering for Teachers?
-  main.part3.text3-1: Cooperation is crucial in an excellent teacher development. Internet allows to spread this cooperation out of schools or regions.
-  main.part3.text3-2: It is not important if you are an experienced or novice teacher. You can find a place for your questions, thoughts, research, materials and experience sharing here.
-  main.part4.text4-1: The website development is still in progress. Please forgive us mistakes. If you have any suggestion how we can improwe, please feel free to contact us.
+  main.part2.text2-1: The first reason is mathematics and its real-world usage. Many students do not understand why they have to learn many 'weird and complicated' formulas, especially in a higher grades. For these students the website offers a real mathematical application in a medical assessment of Spirometry. Students can discover mathematical functions in the assessment's result.
+  main.part2.text2-2: The second reason is understanding mathematics. Sometime, only a little help allows self-invention experience which brings inner-motivation. Moderated leading offers this help to everybody.
+  main.part3.slogan: Dear teacher...
+  main.part3.headline: Why Did We Create This Website?
+  main.part3.text3-1: Cooperation is crucial in every teacher's development. The internet allows to spread this cooperation out of the schools or regions.
+  main.part3.text3-2: It is not important if you are an experienced or a novice teacher. You can find place for your questions, thoughts, research, materials and experience sharing here.
+  main.part4.text4-1: The website development is still in progress. Please forgive us any mistakes. If you have any suggestions on how we can improve it, please feel free to contact us.
 
 personal:
   programme: Programme of study
@@ -267,7 +267,7 @@ personal:
   martina.part1.research-history-8: We researched contexts, real-world problems  as well as mathematical task's types which shoul attract older students (senior high school students and lower grades of universities).
   martina.part1.research-history-9: We chose medical context, prepared a set of tasks which lead student through the spirometry assesment, researched its efficiency and motivational effect.
 
-  martina.part1.research-history-7: Based on constructivist theroy, RME (Realistic Mathematic Education) principles and my experience, we suggested a self-study material structure, which should increase students' inner motivation and spred his/her math understanding.
+  martina.part1.research-history-7: Based on constructivist theroy, RME (Realistic Mathematic Education) principles and my experience, we suggested a self-study material structure, which should increase students' inner motivation and spred his/her maths understanding.
 
   martina.part1.text-8-2: One of the outcomes proved attractiveness of real-world mathematical problems for older students .
   martina.part1.text-8-3: However, as already was proved before (), the context of a problem must be relevant for students and it also must be relevant in a view of mathematcal content and its difficulty.
@@ -431,7 +431,7 @@ book:
   introduction.part5.headline: Do I Need To Know 'a lot of' Mathematics?
   introduction.part5.text5-1: The answer is NO. Do not worry! The only thing what you need is a little bit of time and to have a fancy for thinking ;).
   introduction.part5.text5-2: Every problem what is waiting for you contains HELPER. This you can find in a right menu, under the BULB icon. You can use these helpers every time, when you need.
-  introduction.nextPage: Let's look closer on the Spirometry result
+  introduction.nextPage: Let's take a look at the Spirometry result
   result.headline: SPIROMETRY -  pulmonary function test
   result.part1.text1-1: WHAT DOES THE RESULT CONTAIN?
   result.part1.text1-2: As you can see, many numbers and graphs :)
@@ -472,7 +472,7 @@ book:
   result.part7.text7-2: LEFT MENU
   result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu will be opened.
   result.part7.text7-3-2: This menu allows the quick orientation between the Spirometry result parts and its tasks.
-  result.nextPage: Let's look on a first results' part - Spirometry Curve
+  result.nextPage: Let's take a look at the first part of the results - Spirometry Curve
   first-chapter.subchapter1.headline:
   first-chapter.subchapter1.text1-1: One of the main patient's respiratory problem indicators is a (FORCED) VITAL CAPACITY denoted by FVC.
   first-chapter.subchapter1.text1-2: FVC represents the volume of air maximally fiercely breathed out after the deep inhalation.
