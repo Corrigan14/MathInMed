@@ -26,39 +26,16 @@
         </p>
         <p>
             {{ 'personal.martina.part1.research-history-3'|trans }}
-        </p>
-        <p>
             {{ 'personal.martina.part1.research-history-4'|trans }}
+        </p>
+        <p>
             {{ 'personal.martina.part1.research-history-5'|trans }}
-        </p>
-        <p>
             {{ 'personal.martina.part1.research-history-6'|trans }}
-            {{ 'personal.martina.part1.research-history-7'|trans }}
-        </p>
-        <p>
+            <br>
             {{ 'personal.martina.part1.research-history-8'|trans }}
+        </p>
+        <p>
             {{ 'personal.martina.part1.research-history-9'|trans }}
-        </p>
-    </div>
-    <div class="col-md-5 text-left margin-top-60">
-        {% image '@AppBundle/Resources/public/images/personal/students3.jpg' %}
-            <img src="{{ asset_url }}" alt="Students" class="img-responsive" >
-        {% endimage %}
-    </div>
-</div>
-
-<div class="row padding-top-25 both-sides-text-alignment">
-    <div class="col-md-12">
-        <p>
-            {{ 'personal.martina.part1.text-8-1'|trans }}
-            {{ 'personal.martina.part1.text-8-2'|trans }}
-            {{ 'personal.martina.part1.text-8-3'|trans }}
-            {{ 'personal.martina.part1.text-8-4'|trans }}
-            {{ 'personal.martina.part1.text-8-5'|trans }}
-        </p>
-        <p>
-            {{ 'personal.martina.part1.text-9-1'|trans }}
-            {{ 'personal.martina.part1.text-9-2'|trans }}
             <span>
                 <b>
                     <a class="text-color-primary" target="_blank" href={{ path('app_book_main_introudction') }}>
@@ -67,10 +44,13 @@
                 </b>
             </span>
             .
+            {{ 'personal.martina.part1.research-history-10'|trans }}
         </p>
-        <p>
-            {{ 'personal.martina.part1.text-10'|trans }}
-        </p>
+    </div>
+    <div class="col-md-5 text-left margin-top-60">
+        {% image '@AppBundle/Resources/public/images/personal/students3.jpg' %}
+            <img src="{{ asset_url }}" alt="Students" class="img-responsive" >
+        {% endimage %}
     </div>
 </div>
 
@@ -83,39 +63,12 @@
     </div>
     <div class="col-md-12 both-sides-text-alignment">
         <p>
-            <span>
-                <i>
-                    - &nbsp;&nbsp; {{ 'personal.martina.main-research-ideas-1'|trans }}
-                </i>
-            </span>
-        </p>
-        <p>
-             <span>
-                <i>
-                    - &nbsp;&nbsp; {{ 'personal.martina.main-research-ideas-2'|trans }}
-                </i>
-            </span>
-        </p>
-        <p>
-            <span>
-                <i>
-                    - &nbsp;&nbsp; {{ 'personal.martina.main-research-ideas-3'|trans }}
-                </i>
-            </span>
-        </p>
-        <p>
-            <span>
-                <i>
-                    - &nbsp;&nbsp; {{ 'personal.martina.main-research-ideas-4'|trans }}
-                </i>
-            </span>
-        </p>
-        <p>
-            <span>
-                <i>
-                    - &nbsp;&nbsp; {{ 'personal.martina.main-research-ideas-5'|trans }}
-                </i>
-            </span>
+            &#9658; {{ 'personal.martina.main-research-ideas-1'|trans }}
+            &#9658; {{ 'personal.martina.main-research-ideas-2'|trans }}
+            &#9658; {{ 'personal.martina.main-research-ideas-3'|trans }}
+            &#9658; {{ 'personal.martina.main-research-ideas-4'|trans }}
+            &#9658; {{ 'personal.martina.main-research-ideas-5'|trans }}
+
         </p>
     </div>
 </div>
@@ -131,89 +84,61 @@
 </div>
 
 {# CONTENT - PROJECT 1 #}
-<div class="row margin-top-10">
-    <div class="col-md-2">
-        <p class="uppercase-transform">
-            <b>{{ 'personal.study'|trans }}:</b>
-        </p>
+<div class="row">
+    <div class="col-md-4">
+        <h6>{{ 'personal.study'|trans }}</h6>
     </div>
-    <div class="col-md-10 both-sides-text-alignment">
-        <p class="uppercase-transform">
-            <b>
-                {{ 'personal.martina.part1.text-12-1'|trans }}: {{ 'personal.martina.part1.text-12-2'|trans }}?
-            </b>
-        </p>
+    <div class="col-md-8">
+        <h6>
+            {{ 'personal.martina.part1.text-12-1'|trans }}
+        </h6>
     </div>
 </div>
-
 <div class="row">
-    <div class="col-md-2">
-        <p class="uppercase-transform">
+    <div class="col-md-4">
+        <p>
             <b>{{ 'personal.description'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-10 both-sides-text-alignment">
+    <div class="col-md-8">
         <p>{{ 'personal.martina.part1.text-13-1'|trans }}:
             <br>
-            - &nbsp;&nbsp;<span><i>{{ 'personal.martina.part1.text-13-2'|trans }}?</i></span>
+            &#9642; <span><i>{{ 'personal.martina.part1.text-13-2'|trans }}?</i></span>
             <br>
-            - &nbsp;&nbsp;<span><i>{{ 'personal.martina.part1.text-13-3'|trans }}?</i></span>
+            &#9642; <span><i>{{ 'personal.martina.part1.text-13-3'|trans }}?</i></span>
             <br>
-            - &nbsp;&nbsp;<span><i>{{ 'personal.martina.part1.text-13-4'|trans }}?</i></span>
+            &#9642; <span><i>{{ 'personal.martina.part1.text-13-4'|trans }}?</i></span>
         </p>
     </div>
 </div>
-
 <div class="row">
-    <div class="col-md-2">
-        <p class="uppercase-transform">
+    <div class="col-md-4">
+        <p>
             <b>{{ 'personal.methods'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-10 both-sides-text-alignment">
+    <div class="col-md-8">
         <p>{{ 'personal.martina.part1.text-14-1'|trans }}
-            <span>
-                <i>
-                    (
-                    {{ 'personal.martina.part1.text-14-2'|trans }}
-                    {{ 'personal.martina.part1.text-14-3'|trans }}, {{ 'personal.martina.part1.text-14-4'|trans }}
-                    :
-                    <span><b><a href="{{ path('app_researchers_main_resources') }}" target="_blank" class="colour-font">de Lange, 1979, 1999</a></b></span>
-                    ,
-                    {{ 'personal.martina.part1.text-14-5'|trans }}
-                    :
-                    <span><b><a href="{{ path('app_researchers_main_resources') }}" target="_blank" class="colour-font">de Lange, 1995</a></b></span>
-
-                    {{ 'basic_words.and'|trans }}
-                    {{ 'personal.martina.part1.text-14-6'|trans }}
-                    :
-                    <span class="colour-font"><b>Revised Bloom’s Taxonomy</b></span>
-                    ),
-                    </i>
-            </span>
-            {{ 'personal.martina.part1.text-14-7'|trans }}
+            (
+            <i>{{ 'personal.martina.part1.text-14-2'|trans }}</i>
+            )
+            {{ 'personal.martina.part1.text-14-3'|trans }}
         </p>
     </div>
 </div>
 
 <div class="row">
-    <div class="col-md-2">
-        <p class="uppercase-transform">
+    <div class="col-md-4">
+        <p>
             <b>{{ 'personal.publication'|trans }}:</b>
         </p>
     </div>
-    <div class="col-md-10 both-sides-text-alignment">
+    <div class="col-md-8">
         <p>
-            {{ 'personal.martina.part1.text-15-1'|trans }}:
-            <span class="scrollable">
-                <b>
-                    <a class="text-color-primary" href="#infoPublication">
-                         {{ 'personal.martina.part1.text-15-2'|trans }}
-                    </a>
-                </b>
-            </span>
-        </p>
-        <p>
+            {{ 'personal.martina.part1.text-15-1'|trans }}
+            (
+            <i>{{ 'personal.martina.part1.text-15-2'|trans }}</i>
+            ).
             {{ 'personal.martina.part1.text-15-3'|trans }}.
         </p>
     </div>

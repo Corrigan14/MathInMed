@@ -258,26 +258,17 @@ personal:
 
   martina.part1.supheader-1-1: Why self-study and work with students?
   martina.part1.research-history-1: Short answer for this question is tutoring.
-  martina.part1.research-history-2: Thanks to it I met many hard-working students who got a great effort to understand mathematics, but who were struggeling with a school system.
-  martina.part1.research-history-3: And so my way started.
-  martina.part1.research-history-4: As a part of my Diploma thesis I created a web-page with conventional mathematical problems and I researched the unconventional way of solutions there.
-  martina.part1.research-history-5: Based on an idea of Socratic questions, system was not answering, but it was asking. If student needed a help, system asked a set of questions which lead him/her to problem's understanding.
-  martina.part1.research-history-6: Later, already as a doctor student, I developed this idea.
-  martina.part1.research-history-7: What if I do not take the conventional mathematical problem, but, the contextual one?
-  martina.part1.research-history-8: We researched contexts, real-world problems  as well as mathematical task's types which shoul attract older students (senior high school students and lower grades of universities).
-  martina.part1.research-history-9: We chose medical context, prepared a set of tasks which lead student through the spirometry assesment, researched its efficiency and motivational effect.
+  martina.part1.research-history-2: Thanks to it I met many hard-working students who got a great effort to understand mathematics, but who still did not like it.
+  martina.part1.research-history-3: As the answer to this experience I created a web-page with conventional mathematical problems and I researched the unconventional way of solutions there.
+  martina.part1.research-history-4: If student needed a help, system did not provide an answer, but it asked a set of questions which lead him/her to problem's understanding.
+  martina.part1.research-history-5: Later, already as a doctor student, I started to work with contextual problems and its potential in a self-study.
+  martina.part1.research-history-6: We prepared a set of mathematical tasks based on a context of medical assesment which lead student from the basic work with a mathematical function to understanding of derivatives.
+  martina.part1.research-history-7: The research showed, that combination of an interesting context and relevant, increasing, difficulty of maths can increase studnets' inner-motivation.
+  martina.part1.research-history-8: We researched context's attractivnes, problem's complexity, helpers' function and tasks' arrangement and their influence on self-study and inner-motivation.
+  martina.part1.research-history-9: In 2018 we translated the first part of created contextual problem to the English language and prepared an online version available on
+  martina.part1.research-history-10: In the future, we would like to spread the research out of the Slovak Republic and start to test the online students' work.
 
-  martina.part1.research-history-7: Based on constructivist theroy, RME (Realistic Mathematic Education) principles and my experience, we suggested a self-study material structure, which should increase students' inner motivation and spred his/her maths understanding.
-
-  martina.part1.text-8-2: One of the outcomes proved attractiveness of real-world mathematical problems for older students .
-  martina.part1.text-8-3: However, as already was proved before (), the context of a problem must be relevant for students and it also must be relevant in a view of mathematcal content and its difficulty.
-  martina.part1.text-8-4: Results also show that one of the possible attratctive contexts is medical context and that students do not have a problem with an extensive problems, if the problem is divided into small tasks with increasing difficulty.
-  martina.part1.text-8-5: The final observation concerns the internal motivation. Research has proved that we can assume that real mathematical problems of the medical context, which are leading the students to active work will lead to internal motivation of these students.
-  martina.part1.text-9-1: However, to find general conclusions, we needed to spread the research. We repeated the case study in 2018 and the results are still being processed.
-  martina.part1.text-9-2: We also translated the first part of created problem to the English langugae and prepared an online version available on
-  martina.part1.text-10: The future research is opening two main direstions. We would like to spread the research out of the Slovak Republic and start to test the online students work.
-
-  martina.part1.supheader-2: Main ides of my research work
+  martina.part1.supheader-2: Main ideas of my research
   martina.main-research-ideas-1: What motivates students to study at home?
   martina.main-research-ideas-slide-1: Why are students studying at home?
   martina.main-research-ideas-2: Can self-study material positively influence students' inner motivation?
@@ -293,20 +284,16 @@ personal:
   martina.main-research-ideas-slide-5-1: How to find an attractive context
   martina.main-research-ideas-slide-5-2: in mathematics and real-world?
 
-  martina.part1.supheader-3: Ideas in current projects
+  martina.part1.supheader-3: Current projects
   martina.part1.text-12-1: The importance of a context and question type in mathematical tasks
   martina.part1.text-12-2:  Do students care
   martina.part1.text-13-1: The goal of a provided research is to study students’ opinion of the different contextual mathematical problems
   martina.part1.text-13-2: Can students see the difference in contextual problems
   martina.part1.text-13-3: Is context of a mathematical problem more/less important than the question (problem) type of it
   martina.part1.text-13-4: What contexts are convenient for upper-secondary and university students
-  martina.part1.text-14-1: Two groups of students, opening and closing survey, solutions of varied mathematical problems
-  martina.part1.text-14-2: variade in a
-  martina.part1.text-14-3: context/topic
-  martina.part1.text-14-4: context type
-  martina.part1.text-14-5: context’s relevance
-  martina.part1.text-14-6: in a question’s type
-  martina.part1.text-14-7: observation, unstructured interview, qualitative data analysis
+  martina.part1.text-14-1: Two groups of students, opening and closing survey, solutions of mathematical problems
+  martina.part1.text-14-2: variade in a context/topic, context type, context’s relevance and in a question’s type
+  martina.part1.text-14-3: observation, unstructured interview, qualitative data analysis
   martina.part1.text-15-1: Results from the research were partially published in a Slovak language at National Student Conference in 2013
   martina.part1.text-15-2: Can Reality Motivate Students to Mathematics Study?
   martina.part1.text-15-3: In 2018 we repeated the survey and we are preparing an English article carrying main results from both studies
