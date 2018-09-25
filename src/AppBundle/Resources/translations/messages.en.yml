@@ -2,10 +2,24 @@ motto: Why do we have to learn that???
 
 basic_words:
   download_print: DOWNLOAD TO PRINT
+  here: Here
   part: part
   student: Student
   and: and
   this-webpage: this web-page
+  avilable-on: available on
+  avilable: Available
+  online: online
+  name: Name
+  type: Type
+  author: Author
+  publisher: Publisher
+  publication: Publication
+  ISBN: ISBN
+  english: English
+  translation: translation
+  contribution: Contribution
+  award: Award
 
 main_navbar:
   about: About
@@ -217,6 +231,8 @@ personal:
   description: Goal and description
   employer: Employer
   responsibility: Responsibility
+  project: Project
+  technologies: Technologies
   martina.citation: Success is not final, failure is not fatal. It is the courage to continue that counts.
   martina.author.citation: Winston Churchill
   martina.sign: Martina Babinska
@@ -237,7 +253,7 @@ personal:
   martina.introduction-part-1-text-7-1: To find more about my research, publications, education, teaching or work experience follow
   martina.introduction-part-1-text-7-2: the next lines
   martina.part1.headlie: Research
-  martina.part1.headlie.text-1: The main part of my research work is devoted to self-study, inner motivation and students' approach to mathematics.
+  martina.part1.headlie.text-1: The main part of my research is devoted to self-study, inner motivation and students' approach to mathematics.
   martina.part1.headlie.text-2: Following principles of Constructivism and RME (Realistic Mathematic Education), I am contemplating the most efficient and helpful ways to indirect communication with students.
   martina.part2.headlie: Publications, Conferences and Awards
   martina.part3.headlie.text:
@@ -262,12 +278,11 @@ personal:
   martina.part1.research-history-3: As the answer to this experience I created a web-page with conventional mathematical problems and I researched the unconventional way of solutions there.
   martina.part1.research-history-4: If student needed a help, system did not provide an answer, but it asked a set of questions which lead him/her to problem's understanding.
   martina.part1.research-history-5: Later, already as a doctor student, I started to work with contextual problems and its potential in a self-study.
-  martina.part1.research-history-6: We prepared a set of mathematical tasks based on a context of medical assesment which lead student from the basic work with a mathematical function to understanding of derivatives.
+  martina.part1.research-history-6: We prepared a set of mathematical tasks based on a context of medical assessment which lead student from the basic work with a mathematical function to understanding of derivatives.
   martina.part1.research-history-7: The research showed, that combination of an interesting context and relevant, increasing, difficulty of maths can increase studnets' inner-motivation.
-  martina.part1.research-history-8: We researched context's attractivnes, problem's complexity, helpers' function and tasks' arrangement and their influence on self-study and inner-motivation.
+  martina.part1.research-history-8: We researched context's attractiveness, problem's complexity, helpers' efficiency and tasks' arrangement and their influence on self-study and inner-motivation.
   martina.part1.research-history-9: In 2018 we translated the first part of created contextual problem to the English language and prepared an online version available on
   martina.part1.research-history-10: In the future, we would like to spread the research out of the Slovak Republic and start to test the online students' work.
-
   martina.part1.supheader-2: Main ideas of my research
   martina.main-research-ideas-1: What motivates students to study at home?
   martina.main-research-ideas-slide-1: Why are students studying at home?
@@ -283,7 +298,6 @@ personal:
   martina.main-research-ideas-5: Which contexts and mathematical contextual problems are convenient for upper-secondary and university students?
   martina.main-research-ideas-slide-5-1: How to find an attractive context
   martina.main-research-ideas-slide-5-2: in mathematics and real-world?
-
   martina.part1.supheader-3: Current projects
   martina.part1.text-12-1: The importance of a context and question type in mathematical tasks
   martina.part1.text-12-2:  Do students care
@@ -297,13 +311,12 @@ personal:
   martina.part1.text-15-1: Results from the research were partially published in a Slovak language at National Student Conference in 2013
   martina.part1.text-15-2: Can Reality Motivate Students to Mathematics Study?
   martina.part1.text-15-3: In 2018 we repeated the survey and we are preparing an English article carrying main results from both studies
-
-  martina.part1.text-16: Real-world contextual mathematical problems and self-study
-  martina.part1.text-17-1: The goal of a provided research is to study students' individual work with real-world mathematical problems
+  martina.part1.text-16: Real-world contextual mathematical problems in a view of self-study
+  martina.part1.text-17-1: The goal of a provided research is to study influence of real-world mathematical problems on a self-study process focusing on inner-motivation
   martina.part1.text-17-2: Are real-world, contextual mathematical problems convenient for self-study
   martina.part1.text-17-3: Is contextual mathematical problem complexity issue in a self-study process
-  martina.part1.text-17-4: Are students motivated to continue in a work on a problem, if they are leaded only by context and by increasing difficulty of tasks
-  martina.part1.text-17-5: Can students find tasks' solutions by themselves if they only are using prepared helpers
+  martina.part1.text-17-4: Are students motivated to work, if they are leaded only by context and by increasing difficulty of tasks
+  martina.part1.text-17-5: Can students find tasks' solutions by themselves if they only use prepared helpers
   martina.part1.text-18-1: Case study (4 cases), unstructured interviews, observation, Fennema-Sherman mathematics attitudes scales, mathematical knowledge test, work with the
   martina.part1.text-18-2: real-world mathematical problem
   martina.part1.text-18-3: qualitative data analysis
@@ -311,12 +324,25 @@ personal:
   martina.part1.text-19-2: The Real Context of the Mathematical Problems as a Motivating Factor
   martina.part1.text-19-3: In 2018 we made another case study and we are preparing an English article carrying main results from all case studies
 
-
   martina.part1.text-4-1: 2018
   martina.part1.text-4-2: Augmented reality and future mathematics teachers
 
   martina.part1.text-5-1: 2014 - 2015
   martina.part1.text-5-2: The OECD Teaching and Learning International Survey
+
+  martina.part2.text-1-1: April 2015
+  martina.part2.text-1-2: Instructional Booklet for The Secondary School and University Students
+  martina.part2.text-2: How much of Mathematics is in One Medical Assessment? Unconventional Set of Tasks
+  martina.part2.text-3: Publication
+  martina.part2.text-4: Martina Koronci Babinská
+  martina.part2.text-5: FMFI UK, Knižničné a edičné centrum, Bratislava
+  martina.part2.text-6: 978-80-8147-028-8
+  martina.part2.text-7-1: November 2014
+  martina.part2.text-7-2: Setkání učitelů matematiky všech typů a stupňů škol, Srní, Czech Republic
+  martina.part2.text-8: Real Usage of Mathematics for the Student Motivation
+  martina.part2.text-9: International Conference
+  martina.part2.text-10: In, Setkání učitelů matematiky všech typů a stupňů škol 2014 [electronic source]. - Plzeň Vydavatelský servis, 2014. - P. 43-48 [CD-ROM]. - ISBN 978-80-86843-46-9
+  martina.part2.text-11:
 
   martina.part4.text-1-1: 03/2017 – 08/2017
   martina.part4.text-1-2: ILAC International College, Vancouver
@@ -354,7 +380,7 @@ personal:
   martina.part5.text-2-2: Scientific University Assistant
   martina.part5.text-2-3-1: Comenius University in Bratislava, Faculty of Mathematics, Physics and Informatics
   martina.part5.text-2-3-2: Department of Algebra, Geometry, and Math Education
-  martina.part5.text-2-4-1: Research work, diploma and bachelor thesis leading, participation on a project preparation, participation on a conference organization,
+  martina.part5.text-2-4-1: Research, diploma and bachelor thesis leading, participation on a project preparation, participation on a conference organization,
   martina.part5.text-2-4-2: teaching and preparation of future mathematics teachers (algebra, matheatical analysis, mathematics in English language)
   martina.part5.text-3-1: 09/2014 – 11/2015
   martina.part5.text-3-2: International Measurements Analyst
@@ -365,12 +391,22 @@ personal:
   martina.part5.text-4-2: Scientific University Assistant
   martina.part5.text-4-3-1: Comenius University in Bratislava, Faculty of Mathematics, Physics and Informatics
   martina.part5.text-4-3-2: Department of Mathematical Analysis and Numerical Mathematics
-  martina.part5.text-4-4-1: Work on my Ph.D. thesis research,
-  martina.part5.text-4-4-2: Participation on the work of the departmen, mathematical analysis teaching, cooperation on the students Master thesis.
-
-
-  martina.part5.text-8: Programming
-
+  martina.part5.text-4-4-1: Work on the Ph.D. thesis research, participation on the work of the department, mathematical analysis teaching, cooperation on the students’ Master thesis
+  martina.part5.text-5: Programming
+  martina.part5.text-6-1:  10/2016 – 09/2017
+  martina.part5.text-6-2: PHP Back-end Web Developer
+  martina.part5.text-7: Freelancer, LANSYSTEMS
+  martina.part5.text-8: HELP DESK, system for managing tasks in small and middle companies
+  martina.part5.text-9: Design and development of the REST API.
+  martina.part5.text-10: ERD, MySQL, PHP, Symfony, Unit Tests
+  martina.part5.text-11-1: 11/2015 - 08-2016
+  martina.part5.text-11-2: Junior PHP Web Developer
+  martina.part5.text-12: Freelancer, WEB-SOLUTIONS
+  martina.part5.text-13-1: SCRUM JET, tool for managing tasks in an agile development,
+  martina.part5.text-13-2: KELTA BLOG, web-scrapper downloading and uploading external articles,
+  martina.part5.text-13-3: KNOWLEDGE PORTAL, system for managing web-resources
+  martina.part5.text-14: Cooperation on database design and on system development
+  martina.part5.text-15: HTML, CSS, Sass, PHP, Symfony, MySQL, Bootstrap, uikit, DOM Document
 
 book:
   problem: Problem
