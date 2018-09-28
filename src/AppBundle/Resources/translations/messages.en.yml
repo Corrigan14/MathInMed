@@ -3,6 +3,7 @@ motto: Why do we have to learn that???
 basic_words:
   download_print: DOWNLOAD TO PRINT
   here: Here
+  here-small: here
   part: part
   student: Student
   and: and
@@ -20,6 +21,11 @@ basic_words:
   translation: translation
   contribution: Contribution
   award: Award
+  course: Course
+  goal: Goal
+  scope: Scope
+  more-information: More information
+  language: Language
 
 main_navbar:
   about: About
@@ -257,7 +263,7 @@ personal:
   martina.part1.headlie.text-2: Following principles of Constructivism and RME (Realistic Mathematic Education), I am contemplating the most efficient and helpful ways to indirect communication with students.
   martina.part2.headlie: Publications, Conferences and Awards
   martina.part3.headlie.text:
-  martina.part3.headlie: Teaching and Thesis
+  martina.part3.headlie: Teaching and Thesis Leadership
   martina.part3.headlie.text:
   martina.part4.headlie: Education and Qualifications
   martina.part4.headlie.text: During my studies I was focusing on Informatics, Applied Mathematics and The Theory of Teaching of Mathematics. After graduation, I absolved an English language course in Vancouver to improve my position in an international market.
@@ -377,6 +383,17 @@ personal:
   martina.part2.text-37: National Student Conference
   martina.part2.text-38: In, Študentská vedecká konferencia FMFI UK, Bratislava 2010, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2010. - P. 358-369. - ISBN 978-80- 89186-68-6
   martina.part2.text-39: Winner
+
+  martina.part3.text-1: Teaching
+  martina.part3.text-2: Mathematics for cognitive science [2017/2018, 2018/2019]
+  martina.part3.text-3: Exercise [en], 2h/week; Lecture [en], 2h/week
+  martina.part3.text-4: The lectures provide students with basics of propositional and predicate logic, linear algebra, mathematical analysis, and probability that are important for the study of informatics and its role in (computational) cognitive science. At the same time, students learn about mathematical culture, notation, way of thinking and expressing oneself.
+  martina.part3.text-5: More information is available
+  martina.part3.text-6:
+  martina.part3.text-6:
+  martina.part3.text-6:
+  martina.part3.text-6:
+  martina.part3.text-6: Thesis Leadership
 
   martina.part4.text-1-1: 03/2017 – 08/2017
   martina.part4.text-1-2: ILAC International College, Vancouver
