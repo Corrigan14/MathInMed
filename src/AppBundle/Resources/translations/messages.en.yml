@@ -26,6 +26,10 @@ basic_words:
   scope: Scope
   more-information: More information
   language: Language
+  student: Student
+  diploma-thesis: Diploma thesis
+  bachelor-thesis: Bachelor thesis
+  abstract: Abstract
 
 main_navbar:
   about: About
@@ -273,7 +277,7 @@ personal:
   martina.part5.headlie.text-2: programming and research
   martina.part5.headlie.text-3: While programming takes place mostly in my free time, research and teaching are main areas of my professional interest
   martina.part5.headlie.text-4: It started during my PhD. study, continued by work in a National Institute for Certified Educational Measurements where I gained experience with big data databases and quantitative data analysis and is still continuing by my actual work at Comenius University
-  martina.part6.headlie: Referees
+  martina.part6.headlie: Reference
   martina.part6.headlie.text:
   martina.part7.headlie: Personal Goals
   martina.part8.headlie: Interests
@@ -386,14 +390,21 @@ personal:
 
   martina.part3.text-1: Teaching
   martina.part3.text-2: Mathematics for cognitive science [2017/2018, 2018/2019]
-  martina.part3.text-3: Exercise [en], 2h/week; Lecture [en], 2h/week
+  martina.part3.text-3: Exercise [EN], 2h/week; Lecture [EN], 2h/week
   martina.part3.text-4: The lectures provide students with basics of propositional and predicate logic, linear algebra, mathematical analysis, and probability that are important for the study of informatics and its role in (computational) cognitive science. At the same time, students learn about mathematical culture, notation, way of thinking and expressing oneself.
   martina.part3.text-5: More information is available
-  martina.part3.text-6:
-  martina.part3.text-6:
-  martina.part3.text-6:
-  martina.part3.text-6:
-  martina.part3.text-6: Thesis Leadership
+  martina.part3.text-6: Seminar of a school mathematics, Solving methods of mathematical problems [2018/2019]
+  martina.part3.text-7: Seminar [SK], 2h/week; Seminar [SK], 2h/week
+  martina.part3.text-8: Seminars provide students with parts of upper-secondary school mathematics. Students have an opportunity to develop their constructivist and creative approach to mathematics and mathematical problems, improve their mathematical and teaching skills.
+  martina.part3.text-9: Mathematical analysis [2011/2012 - 2014/2015, 2017/2018]
+  martina.part3.text-10: Exercise [SK], 4h/week;
+  martina.part3.text-11: The exercise provides students with basics of mathematical analysis - functions, 
+  martina.part3.text-12: Thesis Leadership
+  martina.part3.text-13-1: 2017/2018  – 2018/2019
+  martina.part3.text-13-2: Teaching of Exponential Functions
+  martina.part3.text-14: Bc. Peter Sás
+  martina.part3.text-15: Create and research usability of a methodological material for constructivist teaching of exponential functions at upper-secondary school.
+  martina.part3.text-16: Abstract will be provided in 2019
 
   martina.part4.text-1-1: 03/2017 – 08/2017
   martina.part4.text-1-2: ILAC International College, Vancouver
@@ -458,6 +469,9 @@ personal:
   martina.part5.text-13-3: KNOWLEDGE PORTAL, system for managing web-resources
   martina.part5.text-14: Cooperation on database design and on system development
   martina.part5.text-15: HTML, CSS, Sass, PHP, Symfony, MySQL, Bootstrap, uikit, DOM Document
+
+  martina.part6.text-1: From students' survey...
+  martina.part6.text-12: Reference letters
 
 book:
   problem: Problem

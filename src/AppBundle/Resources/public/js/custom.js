@@ -18,6 +18,13 @@ function toggleText(param) {
     $($tableId).toggle(1000);
 }
 
+function toggleMoreInformation(param) {
+    var $textId = '#text' + param;
+    var $readMoreId = '#readMore' + param;
+    $($textId).toggle(1000);
+    $($readMoreId).addClass('hide-element');
+}
+
 function togglePersonalInfo(param) {
     var $infoResearch = $('#infoResearch'),
     $infoPublication = $('#infoPublication'),
