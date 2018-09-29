@@ -28,53 +28,6 @@
 <!-- Testimonial Style 3 -->
 <div class="testimonial style-7 bg-parallax padding-bottom-30 padding-top-30">
     <ul class="row">
-
-        <!-- Testi -->
-        <li class="col-md-6 margin-bottom-30">
-            <div class="testi-in">
-                <!-- Avatar -->
-                <div class="avatar">
-                    {% image '@AppBundle/Resources/public/images/personal/student-1.jpeg' %}
-                        <img
-                                src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                style="max-width: 100%"
-                        >
-                    {% endimage %}
-                </div>
-                <div class="text-in">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                        believable.
-                    </p>
-                    <h6>Paul Walker</h6>
-                    <span>CEO/Founder Apple Inc</span>
-                </div>
-            </div>
-        </li>
-
-        <!-- Testi -->
-        <li class="col-md-6 margin-bottom-30">
-            <div class="testi-in">
-                <!-- Avatar -->
-                <div class="avatar">
-                    {% image '@AppBundle/Resources/public/images/personal/student-2.png' %}
-                        <img
-                                src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                style="max-width: 100%"
-                        >
-                    {% endimage %}
-                </div>
-                <div class="text-in">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                        believable.
-                    </p>
-                    <h6>JENNIFER WHITE</h6>
-                    <span>CEO/Founder Apple Inc</span>
-                </div>
-            </div>
-        </li>
-
         <!-- Testi -->
         <li class="col-md-6 margin-bottom-30">
             <div class="testi-in">
@@ -88,12 +41,9 @@
                     {% endimage %}
                 </div>
                 <div class="text-in">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                        believable.
-                    </p>
-                    <h6>RENNA SCOT</h6>
-                    <span>CEO/Founder Apple Inc</span>
+                    <p> {{ 'personal.martina.part6.reference.student-2'|trans }}</p>
+                    <h6>{{ 'basic_words.student'|trans }} II</h6>
+                    <span>{{ 'personal.martina.part6.reference.student-cognitive-science'|trans }} 2017/2018</span>
                 </div>
             </div>
         </li>
@@ -111,16 +61,55 @@
                     {% endimage %}
                 </div>
                 <div class="text-in">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                        believable.
-                    </p>
-                    <h6>DAVID MARTIN</h6>
-                    <span>CEO/Founder Apple Inc</span>
+                    <p> {{ 'personal.martina.part6.reference.student-3'|trans }}</p>
+                    <h6>{{ 'basic_words.student'|trans }} II</h6>
+                    <span>{{ 'personal.martina.part6.reference.student-cognitive-science'|trans }} 2017/2018</span>
                 </div>
             </div>
         </li>
     </ul>
+    <ul class="row">
+        <!-- Testi -->
+        <li class="col-md-6 margin-bottom-30">
+            <div class="testi-in">
+                <!-- Avatar -->
+                <div class="avatar">
+                    {% image '@AppBundle/Resources/public/images/personal/student-1.jpeg' %}
+                        <img
+                                src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
+                                style="max-width: 100%"
+                        >
+                    {% endimage %}
+                </div>
+                <div class="text-in">
+                    <p> {{ 'personal.martina.part6.reference.student-1'|trans }}</p>
+                    <h6>{{ 'basic_words.student'|trans }} III</h6>
+                    <span>{{ 'personal.martina.part6.reference.student-cognitive-science'|trans }} 2017/2018</span>
+                </div>
+            </div>
+        </li>
+
+        <!-- Testi -->
+        <li class="col-md-6 margin-bottom-30">
+            <div class="testi-in">
+                <!-- Avatar -->
+                <div class="avatar">
+                    {% image '@AppBundle/Resources/public/images/personal/student-2.png' %}
+                        <img
+                                src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
+                                style="max-width: 100%"
+                        >
+                    {% endimage %}
+                </div>
+                <div class="text-in">
+                    <p> {{ 'personal.martina.part6.reference.student-5'|trans }}</p>
+                    <h6>{{ 'basic_words.student'|trans }} IV</h6>
+                    <span>{{ 'personal.martina.part6.reference.student-math-analysis'|trans }} 2017/2018</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+
 </div>
 
 {# CONTENT - REFERENCE LETTERS #}
