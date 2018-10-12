@@ -212,12 +212,12 @@ about:
   main.author.citation: John Amos Comenius
   main.part1.slogan: Dear visitor...
   main.part1.headline: Who Are We?
-  main.part1-1.text: We are a team of young researchers with the main work place at Comenius University in Bratislava. Our research focuses on a learning of mathematics, student's work, self-study, inner-motivation.
+  main.part1-1.text: We are a team of young researchers with the main work place at Comenius University in Bratislava. Our research focuses on a learning of mathematics, student's work, self-study, intrinsic motivation.
   main.part1-2.text:
   main.part2.slogan: Dear student...
   main.part2.headline: Why Did We Create This Website?
   main.part2.text2-1: The first reason is mathematics and its real-world usage. Many students do not understand why they have to learn many 'weird and complicated' formulas, especially in a higher grades. For these students the website offers a real mathematical application in a medical assessment of Spirometry. Students can discover mathematical functions in the assessment's result.
-  main.part2.text2-2: The second reason is understanding mathematics. Sometime, only a little help allows self-invention experience which brings inner-motivation. Moderated leading offers this help to everybody.
+  main.part2.text2-2: The second reason is understanding mathematics. Sometime, only a little help allows self-invention experience which brings intrinsic motivation. Moderated leading offers this help to everybody.
   main.part3.slogan: Dear teacher...
   main.part3.headline: Why Did We Create This Website?
   main.part3.text3-1: Cooperation is crucial in every teacher's development. The internet allows to spread this cooperation out of the schools or regions.
@@ -252,31 +252,31 @@ personal:
   martina.research.student.quote-2: I missed the explanations why to do what to do and how things are related to each other. We did everything manually, without thinking why we should do it in this way.
   martina.research.student.quote-3: Mathematics cannot be fun. It always will be boring
 
-  martina.introduction-headline-1: To do the best, to appreciate beauty ...
+  martina.introduction-headline-1: To do the best, to appreciate the beauty ...
   martina.introduction-headline-2: A few words about me
-  martina.introduction-part-1-text-1: Hi! My name is Martina and If I am characterizing me, I would like to do it through my passions.
+  martina.introduction-part-1-text-1: Hi! My name is Martina and If I am characterizing myself, I would like to do it through my passions.
   martina.introduction-part-1-text-2: Except art, fashion, books and nature, there are two big passions in my life, teaching and programming.
   martina.introduction-part-1-text-3: I studied at Comenius University in Bratislava, where I attained a PhD. degree from The Theory of Teaching of Mathematics. After graduation I worked as a data analytics and a software developer. Later,  I spent 6 months in Vancouver, improving my English skills and discovering new culture.
-  martina.introduction-part-1-text-4: I managed to join my passions at university, where I am working as teacher and researcher.
+  martina.introduction-part-1-text-4: I managed to join my passions at university, where I am working as a teacher and a researcher.
   martina.introduction-part-1-text-5: Students and their motivation to learn mathematics became the main part of my interest.
   martina.introduction-part-1-text-6: In a long-term I would like to focus on a constructivistic approach to online and face-to-face self-study.
-  martina.introduction-part-1-text-7-1: To find more about my research, publications, education, teaching or work experience follow
-  martina.introduction-part-1-text-7-2: the next lines
+  martina.introduction-part-1-text-7-1: To find more about my research, publications, education, teaching or work experience - see bellow
+  martina.introduction-part-1-text-7-2:
   martina.part1.headlie: Research
-  martina.part1.headlie.text-1: The main part of my research is devoted to self-study, inner motivation and students' approach to mathematics.
-  martina.part1.headlie.text-2: Following principles of Constructivism and RME (Realistic Mathematic Education), I am contemplating the most efficient and helpful ways to indirect communication with students.
+  martina.part1.headlie.text-1: The main part of my research is devoted to self-study, intrinsic motivation and students' approach to mathematics.
+  martina.part1.headlie.text-2: Following principles of Constructivism and RME (Realistic Mathematic Education), I am contemplating the most efficient and helpful ways of indirect communication with students.
   martina.part2.headlie: Publications, Conferences and Awards
   martina.part3.headlie.text:
   martina.part3.headlie: Teaching and Thesis Leadership
   martina.part3.headlie.text:
   martina.part4.headlie: Education and Qualifications
-  martina.part4.headlie.text: During my studies I was focusing on Informatics, Applied Mathematics and The Theory of Teaching of Mathematics. After graduation, I absolved an English language course in Vancouver to improve my position in an international market.
+  martina.part4.headlie.text: During my studies I focused on Informatics, Applied Mathematics and The Theory of Teaching of Mathematics. After graduation, I completed an English language course in Vancouver to improve my position within an international market.
   martina.part5.headlie-1: Work Experience
   martina.part5.headlie-2: Professional Skills
   martina.part5.headlie.text-1: My work experience involves two main professional areas
   martina.part5.headlie.text-2: programming and research
-  martina.part5.headlie.text-3: While programming takes place mostly in my free time, research and teaching are main areas of my professional interest
-  martina.part5.headlie.text-4: It started during my PhD. study, continued by work in a National Institute for Certified Educational Measurements where I gained experience with big data databases and quantitative data analysis and is still continuing by my actual work at Comenius University
+  martina.part5.headlie.text-3: While programming is mostly a free-time activity, research and teaching are main areas of my professional interest
+  martina.part5.headlie.text-4: It started during my PhD. study, continued by work in National Institute for Certified Educational Measurements where I gained experience with big data databases and quantitative data analysis. Rozvoj tychto mojich schopnosti is still continuing by my actual work at Comenius University
   martina.part6.headlie: Reference
   martina.part6.headlie.text:
   martina.part7.headlie: Personal Goals
@@ -286,53 +286,53 @@ personal:
   martina.part1.research-history-1: Short answer for this question is tutoring.
   martina.part1.research-history-2: Thanks to it I met many hard-working students who got a great effort to understand mathematics, but who still did not like it.
   martina.part1.research-history-3: As the answer to this experience I created a web-page with conventional mathematical problems and I researched the unconventional way of solutions there.
-  martina.part1.research-history-4: If student needed a help, system did not provide an answer, but it asked a set of questions which lead him/her to problem's understanding.
-  martina.part1.research-history-5: Later, already as a doctor student, I started to work with contextual problems and its potential in a self-study.
-  martina.part1.research-history-6: We prepared a set of mathematical tasks based on a context of medical assessment which lead student from the basic work with a mathematical function to understanding of derivatives.
-  martina.part1.research-history-7: The research showed, that combination of an interesting context and relevant, increasing, difficulty of maths can increase studnets' inner-motivation.
-  martina.part1.research-history-8: We researched context's attractiveness, problem's complexity, helpers' efficiency and tasks' arrangement and their influence on self-study and inner-motivation.
-  martina.part1.research-history-9: In 2018 we translated the first part of created contextual problem to the English language and prepared an online version available on
-  martina.part1.research-history-10: In the future, we would like to spread the research out of the Slovak Republic and start to test the online students' work.
+  martina.part1.research-history-4: When a student needed a help, system did not provide him with the answer, but it asked a set of questions which led him/her to understand the problem.
+  martina.part1.research-history-5: Later, already as a doctor student, I started to work with contextual problems and its potential in self-study.
+  martina.part1.research-history-6: We prepared a set of mathematical tasks based on a context of medical assessment which led student from the basic work with a mathematical function to understand derivatives.
+  martina.part1.research-history-7: The research showed, that combination of an interesting context and relevant, increasing, difficulty of maths can increase studnets' intrinsic motivation.
+  martina.part1.research-history-8: We researched context's attractiveness, problem's complexity, helpers' efficiency and tasks' arrangement and their influence on self-study and intrinsic motivation.
+  martina.part1.research-history-9: In 2018 we made an English version of the first part of created contextual problem and we also prepared an online version available on
+  martina.part1.research-history-10: In the future, we would like to work on an international basis and research the online students' work.
   martina.part1.supheader-2: Main ideas of my research
   martina.main-research-ideas-1: What motivates students to study at home?
   martina.main-research-ideas-slide-1: Why are students studying at home?
-  martina.main-research-ideas-2: Can self-study material positively influence students' inner motivation?
+  martina.main-research-ideas-2: Can self-study material hase a positive impact on students' intrinsic motivation?
   martina.main-research-ideas-slide-2-1: Can self-study material positivelly
-  martina.main-research-ideas-slide-2-2: influence students' inner motivation?
-  martina.main-research-ideas-3: Are real-world, contextual mathematical problems convenient for self-study?
+  martina.main-research-ideas-slide-2-2: influence students' intrinsic motivation?
+  martina.main-research-ideas-3: Are real-world, contextual mathematical problems suitable for self-study?
   martina.main-research-ideas-slide-3-1: Are contextual mathematical problems
   martina.main-research-ideas-slide-3-2: convenient for self-study?
   martina.main-research-ideas-4: Is complexity of mathematical contextual problems issue in a self-study process?
   martina.main-research-ideas-slide-4-1: Is complexity of a contextual problem
-  martina.main-research-ideas-slide-4-2: problem?
+  martina.main-research-ideas-slide-4-2: a problem?
   martina.main-research-ideas-5: Which contexts and mathematical contextual problems are convenient for upper-secondary and university students?
   martina.main-research-ideas-slide-5-1: How to find an attractive context
   martina.main-research-ideas-slide-5-2: in mathematics and real-world?
   martina.part1.supheader-3: Current projects
-  martina.part1.text-12-1: The importance of a context and question type in mathematical tasks
+  martina.part1.text-12-1: Context versus question type in mathematical tasks
   martina.part1.text-12-2:  Do students care
-  martina.part1.text-13-1: The goal of a provided research is to study students’ opinion of the different contextual mathematical problems
+  martina.part1.text-13-1: The goal of provided research is to study students’ opinion of the different contextual mathematical problems
   martina.part1.text-13-2: Can students see the difference in contextual problems
   martina.part1.text-13-3: Is context of a mathematical problem more/less important than the question (problem) type of it
   martina.part1.text-13-4: What contexts are convenient for upper-secondary and university students
   martina.part1.text-14-1: Two groups of students, opening and closing survey, solutions of mathematical problems
-  martina.part1.text-14-2: variade in a context/topic, context type, context’s relevance and in a question’s type
+  martina.part1.text-14-2: various in a context/topic, context type, context’s relevance and in a type of questions
   martina.part1.text-14-3: observation, unstructured interview, qualitative data analysis
-  martina.part1.text-15-1: Results from the research were partially published in a Slovak language at National Student Conference in 2013
+  martina.part1.text-15-1: Results from the research were partially published in Slovak language at National Student Conference in 2013
   martina.part1.text-15-2: Can Reality Motivate Students to Mathematics Study?
-  martina.part1.text-15-3: In 2018 we repeated the survey and we are preparing an English article carrying main results from both studies
+  martina.part1.text-15-3: In 2018 we repeated the survey and we are preparing an English article coverring main results from both studies
   martina.part1.text-16: Real-world contextual mathematical problems in a view of self-study
-  martina.part1.text-17-1: The goal of a provided research is to study influence of real-world mathematical problems on a self-study process focusing on inner-motivation
-  martina.part1.text-17-2: Are real-world, contextual mathematical problems convenient for self-study
+  martina.part1.text-17-1: The goal of a provided research is to study influence of real-world mathematical problems on a self-study process focusing on intrinsic motivation
+  martina.part1.text-17-2: Are real-world, contextual mathematical problems suitable for self-study
   martina.part1.text-17-3: Is contextual mathematical problem complexity issue in a self-study process
-  martina.part1.text-17-4: Are students motivated to work, if they are leaded only by context and by increasing difficulty of tasks
-  martina.part1.text-17-5: Can students find tasks' solutions by themselves if they only use prepared helpers
+  martina.part1.text-17-4: Are students motivated to work, if they are led only by context and by increasing difficulty of the tasks
+  martina.part1.text-17-5: Can students find tasks' solutions by themselves if they only use helping questions
   martina.part1.text-18-1: Case study (4 cases), unstructured interviews, observation, Fennema-Sherman mathematics attitudes scales, mathematical knowledge test, work with the
   martina.part1.text-18-2: real-world mathematical problem
   martina.part1.text-18-3: qualitative data analysis
-  martina.part1.text-19-1: Results from the research were partially published in a Slovak language as a part of my Thesis
+  martina.part1.text-19-1: Results from the research were partially published in Slovak language as a part of my Thesis
   martina.part1.text-19-2: The Real Context of the Mathematical Problems as a Motivating Factor
-  martina.part1.text-19-3: In 2018 we made another case study and we are preparing an English article carrying main results from all case studies
+  martina.part1.text-19-3: In 2018 we made another case study and we are preparing an English article coverring main results from all case studies
 
   martina.part1.text-4-1: 2018
   martina.part1.text-4-2: Augmented reality and future mathematics teachers
@@ -390,15 +390,15 @@ personal:
 
   martina.part3.text-1: Teaching
   martina.part3.text-2: Mathematics for cognitive science [2017/2018, 2018/2019]
-  martina.part3.text-3: Exercise [EN], 2h/week; Lecture [EN], 2h/week
-  martina.part3.text-4: The lectures provide students with basics of propositional and predicate logic, linear algebra, mathematical analysis, and probability that are important for the study of informatics and its role in (computational) cognitive science. At the same time, students learn about mathematical culture, notation, way of thinking and expressing oneself.
-  martina.part3.text-5: More information is available
+  martina.part3.text-3: Seminar [EN], 2h/week; Lecture [EN], 2h/week
+  martina.part3.text-4: The lectures provide students with basics of propositional and predicate logic, linear algebra, mathematical analysis, and probability that are important for the study of informatics and its role in (computational) cognitive science. At the same time, students can learn about mathematical culture, notation, way of thinking and expressing themselves.
+  martina.part3.text-5: More information
   martina.part3.text-6: Seminar of a school mathematics, Solving methods of mathematical problems [2018/2019]
   martina.part3.text-7: Seminar [SK], 2h/week; Seminar [SK], 2h/week
   martina.part3.text-8: Seminars provide students with parts of upper-secondary school mathematics. Students have an opportunity to develop their constructivist and creative approach to mathematics and mathematical problems, improve their mathematical and teaching skills.
   martina.part3.text-9: Mathematical analysis [2011/2012 - 2014/2015, 2017/2018]
-  martina.part3.text-10: Exercise [SK], 4h/week;
-  martina.part3.text-11: The exercise provides students with basics of mathematical analysis - functions, limits, continuity, calculus (derivatives and integrals of a function of one variable) and numeric rows. Students develop their counting skills as well as cooperation a problem solving.
+  martina.part3.text-10: Seminar [SK], 4h/week;
+  martina.part3.text-11: The seminar provides students with basics of mathematical analysis - functions, limits, continuity, calculus (derivatives and integrals of a function of one variable) and numeric rows. Students develop their counting skills as well as cooperation a problem solving.
   martina.part3.text-12: Thesis Leadership
   martina.part3.text-13-1: 2017/2018  – 2018/2019
   martina.part3.text-13-2: Teaching of Exponential Functions
@@ -476,8 +476,8 @@ personal:
   martina.part6.reference.student-3: It was compensatory course for me. It helped me a lot. I really appreaciated approach of Ms. Babinská. She was really good in explanation and she had patience with us, what was definitelly not easy.
   martina.part6.reference.student-4: Very nice and helpful. Really motivating during class.
   martina.part6.reference.student-5: We passed all necessary excercises, moreover, Ms. Babinska always led us to think about what we are doing (counting), why we are working in that way, why it actually works, when we can use the counting method and when we can not. One of the nicest lecturers at the faculty. :)
-  martina.part6.reference.student-7: A great teacher, I appreciate in particular the approach that motivated us to go to the blackboard and explain problems to each other.
-  martina.part6.reference.student-8: Ms. Babinska always well and easily explained things someone did not understand and after these exercises I left with the feeling that I understand completely everything.
+  martina.part6.reference.student-7: A great teacher, I particulary appreciate the approach that motivated us to go to the blackboard and explain problems to each other.
+  martina.part6.reference.student-8: Ms. Babinska always well and easily explained things to someone who did not understand and after these lectures I felt that I understand completely everything.
   martina.part6.reference.student-6:
   martina.part6.reference.student-cognitive-science: Mathematics for cognitive science
   martina.part6.reference.student-math-analysis: Mathematical analysis
