@@ -33,27 +33,7 @@
             <div class="testi-in">
                 <!-- Avatar -->
                 <div class="avatar">
-                    {% image '@AppBundle/Resources/public/images/personal/student-3.jpeg' %}
-                        <img
-                                src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                style="max-width: 100%"
-                        >
-                    {% endimage %}
-                </div>
-                <div class="text-in">
-                    <p> {{ 'personal.martina.part6.reference.student-2'|trans }}</p>
-                    <h6>{{ 'basic_words.student'|trans }}</h6>
-                    <span>{{ 'personal.martina.part6.reference.student-cognitive-science'|trans }} 2017/2018</span>
-                </div>
-            </div>
-        </li>
-
-        <!-- Testi -->
-        <li class="col-md-6 margin-bottom-30">
-            <div class="testi-in">
-                <!-- Avatar -->
-                <div class="avatar">
-                    {% image '@AppBundle/Resources/public/images/personal/student-4.png' %}
+                    {% image '@AppBundle/Resources/public/images/personal/student-6.jpeg' %}
                         <img
                                 src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
                                 style="max-width: 100%"
@@ -67,14 +47,12 @@
                 </div>
             </div>
         </li>
-    </ul>
-    <ul class="row">
         <!-- Testi -->
         <li class="col-md-6 margin-bottom-30">
             <div class="testi-in">
                 <!-- Avatar -->
                 <div class="avatar">
-                    {% image '@AppBundle/Resources/public/images/personal/student-1.jpeg' %}
+                    {% image '@AppBundle/Resources/public/images/personal/student-6.jpeg' %}
                         <img
                                 src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
                                 style="max-width: 100%"
@@ -82,19 +60,20 @@
                     {% endimage %}
                 </div>
                 <div class="text-in">
-                    <p> {{ 'personal.martina.part6.reference.student-1'|trans }}</p>
+                    <p> {{ 'personal.martina.part6.reference.student-2'|trans }}</p>
                     <h6>{{ 'basic_words.student'|trans }}</h6>
                     <span>{{ 'personal.martina.part6.reference.student-cognitive-science'|trans }} 2017/2018</span>
                 </div>
             </div>
         </li>
-
+    </ul>
+    <ul class="row">
         <!-- Testi -->
         <li class="col-md-6 margin-bottom-30">
             <div class="testi-in">
                 <!-- Avatar -->
                 <div class="avatar">
-                    {% image '@AppBundle/Resources/public/images/personal/student-2.png' %}
+                    {% image '@AppBundle/Resources/public/images/personal/student-6.jpeg' %}
                         <img
                                 src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
                                 style="max-width: 100%"
@@ -108,6 +87,25 @@
                 </div>
             </div>
         </li>
+        <!-- Testi -->
+        <li class="col-md-6 margin-bottom-30">
+            <div class="testi-in">
+                <!-- Avatar -->
+                <div class="avatar">
+                    {% image '@AppBundle/Resources/public/images/personal/student-6.jpeg' %}
+                        <img
+                                src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
+                                style="max-width: 100%"
+                        >
+                    {% endimage %}
+                </div>
+                <div class="text-in">
+                    <p> {{ 'personal.martina.part6.reference.student-1'|trans }}</p>
+                    <h6>{{ 'basic_words.student'|trans }}</h6>
+                    <span>{{ 'personal.martina.part6.reference.student-cognitive-science'|trans }} 2017/2018</span>
+                </div>
+            </div>
+        </li>
     </ul>
 
     <ul class="row">
@@ -116,7 +114,7 @@
             <div class="testi-in">
                 <!-- Avatar -->
                 <div class="avatar">
-                    {% image '@AppBundle/Resources/public/images/personal/student-5.png' %}
+                    {% image '@AppBundle/Resources/public/images/personal/student-6.jpeg' %}
                         <img
                                 src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
                                 style="max-width: 100%"
@@ -160,5 +158,43 @@
         <h6 class="uppercase-transform">
             {{ 'personal.martina.part6.text-12'|trans }}
         </h6>
+    </div>
+</div>
+<div class="row padding-top-20">
+    <div class="col-md-3">
+        <h6>{{ 'personal.martina.part6.referee-1'|trans }}</h6>
+    </div>
+    <div class="col-md-9">
+        <p>
+            {{ 'personal.martina.part6.referee-1-address-1'|trans }}<br/>
+            {{ 'personal.martina.part6.referee-1-address-2'|trans }}<br/>
+            {{ 'personal.martina.part6.referee-1-address-3'|trans }}
+        </p>
+        <div>
+            {% image '@AppBundle/Resources/public/downloads/fmfiuk.pdf' %}
+                <a href="{{ asset_url }}" download="recommendation-letter-1.pdf">
+                    <b>{{ 'basic_words.recommendation-letter'|trans }}</b>
+                </a>
+            {% endimage %}
+        </div>
+    </div>
+</div>
+<div class="row padding-top-30">
+    <div class="col-md-3">
+        <h6>{{ 'personal.martina.part6.referee-2'|trans }}</h6>
+    </div>
+    <div class="col-md-9">
+        <p>
+            {{ 'personal.martina.part6.referee-2-address-1'|trans }}<br/>
+            {{ 'personal.martina.part6.referee-2-address-2'|trans }}<br/>
+            {{ 'personal.martina.part6.referee-2-address-3'|trans }}
+        </p>
+        <div>
+            {% image '@AppBundle/Resources/public/downloads/ilac.pdf' %}
+                <a href="{{ asset_url }}" download="recommendation-letter-2.pdf">
+                    <b>{{ 'basic_words.recommendation-letter'|trans }}</b>
+                </a>
+            {% endimage %}
+        </div>
     </div>
 </div>

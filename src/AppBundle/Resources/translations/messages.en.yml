@@ -30,6 +30,7 @@ basic_words:
   diploma-thesis: Diploma thesis
   bachelor-thesis: Bachelor thesis
   abstract: Abstract
+  recommendation-letter: Recommendation letter
 
 main_navbar:
   about: About
@@ -267,7 +268,7 @@ personal:
   martina.part2.headlie: Publications, Conferences and Awards
   martina.part3.headlie.text:
   martina.part3.headlie: Teaching and Thesis Leadership
-  martina.part3.headlie.text:
+  martina.part3.headlie.text: My  first teaching experience is related to tutoring in a time of my master study. Later, during the doctor study, I had an opportunity to lead the mathematical analysis seminar. Currently my work includes leading of lectures of mathematics for cognitive science students (English language) as well as preparation of future mathematics teachers'.
   martina.part4.headlie: Education and Qualifications
   martina.part4.headlie.text: During my studies I focused on Informatics, Applied Mathematics and The Theory of Teaching of Mathematics. After graduation, I completed an English language course in Vancouver to improve my position within an international market.
   martina.part5.headlie-1: Work Experience
@@ -275,7 +276,7 @@ personal:
   martina.part5.headlie.text-1: My work experience involves two main professional areas
   martina.part5.headlie.text-2: programming and research
   martina.part5.headlie.text-3: While programming is mostly a free-time activity, research and teaching are main areas of my professional interest
-  martina.part5.headlie.text-4: It started during my PhD. study, continued by work in National Institute for Certified Educational Measurements where I gained experience with big data databases and quantitative data analysis. Rozvoj tychto mojich schopnosti is still continuing by my actual work at Comenius University
+  martina.part5.headlie.text-4: It started during my PhD. study and continued by work in National Institute for Certified Educational Measurements where I gained experience with big data databases. It still carry on with my actual work at Comenius University
   martina.part6.headlie: Reference
   martina.part6.headlie.text:
   martina.part7.headlie: Personal Goals
@@ -300,11 +301,11 @@ personal:
   martina.main-research-ideas-slide-2-2: influence students' intrinsic motivation?
   martina.main-research-ideas-3: Are real-world, contextual mathematical problems suitable for self-study?
   martina.main-research-ideas-slide-3-1: Are contextual mathematical problems
-  martina.main-research-ideas-slide-3-2: convenient for self-study?
+  martina.main-research-ideas-slide-3-2: suitable for self-study?
   martina.main-research-ideas-4: Is complexity of mathematical contextual problems issue in a self-study process?
   martina.main-research-ideas-slide-4-1: Is complexity of a contextual problem
   martina.main-research-ideas-slide-4-2: a problem?
-  martina.main-research-ideas-5: Which contexts and mathematical contextual problems are convenient for upper-secondary and university students?
+  martina.main-research-ideas-5: Which contexts and mathematical contextual problems are suitable for upper-secondary and university students?
   martina.main-research-ideas-slide-5-1: How to find an attractive context
   martina.main-research-ideas-slide-5-2: in mathematics and real-world?
   martina.part1.supheader-3: Current projects
@@ -313,7 +314,7 @@ personal:
   martina.part1.text-13-1: The goal of provided research is to study students’ opinion of the different contextual mathematical problems
   martina.part1.text-13-2: Can students see the difference in contextual problems
   martina.part1.text-13-3: Is context of a mathematical problem more/less important than the question (problem) type of it
-  martina.part1.text-13-4: What contexts are convenient for upper-secondary and university students
+  martina.part1.text-13-4: What contexts are suitable for upper-secondary and university students
   martina.part1.text-14-1: Two groups of students, opening and closing survey, solutions of mathematical problems
   martina.part1.text-14-2: various in a context/topic, context type, context’s relevance and in a type of questions
   martina.part1.text-14-3: observation, unstructured interview, qualitative data analysis
@@ -347,12 +348,12 @@ personal:
   martina.part2.text-5: FMFI UK, Knižničné a edičné centrum, Bratislava
   martina.part2.text-6: 978-80-8147-028-8
   martina.part2.text-7-1: November 2014
-  martina.part2.text-7-2: Setkání učitelů matematiky všech typů a stupňů škol, Srní, Czech Republic
+  martina.part2.text-7-2: The Meeting of Mathematics Teachers, Srní, Czech Republic
   martina.part2.text-8: Real Usage of Mathematics for the Student Motivation
   martina.part2.text-9: International Conference
   martina.part2.text-10: In, Setkání učitelů matematiky všech typů a stupňů škol 2014 [electronic source]. - Plzeň Vydavatelský servis, 2014. - P. 43-48 [CD-ROM]. - ISBN 978-80-86843-46-9
   martina.part2.text-11-1: April 2013
-  martina.part2.text-11-2: Študentská vedecká konferencia, FMFI UK, Bratislava, Slovak Republic
+  martina.part2.text-11-2: Students Conference, FMFI UK, Bratislava, Slovak Republic
   martina.part2.text-12: Can Reality Motivate Students to Mathematics Study?
   martina.part2.text-13: National Student Conference
   martina.part2.text-14: In, Študentská vedecká konferencia FMFI UK, Bratislava 2013, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2013. - P. 396-400. - ISBN 978-80- 8147-009-7
@@ -363,25 +364,25 @@ personal:
   martina.part2.text-18: International Conference
   martina.part2.text-19: In, Proceedings of the Conference on the History of Mathematics and Teaching of Mathematics [electronic source]. - Miskolc, University of Miskolc, 2012. – no p. [8 p.] [CD-ROM]. - ISBN 978-963-661-988-6
   martina.part2.text-20-1: June 2011
-  martina.part2.text-20-2: Česko-slovenská přehlídka SVOČ 2011, Didaktika matematiky, Banská Bystrica, Slovak Republic
+  martina.part2.text-20-2: Czech and Slovak Students Conference 2011, Didaktika matematiky, Banská Bystrica, Slovak Republic
   martina.part2.text-21: E-learning Support of Mathematics Education for Secondary School and University Students (Theme, Mathematical Functions)
   martina.part2.text-22: International Student Conference
   martina.part2.text-23: In, Anotace prací prezentovaných na SVOČ 2011 [electronic source]. - [Praha], Společnost učitelů matematiky JČMF, 2011. – [no p.] , 1 p. [online]
   martina.part2.text-24: Honorable mention
   martina.part2.text-25-1: April 2011
-  martina.part2.text-25-2: Študentská vedecká konferencia, FMFI UK, Bratislava, Slovak Republic
+  martina.part2.text-25-2: Students Conference, FMFI UK, Bratislava, Slovak Republic
   martina.part2.text-26: E-learning Support of Mathematics Education for Secondary School and University Students (Theme, Mathematical Functions)
   martina.part2.text-27: National Student Conference
   martina.part2.text-28: In, Študentská vedecká konferencia FMFI UK, Bratislava 2011, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2011. - P. 380-391. - ISBN 978-80- 89186-87-7
   martina.part2.text-29: Winner
   martina.part2.text-30-1: June 2010
-  martina.part2.text-30-2: Česko-slovenská soutež prací z didaktiky matematiky a informační výchovy ŠVOČ, Kostelec nad Černými lesy, Czech Republic
+  martina.part2.text-30-2: Czech and Slovak Students Conference 2010, Kostelec nad Černými lesy, Czech Republic
   martina.part2.text-31: The Status and Opportunities of E-learning Support in all Types of Slovakia Schools
   martina.part2.text-32: International Student Conference
   martina.part2.text-33: In, Anotace prací prezentovaných na SVOČ 2010 [electronic source]. - [Praha], Společnost učitelů matematiky JČMF, 2010. - [no p.] , 1 p. [online]
   martina.part2.text-34: 2nd place
   martina.part2.text-35-1: April 2010
-  martina.part2.text-35-2: Študentská vedecká konferencia, FMFI UK, Bratislava, Slovak Republic
+  martina.part2.text-35-2: Students Conference, FMFI UK, Bratislava, Slovak Republic
   martina.part2.text-36: The Status and Opportunities of E-learning Support in all Types of Slovakia Schools
   martina.part2.text-37: National Student Conference
   martina.part2.text-38: In, Študentská vedecká konferencia FMFI UK, Bratislava 2010, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2010. - P. 358-369. - ISBN 978-80- 89186-68-6
@@ -469,7 +470,7 @@ personal:
   martina.part5.text-14: Cooperation on database design and on system development
   martina.part5.text-15: HTML, CSS, Sass, PHP, Symfony, MySQL, Bootstrap, uikit, DOM Document
 
-  martina.part6.text-1: From students' survey...
+  martina.part6.text-1: From students' survey
   martina.part6.reference.student-1: Thanks to Ms. Babinská we managed this subject very well even though we did not have a mathematical education before. Although it was a lot of work, writing test every lecture and also homeworks, we were looking forward to these lectures. The subject was very well explained and I think everybody understood it. Thanks.
   martina.part6.reference.student-2: Ms. Martina Babinská was great!! always very well prepared, encouraging, fitting the lectures to the student's needs!
   martina.part6.reference.student-3: It was compensatory course for me. It helped me a lot. I really appreaciated approach of Ms. Babinská. She was really good in explanation and she had patience with us, what was definitelly not easy.
@@ -480,7 +481,15 @@ personal:
   martina.part6.reference.student-6:
   martina.part6.reference.student-cognitive-science: Mathematics for cognitive science
   martina.part6.reference.student-math-analysis: Mathematical analysis
-  martina.part6.text-12: Reference letters
+  martina.part6.text-12: Recommendation Letters
+  martina.part6.referee-1: doc. RNDr. Zbyněk Kubáček, CSc.
+  martina.part6.referee-1-address-1: Faculty of Mathematics, Physics and Informatics, Comenius University
+  martina.part6.referee-1-address-2: Director of The Mathematical and Numerical Analysis Department
+  martina.part6.referee-1-address-3: Mlynská Dolina, 842 48 Bratislava, Slovak Republic
+  martina.part6.referee-2: Nori Paul Morita, BA, CHRM, CBF, CTEFLA, CTESOL
+  martina.part6.referee-2-address-1: ILAC International College
+  martina.part6.referee-2-address-2: Business Communications/English Instructor
+  martina.part6.referee-2-address-3: 688 West Hastings Street, Vancouver, British Columbia V6B 1P1 CANADA
 
 book:
   problem: Problem
