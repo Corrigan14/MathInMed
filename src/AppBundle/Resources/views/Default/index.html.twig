@@ -6,17 +6,16 @@
         {% include 'AppBundle:Default:Includes/slider.html.twig' %}
 
         <div id="content">
-            <!-- OUR CORE FEATURES -->
             <section class="padding-top-80">
-                <div class="container">
-                    <!-- MAIN HEADING -->
+                <div class="container both-sides-text-alignment">
+
                     <div class="heading-block text-center " data-wow-delay="0.4s">
                         <h3>{{ 'about.main.citation'|trans }}</h3>
                         <hr class="color">
                         <span>{{ 'about.main.author.citation'|trans }}</span>
                     </div>
 
-                    <!-- Intro PART 1 -->
+                    {# OPENING INFO #}
                     <div class="intro-5 margin-top-20">
                         <div class="row">
                             <div class="col-md-6" data-wow-delay="0.4s">
@@ -29,7 +28,6 @@
                                     </h2>
                                 </div>
                                 <p> {{ 'about.main.part1-1.text'|trans }}</p>
-                                <p> {{ 'about.main.part1-2.text'|trans }}</p>
                             </div>
 
                             <!-- Image -->
@@ -42,11 +40,9 @@
                         </div>
                     </div>
 
-                    <!-- Intro PART 2 -->
+                   {# INFO FOR STUDENTS #}
                     <div class="intro-5 margin-top-80">
                         <div class="row">
-
-                            <!-- Image -->
                             <div class="col-md-6 text-center margin-top-60" data-wow-delay="0.4s">
                                 {% image '@AppBundle/Resources/public/images/general/web-site-screen.png' %}
                                 <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
@@ -68,7 +64,7 @@
                         </div>
                     </div>
 
-                    <!-- Intro PART 3 -->
+                    {# INFO FOR TEACHERS #}
                     <div class="intro-5 margin-top-80">
                         <div class="row">
                             <div class="col-md-6" data-wow-delay="0.4s">
@@ -84,7 +80,6 @@
                                 <p> {{ 'about.main.part3.text3-2'|trans }}</p>
                             </div>
 
-                            <!-- Image -->
                             <div class="col-md-6 text-center margin-top-60" data-wow-delay="0.4s">
                                 {% image '@AppBundle/Resources/public/images/general/web-site-screen-2.png' %}
                                 <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
@@ -94,7 +89,6 @@
                         </div>
                     </div>
 
-                    <!-- MAIN HEADING -->
                     <div class="heading-block text-center animate fadeInUp margin-top-100" data-wow-delay="0.4s">
                         <h3>{{ 'about.main.part4.text4-1'|trans }}</h3>
                         <hr class="color">
@@ -104,7 +98,7 @@
                 </div>
             </section>
 
-            <!-- Let's begin -->
+            {# LETS BEGIN - NAVIGATION #}
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
@@ -112,17 +106,21 @@
                             {{ 'main_navbar.mathinmed'|trans }}
                         </a>
 
-                        <a href="{{ path('app_students_main_introduction') }}" class="btn btn-med btn-color margin-left-20">
-                            {{ 'main_navbar.tutoring'|trans }}
-                        </a>
 
-                        <a href="{{ path('app_teachers_main_introduction') }}" class="btn btn-med btn-color margin-left-20">
-                            {{ 'main_navbar.teachers'|trans }}
-                        </a>
+                        {# PREPARATION HELP#}
+                        {#<a href="{{ path('app_students_main_introduction') }}" class="btn btn-med btn-color margin-left-20">#}
+                            {#{{ 'main_navbar.tutoring'|trans }}#}
+                        {#</a>#}
 
-                        <a href="{{ path('app_researchers_main_resources') }}" class="btn btn-med btn-color margin-left-20">
-                            {{ 'main_navbar.researches'|trans }}
-                        </a>
+                        {# TEACHERS PART #}
+                        {#<a href="{{ path('app_teachers_main_introduction') }}" class="btn btn-med btn-color margin-left-20">#}
+                            {#{{ 'main_navbar.teachers'|trans }}#}
+                        {#</a>#}
+
+                        {# RESEARCHERS #}
+                        {#<a href="{{ path('app_researchers_main_resources') }}" class="btn btn-med btn-color margin-left-20">#}
+                            {#{{ 'main_navbar.researches'|trans }}#}
+                        {#</a>#}
                     </div>
                 </div>
             </section>

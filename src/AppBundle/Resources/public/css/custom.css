@@ -74,6 +74,10 @@
     color: #009999;
 }
 
+.colour-font-dark-grey{
+    color: #141414 !important;
+}
+
 .uppercase-transform {
     text-transform: uppercase !important;
 }

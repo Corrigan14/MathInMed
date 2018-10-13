@@ -1,5 +1,5 @@
 <section id="chapter12" class="blog">
-    <div class="container">
+    <div class="container both-sides-text-alignment">
         <div class="row">
             <div class="col-md-12">
                 <div class="list-heading" style="text-transform: uppercase">
@@ -20,8 +20,10 @@
                 <p> {{ 'book.first-chapter.supchapter2.text1-3'|trans }}</p>
                 <p>
                     {{ 'book.first-chapter.supchapter2.text1-4'|trans }}
-                    <span class="text-color-primary" onclick="toggleText(1)">
+                    <span class="text-color-primary cursor-hand" onclick="toggleText(1)">
+                        <b>
                          {{ 'book.first-chapter.supchapter2.text1-5'|trans }}
+                        </b>
                     </span>
                 </p>
             </div>
@@ -34,7 +36,7 @@
 
 {#QUESTIONS#}
 <section class="padding-bottom-60 padding-top-30">
-    <div  class="container">
+    <div  class="container both-sides-text-alignment">
 
         {#QUESTION 1.3#}
         <div class="row">
@@ -45,7 +47,7 @@
                 <h6 class="problem">{{ 'book.first-chapter.problem-1-3-1'|trans }} </h6>
                 <h6>
                     ( {{ 'book.first-chapter.problem-1-3-2'|trans }}
-                    <span class="text-color-primary" onclick="toggleText('-pulmonary-diseases-1')">
+                    <span class="text-color-primary cursor-hand" onclick="toggleText('-pulmonary-diseases-1')">
                         {{ 'book.first-chapter.problem-1-3-3'|trans }}
                     </span>)
                 </h6>

@@ -208,16 +208,15 @@ footer:
   slovakia: Slovak Republic
 
 about:
-  main.citation: Let the main object... to seek and to find a method of instruction, by which teachers may teach less, but learners learn more.
+  main.citation: To seek and to find a method of instruction, by which teachers may teach less, but learners learn more.
   main.author.citation: John Amos Comenius
   main.part1.slogan: Dear visitor...
   main.part1.headline: Who Are We?
-  main.part1-1.text: We are a team of young researchers with the main work place at Comenius University in Bratislava. Our research focuses on a learning of mathematics, student's work, self-study, intrinsic motivation.
-  main.part1-2.text:
+  main.part1-1.text: We are a team of young researchers with the main work place at Comenius University in Bratislava. Our research focuses on a learning of mathematics, student's work, self-study, intrinsic motivation and preparation for future mathematics' teachers.
   main.part2.slogan: Dear student...
   main.part2.headline: Why Did We Create This Website?
-  main.part2.text2-1: The first reason is mathematics and its real-world usage. Many students do not understand why they have to learn many 'weird and complicated' formulas, especially in a higher grades. For these students the website offers a real mathematical application in a medical assessment of Spirometry. Students can discover mathematical functions in the assessment's result.
-  main.part2.text2-2: The second reason is understanding mathematics. Sometime, only a little help allows self-invention experience which brings intrinsic motivation. Moderated leading offers this help to everybody.
+  main.part2.text2-1: The first reason is mathematics and its application in a real world. Many students do not understand why they have to learn many 'weird and complicated' formulas, especially in higher grades. For these students the website offers a real mathematical application in a medical assessment of Spirometry.
+  main.part2.text2-2: The second reason is motivation. Sometime, only a little help allows self-invention experience which brings intrinsic motivation. Moderated leading offers this help to everybody.
   main.part3.slogan: Dear teacher...
   main.part3.headline: Why Did We Create This Website?
   main.part3.text3-1: Cooperation is crucial in every teacher's development. The internet allows to spread this cooperation out of the schools or regions.
@@ -441,7 +440,7 @@ personal:
   martina.part5.text-2-1: 10/2017 – present
   martina.part5.text-2-2: Scientific University Assistant
   martina.part5.text-2-3-1: Comenius University in Bratislava, Faculty of Mathematics, Physics and Informatics
-  martina.part5.text-2-3-2: Department of Algebra, Geometry, and Math Education
+  martina.part5.text-2-3-2: Department of Algebra, Geometry, and Maths Education
   martina.part5.text-2-4-1: Research, diploma and bachelor thesis leading, participation on a project preparation, participation on a conference organization,
   martina.part5.text-2-4-2: teaching and preparation of future mathematics teachers (algebra, matheatical analysis, basics of mathematics (English language))
   martina.part5.text-3-1: 09/2014 – 11/2015
@@ -534,7 +533,7 @@ book:
   result.part1.text1-1: WHAT DOES THE RESULT CONTAIN?
   result.part1.text1-2: As you can see, many numbers and graphs :)
   result.part1.text1-3-1: SPIROMETRY CURVE
-  result.part1.text1-3-2: A special way of basic spirometry curve representation using a graph called BOX-PLOT.
+  result.part1.text1-3-2: A special way of basic spirometry curve representation using a graph named BOX-PLOT.
   result.part1.text1-4-1: VOLUME-TIME CURVE
   result.part1.text1-4-2: A special curve created from the Spirometry curve.
   result.part1.text1-5-1: FLOW-VOLUME LOOP
@@ -641,7 +640,7 @@ book:
   first-chapter.problem-1-5-2: Compare these values with the values reached by our patient.
   first-chapter.problem-1-6-1: Take our patient's spirometry curve (placed next to the
   first-chapter.problem-1-6-2: and create (to the same chart) the second one - spiromtery curve of a healthy, 56-years old man, non-smoker, 171cm tall.
-  first-chapter.problem-1-6-3: Created curve is called
+  first-chapter.problem-1-6-3: Created curve is named
   first-chapter.problem-1-6-4: comparative curve
   first-chapter.result.text1-1: COLORFULY
   first-chapter.result.text1-2: BORDERED
@@ -721,12 +720,12 @@ book:
   game.task: task
   game.cipher: code/cipher
   game.alternative: alternative
-  game.joke.beginning.text-1: A physicist, a mathematician, and a computer programmer are discussing which is better to get, a wife or a lover.
+  game.joke.beginning.text-1: A physicist, a mathematician, and a developer are discussing which is better to get, a wife or a lover.
   game.joke.beginning.text-2-1: Physicist
   game.joke.beginning.text-2-2: A lover. There is still space to experiment.
   game.joke.beginning.text-3-1: Mathematician
   game.joke.beginning.text-3-2: A wife. You know what you can expect.
-  game.joke.beginning.text-4-1: Computer programmer
+  game.joke.beginning.text-4-1: Developer
   game.joke.beginning.text-4-2: Both. ...
   game.joke.end:
   game.introduction.text1: Do you want to know how the joke continues?
@@ -792,7 +791,7 @@ book:
   game.part1.task3.text1-4: of a patient whom spirometry curve is on a right picture
   game.part1.task3.text2: What is the correct answer?
   game.part1.task3.answer1: It is not possible to find an answer because we do not have the whole minute breathing record
-  game.part1.task4.header: A little bit of "pure" math
+  game.part1.task4.header: A little bit of "pure" maths
   game.part1.task4.text1: The next task has two alternatives
   game.part1.task4.text2-1: Do you know
   game.part1.task4.text2-2: sinus
