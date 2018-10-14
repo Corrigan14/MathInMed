@@ -261,14 +261,17 @@ personal:
   martina.introduction-part-1-text-5: Students and their motivation to learn mathematics became the main part of my interest.
   martina.introduction-part-1-text-6: In a long-term I would like to focus on a constructivistic approach to online and face-to-face self-study.
   martina.introduction-part-1-text-7-1: To find more about my research, publications, education, teaching or work experience - see bellow
-  martina.introduction-part-1-text-7-2:
   martina.part1.headlie: Research
   martina.part1.headlie.text-1: The main part of my research is devoted to self-study, intrinsic motivation and students' approach to mathematics.
   martina.part1.headlie.text-2: Following principles of Constructivism and RME (Realistic Mathematic Education), I am contemplating the most efficient and helpful ways of indirect communication with students.
   martina.part2.headlie: Publications, Conferences and Awards
-  martina.part3.headlie.text:
+  martina.part2.headlie.text-1: My academic career started by contribution on students' conferences and competitions.
+  martina.part2.headlie.text-2: In 2015 Comenius University published my adaptation  of a real-world Spirometry problem into mathematics.
+  martina.part2.headlie.text-3: In 2018 I cooperated on a study related to the implementation of augmented  reality into the teaching process.
+  martina.part2.headlie.text-4: Currently I am preparing a publication about contextual problems in a view of self-study.
   martina.part3.headlie: Teaching and Thesis Leadership
-  martina.part3.headlie.text: My  first teaching experience is related to tutoring in a time of my master study. Later, during the doctor study, I had an opportunity to lead the mathematical analysis seminar. Currently my work includes leading of lectures of mathematics for cognitive science students (English language) as well as preparation of future mathematics teachers'.
+  martina.part3.headlie.text-1: My  first teaching experience is related to tutoring in a time of my master study. Later I had an opportunity to guide a seminar of  mathematical analysis.
+  martina.part3.headlie.text-2: Currently my work includes leading of lectures of mathematics for cognitive science students (English language) as well as preparation of future mathematics teachers'.
   martina.part4.headlie: Education and Qualifications
   martina.part4.headlie.text: During my studies I focused on Informatics, Applied Mathematics and The Theory of Teaching of Mathematics. After graduation, I completed an English language course in Vancouver to improve my position within an international market.
   martina.part5.headlie-1: Work Experience
@@ -278,7 +281,8 @@ personal:
   martina.part5.headlie.text-3: While programming is mostly a free-time activity, research and teaching are main areas of my professional interest
   martina.part5.headlie.text-4: It started during my PhD. study and continued by work in National Institute for Certified Educational Measurements where I gained experience with big data databases. It still carry on with my actual work at Comenius University
   martina.part6.headlie: Reference
-  martina.part6.headlie.text:
+  martina.part6.headlie.text-1: I could never develop myself without a great influence of people around me.
+  martina.part6.headlie.text-2: My gratitude belongs especially to my family, my students, my professor doc. RNDr. Zbyněk Kubáček, CSc. and to Nori Paul Morita, BA, CHRM, CBF, CTEFLA, CTESOL.
   martina.part7.headlie: Personal Goals
   martina.part8.headlie: Interests
 

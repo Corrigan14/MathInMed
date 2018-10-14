@@ -12,7 +12,7 @@
                         <h3>{{ 'personal.martina.citation'|trans }}</h3>
                         <div class="divider divider-short divider-center">
                             {% image '@AppBundle/Resources/public/images/general/dividers/hammers.png' %}
-                            <img src="{{ asset_url }}" alt="Divider-Icon-Image" class="i-div">
+                                <img src="{{ asset_url }}" alt="Divider-Icon-Image" class="i-div" >
                             {% endimage %}
                         </div>
                         <span>{{ 'personal.martina.author.citation'|trans }}</span>
@@ -59,16 +59,17 @@
                         </div>
                         <div class="col-md-5 text-right margin-top-70">
                             {% image '@AppBundle/Resources/public/images/personal/martina.jpg' %}
-                            <img
-                                    src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                    style="max-width: 400px"
-                            >
+                                <img
+                                        src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
+                                        style="max-width: 400px"
+                                >
                             {% endimage %}
                         </div>
                     </div>
 
                     {# CV DETAILS #}
                     <div id="cv" class="row margin-top-60">
+
                         {# RESEARCH #}
                         <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-10 border-top border-light padding-top-20">
@@ -94,19 +95,24 @@
                             </div>
                         </div>
 
-                        {# EDUCATION #}
-                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
-                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-10 border-top border-light padding-top-20">
+                        {# PUBLICATIONS #}
+                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
                                 <div class="ib-icon">
-                                    <i class="fa fa-graduation-cap"></i>
+                                    <i class="fa fa-tencent-weibo"></i>
                                 </div>
                                 <div class="ib-info both-sides-text-alignment">
-                                    <h4 class="h6">{{ 'personal.martina.part4.headlie'|trans }}</h4>
-                                    <p>{{ 'personal.martina.part4.headlie.text'|trans }}</p>
+                                    <h4 class="h6">{{ 'personal.martina.part2.headlie'|trans }}</h4>
+                                    <p>
+                                        {{ 'personal.martina.part2.headlie.text-1'|trans }}
+                                        {{ 'personal.martina.part2.headlie.text-2'|trans }}
+                                        {{ 'personal.martina.part2.headlie.text-3'|trans }}
+                                        {{ 'personal.martina.part2.headlie.text-4'|trans }}
+                                    </p>
                                     <p>
                                          <span class="scroll">
                                              <b>
-                                                <a href="#infoEducation" class="text-color-primary">
+                                                <a href="#infoPublication" class="text-color-primary">
                                                     {{ 'personal.read'|trans }}
                                                 </a>
                                              </b>
@@ -116,8 +122,9 @@
                             </div>
                         </div>
 
+
                         {# WORK EXPERIENCE #}
-                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
+                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.8s">
                             <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-10 border-top border-light padding-top-20">
                                 <div class="ib-icon">
                                     <i class="fa fa-archive"></i>
@@ -146,15 +153,19 @@
                     </div>
 
                     <div class="row margin-top-20">
+
                         {# TEACHING AND STUDENTS' WORK #}
-                        <div class="col-md-4 margin-bottom-30 animate fadeInUp" data-wow-delay="0.8s">
-                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light">
+                        <div class="col-md-4 margin-bottom-30 animate fadeInUp" data-wow-delay="1.0s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
                                 <div class="ib-icon">
                                     <i class="fa fa-sliders"></i>
                                 </div>
                                 <div class="ib-info both-sides-text-alignment">
                                     <h4 class="h6">{{ 'personal.martina.part3.headlie'|trans }}</h4>
-                                    <p>{{ 'personal.martina.part3.headlie.text'|trans }}</p>
+                                    <p>
+                                        {{ 'personal.martina.part3.headlie.text-1'|trans }}
+                                        {{ 'personal.martina.part3.headlie.text-2'|trans }}
+                                    </p>
                                     <p>
                                          <span class="scroll">
                                              <b>
@@ -168,21 +179,21 @@
                             </div>
                         </div>
 
-                        {# PUBLICATIONS #}
-                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
-                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light">
+                        {# EDUCATION #}
+                        <div class="col-md-4 animate fadeInUp" data-wow-delay="1.2s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-10 border-top border-light padding-top-20">
                                 <div class="ib-icon">
-                                    <i class="fa fa-tencent-weibo"></i>
+                                    <i class="fa fa-graduation-cap"></i>
                                 </div>
                                 <div class="ib-info both-sides-text-alignment">
-                                    <h4 class="h6">{{ 'personal.martina.part2.headlie'|trans }}</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem not simply random
-                                        accusantium
+                                    <h4 class="h6">{{ 'personal.martina.part4.headlie'|trans }}</h4>
+                                    <p>
+                                        {{ 'personal.martina.part4.headlie.text'|trans }}
                                     </p>
                                     <p>
                                          <span class="scroll">
                                              <b>
-                                                <a href="#infoPublication" class="text-color-primary">
+                                                <a href="#infoEducation" class="text-color-primary">
                                                     {{ 'personal.read'|trans }}
                                                 </a>
                                              </b>
@@ -192,15 +203,19 @@
                             </div>
                         </div>
 
+
                         {# REFERENCES #}
-                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.8s">
-                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light">
+                        <div class="col-md-4 animate fadeInUp" data-wow-delay="1.4s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
                                 <div class="ib-icon">
                                     <i class="fa fa-group"></i>
                                 </div>
                                 <div class="ib-info both-sides-text-alignment">
                                     <h4 class="h6">{{ 'personal.martina.part6.headlie'|trans }}</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                                    <p>
+                                        {{ 'personal.martina.part6.headlie.text-1'|trans }}
+                                        {{ 'personal.martina.part6.headlie.text-2'|trans }}
+                                    </p>
                                     <p>
                                          <span class="scroll">
                                              <b>
@@ -213,6 +228,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                     {# RESEARCH #}
@@ -221,7 +237,7 @@
                     </div>
 
                     {# TEACHING AND STUDENTS' WORK #}
-                    <div id="infoTeaching"  class="padding-top-30">
+                    <div id="infoTeaching" class="padding-top-30">
                         {% include 'AppBundle:Personal:BabinskaMartina/Includes/teaching.html.twig' %}
                     </div>
 
@@ -230,21 +246,20 @@
                         {% include '@App/Personal/BabinskaMartina/Includes/publications.html.twig' %}
                     </div>
 
-                    {# REFERENCES #}
-                    <div id="infoReference"  class="padding-top-30">
-                        {% include '@App/Personal/BabinskaMartina/Includes/reference.html.twig' %}
-                    </div>
-
                     {# EDUCATION #}
-                    <div id="infoEducation"  class="padding-top-30">
+                    <div id="infoEducation" class="padding-top-30">
                         {% include 'AppBundle:Personal:BabinskaMartina/Includes/education.html.twig' %}
                     </div>
 
                     {# WORK EXPERIENCE #}
-                    <div id="infoWork"  class="padding-top-30">
+                    <div id="infoWork" class="padding-top-30">
                         {% include 'AppBundle:Personal:BabinskaMartina/Includes/work.html.twig' %}
                     </div>
 
+                    {# REFERENCES #}
+                    <div id="infoReference" class="padding-top-30">
+                        {% include '@App/Personal/BabinskaMartina/Includes/reference.html.twig' %}
+                    </div>
 
                 </div>
             </section>
