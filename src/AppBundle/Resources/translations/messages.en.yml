@@ -511,24 +511,24 @@ book:
   introduction.author.citation: Carl Rogers
   introduction.part1.slogan: Mathematics doesn't have to be an "apparition"
   introduction.part1.headline: Mathematics in Medicine
-  introduction.part1.text1-1: Have you ever heard about the "importance of mathematics in medicine"? Do you believe it? Can you imagine why should be mathematics important to medicine? How can we REALLY APPLY our mathematical knowledge in this field?
-  introduction.part1.text1-2: The answer for these questions is offered on the next pages.
-  introduction.part1.text1-3: We are looking together for a result of medical assessment named SPIROMETRY. By solving small problems, step by step, we are discovering how this result is constructed and why is mathematics necessary in this process.
+  introduction.part1.text1-1: Have you ever heard about the "importance of mathematics in medicine"? Do you believe it? How can we use our mathematical knowledge in this field?
+  introduction.part1.text1-2: Just follow the text and you will find the answer!
+  introduction.part1.text1-3: We will look together for a mathematics in a result of medical assessment named SPIROMETRY.
   introduction.part2.slogan: A Medical Assessment
   introduction.part2.headline:  Spirometry?
   introduction.part2.text2-1: Spirometry is a medical assessment which helps doctors to test the pulmonary function - function of our lungs. Practically, it measures the movement of air into and out of the lungs.
   introduction.part2.text2-2: Spirometry in the past
-  introduction.part2.text2-3: One of the first constructed spirometer was named WATER SPIROMETER. As you can see in the picture (left), the patient was breathing into a machine. Simultaneously, the machine was drawing the graph - spirometry curve based on the patient's breathing intensity.
+  introduction.part2.text2-3: One of the first constructed spirometers was named WATER SPIROMETER. As you can see at the picture (left), the patient was breathing into a machine. Simultaneously, the machine was drawing the graph - spirometry curve.
   introduction.part2.text2-4: Spirometry today
   introduction.part2.text2-5: Modern spirometers are small computer machines connected to the breathing mouthpiece (picture right). Assessment result is printed out.
   introduction.part3.slogan: Help of a computer
   introduction.part3.headline:  Spirometry Result
-  introduction.part3.text3-1: To help a doctor make a diagnosis, the modern computer assessment result does not contain only siprometry curve, but also
+  introduction.part3.text3-1: To help a doctor make a diagnosis, the modern spirometry result does not contain only siprometry curve, but also
   introduction.part3.text3-2: o Key measured values
   introduction.part3.text3-3: o Volume-Time curve
   introduction.part3.text3-4: o Flow-Volume loop
   introduction.part3.text3-5: o Comparable values (values, which should be achieved by a healthy man/woman)
-  introduction.part3.text3-6: Our tasks for the next pages is to understand how this whole result is beeing created 'in the computer'. We will also find out what the numbers and curves can tell the doctor about the patients' healthy conditions.
+  introduction.part3.text3-6: Our task for the next pages is to find out how the computer creates this result. And also find out what the numbers and curves can tell the doctor about the patients' healthy conditions.
   introduction.part4.slogan: Mathematics hidden inside
   introduction.part4.headline: What can I expect from Mathematics?
   introduction.part4.text4-1: o Functions and its characteristics
@@ -546,99 +546,99 @@ book:
   result.part1.text1-1: WHAT DOES THE RESULT CONTAIN?
   result.part1.text1-2: As you can see, many numbers and graphs :)
   result.part1.text1-3-1: SPIROMETRY CURVE
-  result.part1.text1-3-2: A special way of basic spirometry curve representation using a graph named BOX-PLOT.
+  result.part1.text1-3-2: This is a spirometry curve represemted by a graph named BOX-PLOT.
   result.part1.text1-4-1: VOLUME-TIME CURVE
-  result.part1.text1-4-2: A special curve created from the Spirometry curve.
+  result.part1.text1-4-2: This is a special curve created from the Spirometry curve.
   result.part1.text1-5-1: FLOW-VOLUME LOOP
-  result.part1.text1-5-2: A special curve created from the Volume-Time curve.
+  result.part1.text1-5-2: This is a special curve created from the Volume-Time curve.
   result.part1.text1-6-1: DATE AND TIME
-  result.part1.text1-6-2: The dates and times of provided spirometry assessments. The first spirometry was provided on April 17th, 2012 (denoted by PRE). The second spirometry was provided on May 3th, 2012 (denoted by POST).
+  result.part1.text1-6-2: These dates and times tell us, when were the spirometry assessments provided. The first spirometry was provided on April 17th, 2012 (denoted by PRE). The second spirometry was provided on May 3th, 2012 (denoted by POST).
   result.part1.text1-7-1: PREDICTED VALUES
-  result.part1.text1-7-2: The values which should be achieved by a healthy human - non-smoker, who has the same sex, height and weight as a tested patient.
+  result.part1.text1-7-2: Predicted values are values which should be achieved by a healthy human - non-smoker, who has the same sex, height and weight as the tested patient.
   result.part1.text1-8-1: MEASURED VALUES
-  result.part1.text1-8-2: The key measured patient's values during the two assessments, PRE (April 17th, 2012) and POST (May 3th, 2012).
+  result.part1.text1-8-2: Measured values represents patient's values measured during the two assessments, PRE (April 17th, 2012) and POST (May 3th, 2012).
   result.part2.text2-1: WHAT ARE WE GOING TO DO WITH THAT RESULT?
-  result.part2.text2-2: We are going to solve small mathematical problems which, step by step, help us to create the whole result only from the basic measured values. In addition, the problems also show us the medical meaning of the all result parts.
-  result.part2.text2-3: The tasks are split into 3 parts. We are looking at the Spirometry curve and values which it represents in the first of these parts. The second part is dedicated to the Volume-time curve and the last one, to the Flow-volume loop.
-  result.part2.text2-4: At the end of every part there is a summary and a game - a price for your hard work :). The final task allows us to prepare our own assumed summary of the patient's healthy conditions.
-  result.part3.text3-1: WHAT IF I DO NOT KNOW THE PROBLEM SOLUTION? OR IF IT IS TOO DIFFICULT FOR ME?
-  result.part3.text3-2: Do not be worried! There is a helper for every task.
+  result.part2.text2-2: We solve small mathematical problems. These problems help us to create the whole spirometry result. In addition, they also show us medical meaning of information hidden in the result.
+  result.part2.text2-3: The tasks are split into 3 parts. The first part is dedicated to the Spirometry curve. The second part is dedicated to the Volume-time curve and the last one, to the Flow-volume loop.
+  result.part2.text2-4: At the end of every part we can find a summary and a game - a price for your hard work :).
+  result.part3.text3-1: WHAT IF I CAN NOT SOLVE THE PROBLEM? OR IF IT IS TOO DIFFICULT FOR ME?
+  result.part3.text3-2: Do not worry! There is a "helper" for every task!
   result.part4.text4-1: Ask for a help if you need it...
   result.part4.text4-2: HELPERS
-  result.part4.text4-3-1: If you do not know how to solve the problem, ask helper!
-  result.part4.text4-3-2: Helpers are small advices which show you, how you should think about the problem to find its solution.
+  result.part4.text4-3-1: If you do not know how to solve the problem, ask for a help!
+  result.part4.text4-3-2: Helper is an advice. It shows you, how you should think about the problem if you want to solve it.
   result.part4.text4-3-3: Helpers are denoted by the same number as tasks and you can find them on every page if you click on a BULB on a menu located in the top-right corner.
   result.part5.text5-1: Check your solutions...
   result.part5.text5-2: ANSWERS
   result.part5.text5-3-1: If you find an answer, you can check it!
-  result.part5.text5-3-2: The same as helpers, the answers are also denoted by task's numbers and they are available on every page. You can find them if you click on a CHECK MARK on a menu located in the top-right corner.
+  result.part5.text5-3-2: Similarly to the helpers, the answers are also denoted by tasks' numbers and they are available on every page. You can find them if you click on a CHECK MARK on a menu located in the top-right corner.
   result.part5.text5-3-3: If you want to close the right menu, you only have to click somewhere outside this menu.
   result.part6.text6-1: Ask your friends...
   result.part6.text6-2: FORUM - CHAT
   result.part6.text6-3-1: If you do not know how to solve some problem, ask your friends!
-  result.part6.text6-3-2: Many times, if you have a problem, there are probably many people who were in the same situation as well. For these situations we prepared the forum for you. You can discuss freely, without any annoying registration there!
+  result.part6.text6-3-2: Many times, if you have a problem, there are many people who were in the same situation as well. For these situations we prepared the forum for you. You can discuss freely, without any annoying registration there!
   result.part6.text6-3-3: Forum, or Chat, is also located on every page and you can find it if you click on a PEN on a menu in the top-right corner,
   result.part7.text7-1: Navigation system
   result.part7.text7-2: LEFT MENU
-  result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu will be opened.
-  result.part7.text7-3-2: This menu allows the quick orientation between the Spirometry result parts and its tasks.
+  result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu opens.
+  result.part7.text7-3-2: This menu allows the quick orientation between the parts of a Spirometry result.
   result.nextPage: Let's take a look at the first part of the results - Spirometry Curve
   first-chapter.subchapter1.headline:
-  first-chapter.subchapter1.text1-1: One of the main patient's respiratory problem indicators is a (FORCED) VITAL CAPACITY denoted by FVC.
+  first-chapter.subchapter1.text1-1: One of the main parameters, which indicates respiratory problems, is a (FORCED) VITAL CAPACITY (FVC).
   first-chapter.subchapter1.text1-2: FVC represents the volume of air maximally fiercely breathed out after the deep inhalation.
   first-chapter.subchapter1.text1-3: The healthy, non-smoker human's FVC is defined by
   first-chapter.subchapter1.text1-4: TABLES
-  first-chapter.subchapter1.text1-5: If the patient's FVC is different from the table - predicted value, it can signalize various types of diseases.
+  first-chapter.subchapter1.text1-5: If the patient's FVC is different from the table - predicted value, it can signalize a disease.
   first-chapter.subchapter1.text1-6: Why do we need this information?
-  first-chapter.subchapter1.text1-7: Our first task is to FIND PATIENT'S FORCED VITAL CAPACITY and to COMPARE IT with a table (predicted) value. If there is nearly no difference between these two values, we are not expecting patient's lung function problems.
+  first-chapter.subchapter1.text1-7: Our first task is to FIND PATIENT'S FORCED VITAL CAPACITY and to COMPARE IT with a table (predicted) value. If there is nearly no difference between these two values, we can expect, that our patient does not have any breathing problems.
   first-chapter.subchapter1.text2-1: The first patient
-  first-chapter.subchapter1.text2-2: Our first patient is a MAN, 56 years old, 171 centimeters tall. The result of his spirometry assessment is the next spirometry curve (picture right).
-  first-chapter.subchapter1.text2-3: (the volume represented on a graph is an air volume, inhaled and exhaled into/out of the patient's lung)
+  first-chapter.subchapter1.text2-2: Our first patient is a MAN, 56 years old, 171 centimeters tall. The result of his spirometry assessment is in the right picture.
+  first-chapter.subchapter1.text2-3: (The volume represented on a graph is an air volume, inhaled and exhaled into/out of the patient's lung.)
   first-chapter.subchapter1.help-question1-1: Do not you know
   first-chapter.subchapter1.help-question1-2: how to solve
   first-chapter.subchapter1.help-question1-3: the problems?
   first-chapter.subchapter1.help-question1-4: NO PROBLEM :)
   first-chapter.subchapter1.help-answer-1-1: Read again
-  first-chapter.subchapter1.help-answer-1-2: Try to red the
+  first-chapter.subchapter1.help-answer-1-2: Try to read the
   first-chapter.subchapter1.help-answer-1-3: previous text
-  first-chapter.subchapter1.help-answer-1-4: again and find, what FORCED VITAL CAPACITY represents.
+  first-chapter.subchapter1.help-answer-1-4: again and find, the deffinition of the FORCED VITAL CAPACITY.
   first-chapter.subchapter1.help-answer-2-1: Use a helper
-  first-chapter.subchapter1.help-answer-2-2: If you still need a help, use a HELPER denoted by the same number as your problem (right menu -
+  first-chapter.subchapter1.help-answer-2-2: If you still need a help, use a HELPER. It is denoted by the same number as your problem (right menu -
   first-chapter.subchapter1.help-answer-2-3: bulb
   first-chapter.subchapter1.help-answer-2-4: picture :))
   first-chapter.subchapter1.help-answer-3-1: Controll your answer
-  first-chapter.subchapter1.help-answer-3-2: It is every time a good idea to check your answer. For this reason you can use available answers (right menu -
+  first-chapter.subchapter1.help-answer-3-2: It is every time a good idea to check your answer. You can use available answers (right menu -
   first-chapter.subchapter1.help-answer-3-3: check mark
   first-chapter.subchapter1.help-answer-3-4: picture :))
   first-chapter.subchapter1.help-answer-4-1: Continue or help your friends
-  first-chapter.subchapter1.help-answer-4-2: When you find a correct answer,
-  first-chapter.subchapter1.help-answer-4-3: the next problem
-  first-chapter.subchapter1.help-answer-4-4: is waiting for you :)
+  first-chapter.subchapter1.help-answer-4-2: When you checked your answer,
+  first-chapter.subchapter1.help-answer-4-3: you can pass for
+  first-chapter.subchapter1.help-answer-4-4: the next problem.
   first-chapter.subchapter1.help-answer-4-5: OR You can also help your friends by checking
-  first-chapter.subchapter1.help-answer-4-6: the forum
-  first-chapter.subchapter1.help-answer-4-7: questions.
-  first-chapter.supchapter2.text1-1: The Problem 1.2 solution showed us, that our patien's FVC (FORCED VITAL CAPACITY) is
+  first-chapter.subchapter1.help-answer-4-6: the questions in a
+  first-chapter.subchapter1.help-answer-4-7: forum.
+  first-chapter.supchapter2.text1-1: Solution of the Problem 1.2 showed us, that our patien's FVC (FORCED VITAL CAPACITY) is
   first-chapter.supchapter2.text1-2: decreased/reduced.
   first-chapter.supchapter2.text1-3: But, what does it mean? What kind of a disease can our patient have?
   first-chapter.supchapter2.text1-4: To answer this question we need to know, what kind of pulmonary diseases exist. The list of existed pulmonary diseases and their description is available
   first-chapter.supchapter2.text1-5: HERE.
-  first-chapter.supchapter3.text1-1: The Problem 1.2 solution showed us, that our patien's FVC (FORCED VITAL CAPACITY) is  decreased/reduced. As you probably remember, to find this fact, we had to go to the table and find FVC value manually. To help a doctor and save his time a real spirometry result does not contain only measured values, but also these ideal values - values what should have a healthy human.
-  first-chapter.supchapter3.text1-2: These values are usually adduced in brackets or in the next column or there is a healthy human's spirometry curve chart marked by a dashed line included in a patient's measured spirometry curve chart.
-  first-chapter.supchapter3.text1-3: If we want to create this healthy human's spirometry curve, it is necessary to know a Forced Vital Capacity parameter, but it is not enough. Also parameters like Tidal Volume, Expiratory Reserve Volume, Inspiratory Reserve Volume and Residual Volume are needed.
+  first-chapter.supchapter3.text1-1: Solution of the Problem 1.2 showed us, that our patien's FVC (FORCED VITAL CAPACITY) is  decreased/reduced. As you probably remember, to find this fact, we had to go to the table and find FVC value manually. That was quite time consuming and it could be very annoying if we have to repeat it many times.  To help the doctor and save his time a real spirometry result already contains these table/ideal values of a healthy human.
+  first-chapter.supchapter3.text1-2: These values are usually adduced in the brackets or in the next column. There also can be a healthy human's spirometry curve graph marked by a dashed line included in a patient's measured spirometry curve graph.
+  first-chapter.supchapter3.text1-3: If we want to create this healthy human's spirometry curve, it is necessary to know a Forced Vital Capacity parameter. Hovewer, it is not enough. We also need to know parameters like Tidal Volume, Expiratory Reserve Volume, Inspiratory Reserve Volume and Residual Volume.
   first-chapter.supchapter3.text2-1: Tidal Volume (TD)
-  first-chapter.supchapter3.text2-2-1: that volume of air moved into or out of the lungs during quiet breathing (it is bordered by
-  first-chapter.supchapter3.text2-2-2: red dashed lines
-  first-chapter.supchapter3.text2-2-3: on a right chart
+  first-chapter.supchapter3.text2-2-1: the volume of an air moved into or out of the lungs during quiet breathing (it is bordered by
+  first-chapter.supchapter3.text2-2-2: the red dashed-lines
+  first-chapter.supchapter3.text2-2-3: on the right graph
   first-chapter.supchapter3.text2-3: The healthy adult's TV value should be 15 - 18 % of his Forced Vital Capacity.
   first-chapter.supchapter3.text3-1: Expiratory Reserve Volume (ERV)
-  first-chapter.supchapter3.text3-2: the maximal volume of air that can be exhaled from the end-expiratory position.
+  first-chapter.supchapter3.text3-2: the maximal volume of an air that can be exhaled from the end-expiratory position.
   first-chapter.supchapter3.text3-3: The healthy adult's ERV should be 25 % of his Forced Vital Capacity.
   first-chapter.supchapter3.text4-1: Inspiratory Reserve Volume (ERV)
-  first-chapter.supchapter3.text4-2: the maximal volume that can be inhaled from the end-inspiratory level.
+  first-chapter.supchapter3.text4-2: the maximal volume of an air that can be inhaled from the end-inspiratory level.
   first-chapter.supchapter3.text4-3: The healthy adult's IRV should be 60 % of his Forced Vital Capacity.
   first-chapter.supchapter3.text5-1: Residual Volume (RV)
-  first-chapter.supchapter3.text5-2: the volume of air remaining in the lungs after a maximal exhalation.
-  first-chapter.supchapter3.text5-3: It is not possible to measure this volume directlly. For that reason we are not going to work deeper with it now.
+  first-chapter.supchapter3.text5-2: the volume of an air remaining in the lungs after a maximal exhalation.
+  first-chapter.supchapter3.text5-3: It is not possible to measure this volume directlly and we are not working deeper with it now.
   first-chapter.problem-1-1: What is the patient's Forced Vital Capacity?
   first-chapter.problem-1-2-1: Is there a difference between our patient's measured forced vital capacity and a forced vital capacity of a healthy, 56 years old, 171 cm high man?
   first-chapter.problem-1-2-2: Predicted FVC values are avilable
@@ -646,14 +646,14 @@ book:
   first-chapter.problem-1-3-1: What kind of a disease can be expected if patient's FORCED VITAL CAPACITY is decreased?
   first-chapter.problem-1-3-2: Pulmonary diseases description is avilable
   first-chapter.problem-1-3-3: HERE
-  first-chapter.problem-1-4-1: Using our patient's spirometry curve (placed next to the
+  first-chapter.problem-1-4-1: Use the spirometry curve of our patient (placed next to the
   first-chapter.problem-1-4-2: problem 1.1
-  first-chapter.problem-1-4-3: find Tidal Volume, Expiratory Reserve Volume and Inspiratory Reserve Volume of his lung.
+  first-chapter.problem-1-4-3: and find his Tidal Volume, Expiratory Reserve Volume and Inspiratory Reserve Volume.
   first-chapter.problem-1-5-1: Count TV, ERV and IRV values of a healthy, 56-years old man, who is not smoking and who is 171cm tall.
   first-chapter.problem-1-5-2: Compare these values with the values reached by our patient.
-  first-chapter.problem-1-6-1: Take our patient's spirometry curve (placed next to the
-  first-chapter.problem-1-6-2: and create (to the same chart) the second one - spiromtery curve of a healthy, 56-years old man, non-smoker, 171cm tall.
-  first-chapter.problem-1-6-3: Created curve is named
+  first-chapter.problem-1-6-1: Take the spirometry curve of our patient (placed next to the
+  first-chapter.problem-1-6-2: and to the same graph create a spiromtery curve of a healthy, 56-years old man, non-smoker, 171cm tall.
+  first-chapter.problem-1-6-3: The name of a created curve is a
   first-chapter.problem-1-6-4: comparative curve
   first-chapter.result.text1-1: COLORFULY
   first-chapter.result.text1-2: BORDERED
@@ -687,7 +687,7 @@ book:
   diseases.table1.text-1: Restrictive lung diseases - Spirometry results
   diseases.table2.text-1: Obstructive lung diseases - Spirometry results
   diseases.table1.text-2: Parameter
-  diseases.table1.text-3: A spirometry assessment result and a predicted value comparison
+  diseases.table1.text-3: A comparison of a spirometry assessment and predicted values
   diseases.table1.text-4: Forced Vital Capacity (FVC)
   diseases.table1.text-5: FVC is reduced below 80% of a predicted value
   diseases.table2.text-5: FVC is normal or nearly normal (lightly decreased)
