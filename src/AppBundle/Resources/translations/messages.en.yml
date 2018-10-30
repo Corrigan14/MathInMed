@@ -541,7 +541,7 @@ book:
   introduction.part5.headline: Do I Need To Know 'a lot of' Mathematics?
   introduction.part5.text5-1: The answer is NO. Do not worry! The only thing what you need is a little bit of time and to have a fancy for thinking ;).
   introduction.part5.text5-2: Every problem what is waiting for you contains HELPER. This you can find in a right menu, under the BULB icon. You can use these helpers every time, when you need.
-  introduction.nextPage: Let's take a look at the Spirometry result
+  introduction.nextPage: Spirometry result
   result.headline: SPIROMETRY -  pulmonary function test
   result.part1.text1-1: WHAT DOES THE RESULT CONTAIN?
   result.part1.text1-2: As you can see, many numbers and graphs :)
@@ -582,7 +582,7 @@ book:
   result.part7.text7-2: LEFT MENU
   result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu opens.
   result.part7.text7-3-2: This menu allows the quick orientation between the parts of a Spirometry result.
-  result.nextPage: Let's take a look at the first part of the results - Spirometry Curve
+  result.nextPage: Let's take a look at the first part
   first-chapter.subchapter1.headline:
   first-chapter.subchapter1.text1-1: One of the main parameters, which indicates respiratory problems, is a (FORCED) VITAL CAPACITY (FVC).
   first-chapter.subchapter1.text1-2: FVC represents the volume of air maximally fiercely breathed out after the deep inhalation.

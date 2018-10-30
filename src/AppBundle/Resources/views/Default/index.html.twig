@@ -11,7 +11,7 @@
 
                     <div class="heading-block text-center " data-wow-delay="0.4s">
                         <h3>{{ 'about.main.citation'|trans }}</h3>
-                        <hr class="color">
+                        <hr class="color" >
                         <span>{{ 'about.main.author.citation'|trans }}</span>
                     </div>
 
@@ -31,35 +31,65 @@
                             </div>
 
                             <!-- Image -->
-                            <div class="col-md-6 text-center" data-wow-delay="0.4s">
+                            <div class="col-md-6 text-center hidden-xs" data-wow-delay="0.4s">
                                 {% image  '@AppBundle/Resources/public/images/general/researcher.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                     style="max-width: 300px">
+                                    <img
+                                            src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
+                                            style="max-width: 300px"
+                                    >
                                 {% endimage %}
                             </div>
                         </div>
                     </div>
 
-                   {# INFO FOR STUDENTS #}
+                    {# INFO FOR STUDENTS #}
                     <div class="intro-5 margin-top-80">
                         <div class="row">
-                            <div class="col-md-6 text-center margin-top-60" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/images/general/web-site-screen.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                     style="max-width: 500px">
-                                {% endimage %}
-                            </div>
-                            <div class="col-md-6" data-wow-delay="0.4s">
-                                <div class="heading-block no-margin-bottom margin-top-0">
+                            <div class="hidden-xs hidden-sm">
+                                <div class="col-md-6 text-center margin-top-60" data-wow-delay="0.4s">
+                                    {% image '@AppBundle/Resources/public/images/general/web-site-screen.png' %}
+                                        <img
+                                                src="{{ asset_url }}" alt="introduction-picture1"
+                                                class="img-responsive max-width-100-percent"
+                                        >
+                                    {% endimage %}
+                                </div>
+                                <div class="col-md-6" data-wow-delay="0.4s">
+                                    <div class="heading-block no-margin-bottom margin-top-0">
                                     <span class="margin-bottom-15">
                                          {{ 'about.main.part2.slogan'|trans }}
                                     </span>
-                                    <h2 class="margin-bottom-20 margin-top-1">
-                                        {{ 'about.main.part2.headline'|trans }}
-                                    </h2>
+                                        <h2 class="margin-bottom-20 margin-top-1">
+                                            {{ 'about.main.part2.headline'|trans }}
+                                        </h2>
+                                    </div>
+                                    <p>{{ 'about.main.part2.text2-1'|trans }}</p>
+                                    <p>{{ 'about.main.part2.text2-2'|trans }}</p>
                                 </div>
-                                <p>{{ 'about.main.part2.text2-1'|trans }}</p>
-                                <p>{{ 'about.main.part2.text2-2'|trans }}</p>
+                            </div>
+
+                            {# MOBILE #}
+                            <div class="hidden-md hidden-lg">
+                                <div class="col-md-6" data-wow-delay="0.4s">
+                                    <div class="heading-block no-margin-bottom margin-top-0">
+                                    <span class="margin-bottom-15">
+                                         {{ 'about.main.part2.slogan'|trans }}
+                                    </span>
+                                        <h2 class="margin-bottom-20 margin-top-1">
+                                            {{ 'about.main.part2.headline'|trans }}
+                                        </h2>
+                                    </div>
+                                    <p>{{ 'about.main.part2.text2-1'|trans }}</p>
+                                    <p>{{ 'about.main.part2.text2-2'|trans }}</p>
+                                </div>
+                                <div class="col-md-6 text-center margin-top-60 hidden-xs" data-wow-delay="0.4s">
+                                    {% image '@AppBundle/Resources/public/images/general/web-site-screen.png' %}
+                                        <img
+                                                src="{{ asset_url }}" alt="introduction-picture1"
+                                                class="img-responsive max-width-100-percent"
+                                        >
+                                    {% endimage %}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -80,10 +110,12 @@
                                 <p> {{ 'about.main.part3.text3-2'|trans }}</p>
                             </div>
 
-                            <div class="col-md-6 text-center margin-top-60" data-wow-delay="0.4s">
+                            <div class="col-md-6 text-center margin-top-60 hidden-xs" data-wow-delay="0.4s">
                                 {% image '@AppBundle/Resources/public/images/general/web-site-screen-2.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                     style="max-width: 500px">
+                                    <img
+                                            src="{{ asset_url }}" alt="introduction-picture1"
+                                            class="img-responsive max-width-100-percent"
+                                    >
                                 {% endimage %}
                             </div>
                         </div>
@@ -91,7 +123,7 @@
 
                     <div class="heading-block text-center animate fadeInUp margin-top-100" data-wow-delay="0.4s">
                         <h3>{{ 'about.main.part4.text4-1'|trans }}</h3>
-                        <hr class="color">
+                        <hr class="color" >
                         <span>{{ 'main_navbar.developers'|trans }}</span>
                     </div>
 
@@ -109,17 +141,17 @@
 
                         {# PREPARATION HELP#}
                         {#<a href="{{ path('app_students_main_introduction') }}" class="btn btn-med btn-color margin-left-20">#}
-                            {#{{ 'main_navbar.tutoring'|trans }}#}
+                        {#{{ 'main_navbar.tutoring'|trans }}#}
                         {#</a>#}
 
                         {# TEACHERS PART #}
                         {#<a href="{{ path('app_teachers_main_introduction') }}" class="btn btn-med btn-color margin-left-20">#}
-                            {#{{ 'main_navbar.teachers'|trans }}#}
+                        {#{{ 'main_navbar.teachers'|trans }}#}
                         {#</a>#}
 
                         {# RESEARCHERS #}
                         {#<a href="{{ path('app_researchers_main_resources') }}" class="btn btn-med btn-color margin-left-20">#}
-                            {#{{ 'main_navbar.researches'|trans }}#}
+                        {#{{ 'main_navbar.researches'|trans }}#}
                         {#</a>#}
                     </div>
                 </div>
