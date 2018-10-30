@@ -1,4 +1,4 @@
-<section id="task-1" class="padding-top-30 padding-bottom-50">
+<section id="task-1" class="padding-top-30">
     <div class="container both-sides-text-alignment">
         {# HEADING #}
         <div class="row">
@@ -21,7 +21,9 @@
         {# FINN #}
         <div class="row padding-top-20">
             <div class="col-md-1">
-                <p class="uppercase-transform"><b>{{ 'book.game.part1.task1.text2-1'|trans }}:</b></p>
+                <p class="uppercase-transform">
+                    <b>{{ 'book.game.part1.task1.text2-1'|trans }}:</b>
+                </p>
             </div>
             <div class="col-md-11">
                 <p>"{{ 'book.game.part1.task1.text2-2'|trans }}!"</p>
@@ -30,7 +32,9 @@
         {# MATIAS #}
         <div class="row">
             <div class="col-md-1">
-                <p class="uppercase-transform"><b>{{ 'book.game.part1.task1.text3-1'|trans }}:</b></p>
+                <p class="uppercase-transform">
+                    <b>{{ 'book.game.part1.task1.text3-1'|trans }}:</b>
+                </p>
             </div>
             <div class="col-md-11">
                 <p>"{{ 'book.game.part1.task1.text3-2'|trans }}!"</p>
@@ -39,7 +43,9 @@
         {# SOPHI #}
         <div class="row">
             <div class="col-md-1">
-                <p class="uppercase-transform"><b>{{ 'book.game.part1.task1.text4-1'|trans }}:</b></p>
+                <p class="uppercase-transform">
+                    <b>{{ 'book.game.part1.task1.text4-1'|trans }}:</b>
+                </p>
             </div>
             <div class="col-md-11">
                 <p>"{{ 'book.game.part1.task1.text4-2'|trans }}!"</p>
@@ -48,7 +54,9 @@
         {# HANA #}
         <div class="row">
             <div class="col-md-1">
-                <p class="uppercase-transform"><b>{{ 'book.game.part1.task1.text5-1'|trans }}:</b></p>
+                <p class="uppercase-transform">
+                    <b>{{ 'book.game.part1.task1.text5-1'|trans }}:</b>
+                </p>
             </div>
             <div class="col-md-11">
                 <p>"{{ 'book.game.part1.task1.text5-2'|trans }}!"</p>
@@ -68,10 +76,13 @@
                     <b>
                         {{ 'book.game.part1.task1.text7-1'|trans }}
                         <span class="scroll">
-                        <a href="#answerTable1"
-                           class="text-color-primary">{{ 'book.game.part1.task1.text7-2'|trans }}</a>
+                        <a
+                                href="#answerTable1"
+                                class="text-color-primary"
+                        >{{ 'book.game.part1.task1.text7-2'|trans }}</a>
                 </span>
-                    </b>.
+                    </b>
+                    .
                 </p>
             </div>
         </div>
@@ -80,24 +91,24 @@
         <div class="row padding-top-20">
             <div class="col-md-6">
                 {% image '@AppBundle/Resources/public/images/book/game/part1/task1-1.png' %}
-                <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive">
+                    <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive" >
                 {% endimage %}
             </div>
             <div class="col-md-6">
                 {% image '@AppBundle/Resources/public/images/book/game/part1/task1-2.png' %}
-                <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive">
+                    <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive" >
                 {% endimage %}
             </div>
         </div>
         <div class="row padding-top-20">
             <div class="col-md-6">
                 {% image '@AppBundle/Resources/public/images/book/game/part1/task1-3.png' %}
-                <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive">
+                    <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive" >
                 {% endimage %}
             </div>
             <div class="col-md-6">
                 {% image '@AppBundle/Resources/public/images/book/game/part1/task1-4.png' %}
-                <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive">
+                    <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive" >
                 {% endimage %}
             </div>
         </div>
@@ -108,25 +119,34 @@
                 <h6 class="problem">{{ 'book.answer.table'|trans }}</h6>
                 <table class="table table-bordered margin-bottom-15 margin-top-15 vertical-middle">
                     <thead>
-                    <tr class="active uppercase-transform">
-                        <th>{{ 'book.answer'|trans }}</th>
-                        <th class="text-center">F1, M2, S3, H4</th>
-                        <th class="text-center">F1, M4, S3, H2</th>
-                        <th class="text-center">F4, M3, S2, H1</th>
-                        <th class="text-center">F1, M2, S4, H3</th>
-                    </tr>
+                        <tr class="active uppercase-transform">
+                            <th>{{ 'book.answer'|trans }}</th>
+                            <th class="text-center">F1, M2, S3, H4</th>
+                            <th class="text-center">F1, M4, S3, H2</th>
+                            <th class="text-center">F4, M3, S2, H1</th>
+                            <th class="text-center">F1, M2, S4, H3</th>
+                        </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td class="active uppercase-transform"><b>{{ 'book.game.cipher'|trans }}</b></td>
-                        <td class="text-center">INEWTON</td>
-                        <td class="text-center">GFBRIEMAN</td>
-                        <td class="text-center">LEULER</td>
-                        <td class="text-center">GWLEIBNIZ</td>
-                    </tr>
+                        <tr>
+                            <td class="active uppercase-transform">
+                                <b>{{ 'book.game.cipher'|trans }}</b>
+                            </td>
+                            <td class="text-center">INEWTON</td>
+                            <td class="text-center">GFBRIEMAN</td>
+                            <td class="text-center">LEULER</td>
+                            <td class="text-center">GWLEIBNIZ</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
+        </div>
+
+        <div class="heading-block text-center animate fadeInUp margin-top-40" data-wow-delay="0.4s">
+            {#FAMOUS MATHEMATICIANS#}
+            <a href="{{ path('app_book_first_chapter_history_mathematicians') }}" class="btn btn-med gary">
+                {{ 'book.history'|trans }}
+            </a>
         </div>
     </div>
 </section>

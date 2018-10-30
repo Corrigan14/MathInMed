@@ -45,6 +45,25 @@
     vertical-align: middle !important;
 }
 
+.slider-font {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    z-index: 5;
+}
+
+.slider-font-babinska {
+    font-family: Montserrat, sans-serif;
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    z-index: 5;
+}
+
 .border-top {
     border-top: 1px solid #ececec;
 }
@@ -74,7 +93,7 @@
     color: #009999;
 }
 
-.colour-font-dark-grey{
+.colour-font-dark-grey {
     color: #141414 !important;
 }
 

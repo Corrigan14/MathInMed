@@ -3,6 +3,16 @@
     <div class="container">
         <div class="testi">
             <div class="text-in">
+                {% image '@AppBundle/Resources/public/images/book/game/jobs.jpeg' %}
+                    <img src="{{ asset_url }}" alt="Developer" class="margin-right-10">
+                {% endimage %}
+                {% image '@AppBundle/Resources/public/images/book/game/newton.jpeg' %}
+                    <img src="{{ asset_url }}" alt="Mathematician">
+                {% endimage %}
+                {% image '@AppBundle/Resources/public/images/book/game/einstein.jpeg' %}
+                <img src="{{ asset_url }}" alt="Physicist">
+                {% endimage %}
+
                 <p class="margin-0 font-16px">
                     {{ 'book.game.joke.beginning.text-1'|trans }}
                 </p>
@@ -37,10 +47,10 @@
                         "{{ 'book.game.header'|trans }}".
                     </span>
                     {{ 'book.game.introduction.text3-1'|trans }}
-                    <span class="colour-font-dark-grey">{{ 'book.game.introduction.text3-2'|trans }}</span>
+                    <span><b>{{ 'book.game.introduction.text3-2'|trans }}</b></span>
                     .
                     {{ 'book.game.introduction.text3-3'|trans }}
-                    <span class="colour-font-dark-grey">{{ 'book.game.introduction.text3-4'|trans }}</span>
+                    <span><b>{{ 'book.game.introduction.text3-4'|trans }}</b></span>
                     .
                 </p>
                 <h5 class="h5-small-font-uppercase margin-top-25">

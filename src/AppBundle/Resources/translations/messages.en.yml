@@ -44,7 +44,7 @@ main_navbar:
   developers: Developers
   here: HERE
   check_answer: Check your answer
-  development.note1: Website development is in progress...
+  development.note1: Development is in progress...
   development.note2: We are comming soon!
 
 slider:
@@ -500,11 +500,11 @@ book:
   note: Note
   thinkabout: something to think about
   FVC: Forced Vital Capacity
-  doctors.view.header: How does Doctor view Spirometry Result?
+  doctors.view.header: How does the doctor view The Spirometry Result?
   next.chapter: Next chapter
   answer: Answer
-  answer.table: Table of answers
-  history: A bit of history
+  answer.table: The table of answers
+  history: Newton? Rieman? Euler? Leibniz?
   back: Back
   historical-block-headline: A piece of history
   introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
@@ -655,21 +655,22 @@ book:
   first-chapter.problem-1-6-2: and to the same graph create a spiromtery curve of a healthy, 56-years old man, non-smoker, 171cm tall.
   first-chapter.problem-1-6-3: The name of a created curve is a
   first-chapter.problem-1-6-4: comparative curve
-  first-chapter.result.text1-1: COLORFULY
-  first-chapter.result.text1-2: BORDERED
-  first-chapter.result.text1-3: result's parts we already understand!
+  first-chapter.result.text1-1: Parts of the result which are
+  first-chapter.result.text1-2: COLORFULY
+  first-chapter.result.text1-3: BORDERED
+  first-chapter.result.text1-4: we already know!
   first-chapter.result.text2-1: RED BORDERED GRAPH
-  first-chapter.result.text2-2: It is a different representation of a Spirometry curve of the previously solved problems (problem 1.1 - 1.6)
-  first-chapter.result.text2-3: The first rectangle represents healthy human's (predict) RV, ERV, IRV and TV values.
-  first-chapter.result.text2-4: The second and the third rectangle represent the patient's results (the first one - stats from the first measurement, the second one - stats from the second measurement).
-  first-chapter.result.text2-5: Comparing these three graphs, doctor can immediately recognize, if the patient's measured values are increased/decreased or normal.
+  first-chapter.result.text2-2: It is a different representation of a Spirometry curve from the previous problems (problem 1.1 - 1.6)
+  first-chapter.result.text2-3: The first rectangle represents values of a healthy human (predict values).
+  first-chapter.result.text2-4: The second and the third rectangle represent the result of a patient (the first one - stats from the first measurement, the second one - stats from the second measurement).
+  first-chapter.result.text2-5: If the doctor compare these three graphs, he/she can immediately recognize, if the patient's measured values are increased/decreased or normal.
   first-chapter.result.text3-1: ORANGE BORDERED GRAPH
   first-chapter.result.text3-2: The difference between FVC (Forced Vital Capacity) and VC (Slow Vital Capacity) is in the exhalation.
-  first-chapter.result.text3-3: If a doctor asks a patient to exhale calmly and slowly, we are talking about Slow Vital Capacity.
-  first-chapter.result.text3-4: Contrarily, if the patient is exhaling forcefully and quickly, we are talking about Forced Vital Capacity.
-  first-chapter.result.text3-5: Exhaled air volume should be equal in both exhalation ways for a healthy human. If there is a big difference, we can expect Obstructive disease in our patient.
-  first-chapter.result.text3-6: In our problems we are not differentiating between values FVC and VC. We are always using FVC as a patient's Vital Capacity.
-  first-chapter.result.next: Finally... GAME TIME
+  first-chapter.result.text3-3: If the doctor asks patient to exhale calmly and slowly, we talk about Slow Vital Capacity.
+  first-chapter.result.text3-4: Contrarily, if the patient exhales forcefully and quickly, we talk about Forced Vital Capacity.
+  first-chapter.result.text3-5: The volume of an exhaled air should be, for a healhy human, equal in the both cases. If there is a big difference, we can expect, that our patient suffers by Obstructive disease.
+  first-chapter.result.text3-6: It is not necessary to differentiate between FVC and VC values for us.
+  first-chapter.result.next: Finally... PLAY TIME
   first-chapter.historical-block-text-1-1: There were many famous doctors studying human Vital Capacity during the last centuries.
   first-chapter.historical-block-text-1-2: One of the first was Galen, well-known famous Greek doctor (2th century).
   first-chapter.historical-block-text-1-3: Later, Giovannin Alfonso Borelli (1679) rapidly increased the measurement accuracy, using the patient's nose blocking.
@@ -729,11 +730,11 @@ book:
   diseases.part-13-text-1: The restrictive and obstructive disease combination can be caused by two different diseases where the first one is restrictive and the second one is obstructive.
   diseases.part-13-text-2: Another option is, if the disease causes both - restrictive as well as obstructive pulmonary defects. The example of this kind of disease is a cystic fibrosis.
 
-  game.header: A game time
+  game.header: A play time
   game.task: task
   game.cipher: code/cipher
   game.alternative: alternative
-  game.joke.beginning.text-1: A physicist, a mathematician, and a developer are discussing which is better to get, a wife or a lover.
+  game.joke.beginning.text-1: A physicist, a mathematician, and a developer discuss which is better to get, a wife or a lover.
   game.joke.beginning.text-2-1: Physicist
   game.joke.beginning.text-2-2: A lover. There is still space to experiment.
   game.joke.beginning.text-3-1: Mathematician
@@ -742,15 +743,15 @@ book:
   game.joke.beginning.text-4-2: Both. ...
   game.joke.end:
   game.introduction.text1: Do you want to know how the joke continues?
-  game.introduction.text2: You can get if you find a solution of special short tasks at the end of every main chapter. These tasks are marked by a sign
-  game.introduction.text3-1: In solving any task you get a
+  game.introduction.text2: You can get, if you find a solution of the special short tasks at the end of every main chapter. These tasks are marked by a sign
+  game.introduction.text3-1: If you solve any task, you get a
   game.introduction.text3-2: group of letters
-  game.introduction.text3-3: These letters have to be kept because they are a part of a
+  game.introduction.text3-3: You should keep these letters because they are a part of a
   game.introduction.text3-4: code
   game.introduction.text4: Code
-  game.introduction.text5-1: Yes! A cipher - or code which has to be decoded first to understand the text it hides.
-  game.introduction.text5-2: Decoding algorithm will be found at the
-  game.introduction.text5-3: end of a game
+  game.introduction.text5-1: Yes! Cipher - or code. If you want to understand the code, you have to decode it first!
+  game.introduction.text5-2: And you can find decoding algorithm at the
+  game.introduction.text5-3: end of the game
   game.introduction.text6: We wish you a great time!
   game.kryptlogy.header: Cryptography & cryptology
   game.kryptlogy.history: History
@@ -766,12 +767,12 @@ book:
   game.kryptlogy.text8: or Caesar's cipher used in an ancient Rome
   game.part1.text1-1: The next tasks prepare you (or remind you) school tasks related to
   game.part1.text1-2: the functions and its graphs
-  game.part1.text2: Do not be worried about its difficulty!
+  game.part1.text2: Do not worry about its difficulty!
   game.part1.text3-1: If you successfully passed problems in the previous chapter
   game.part1.text3-2: Spirometry Curve
   game.part1.text3-3: it will be easy for you ;)
   game.part1.task1.header: Spirometry game
-  game.part1.task1.text1: Medical students had a good time trying spirometry assessment
+  game.part1.task1.text1: Medical students had a good time when they tryed a spirometry assessment at school
   game.part1.task1.text2-1: Finn
   game.part1.task1.text2-2: I did not breath at the beginning of the assessment for 3 seconds
   game.part1.task1.text3-1: Matias
@@ -780,50 +781,50 @@ book:
   game.part1.task1.text4-2: I stopped breathing for a while after every inhalation
   game.part1.task1.text5-1: Hana
   game.part1.task1.text5-2: It is not possible to measure Vital Capacity based on my spirometry result
-  game.part1.task1.text6-1: Find authors of the next spirometry curves. The correct answer is made by a pair
-  game.part1.task1.text6-2: the first letter of a student's name + number of a spirometry curve
-  game.part1.task1.text7-1: Choose and remember the code (cipher) related to your answer in an
-  game.part1.task1.text7-2: answer table
+  game.part1.task1.text6-1: Find authors of the next spirometry curves. Correct answer is created by a pair
+  game.part1.task1.text6-2: the first letter of the student's name + number of the spirometry curve
+  game.part1.task1.text7-1: Choose and remember the code (cipher) matched with your answer in a
+  game.part1.task1.text7-2: table of answers
   game.part1.task2.header: Truth - yes or no?
   game.part1.task2.text1-1: After the spirometry assessment our students (Finn, Matias, Sophi and Hana) got another task.
   game.part1.task2.text1-2: They had to find volume of an air inhaled during their normal breathing.
   game.part1.task2.text2-1: After a while Sophi said
-  game.part1.task2.text2-2: It is very interesting! The result is not changing if I am moving the graph of a spirometry curve across the paper.
+  game.part1.task2.text2-2: It is very interesting! The result does not change if I move the graph of the spirometry curve across the paper.
   game.part1.task2.text2-3: For example, like this!
-  game.part1.task2.text2-4: (look to the right graph)
+  game.part1.task2.text2-4: (look on the right graph)
   game.part1.task2.text3-1: Is Sophi true?
   game.part1.task2.text3-2: What is the volume of an inhaled air in Sophi's example?
-  game.part1.task2.answer1: Yes, Sophi is true. The volume of normally inhaled air is approximately 600 ml
+  game.part1.task2.answer1: Yes, Sophi is true. The volume of the normally inhaled air is approximately 600 ml
   game.part1.task2.answer2: No, Sophi is not true
   game.part1.task2.answer3: We do not know
-  game.part1.task2.answer4: Yes, Sophi is true. The volume of normally inhaled air is approximately 200 ml
+  game.part1.task2.answer4: Yes, Sophi is true. The volume of the normally inhaled air is approximately 200 ml
   game.part1.task3.header: Frequency - the number of repetitions
   game.part1.task3.text1-1: The last task of our students was to find a
   game.part1.task3.text1-2: breathing frequency
   game.part1.task3.text1-3: the number of repetitions of a normal inhalation and exhalation cycles in one minute
-  game.part1.task3.text1-4: of a patient whom spirometry curve is on a right picture
-  game.part1.task3.text2: What is the correct answer?
-  game.part1.task3.answer1: It is not possible to find an answer because we do not have the whole minute breathing record
+  game.part1.task3.text1-4: They worked with a spirometry curve drawn on the right picture
+  game.part1.task3.text2: Which is the correct answer?
+  game.part1.task3.answer1: It is not possible to find the answer because we do not have the record of breading for the whole minute
   game.part1.task4.header: A little bit of "pure" maths
   game.part1.task4.text1: The next task has two alternatives
-  game.part1.task4.text2-1: Do you know
+  game.part1.task4.text2-1: Do you know a
   game.part1.task4.text2-2: sinus
   game.part1.task4.text2-3: function
   game.part1.task4.text3-1: If no, pick up
   game.part1.task4.text3-2: the first alternative
-  game.part1.task4.text4-1: If you already know it, the first alternative could probably not be interesting for you a from that reason we prepared
+  game.part1.task4.text4-1: If you already know it, the first alternative could not be interesting for you a from that reason we prepared
   game.part1.task4.text4-2: the second alternative
   game.part1.task4.text4-3: for you
-  game.part1.task4.text5: If you like, you can of course solve both variants! In this way you can check your answer's accuracy
-  game.part1.task4-1.text1-1: The right graph is a graph of a dependency between
+  game.part1.task4.text5: If you want, you can both variants! In this way you can check the accuracy of your your answer
+  game.part1.task4-1.text1-1: The right graph is the graph of a dependency between
   game.part1.task4-1.text1-2: independent variable
   game.part1.task4-1.text1-3: and
   game.part1.task4-1.text1-4: dependent variable
-  game.part1.task4-1.text2-1: This dependency is in mathematics known as
+  game.part1.task4-1.text2-1: This dependency is in mathematics known like
   game.part1.task4-1.text2-2: sinus
   game.part1.task4-1.text3-1: The graph is then
   game.part1.task4-1.text3-2: graph of a sinus function
-  game.part1.task4-1.text4: Which of the next propositions are true for our graph
+  game.part1.task4-1.text4: Which of the next propositions are true for this graph
   game.part1.task4-1.text5-1: Dependent variable
   game.part1.task4-1.text5-2: only gets values of interval
   game.part1.task4-1.text6-1: If independent variable
