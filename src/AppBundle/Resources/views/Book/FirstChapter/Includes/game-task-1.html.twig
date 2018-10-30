@@ -87,29 +87,63 @@
             </div>
         </div>
 
-        {# GRAPHS #}
-        <div class="row padding-top-20">
-            <div class="col-md-6">
-                {% image '@AppBundle/Resources/public/images/book/game/part1/task1-1.png' %}
-                    <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive" >
-                {% endimage %}
+        {# GRAPHS - NORMAL SCREEN #}
+        <div class="hidden-xs hidden-sm">
+            <div class="row padding-top-20">
+                <div class="col-md-6">
+                    {% image '@AppBundle/Resources/public/images/book/game/part1/task1-1.png' %}
+                        <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive max-width-100-percent" >
+                    {% endimage %}
+                </div>
+                <div class="col-md-6">
+                    {% image '@AppBundle/Resources/public/images/book/game/part1/task1-2.png' %}
+                        <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive max-width-100-percent" >
+                    {% endimage %}
+                </div>
             </div>
-            <div class="col-md-6">
-                {% image '@AppBundle/Resources/public/images/book/game/part1/task1-2.png' %}
-                    <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive" >
-                {% endimage %}
+            <div class="row padding-top-20">
+                <div class="col-md-6">
+                    {% image '@AppBundle/Resources/public/images/book/game/part1/task1-3.png' %}
+                        <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive max-width-100-percent" >
+                    {% endimage %}
+                </div>
+                <div class="col-md-6">
+                    {% image '@AppBundle/Resources/public/images/book/game/part1/task1-4.png' %}
+                        <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive max-width-100-percent" >
+                    {% endimage %}
+                </div>
             </div>
         </div>
-        <div class="row padding-top-20">
-            <div class="col-md-6">
-                {% image '@AppBundle/Resources/public/images/book/game/part1/task1-3.png' %}
-                    <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive" >
-                {% endimage %}
+
+        {# GRAPHS - MOBILE, TABLET #}
+        <div class="hidden-lg hidden-md text-center">
+            <div class="row padding-top-20">
+                <div class="col-md-12">
+                    {% image '@AppBundle/Resources/public/images/book/game/part1/task1-1.png' %}
+                        <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive max-width-100-percent" >
+                    {% endimage %}
+                </div>
             </div>
-            <div class="col-md-6">
-                {% image '@AppBundle/Resources/public/images/book/game/part1/task1-4.png' %}
-                    <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive" >
-                {% endimage %}
+            <div class="row padding-top-20">
+                <div class="col-md-12">
+                    {% image '@AppBundle/Resources/public/images/book/game/part1/task1-2.png' %}
+                        <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive max-width-100-percent" >
+                    {% endimage %}
+                </div>
+            </div>
+            <div class="row padding-top-20">
+                <div class="col-md-12">
+                    {% image '@AppBundle/Resources/public/images/book/game/part1/task1-3.png' %}
+                        <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive max-width-100-percent" >
+                    {% endimage %}
+                </div>
+            </div>
+            <div class="row padding-top-20">
+                <div class="col-md-12">
+                    {% image '@AppBundle/Resources/public/images/book/game/part1/task1-4.png' %}
+                        <img src="{{ asset_url }}" alt="Spirometry curve" class="img-responsive max-width-100-percent" >
+                    {% endimage %}
+                </div>
             </div>
         </div>
 

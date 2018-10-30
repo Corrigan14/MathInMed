@@ -13,7 +13,7 @@
                     <!-- MAIN HEADING -->
                     <div class="heading-block text-center" data-wow-delay="0.4s">
                         <h3>{{ 'book.introduction.citation'|trans }}</h3>
-                        <hr class="color">
+                        <hr class="color" >
                         <span>{{ 'book.introduction.author.citation'|trans }}</span>
                     </div>
 
@@ -35,10 +35,13 @@
                             </div>
 
                             <!-- Image -->
-                            <div class="col-md-6 text-center" data-wow-delay="0.4s">
+                            <div class="col-md-6 text-center hidden-sm hidden-xs" data-wow-delay="0.4s">
                                 {% image '@AppBundle/Resources/public/images/book/introduction/doctor-2.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                     style="max-height: 400px">
+                                    <img
+                                            src="{{ asset_url }}" alt="introduction-picture1"
+                                            class="img-responsive max-width-100-percent"
+                                            style="max-height: 400px"
+                                    >
                                 {% endimage %}
                             </div>
                         </div>
@@ -48,34 +51,80 @@
                     <div class="intro-5 margin-top-80">
                         <div class="row">
 
-                            <!-- Image -->
-                            <div class="col-md-6 text-center vertical-center" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/images/book/introduction/watter-spirometer.png' %}
-                                <img src="{{ asset_url }}" alt="water-spirometer" class="img-responsive">
-                                {% endimage %}
-                            </div>
-                            <div class="col-md-6" data-wow-delay="0.4s">
-                                <div class="heading-block no-margin-bottom margin-top-0">
+                            <div class="hidden-sm hidden-xs">
+                                <div class="col-md-6 text-center vertical-center" data-wow-delay="0.4s">
+                                    {% image '@AppBundle/Resources/public/images/book/introduction/watter-spirometer.png' %}
+                                        <img
+                                                src="{{ asset_url }}" alt="water-spirometer"
+                                                class="img-responsive max-width-100-percent"
+                                        >
+                                    {% endimage %}
+                                </div>
+                                <div class="col-md-6" data-wow-delay="0.4s">
+                                    <div class="heading-block no-margin-bottom margin-top-0">
                                     <span class="margin-bottom-15">
                                          {{ 'book.introduction.part2.slogan'|trans }}
                                     </span>
-                                    <h2 class="margin-bottom-20 margin-top-1">
-                                        {{ 'book.introduction.part2.headline'|trans }}
-                                    </h2>
+                                        <h2 class="margin-bottom-20 margin-top-1">
+                                            {{ 'book.introduction.part2.headline'|trans }}
+                                        </h2>
+                                    </div>
+                                    <p>{{ 'book.introduction.part2.text2-1'|trans }}</p>
+                                    <h5>{{ 'book.introduction.part2.text2-2'|trans }}</h5>
+                                    <p>{{ 'book.introduction.part2.text2-3'|trans }}</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h5>{{ 'book.introduction.part2.text2-4'|trans }}</h5>
+                                            <p>{{ 'book.introduction.part2.text2-5'|trans }}</p>
+                                        </div>
+                                        <div class="col-md-6 text-center">
+                                            {% image '@AppBundle/Resources/public/images/book/introduction/spirometer-today.jpg' %}
+                                                <img
+                                                        src="{{ asset_url }}" alt="spirometer-today"
+                                                        class="img-responsive hidden-xs hidden-sm"
+                                                >
+                                            {% endimage %}
+                                        </div>
+                                    </div>
                                 </div>
-                                <p>{{ 'book.introduction.part2.text2-1'|trans }}</p>
-                                <h5>{{ 'book.introduction.part2.text2-2'|trans }}</h5>
-                                <p>{{ 'book.introduction.part2.text2-3'|trans }}</p>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h5>{{ 'book.introduction.part2.text2-4'|trans }}</h5>
-                                        <p>{{ 'book.introduction.part2.text2-5'|trans }}</p>
+                            </div>
+
+                            {# MOBILE, TABLET #}
+                            <div class="hidden-lg hidden-md">
+                                <div class="col-md-6" data-wow-delay="0.4s">
+                                    <div class="heading-block no-margin-bottom margin-top-0">
+                                    <span class="margin-bottom-15">
+                                         {{ 'book.introduction.part2.slogan'|trans }}
+                                    </span>
+                                        <h2 class="margin-bottom-20 margin-top-1">
+                                            {{ 'book.introduction.part2.headline'|trans }}
+                                        </h2>
                                     </div>
-                                    <div class="col-md-6 text-center">
-                                        {% image '@AppBundle/Resources/public/images/book/introduction/spirometer-today.jpg' %}
-                                        <img src="{{ asset_url }}" alt="spirometer-today" class="img-responsive">
-                                        {% endimage %}
+                                    <p>{{ 'book.introduction.part2.text2-1'|trans }}</p>
+                                    <h5>{{ 'book.introduction.part2.text2-2'|trans }}</h5>
+                                    <p>{{ 'book.introduction.part2.text2-3'|trans }}</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h5>{{ 'book.introduction.part2.text2-4'|trans }}</h5>
+                                            <p>{{ 'book.introduction.part2.text2-5'|trans }}</p>
+                                        </div>
+                                        <div class="col-md-6 text-center">
+                                            {% image '@AppBundle/Resources/public/images/book/introduction/spirometer-today.jpg' %}
+                                                <img
+                                                        src="{{ asset_url }}" alt="spirometer-today"
+                                                        class="img-responsive hidden-xs hidden-sm"
+                                                >
+                                            {% endimage %}
+                                        </div>
                                     </div>
+                                </div>
+                                <div class="col-md-6 text-center vertical-center" data-wow-delay="0.4s">
+                                    {% image '@AppBundle/Resources/public/images/book/introduction/watter-spirometer.png' %}
+                                        <img
+                                                src="{{ asset_url }}" alt="water-spirometer"
+                                                class="img-responsive max-width-100-percent"
+                                        >
+                                    {% endimage %}
                                 </div>
                             </div>
                         </div>
@@ -104,10 +153,12 @@
                             </div>
 
                             <!-- Image -->
-                            <div class="col-md-6 text-center" data-wow-delay="0.4s">
+                            <div class="col-md-6 text-center hidden-sm hidden-xs" data-wow-delay="0.4s">
                                 {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-aj.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1"
-                                     class="img-responsive" style="max-height: 450px">
+                                    <img
+                                            src="{{ asset_url }}" alt="introduction-picture1"
+                                            class="img-responsive max-width-100-percent"
+                                    >
                                 {% endimage %}
                             </div>
                         </div>
@@ -118,10 +169,12 @@
                         <div class="row">
 
                             <!-- Image -->
-                            <div class="col-md-6 text-center" data-wow-delay="0.4s">
+                            <div class="col-md-6 text-center hidden-sm hidden-xs" data-wow-delay="0.4s">
                                 {% image  '@AppBundle/Resources/public/images/book/introduction/mathematician-3.jpg' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive"
-                                     style="max-width: 500px">
+                                    <img
+                                            src="{{ asset_url }}" alt="introduction-picture1"
+                                            class="img-responsive max-width-100-percent"
+                                    >
                                 {% endimage %}
                             </div>
                             <div class="col-md-6 " data-wow-delay="0.4s">
@@ -161,10 +214,12 @@
                             </div>
 
                             <!-- Image -->
-                            <div class="col-md-6 text-center" data-wow-delay="0.4s">
+                            <div class="col-md-6 text-center hidden-sm hidden-xs" data-wow-delay="0.4s">
                                 {% image '@AppBundle/Resources/public/images/book/introduction/thinking.png' %}
-                                <img src="{{ asset_url }}" alt="introduction-picture1"
-                                     class="img-responsive max-height-500">
+                                    <img
+                                            src="{{ asset_url }}" alt="introduction-picture1"
+                                            class="img-responsive max-width-100-percent"
+                                    >
                                 {% endimage %}
                             </div>
                         </div>

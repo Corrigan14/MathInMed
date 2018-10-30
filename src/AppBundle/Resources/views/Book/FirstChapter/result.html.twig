@@ -12,51 +12,138 @@
                 <div class="container both-sides-text-alignment">
                     <div class="heading-block text-center margin-bottom-50">
                         <h3>  {{ 'book.doctors.view.header'|trans }}</h3>
-                        <hr class="color">
+                        <hr class="color" >
                     </div>
 
                     <div class="row">
-                        <div class="col-md-3 text-center margin-top-150">
-                            <div>
-                                <p>
-                                    {% image '@AppBundle/Resources/public/images/book/smile.png' %}
-                                    <img src="{{ asset_url }}" alt="sun" class="img-responsive"
-                                         style="max-width: 100px">
-                                    {% endimage %}
-                                    {{ 'book.first-chapter.result.text1-1'|trans }}
-                                    <span class="red-font"><b>{{ 'book.first-chapter.result.text1-2'|trans }}</b></span>
-                                    <span class="orange-font"><b>{{ 'book.first-chapter.result.text1-3'|trans }}</b></span>
-                                    {{ 'book.first-chapter.result.text1-4'|trans }}
-                                </p>
+                        {# MOBILE AND TABLET#}
+                        <div class="hidden-lg hidden-md">
+                            <div class="col-md-9 text-center">
+                                {% image '@AppBundle/Resources/public/images/book/first-chapter/doctor-result.png' %}
+                                    <img
+                                            src="{{ asset_url }}" alt="spirometry-result"
+                                            class="img-responsive max-width-100-percent"
+                                    >
+                                {% endimage %}
                             </div>
+                            <div class="col-md-3 text-center padding-top-50">
+                                <div>
+                                    <p>
+                                        {% image '@AppBundle/Resources/public/images/book/smile.png' %}
+                                            <img
+                                                    src="{{ asset_url }}" alt="sun" class="img-responsive"
+                                                    style="max-width: 100px"
+                                            >
+                                        {% endimage %}
+                                        {{ 'book.first-chapter.result.text1-1'|trans }}
+                                        <span class="red-font"><b>{{ 'book.first-chapter.result.text1-2'|trans }}</b></span>
+                                        <span class="orange-font"><b>{{ 'book.first-chapter.result.text1-3'|trans }}</b></span>
+                                        {{ 'book.first-chapter.result.text1-4'|trans }}
+                                    </p>
+                                </div>
 
-                            <div class="margin-top-40 smaller-p-tags-grey" data-wow-delay="2.5s">
-                                <p>
-                                    <span class="red-font"><b>{{ 'book.first-chapter.result.text2-1'|trans }}</b></span>
-                                    <br>
-                                    <i>{{ 'book.first-chapter.result.text2-2'|trans }}</i>
-                                </p>
-                                <p><i>{{ 'book.first-chapter.result.text2-3'|trans }}</i></p>
-                                <p><i>{{ 'book.first-chapter.result.text2-4'|trans }}</i></p>
-                                <p><i>{{ 'book.first-chapter.result.text2-5'|trans }}</i></p>
-                            </div>
+                                <div class="margin-top-40" data-wow-delay="2.5s">
+                                    <p>
+                                        <span class="red-font"><b>{{ 'book.first-chapter.result.text2-1'|trans }}</b></span>
+                                        <br>
+                                        <i>{{ 'book.first-chapter.result.text2-2'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text2-3'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text2-4'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text2-5'|trans }}</i>
+                                    </p>
+                                </div>
 
-                            <div class=" margin-top-30 smaller-p-tags-grey" data-wow-delay="2.5s">
-                                <p>
-                                    <span class="orange-font"><b>{{ 'book.first-chapter.result.text3-1'|trans }}</b></span>
-                                    <br>
-                                    <i>{{ 'book.first-chapter.result.text3-2'|trans }}</i>
-                                </p>
-                                <p><i>{{ 'book.first-chapter.result.text3-3'|trans }}</i></p>
-                                <p><i>{{ 'book.first-chapter.result.text3-4'|trans }}</i></p>
-                                <p><i>{{ 'book.first-chapter.result.text3-5'|trans }}</i></p>
-                                <p><i>{{ 'book.first-chapter.result.text3-6'|trans }}</i></p>
+                                <div class=" margin-top-40" data-wow-delay="2.5s">
+                                    <p>
+                                        <span class="orange-font"><b>{{ 'book.first-chapter.result.text3-1'|trans }}</b></span>
+                                        <br>
+                                        <i>{{ 'book.first-chapter.result.text3-2'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text3-3'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text3-4'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text3-5'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text3-6'|trans }}</i>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-9 text-center">
-                            {% image '@AppBundle/Resources/public/images/book/first-chapter/doctor-result.png' %}
-                            <img src="{{ asset_url }}" alt="spirometry-result" class="img-responsive" style="max-width: 100%">
-                            {% endimage %}
+
+                        {# NORMAL BIG SCREEN#}
+                        <div class="hidden-xs hidden-sm">
+                            <div class="col-md-3 text-center margin-top-150">
+                                <div class="hidden-xs hidden-sm">
+                                    <p>
+                                        {% image '@AppBundle/Resources/public/images/book/smile.png' %}
+                                            <img
+                                                    src="{{ asset_url }}" alt="sun" class="img-responsive"
+                                                    style="max-width: 100px"
+                                            >
+                                        {% endimage %}
+                                        {{ 'book.first-chapter.result.text1-1'|trans }}
+                                        <span class="red-font"><b>{{ 'book.first-chapter.result.text1-2'|trans }}</b></span>
+                                        <span class="orange-font"><b>{{ 'book.first-chapter.result.text1-3'|trans }}</b></span>
+                                        {{ 'book.first-chapter.result.text1-4'|trans }}
+                                    </p>
+                                </div>
+
+                                <div class="margin-top-40 smaller-p-tags-grey" data-wow-delay="2.5s">
+                                    <p>
+                                        <span class="red-font"><b>{{ 'book.first-chapter.result.text2-1'|trans }}</b></span>
+                                        <br>
+                                        <i>{{ 'book.first-chapter.result.text2-2'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text2-3'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text2-4'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text2-5'|trans }}</i>
+                                    </p>
+                                </div>
+
+                                <div class=" margin-top-30 smaller-p-tags-grey" data-wow-delay="2.5s">
+                                    <p>
+                                        <span class="orange-font"><b>{{ 'book.first-chapter.result.text3-1'|trans }}</b></span>
+                                        <br>
+                                        <i>{{ 'book.first-chapter.result.text3-2'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text3-3'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text3-4'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text3-5'|trans }}</i>
+                                    </p>
+                                    <p>
+                                        <i>{{ 'book.first-chapter.result.text3-6'|trans }}</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-9 text-center">
+                                {% image '@AppBundle/Resources/public/images/book/first-chapter/doctor-result.png' %}
+                                    <img
+                                            src="{{ asset_url }}" alt="spirometry-result"
+                                            class="img-responsive max-width-100-percent"
+                                    >
+                                {% endimage %}
+                            </div>
                         </div>
                     </div>
                 </div>

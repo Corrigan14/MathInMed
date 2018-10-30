@@ -582,7 +582,7 @@ book:
   result.part7.text7-2: LEFT MENU
   result.part7.text7-3-1: The last feature offered by top-right menu is another menu - the left one. If you click on a MENU sign, the left menu opens.
   result.part7.text7-3-2: This menu allows the quick orientation between the parts of a Spirometry result.
-  result.nextPage: Let's take a look at the first part
+  result.nextPage: Let's begin
   first-chapter.subchapter1.headline:
   first-chapter.subchapter1.text1-1: One of the main parameters, which indicates respiratory problems, is a (FORCED) VITAL CAPACITY (FVC).
   first-chapter.subchapter1.text1-2: FVC represents the volume of air maximally fiercely breathed out after the deep inhalation.
