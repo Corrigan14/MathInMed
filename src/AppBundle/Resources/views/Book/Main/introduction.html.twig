@@ -153,13 +153,27 @@
                             </div>
 
                             <!-- Image -->
-                            <div class="col-md-6 text-center hidden-sm hidden-xs" data-wow-delay="0.4s">
-                                {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-aj.png' %}
-                                    <img
-                                            src="{{ asset_url }}" alt="introduction-picture1"
-                                            class="img-responsive max-width-100-percent"
-                                    >
-                                {% endimage %}
+                            <div class="hidden-sm hidden-xs">
+                                <div class="col-md-6 text-center hidden-sm hidden-xs" data-wow-delay="0.4s">
+                                    {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-aj.png' %}
+                                        <img
+                                                src="{{ asset_url }}" alt="introduction-picture1"
+                                                class="img-responsive max-width-100-percent"
+                                                style="max-height: 550px"
+                                        >
+                                    {% endimage %}
+                                </div>
+                            </div>
+                            {# TABLET, MOBILE #}
+                            <div class="hidden-lg hidden-md">
+                                <div class="col-md-6 text-center hidden-sm hidden-xs" data-wow-delay="0.4s">
+                                    {% image '@AppBundle/Resources/public/images/book/result/spirometry-result-aj.png' %}
+                                        <img
+                                                src="{{ asset_url }}" alt="introduction-picture1"
+                                                class="img-responsive max-width-100-percent"
+                                        >
+                                    {% endimage %}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -206,7 +220,7 @@
                                     <span class="margin-bottom-15 margin-top-20">
                                          {{ 'book.introduction.part5.slogan'|trans }}
                                     </span>
-                                    <h2 class="margin-bottom-20 margin-top-1">
+                                    <h2 class="margin-bottom-20 margin-top-1" style="text-align: left">
                                         {{ 'book.introduction.part5.headline'|trans }}
                                     </h2>
                                 </div>
