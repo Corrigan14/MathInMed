@@ -85,26 +85,76 @@
 
 {% block javascripts %}
     {% javascripts
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery/jquery.min.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/wow.min.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/bootstrap.min.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/own-menu.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/flexslider/jquery.flexslider-min.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.countTo.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.isotope.min.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.bxslider.min.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/owl.carousel.min.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.sticky.js'
-    '@AppBundle/Resources/public/templateEvanto/js/vendors/color-switcher.js'
-    '@AppBundle/Resources/public/js/custom.js' %}
+    '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery/jquery.min.js'%}
     <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/vendors/wow.min.js'%}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/vendors/bootstrap.min.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/vendors/own-menu.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/vendors/flexslider/jquery.flexslider-min.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.countTo.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.isotope.min.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.bxslider.min.js'%}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/vendors/owl.carousel.min.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/vendors/jquery.sticky.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/vendors/color-switcher.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts
+        '@AppBundle/Resources/public/js/custom.js' %}
+        <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
 
     <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
     {% javascripts
-    '@AppBundle/Resources/public/templateEvanto/rs-plugin/js/jquery.themepunch.tools.min.js'
-    '@AppBundle/Resources/public/templateEvanto/rs-plugin/js/jquery.themepunch.revolution.js'
-    '@AppBundle/Resources/public/templateEvanto/js/zap.js' %}
+    '@AppBundle/Resources/public/templateEvanto/rs-plugin/js/jquery.themepunch.tools.min.js' %}
     <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/rs-plugin/js/jquery.themepunch.revolution.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+    {% javascripts
+        '@AppBundle/Resources/public/templateEvanto/js/zap.js' %}
+        <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
 {% endblock %}
