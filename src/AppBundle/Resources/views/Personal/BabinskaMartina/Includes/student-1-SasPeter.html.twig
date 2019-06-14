@@ -1,0 +1,111 @@
+{# PETER SAS #}
+<div class="row">
+    <div class="col-md-3">
+        <h6>{{ 'personal.martina.part3.student-1-year'|trans }}</h6>
+    </div>
+    <div class="col-md-9">
+        <h6>{{ 'personal.martina.part3.student-1-thesis'|trans }}</h6>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <p class="margin-bottom-0">
+            <b>{{ 'basic_words.student'|trans }}</b>
+        </p>
+    </div>
+    <div class="col-md-9">
+        <p class="margin-bottom-0 both-sides-text-alignment">
+            {{ 'personal.martina.part3.student-1-name'|trans }}
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <p class="margin-bottom-0">
+            <b>{{ 'basic_words.type'|trans }}</b>
+        </p>
+    </div>
+    <div class="col-md-9">
+        <p class="margin-bottom-0 both-sides-text-alignment">
+            {{ 'basic_words.diploma-thesis'|trans }}
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <p class="margin-bottom-0">
+            <b>{{ 'basic_words.goal'|trans }}</b>
+        </p>
+    </div>
+    <div class="col-md-9 both-sides-text-alignment">
+        <p class="margin-bottom-0">
+            {{ 'personal.martina.part3.student-1-goal'|trans }}
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <p class="margin-bottom-0">
+            <b>{{ 'basic_words.status'|trans }}</b>
+        </p>
+    </div>
+    <div class="col-md-9 both-sides-text-alignment">
+        <p class="margin-bottom-0">
+            {{ 'personal.martina.part3.student-1-status'|trans }}
+        </p>
+    </div>
+</div>
+<div class="row margin-top-20">
+    <div class="col-md-3">
+        <p class="margin-bottom-0">
+            <b>{{ 'basic_words.abstract'|trans }}</b>
+        </p>
+    </div>
+    <div class="col-md-9 both-sides-text-alignment">
+        <p class="margin-bottom-0">
+            {{ 'personal.martina.part3.student-1-abstract'|trans }}
+        </p>
+    </div>
+</div>
+<div class="row margin-top-10">
+    <div class="col-md-3">
+        <p class="margin-bottom-0">
+            <b>{{ 'basic_words.key-words'|trans }}</b>
+        </p>
+    </div>
+    <div class="col-md-9 both-sides-text-alignment">
+        <p class="margin-bottom-0">
+            {{ 'personal.martina.part3.student-1-key-words'|trans }}
+        </p>
+    </div>
+</div>
+<div class="row margin-top-10">
+    <div class="col-md-3">
+        <p class="margin-bottom-0">
+            <b>{{ 'basic_words.created-materials'|trans }}</b>
+        </p>
+    </div>
+    <div class="col-md-9 both-sides-text-alignment download-link-small-size">
+        <p>
+            {% image '@AppBundle/Resources/public/downloads/Sas-material-1.pdf' %}
+                <a href="{{ asset_url }}" download="lecture-1.pdf">
+                    <b>{{ 'personal.martina.part3.student-1-material-1'|trans }}</b>
+                </a>
+            {% endimage %}
+        </p>
+        <p>
+            {% image '@AppBundle/Resources/public/downloads/Sas-material-2.pdf' %}
+                <a href="{{ asset_url }}" download="lecture-2.pdf">
+                    <b>{{ 'personal.martina.part3.student-1-material-2'|trans }}</b>
+                </a>
+            {% endimage %}
+        </p>
+        <p>
+            {% image '@AppBundle/Resources/public/downloads/Sas-material-2.pdf' %}
+                <a href="{{ asset_url }}" download="lecture-3.pdf">
+                    <b>{{ 'personal.martina.part3.student-1-material-3'|trans }}</b>
+                </a>
+            {% endimage %}
+        </p>
+    </div>
+</div>

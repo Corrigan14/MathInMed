@@ -183,6 +183,14 @@
     color: black;
 }
 
+.download-link-small-size a {
+    color: #ff8000;
+}
+
+.download-link-small-size a:hover {
+    color: black;
+}
+
 .information-box-picture {
     position: relative;
     top: -100px
@@ -206,7 +214,7 @@
     bottom: 5px;
 }
 
-.max-width-100-percent{
+.max-width-100-percent {
     max-width: 100%;
 }
 

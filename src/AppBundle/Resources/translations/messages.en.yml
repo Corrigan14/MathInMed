@@ -31,6 +31,9 @@ basic_words:
   bachelor-thesis: Bachelor thesis
   abstract: Abstract
   recommendation-letter: Recommendation letter
+  status: Status
+  key-words: Key words
+  created-materials: Created materials
 
 main_navbar:
   about: About
@@ -403,12 +406,29 @@ personal:
   martina.part3.text-9: Mathematical analysis [2011/2012 - 2014/2015, 2017/2018]
   martina.part3.text-10: Seminar [SK], 4h/week;
   martina.part3.text-11: The seminar provides students with basics of mathematical analysis - functions, limits, continuity, calculus (derivatives and integrals of a function of one variable) and numeric rows. Students develop their counting skills as well as cooperation a problem solving.
+
   martina.part3.text-12: Thesis Leadership
-  martina.part3.text-13-1: 2017/2018  – 2018/2019
-  martina.part3.text-13-2: Teaching of Exponential Functions
-  martina.part3.text-14: Bc. Peter Sás
-  martina.part3.text-15: Create and research usability of a methodological material for constructivist teaching of exponential functions at upper-secondary school.
-  martina.part3.text-16: Abstract will be provided in 2019
+  martina.part3.student-1-year: 2017/2018  – 2018/2019
+  martina.part3.student-1-thesis: Methodical materials for teaching of Exponential Function
+  martina.part3.student-1-name: Mgr. Peter Sás
+  martina.part3.student-1-goal: Create and research usability of a methodological material for constructivist teaching of exponential functions at upper-secondary school.
+  martina.part3.student-1-abstract: The objective of this master thesis is to create methodical materials based on
+                                    constructivist approach for teaching of exponential functions. The reason for choosing
+                                    this topic is a high occurrence of misconception, which basis is the simplifying
+                                    mathematical expressions with exponents. Because of this, the focus of the materials is
+                                    partially on the possible removal of such misconception. In the theoretical part we present
+                                    the principles of constructivist approach to teaching. We then use these principles in the
+                                    next section to describe how the materials were actually created. Thus, the practical part
+                                    deals specifically with the reasoning of the used parts of the materials, which explains our
+                                    direction to reach pre-selected objectives. We will also find here references to the various
+                                    adjustments, which materials have required after testing, but without abandoning
+                                    mentioned principles.
+  martina.part3.student-1-key-words: mathematics, misconception, exponential function, constructivism,
+                                     methodical materials
+  martina.part3.student-1-status: Successfully , grade A
+  martina.part3.student-1-material-1: Exponetial growth, lecture I
+  martina.part3.student-1-material-2: Continuous Exponetial growth, lecture II
+  martina.part3.student-1-material-3: Exponetial decay, lecture III
 
   martina.part4.text-1-1: 03/2017 – 08/2017
   martina.part4.text-1-2: ILAC International College, Vancouver
