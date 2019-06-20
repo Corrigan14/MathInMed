@@ -27,8 +27,8 @@ basic_words:
   more-information: More information
   language: Language
   student: Student
-  diploma-thesis: Diploma thesis
-  bachelor-thesis: Bachelor thesis
+  diploma-thesis: Diploma dissertation
+  bachelor-thesis: Bachelor dissertation
   abstract: Abstract
   recommendation-letter: Recommendation letter
   status: Status
@@ -231,8 +231,8 @@ personal:
   programme: Programme of study
   degree: Degree
   graduation: Graduation
-  thesis: Thesis
-  goal: Goal of the thesis
+  thesis: Dissertation
+  goal: Goal of the dissertation
   read: Read more...
   research: Type of the research
   status: Status
@@ -272,7 +272,7 @@ personal:
   martina.part2.headlie.text-2: In 2015 Comenius University published my adaptation  of a real-world Spirometry problem into mathematics.
   martina.part2.headlie.text-3: In 2018 I cooperated on a study related to the implementation of augmented  reality into the teaching process.
   martina.part2.headlie.text-4: Currently I am preparing a publication about contextual problems in a view of self-study.
-  martina.part3.headlie: Teaching and Thesis Leadership
+  martina.part3.headlie: Teaching and Dissertation Leadership
   martina.part3.headlie.text-1: My  first teaching experience is related to tutoring in a time of my master study. Later I had an opportunity to guide a seminar of  mathematical analysis.
   martina.part3.headlie.text-2: Currently my work includes leading of lectures of mathematics for cognitive science students (English language) as well as preparation of future mathematics teachers'.
   martina.part4.headlie: Education and Qualifications
@@ -407,12 +407,12 @@ personal:
   martina.part3.text-10: Seminar [SK], 4h/week;
   martina.part3.text-11: The seminar provides students with basics of mathematical analysis - functions, limits, continuity, calculus (derivatives and integrals of a function of one variable) and numeric rows. Students develop their counting skills as well as cooperation a problem solving.
 
-  martina.part3.text-12: Thesis Leadership
+  martina.part3.text-12: Dissertation Leadership
   martina.part3.student-1-year: 2017/2018  – 2018/2019
   martina.part3.student-1-thesis: Methodical materials for teaching of Exponential Function
   martina.part3.student-1-name: Mgr. Peter Sás
   martina.part3.student-1-goal: Create and research usability of a methodological material for constructivist teaching of exponential functions at upper-secondary school.
-  martina.part3.student-1-abstract: The objective of this master thesis is to create methodical materials based on
+  martina.part3.student-1-abstract: The objective of this master dissertation is to create methodical materials based on
                                     constructivist approach for teaching of exponential functions. The reason for choosing
                                     this topic is a high occurrence of misconception, which basis is the simplifying
                                     mathematical expressions with exponents. Because of this, the focus of the materials is
@@ -423,12 +423,19 @@ personal:
                                     direction to reach pre-selected objectives. We will also find here references to the various
                                     adjustments, which materials have required after testing, but without abandoning
                                     mentioned principles.
-  martina.part3.student-1-key-words: mathematics, misconception, exponential function, constructivism,
-                                     methodical materials
-  martina.part3.student-1-status: Successfully , grade A
+  martina.part3.student-1-key-words: constructivism, exponential function, mathematics, methodical materials, misconception
+  martina.part3.student-1-status: Finnished with success, grade A
   martina.part3.student-1-material-1: Exponetial growth, lecture I
   martina.part3.student-1-material-2: Continuous Exponetial growth, lecture II
   martina.part3.student-1-material-3: Exponetial decay, lecture III
+
+  martina.part3.student-2-year: 2018/2019
+  martina.part3.student-2-thesis: 
+  martina.part3.student-2-name: Bc.
+  martina.part3.student-2-goal:
+  martina.part3.student-2-abstract:
+  martina.part3.student-2-key-words:
+  martina.part3.student-2-status: Finnished with success, grade A
 
   martina.part4.text-1-1: 03/2017 – 08/2017
   martina.part4.text-1-2: ILAC International College, Vancouver
@@ -466,7 +473,7 @@ personal:
   martina.part5.text-2-2: Scientific University Assistant
   martina.part5.text-2-3-1: Comenius University in Bratislava, Faculty of Mathematics, Physics and Informatics
   martina.part5.text-2-3-2: Department of Algebra, Geometry, and Maths Education
-  martina.part5.text-2-4-1: Research, diploma and bachelor thesis leading, participation on a project preparation, participation on a conference organization,
+  martina.part5.text-2-4-1: Research, diploma and bachelor dissertations leading, participation on a project preparation, participation on a conference organization,
   martina.part5.text-2-4-2: teaching and preparation of future mathematics teachers (algebra, matheatical analysis, basics of mathematics (English language))
   martina.part5.text-3-1: 09/2014 – 11/2015
   martina.part5.text-3-2: International Measurements Analyst
@@ -477,7 +484,7 @@ personal:
   martina.part5.text-4-2: Scientific University Assistant
   martina.part5.text-4-3-1: Comenius University in Bratislava, Faculty of Mathematics, Physics and Informatics
   martina.part5.text-4-3-2: Department of Mathematical Analysis and Numerical Mathematics
-  martina.part5.text-4-4-1: Work on the Ph.D. thesis research, participation on the work of the department, mathematical analysis teaching, cooperation on the students’ Master thesis
+  martina.part5.text-4-4-1: Work on the Ph.D. thesis research, participation on the work of the department, mathematical analysis teaching, cooperation on the students’ Master dissertation
   martina.part5.text-5: Programming
   martina.part5.text-6-1:  10/2016 – 09/2017
   martina.part5.text-6-2: PHP Back-end Web Developer
