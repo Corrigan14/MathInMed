@@ -14,6 +14,7 @@ basic_words:
   name: Name
   type: Type
   author: Author
+  authors: Authors
   publisher: Publisher
   publication: Publication
   ISBN: ISBN
@@ -34,6 +35,8 @@ basic_words:
   status: Status
   key-words: Key words
   created-materials: Created materials
+  citation: Citation
+  journal: Journal
 
 main_navbar:
   about: About
@@ -347,13 +350,53 @@ personal:
   martina.part1.text-5-1: 2014 - 2015
   martina.part1.text-5-2: The OECD Teaching and Learning International Survey
 
-  martina.part2.text-1-1: April 2015
-  martina.part2.text-1-2: Instructional Booklet for The Secondary School and University Students
-  martina.part2.text-2: How much of Mathematics is in One Medical Assessment? Unconventional Set of Tasks
-  martina.part2.text-3: Publication
-  martina.part2.text-4: Martina Koronci Babinská
-  martina.part2.text-5: FMFI UK, Knižničné a edičné centrum, Bratislava
-  martina.part2.text-6: 978-80-8147-028-8
+  martina.part2.article-1-1-1: Autumn 2018
+  martina.part2.article-1-1-2: Augmented Reality and Future Mathematics Teachers
+  martina.part2.article-1-2: Chapter in monography
+  martina.part2.article-1-3: Martina Babinská, Monika Dilingerová, Lilla Koreňová
+  martina.part2.article-1-4: Sense Publishers
+  martina.part2.article-1-5: The chapter is devoted to the application of augmented reality (AR) into the teacher-training program at universities.
+                           The first part describes the opportunities of future mathematics teachers at the FMFI UK in BA to work with digital technologies.
+                           The second, main part, describes the research of the AR application, Augmented Polyhedrons – Mirage 2.2.
+                           We conducted two studies with 40 future teachers. Results support the suitability of the selected application and AR in general.
+                           However, the implementation has to be precise, with carefully chosen, formulated and requested tasks to solve.
+                           The last part of the chapter summarizes useful AR applications for secondary schools.
+  martina.part2.article-1-6: Publication had already been accepted by referees and the final version of the chapter was provided
+                           to the publisher.
+  martina.part2.article-1-7: Not available yet.
+
+  martina.part2.article-2-1-1: Summer 2019
+  martina.part2.article-2-1-2: Do Higher Grades Students Care About the “Reality” in Contextual
+                               Mathematical Problems? A Qualitative Study.
+  martina.part2.article-2-2: Article in a Journal
+  martina.part2.article-2-3: Martina Babinská
+  martina.part2.article-2-4: International Journal of Science and Mathematics Education
+  martina.part2.article-2-5: This paper reports upon a research project which considered the different approaches
+                             of higher grades students to the relevance of a context in contextual mathematical
+                             problems. The research involved two groups of students, 28 from upper secondary
+                             school and 23 from university. Both groups were asked to solve six mathematical
+                             problems and write their opinion about them. The results demonstrate that not all
+                             students differentiate between camouflage and real, essential contexts. Additionally,
+                             even if students recognise the relevance of a context, it does not influence their
+                             motivation to work on the problem as much as originality or personal interest in the
+                             context. Even though, the results support usage of contextual problems with real and
+                             essential contexts. Contextual problems help students with language barriers.
+                             Moreover, real and essential contexts naturally eliminate the tendency of some
+                             students to differentiate between in-school mathematics and the out-of-school world.
+  martina.part2.article-2-6: Waiting for approval.
+  martina.part2.article-2-7: Not available yet.
+
+  martina.part2.book-1-1-1: April 2015
+  martina.part2.book-1-1-2: How much of Mathematics is in One Medical Assessment? Unconventional Set of Tasks.
+  martina.part2.book-1-2: Instructional Booklet for The Secondary School and University Students
+  martina.part2.book-1-3: Martina Koronci Babinská
+  martina.part2.book-1-4: FMFI UK, Knižničné a edičné centrum, Bratislava
+  martina.part2.book-1-5: 9788081470288
+  martina.part2.book-1-6-1: Babinská, M. (2015).
+  martina.part2.book-1-6-2: How much of Mathematics is in One Medical Assessment? Unconventional Set of Tasks.
+  martina.part2.book-1-6-3: Bratislava
+  martina.part2.book-1-6-4: FMFI UK, Knižničné a edičné centrum.
+
   martina.part2.text-7-1: November 2014
   martina.part2.text-7-2: The Meeting of Mathematics Teachers, Srní, Czech Republic
   martina.part2.text-8: Real Usage of Mathematics for the Student Motivation
@@ -395,6 +438,7 @@ personal:
   martina.part2.text-38: In, Študentská vedecká konferencia FMFI UK, Bratislava 2010, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2010. - P. 358-369. - ISBN 978-80- 89186-68-6
   martina.part2.text-39: Winner
 
+
   martina.part3.text-1: Teaching
   martina.part3.text-2: Mathematics for cognitive science [2017/2018, 2018/2019]
   martina.part3.text-3: Seminar [EN], 2h/week; Lecture [EN], 2h/week
@@ -403,13 +447,13 @@ personal:
   martina.part3.text-6: Seminar of a school mathematics, Solving methods of mathematical problems [2018/2019]
   martina.part3.text-7: Seminar [SK], 2h/week; Seminar [SK], 2h/week
   martina.part3.text-8: Seminars provide students with parts of upper-secondary school mathematics. Students have an opportunity to develop their constructivist and creative approach to mathematics and mathematical problems, improve their mathematical and teaching skills.
-  martina.part3.text-9: Mathematical analysis [2011/2012 - 2014/2015, 2017/2018]
+  martina.part3.text-9: Mathematical analysis [2011/2012 - 2014/2015, 2017/2018 - 2018/2019]
   martina.part3.text-10: Seminar [SK], 4h/week;
   martina.part3.text-11: The seminar provides students with basics of mathematical analysis - functions, limits, continuity, calculus (derivatives and integrals of a function of one variable) and numeric rows. Students develop their counting skills as well as cooperation a problem solving.
 
   martina.part3.text-12: Dissertation Leadership
   martina.part3.student-1-year: 2017/2018  – 2018/2019
-  martina.part3.student-1-thesis: Methodical materials for teaching of Exponential Function
+  martina.part3.student-1-thesis: Methodical Materials for Teaching of Exponential Function
   martina.part3.student-1-name: Mgr. Peter Sás
   martina.part3.student-1-goal: Create and research usability of a methodological material for constructivist teaching of exponential functions at upper-secondary school.
   martina.part3.student-1-abstract: The objective of this master dissertation is to create methodical materials based on
@@ -430,11 +474,20 @@ personal:
   martina.part3.student-1-material-3: Exponetial decay, lecture III
 
   martina.part3.student-2-year: 2018/2019
-  martina.part3.student-2-thesis: 
-  martina.part3.student-2-name: Bc.
-  martina.part3.student-2-goal:
-  martina.part3.student-2-abstract:
-  martina.part3.student-2-key-words:
+  martina.part3.student-2-thesis: The Concept of Probability in Mathematical School Problems
+  martina.part3.student-2-name: Bc. Thu Nguyen Quynh
+  martina.part3.student-2-goal: The aim of the thesis is to compare school mathematical problems corresponding to probability and statistics at upper-secondary school.
+                                Identify its goals, principles and its potential in the development of students‘ competencies.
+  martina.part3.student-2-abstract: The goal of this study is to analyse and compare the ways the concept of probability is introduced in Vietnamese and Slovak textbooks.
+                                    During this study, we raise our concern over these major contents.
+                                    1. How the books motivate their students to acquire the new knowledge they present?
+                                    2. Which necessary concepts and definitions are presented prior to the concept of probability?
+                                    3. What are possible methods to introduce the concept of probability? Which ways the books adopt?
+                                    4. How the methods adopted affect their students’ performances?
+                                    After comparison, we proceed to analyse and make conclusions on mathematics teaching and
+                                    studying in Vietnam and Slovakia. Besides, at the end of the chapter, we also discuss
+                                    innovation in teaching and studying mathematics in general and probability segment in particular.
+  martina.part3.student-2-key-words: Slovak textbooks, statistical experiment, the concept of probability, Vietnamese textbooks
   martina.part3.student-2-status: Finnished with success, grade A
 
   martina.part4.text-1-1: 03/2017 – 08/2017
@@ -515,12 +568,18 @@ personal:
   martina.part6.text-12: Recommendation Letters
   martina.part6.referee-1: doc. RNDr. Zbyněk Kubáček, CSc.
   martina.part6.referee-1-address-1: Faculty of Mathematics, Physics and Informatics, Comenius University
-  martina.part6.referee-1-address-2: Director of The Mathematical and Numerical Analysis Department
+  martina.part6.referee-1-address-2: Director of Mathematical and Numerical Analysis Department
   martina.part6.referee-1-address-3: Mlynská Dolina, 842 48 Bratislava, Slovak Republic
   martina.part6.referee-2: Nori Paul Morita, BA, CHRM, CBF, CTEFLA, CTESOL
   martina.part6.referee-2-address-1: ILAC International College
   martina.part6.referee-2-address-2: Business Communications/English Instructor
   martina.part6.referee-2-address-3: 688 West Hastings Street, Vancouver, British Columbia V6B 1P1 CANADA
+  martina.part6.referee-3: doc. RNDr. Róbert Jajcay, DrSc.
+  martina.part6.referee-3-address-1: Faculty of Mathematics, Physics and Informatics, Comenius University
+  martina.part6.referee-3-address-2: Vice Dean for Ph.D. studies
+  martina.part6.referee-3-address-3: Mlynská Dolina, 842 48 Bratislava, Slovak Republic
+  martina.part6.referee-3-contact-1: +421 (0)2 602 95642 (office)
+  martina.part6.referee-3-contact-2: robert.jajcay@fmph.uniba.sk
 
 book:
   problem: Problem
