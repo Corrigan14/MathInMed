@@ -83,134 +83,21 @@
     </div>
 </div>
 
-{# CONTENT - PROJECT 1 #}
-<div class="row">
-    <div class="col-md-3">
-        <h6>{{ 'personal.study'|trans }}</h6>
-    </div>
-    <div class="col-md-9">
-        <h6>
-            {{ 'personal.martina.part1.text-12-1'|trans }}
-        </h6>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-3">
-        <p>
-            <b>{{ 'personal.description'|trans }}:</b>
-        </p>
-    </div>
-    <div class="col-md-9 both-sides-text-alignment">
-        <p>{{ 'personal.martina.part1.text-13-1'|trans }}:
-            <br>
-            &#9642; <span><i>{{ 'personal.martina.part1.text-13-2'|trans }}?</i></span>
-            <br>
-            &#9642; <span><i>{{ 'personal.martina.part1.text-13-3'|trans }}?</i></span>
-            <br>
-            &#9642; <span><i>{{ 'personal.martina.part1.text-13-4'|trans }}?</i></span>
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-3">
-        <p>
-            <b>{{ 'personal.methods'|trans }}:</b>
-        </p>
-    </div>
-    <div class="col-md-9 both-sides-text-alignment">
-        <p>{{ 'personal.martina.part1.text-14-1'|trans }}
-            (
-            <i>{{ 'personal.martina.part1.text-14-2'|trans }}</i>
-            )
-            {{ 'personal.martina.part1.text-14-3'|trans }}.
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-3">
-        <p>
-            <b>{{ 'personal.publication'|trans }}:</b>
-        </p>
-    </div>
-    <div class="col-md-9 both-sides-text-alignment">
-        <p>
-            {{ 'personal.martina.part1.text-15-1'|trans }}
-            (
-            <i>{{ 'personal.martina.part1.text-15-2'|trans }}</i>
-            ).
-            {{ 'personal.martina.part1.text-15-3'|trans }}.
-        </p>
-    </div>
-</div>
+{# CONTENT - PROJECT 3 #}
+{% include '@App/Personal/BabinskaMartina/Includes/project-3.html.twig' %}
 
-
-{# CONTENT - PROJECT 2 #}
-<div class="row margin-top-20">
-    <div class="col-md-3">
-        <h6>{{ 'personal.study'|trans }}</h6>
-    </div>
-    <div class="col-md-9">
-        <h6>
-            {{ 'personal.martina.part1.text-16'|trans }}
-        </h6>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-3">
+{# older projects #}
+<div class="row" id="readMoreOlderProjects">
+    <div class="col-md-12">
         <p>
-            <b>{{ 'personal.description'|trans }}:</b>
-        </p>
-    </div>
-    <div class="col-md-9 both-sides-text-alignment">
-        <p>{{ 'personal.martina.part1.text-17-1'|trans }}:
-            <br>
-            &#9642; <span><i>{{ 'personal.martina.part1.text-17-2'|trans }}?</i></span>
-            <br>
-            &#9642; <span><i>{{ 'personal.martina.part1.text-17-3'|trans }}?</i></span>
-            <br>
-            &#9642; <span><i>{{ 'personal.martina.part1.text-17-4'|trans }}?</i></span>
-            <br>
-            &#9642; <span><i>{{ 'personal.martina.part1.text-17-5'|trans }}?</i></span>
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-3">
-        <p>
-            <b>{{ 'personal.methods'|trans }}:</b>
-        </p>
-    </div>
-    <div class="col-md-9 both-sides-text-alignment">
-        <p>
-            {{ 'personal.martina.part1.text-18-1'|trans }}
-            {{ 'personal.martina.part1.text-18-2'|trans }}
-            (
-            {{ 'basic_words.avilable-on'|trans }}
-            <span>
-                <b>
-                    <a class="text-color-primary" target="_blank" href={{ path('app_book_main_introudction') }}>
-                        {{ 'basic_words.this-webpage'|trans }}
-                    </a>
-                </b>
+            <span onclick="toggleMoreInformation('OlderProjects')" class="text-color-primary cursor-hand">
+                <b>{{ 'basic_words.older-projects'|trans }}</b>
             </span>
-            )
-            {{ 'personal.martina.part1.text-18-3'|trans }}.
         </p>
     </div>
 </div>
-<div class="row">
-    <div class="col-md-3">
-        <p>
-            <b>{{ 'personal.publication'|trans }}:</b>
-        </p>
-    </div>
-    <div class="col-md-9 both-sides-text-alignments">
-        <p>
-            {{ 'personal.martina.part1.text-19-1'|trans }}
-            (
-            <i>{{ 'personal.martina.part1.text-19-2'|trans }}</i>
-            ).
-            {{ 'personal.martina.part1.text-19-3'|trans }}.
-        </p>
-    </div>
+
+<div id="textOlderProjects" class="hide-element margin-top-20">
+    {# CONTENT - PROJECT 2 #}
+    {% include '@App/Personal/BabinskaMartina/Includes/project-2.html.twig' %}
 </div>

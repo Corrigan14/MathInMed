@@ -38,6 +38,11 @@ basic_words:
   citation: Citation
   journal: Journal
   conference: Conference
+  read-more: Read more
+  see-publications: See publications
+  older-projects: Older projects...
+  key-words: Key words
+  contributors: Contributors
 
 main_navbar:
   about: About
@@ -245,7 +250,8 @@ personal:
   methods: Methods
   study: Study
   publication: Publications
-  description: Goal and description
+  description: Description
+  annotation: Annotation
   employer: Employer
   responsibility: Responsibility
   project: Project
@@ -293,57 +299,80 @@ personal:
   martina.part7.headlie: Personal Goals
   martina.part8.headlie: Interests
 
-  martina.part1.supheader-1-1: Why self-study and work with students?
+  martina.part1.supheader-1-1: Why self-directed learning and work with students?
   martina.part1.research-history-1: Short answer for this question is tutoring.
   martina.part1.research-history-2: Thanks to it I met many hard-working students who got a great effort to understand mathematics, but who still did not like it.
   martina.part1.research-history-3: As the answer to this experience I created a web-page with conventional mathematical problems and I researched the unconventional way of solutions there.
   martina.part1.research-history-4: When a student needed a help, system did not provide him with the answer, but it asked a set of questions which led him/her to understand the problem.
-  martina.part1.research-history-5: Later, already as a doctor student, I started to work with contextual problems and its potential in self-study.
+  martina.part1.research-history-5: Later, already as a doctor student, I started to work with contextual problems and its potential in self-directed learning.
   martina.part1.research-history-6: We prepared a set of mathematical tasks based on a context of medical assessment which led student from the basic work with a mathematical function to understand derivatives.
   martina.part1.research-history-7: The research showed, that combination of an interesting context and relevant, increasing, difficulty of maths can increase studnets' intrinsic motivation.
-  martina.part1.research-history-8: We researched context's attractiveness, problem's complexity, helpers' efficiency and tasks' arrangement and their influence on self-study and intrinsic motivation.
+  martina.part1.research-history-8: We researched context's attractiveness, problem's complexity, helpers' efficiency and tasks' arrangement and their influence on self-directed learning and intrinsic motivation.
   martina.part1.research-history-9: In 2018 we made an English version of the first part of created contextual problem and we also prepared an online version available on
-  martina.part1.research-history-10: In the future, we would like to work on an international basis and research the online students' work.
+  martina.part1.research-history-10: In the future, we would like to continue with self-directed learning research with the focus on online education.
   martina.part1.supheader-2: Main ideas of my research
-  martina.main-research-ideas-1: What motivates students to study at home?
-  martina.main-research-ideas-slide-1: Why are students studying at home?
-  martina.main-research-ideas-2: Can self-study material hase a positive impact on students' intrinsic motivation?
-  martina.main-research-ideas-slide-2-1: Can self-study material positivelly
-  martina.main-research-ideas-slide-2-2: influence students' intrinsic motivation?
-  martina.main-research-ideas-3: Are real-world, contextual mathematical problems suitable for self-study?
-  martina.main-research-ideas-slide-3-1: Are contextual mathematical problems
-  martina.main-research-ideas-slide-3-2: suitable for self-study?
-  martina.main-research-ideas-4: Is complexity of mathematical contextual problems issue in a self-study process?
-  martina.main-research-ideas-slide-4-1: Is complexity of a contextual problem
-  martina.main-research-ideas-slide-4-2: a problem?
-  martina.main-research-ideas-5: Which contexts and mathematical contextual problems are suitable for upper-secondary and university students?
-  martina.main-research-ideas-slide-5-1: How to find an attractive context
-  martina.main-research-ideas-slide-5-2: in mathematics and real-world?
+  martina.main-research-ideas-1: What motivates students to study mathematics at home?
+  martina.main-research-ideas-slide-1: What motivates students to study mathematics at home?
+  martina.main-research-ideas-2: What online resources do students use for self-directed learning of mathematics?
+  martina.main-research-ideas-slide-2-1:
+  martina.main-research-ideas-slide-2-2:
+  martina.main-research-ideas-3: How do existing online educational resources (platforms / courses) communicate with students?
+  martina.main-research-ideas-slide-3-1:
+  martina.main-research-ideas-slide-3-2:
+  martina.main-research-ideas-4: Can we improve communication between online resource (platforms/courses) and self-studying student?
+  martina.main-research-ideas-slide-4-1:
+  martina.main-research-ideas-slide-4-2:
+  martina.main-research-ideas-5: Are real-world, contextual mathematical problems suitable for self-directed learning?
+  martina.main-research-ideas-slide-5-1: Are contextual mathematical problems
+  martina.main-research-ideas-slide-5-2: suitable for self-directed learning?
+  martina.main-research-ideas-6: Can self-directed learning have a positive impact on students' intrinsic motivation?
+  martina.main-research-ideas-slide-6-1: Can self-directed learning positivelly
+  martina.main-research-ideas-slide-6-2: influence students' intrinsic motivation?
+
   martina.part1.supheader-3: Current projects
-  martina.part1.text-12-1: Context versus question type in mathematical tasks
-  martina.part1.text-12-2:  Do students care
-  martina.part1.text-13-1: The goal of provided research is to study students’ opinion of the different contextual mathematical problems
-  martina.part1.text-13-2: Can students see the difference in contextual problems
-  martina.part1.text-13-3: Is context of a mathematical problem more/less important than the question (problem) type of it
-  martina.part1.text-13-4: What contexts are suitable for upper-secondary and university students
-  martina.part1.text-14-1: Two groups of students, opening and closing survey, solutions of mathematical problems
-  martina.part1.text-14-2: various in a context/topic, context type, context’s relevance and in a type of questions
-  martina.part1.text-14-3: observation, unstructured interview, qualitative data analysis
-  martina.part1.text-15-1: Results from the research were partially published in Slovak language at National Student Conference in 2013
-  martina.part1.text-15-2: Can Reality Motivate Students to Mathematics Study?
-  martina.part1.text-15-3: In 2018 we repeated the survey and we are preparing an English article coverring main results from both studies
-  martina.part1.text-16: Real-world contextual mathematical problems in a view of self-study
-  martina.part1.text-17-1: The goal of a provided research is to study influence of real-world mathematical problems on a self-study process focusing on intrinsic motivation
-  martina.part1.text-17-2: Are real-world, contextual mathematical problems suitable for self-study
-  martina.part1.text-17-3: Is contextual mathematical problem complexity issue in a self-study process
-  martina.part1.text-17-4: Are students motivated to work, if they are led only by context and by increasing difficulty of the tasks
-  martina.part1.text-17-5: Can students find tasks' solutions by themselves if they only use helping questions
-  martina.part1.text-18-1: Case study (4 cases), unstructured interviews, observation, Fennema-Sherman mathematics attitudes scales, mathematical knowledge test, work with the
-  martina.part1.text-18-2: real-world mathematical problem
-  martina.part1.text-18-3: qualitative data analysis
-  martina.part1.text-19-1: Results from the research were partially published in Slovak language as a part of my Thesis
-  martina.part1.text-19-2: The Real Context of the Mathematical Problems as a Motivating Factor
-  martina.part1.text-19-3: In 2018 we made another case study and we are preparing an English article coverring main results from all case studies
+  martina.part1.project-3-0: 2019 - current
+  martina.part1.project-3-1: Attitude Development Research of Future Mathematics Teachers with the Aim on Innovation of Teacher Education
+  martina.part1.project-3-2: It is expected from teachers to lead their students to the ability and willingness to apply school
+                             knowledge in real life. Students should have an active and creative approach to problem solving,
+                             critical thinking and developed argumentation skills. However, international studies warn, that this is
+                             often not the case. The problem can be observed between experienced as well as between beginning
+                             teachers. On one hand, teachers do not have enough knowledge about necessary methods and tools
+                             to reach that goals. On the other hand, they do not identify themselves with these methods because
+                             of their attitude to the learning and teaching. In this project we decided to research factors, which
+                             influence the attitude of future mathematics teachers to the goals and teaching of mathematics. Based
+                             on the results we would like to prepare recommendations to innovate the university education of future
+                             mathematics teachers. The aim of these recommendations is to support creative and inspiring attitude
+                             of teachers to the teaching.
+  martina.part1.project-3-3: Attitudes, Innovation, Mathematics, Teacher, University education
+  martina.part1.project-3-4-1: PaedDr. Peter Vankúš, PhD.
+  martina.part1.project-3-4-2: doc. RNDr. Zbynek Kubáček, CSc.
+  martina.part1.project-3-4-3: Mgr. Martina Babinská, PhD.
+  martina.part1.project-3-4-4: Mgr. Mária Čujdíková
+  martina.part1.project-3-4-5: Mgr. Miriam Janíková
+  martina.part1.project-2-0-1: 2018 - 2019
+  martina.part1.project-2-0-2: 2013 - 2015
+  martina.part1.project-2-1: Relevance of Contextual Mathematical Problems
+  martina.part1.project-2-2-1: The goal of provided research is to study students’ opinion of the different contextual mathematical problems
+  martina.part1.project-2-2-2: Can students see the difference in contextual problems
+  martina.part1.project-2-2-3: Is context of a mathematical problem more/less important than the question (problem) type of it
+  martina.part1.project-2-2-4: What contexts are suitable for upper-secondary and university students
+  martina.part1.project-2-3-1: Two groups of students, opening and closing survey, solutions of mathematical problems
+  martina.part1.project-2-3-2: various in a context/topic, context type, context’s relevance and in a type of questions
+  martina.part1.project-2-3-3: observation, unstructured interview, qualitative data analysis
+  martina.part1.project-2-4-1: Can Reality Motivate Students to Mathematics Study?
+  martina.part1.project-2-4-2: Do Higher Grades Students Care About the “Reality” in Contextual Mathematical Problems? A Qualitative Study.
+  martina.part1.project-1-1: Real-world contextual mathematical problems in a view of self-study
+  martina.part1.project-1-2: The goal of a provided research is to study influence of real-world mathematical problems on a self-study process focusing on intrinsic motivation
+  martina.part1.project-1-3: Are real-world, contextual mathematical problems suitable for self-study
+  martina.part1.project-1-4: Is contextual mathematical problem complexity issue in a self-study process
+  martina.part1.project-1-5: Are students motivated to work, if they are led only by context and by increasing difficulty of the tasks
+  martina.part1.project-1-6: Can students find tasks' solutions by themselves if they only use helping questions
+  martina.part1.project-1-7: Case study (4 cases), unstructured interviews, observation, Fennema-Sherman mathematics attitudes scales, mathematical knowledge test, work with the
+  martina.part1.project-1-8: real-world mathematical problem
+  martina.part1.project-1-9: qualitative data analysis
+  martina.part1.project-1-10: Results from the research were partially published in Slovak language as a part of my Thesis
+  martina.part1.project-1-11: The Real Context of the Mathematical Problems as a Motivating Factor
+  martina.part1.project-1-12: In 2018 we made another case study and we are preparing an English article coverring main results from all case studies
 
   martina.part1.text-4-1: 2018
   martina.part1.text-4-2: Augmented reality and future mathematics teachers
