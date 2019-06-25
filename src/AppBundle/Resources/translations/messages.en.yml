@@ -37,6 +37,7 @@ basic_words:
   created-materials: Created materials
   citation: Citation
   journal: Journal
+  conference: Conference
 
 main_navbar:
   about: About
@@ -397,46 +398,46 @@ personal:
   martina.part2.book-1-6-3: Bratislava
   martina.part2.book-1-6-4: FMFI UK, Knižničné a edičné centrum.
 
-  martina.part2.text-7-1: November 2014
-  martina.part2.text-7-2: The Meeting of Mathematics Teachers, Srní, Czech Republic
-  martina.part2.text-8: Real Usage of Mathematics for the Student Motivation
-  martina.part2.text-9: International Conference
-  martina.part2.text-10: In, Setkání učitelů matematiky všech typů a stupňů škol 2014 [electronic source]. - Plzeň Vydavatelský servis, 2014. - P. 43-48 [CD-ROM]. - ISBN 978-80-86843-46-9
-  martina.part2.text-11-1: April 2013
-  martina.part2.text-11-2: Students Conference, FMFI UK, Bratislava, Slovak Republic
-  martina.part2.text-12: Can Reality Motivate Students to Mathematics Study?
-  martina.part2.text-13: National Student Conference
-  martina.part2.text-14: In, Študentská vedecká konferencia FMFI UK, Bratislava 2013, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2013. - P. 396-400. - ISBN 978-80- 8147-009-7
-  martina.part2.text-15: Prize of Literary Fund
-  martina.part2.text-16-1: May 2012
-  martina.part2.text-16-2: History of Mathematics and Teaching of Mathematics, Sárospatak, Hungary
-  martina.part2.text-17: E-learning Support of Mathematics Education (Theme, Mathematical Functions)
-  martina.part2.text-18: International Conference
-  martina.part2.text-19: In, Proceedings of the Conference on the History of Mathematics and Teaching of Mathematics [electronic source]. - Miskolc, University of Miskolc, 2012. – no p. [8 p.] [CD-ROM]. - ISBN 978-963-661-988-6
-  martina.part2.text-20-1: June 2011
-  martina.part2.text-20-2: Czech and Slovak Students Conference 2011, Didaktika matematiky, Banská Bystrica, Slovak Republic
-  martina.part2.text-21: E-learning Support of Mathematics Education for Secondary School and University Students (Theme, Mathematical Functions)
-  martina.part2.text-22: International Student Conference
-  martina.part2.text-23: In, Anotace prací prezentovaných na SVOČ 2011 [electronic source]. - [Praha], Společnost učitelů matematiky JČMF, 2011. – [no p.] , 1 p. [online]
-  martina.part2.text-24: Honorable mention
-  martina.part2.text-25-1: April 2011
-  martina.part2.text-25-2: Students Conference, FMFI UK, Bratislava, Slovak Republic
-  martina.part2.text-26: E-learning Support of Mathematics Education for Secondary School and University Students (Theme, Mathematical Functions)
-  martina.part2.text-27: National Student Conference
-  martina.part2.text-28: In, Študentská vedecká konferencia FMFI UK, Bratislava 2011, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2011. - P. 380-391. - ISBN 978-80- 89186-87-7
-  martina.part2.text-29: Winner
-  martina.part2.text-30-1: June 2010
-  martina.part2.text-30-2: Czech and Slovak Students Conference 2010, Kostelec nad Černými lesy, Czech Republic
-  martina.part2.text-31: The Status and Opportunities of E-learning Support in all Types of Slovakia Schools
-  martina.part2.text-32: International Student Conference
-  martina.part2.text-33: In, Anotace prací prezentovaných na SVOČ 2010 [electronic source]. - [Praha], Společnost učitelů matematiky JČMF, 2010. - [no p.] , 1 p. [online]
-  martina.part2.text-34: 2nd place
-  martina.part2.text-35-1: April 2010
-  martina.part2.text-35-2: Students Conference, FMFI UK, Bratislava, Slovak Republic
-  martina.part2.text-36: The Status and Opportunities of E-learning Support in all Types of Slovakia Schools
-  martina.part2.text-37: National Student Conference
-  martina.part2.text-38: In, Študentská vedecká konferencia FMFI UK, Bratislava 2010, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2010. - P. 358-369. - ISBN 978-80- 89186-68-6
-  martina.part2.text-39: Winner
+  martina.part2.conference-7-1: November 2014
+  martina.part2.conference-7-4: The Meeting of Mathematics Teachers, Srní, Czech Republic
+  martina.part2.conference-7-2: Real Usage of Mathematics for the Student Motivation
+  martina.part2.conference-7-3: International Conference
+  martina.part2.conference-7-5: In, Setkání učitelů matematiky všech typů a stupňů škol 2014 [electronic source]. - Plzeň Vydavatelský servis, 2014. - P. 43-48 [CD-ROM]. - ISBN 978-80-86843-46-9
+  martina.part2.conference-6-1: April 2013
+  martina.part2.conference-6-4: Students Conference, FMFI UK, Bratislava, Slovak Republic
+  martina.part2.conference-6-2: Can Reality Motivate Students to Mathematics Study?
+  martina.part2.conference-6-3: National Student Conference
+  martina.part2.conference-6-6: In, Študentská vedecká konferencia FMFI UK, Bratislava 2013, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2013. - P. 396-400. - ISBN 978-80- 8147-009-7
+  martina.part2.conference-6-5: Prize of Literary Fund
+  martina.part2.conference-5-1: May 2012
+  martina.part2.conference-5-4: History of Mathematics and Teaching of Mathematics, Sárospatak, Hungary
+  martina.part2.conference-5-2: E-learning Support of Mathematics Education (Theme, Mathematical Functions)
+  martina.part2.conference-5-3: International Conference
+  martina.part2.conference-5-5: In, Proceedings of the Conference on the History of Mathematics and Teaching of Mathematics [electronic source]. - Miskolc, University of Miskolc, 2012. – no p. [8 p.] [CD-ROM]. - ISBN 978-963-661-988-6
+  martina.part2.conference-4-1: June 2011
+  martina.part2.conference-4-4: Czech and Slovak Students Conference 2011, Didaktika matematiky, Banská Bystrica, Slovak Republic
+  martina.part2.conference-4-2: E-learning Support of Mathematics Education for Secondary School and University Students (Theme, Mathematical Functions)
+  martina.part2.conference-4-3: International Student Conference
+  martina.part2.conference-4-6: In, Anotace prací prezentovaných na SVOČ 2011 [electronic source]. - [Praha], Společnost učitelů matematiky JČMF, 2011. – [no p.] , 1 p. [online]
+  martina.part2.conference-4-5: Honorable mention
+  martina.part2.conference-3-1: April 2011
+  martina.part2.conference-3-4: Students Conference, FMFI UK, Bratislava, Slovak Republic
+  martina.part2.conference-3-2: E-learning Support of Mathematics Education for Secondary School and University Students (Theme, Mathematical Functions)
+  martina.part2.conference-3-3: National Student Conference
+  martina.part2.conference-3-6: In, Študentská vedecká konferencia FMFI UK, Bratislava 2011, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2011. - P. 380-391. - ISBN 978-80- 89186-87-7
+  martina.part2.conference-3-5: Winner
+  martina.part2.conference-2-1: June 2010
+  martina.part2.conference-2-4: Czech and Slovak Students Conference 2010, Kostelec nad Černými lesy, Czech Republic
+  martina.part2.conference-2-2: The Status and Opportunities of E-learning Support in all Types of Slovakia Schools
+  martina.part2.conference-2-3: International Student Conference
+  martina.part2.conference-2-6: In, Anotace prací prezentovaných na SVOČ 2010 [electronic source]. - [Praha], Společnost učitelů matematiky JČMF, 2010. - [no p.] , 1 p. [online]
+  martina.part2.conference-2-5: 2nd place
+  martina.part2.conference-1-1: April 2010
+  martina.part2.conference-1-2: The Status and Opportunities of E-learning Support in all Types of Slovakia Schools
+  martina.part2.conference-1-3: National Student Conference
+  martina.part2.conference-1-4: Students Conference, FMFI UK, Bratislava, Slovak Republic
+  martina.part2.conference-1-5: Winner
+  martina.part2.conference-1-6: In, Študentská vedecká konferencia FMFI UK, Bratislava 2010, Zborník príspevkov. - Bratislava, Fakulta matematiky, fyziky a informatiky UK, 2010. - P. 358-369. - ISBN 978-80- 89186-68-6
 
 
   martina.part3.text-1: Teaching
