@@ -272,19 +272,20 @@ personal:
   martina.introduction-part-1-text-3: I studied at Comenius University in Bratislava, where I attained a PhD. degree from The Theory of Teaching of Mathematics. After graduation I worked as a data analytics and a software developer. Later,  I spent 6 months in Vancouver, improving my English skills and discovering new culture.
   martina.introduction-part-1-text-4: I managed to join my passions at university, where I am working as a teacher and a researcher.
   martina.introduction-part-1-text-5: Students and their motivation to learn mathematics became the main part of my interest.
-  martina.introduction-part-1-text-6: In a long-term I would like to focus on a constructivistic approach to online and face-to-face self-study.
+  martina.introduction-part-1-text-6: In a long-term I would like to focus on a constructivistic approach to self-directed learning of students.
   martina.introduction-part-1-text-7-1: To find more about my research, publications, education, teaching or work experience - see bellow
   martina.part1.headlie: Research
-  martina.part1.headlie.text-1: The main part of my research is devoted to self-study, intrinsic motivation and students' approach to mathematics.
-  martina.part1.headlie.text-2: Following principles of Constructivism and RME (Realistic Mathematic Education), I am contemplating the most efficient and helpful ways of indirect communication with students.
+  martina.part1.headlie.text-1: The main part of my research is devoted to self-directed learning and intrinsic motivation of students.
+  martina.part1.headlie.text-2: Following principles of Constructivism and RME (Realistic Mathematic Education), I would like to contemplate the most efficient and helpful ways of indirect communication with students.
+  martina.part1.headlie.text-3: Currently, I also have an opportunity to participate on a project focused on the innovations in the teacher education.
   martina.part2.headlie: Publications, Conferences and Awards
   martina.part2.headlie.text-1: My academic career started by contribution on students' conferences and competitions.
   martina.part2.headlie.text-2: In 2015 Comenius University published my adaptation  of a real-world Spirometry problem into mathematics.
   martina.part2.headlie.text-3: In 2018 I cooperated on a study related to the implementation of augmented  reality into the teaching process.
-  martina.part2.headlie.text-4: Currently I am preparing a publication about contextual problems in a view of self-study.
+  martina.part2.headlie.text-4: Later, I prepared an article about the aproach of higher grades students to the relevance of contextual mathematical problems.
   martina.part3.headlie: Teaching and Dissertation Leadership
   martina.part3.headlie.text-1: My  first teaching experience is related to tutoring in a time of my master study. Later I had an opportunity to guide a seminar of  mathematical analysis.
-  martina.part3.headlie.text-2: Currently my work includes leading of lectures of mathematics for cognitive science students (English language) as well as preparation of future mathematics teachers'.
+  martina.part3.headlie.text-2: Currently my work includes leading of lectures of mathematics for cognitive science students (English language) as well as preparation of future mathematics teachers.
   martina.part4.headlie: Education and Qualifications
   martina.part4.headlie.text: During my studies I focused on Informatics, Applied Mathematics and The Theory of Teaching of Mathematics. After graduation, I completed an English language course in Vancouver to improve my position within an international market.
   martina.part5.headlie-1: Work Experience
@@ -312,22 +313,21 @@ personal:
   martina.part1.research-history-10: In the future, we would like to continue with self-directed learning research with the focus on online education.
   martina.part1.supheader-2: Main ideas of my research
   martina.main-research-ideas-1: What motivates students to study mathematics at home?
-  martina.main-research-ideas-slide-1: What motivates students to study mathematics at home?
+  martina.main-research-ideas-slide-1-1: Motivation of students to study
+  martina.main-research-ideas-slide-1-2: mathematics at home
   martina.main-research-ideas-2: What online resources do students use for self-directed learning of mathematics?
-  martina.main-research-ideas-slide-2-1:
-  martina.main-research-ideas-slide-2-2:
+  martina.main-research-ideas-slide-2-1: Online resources for self-directed
+  martina.main-research-ideas-slide-2-2: learning of mathematics
   martina.main-research-ideas-3: How do existing online educational resources (platforms / courses) communicate with students?
-  martina.main-research-ideas-slide-3-1:
-  martina.main-research-ideas-slide-3-2:
+  martina.main-research-ideas-slide-3-1: Communication of online educational
+  martina.main-research-ideas-slide-3-2:  platforms with students
   martina.main-research-ideas-4: Can we improve communication between online resource (platforms/courses) and self-studying student?
-  martina.main-research-ideas-slide-4-1:
-  martina.main-research-ideas-slide-4-2:
   martina.main-research-ideas-5: Are real-world, contextual mathematical problems suitable for self-directed learning?
-  martina.main-research-ideas-slide-5-1: Are contextual mathematical problems
-  martina.main-research-ideas-slide-5-2: suitable for self-directed learning?
+  martina.main-research-ideas-slide-5-1: Contextual mathematical problems and
+  martina.main-research-ideas-slide-5-2: self-directed learning
   martina.main-research-ideas-6: Can self-directed learning have a positive impact on students' intrinsic motivation?
-  martina.main-research-ideas-slide-6-1: Can self-directed learning positivelly
-  martina.main-research-ideas-slide-6-2: influence students' intrinsic motivation?
+  martina.main-research-ideas-slide-6-1: Self-directed learning and
+  martina.main-research-ideas-slide-6-2: intrinsic motivation of students
 
   martina.part1.supheader-3: Current projects
   martina.part1.project-3-0: 2019 - current
