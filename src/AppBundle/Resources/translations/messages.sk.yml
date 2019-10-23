@@ -1,75 +1,107 @@
 motto: Na čo nám to bude???
 
+basic_words:
+  contact: Kontakt
+
 main_navbar:
   about: O nás
   book: Matematika a reálny svet
   contact: Kontakt
 
-slider:
-  book.motto_part1: KOĽKO MATEMATIKY JE V JEDNOM
-  book.motto_part2: LEKÁRSKOM VYŠETRENÍ?
-  book.motto_part3: Netradičná zbierka úloh
-  book.lets_begin: Poďme NA TO!
+#slider:
+#  book.motto_part1: KOĽKO MATEMATIKY JE V JEDNOM
+#  book.motto_part2: LEKÁRSKOM VYŠETRENÍ?
+#  book.motto_part3: Netradičná zbierka úloh
+#  book.lets_begin: Poďme NA TO!
 
-left_navbar:
-  book.introduction: Úvod
-  book.spyrometry: Ako výsledok lekárskeho vyšetrenia súvisí s matematikou?
-  book.chapter1: Spirometrická krivka
-  book.chapter11: Problémy s dýchacou sústavou - aké parametre ich signalizujú?
-  book.chapter12: Ochorenia dýchacej sústavy
-  book.chapter13: Porovnávacia spirometrická krivka - krivka zdravého človeka
-  book.chapter14: Ako spirometrickú krivku vidí lekár?
-  book.chapter1game: Hra - časť prvá
-  book.chapter2: Objemovo-časová krivka
-  book.chapter21: FEV1
-  book.chapter22: Objemovo-časová krivka
-  book.chapter23: Vývoj FEV1 v čase
-  book.chapter24: Ako objemovo-časovú krivku vidí lekár?
-  book.chapter2game: Hra - časť druhá
-  book.chapter3: Prietokovo-objemová krivka
-  book.chapter31: Prietok
-  book.chapter32: Slučka
-  book.chapter33: Ochorenia, ktoré výsledky spirometrie signalizujú
-  book.chapter34: Rýchlosť zmeny ... opakujeme si
-  book.chapter35: Ako prietokovo-objemovú krivku vidí lekár?
-  book.chapter3game: Hra - časť tretia
-  book.game: Hra - kód potrebný k odkódovaniu odpovede :)
+#left_navbar:
+#  book.introduction: Úvod
+#  book.spyrometry: Ako výsledok lekárskeho vyšetrenia súvisí s matematikou?
+#  book.chapter1: Spirometrická krivka
+#  book.chapter11: Problémy s dýchacou sústavou - aké parametre ich signalizujú?
+#  book.chapter12: Ochorenia dýchacej sústavy
+#  book.chapter13: Porovnávacia spirometrická krivka - krivka zdravého človeka
+#  book.chapter14: Ako spirometrickú krivku vidí lekár?
+#  book.chapter1game: Hra - časť prvá
+#  book.chapter2: Objemovo-časová krivka
+#  book.chapter21: FEV1
+#  book.chapter22: Objemovo-časová krivka
+#  book.chapter23: Vývoj FEV1 v čase
+#  book.chapter24: Ako objemovo-časovú krivku vidí lekár?
+#  book.chapter2game: Hra - časť druhá
+#  book.chapter3: Prietokovo-objemová krivka
+#  book.chapter31: Prietok
+#  book.chapter32: Slučka
+#  book.chapter33: Ochorenia, ktoré výsledky spirometrie signalizujú
+#  book.chapter34: Rýchlosť zmeny ... opakujeme si
+#  book.chapter35: Ako prietokovo-objemovú krivku vidí lekár?
+#  book.chapter3game: Hra - časť tretia
+#  book.game: Hra - kód potrebný k odkódovaniu odpovede :)
 
-right_navbar:
-  book.answers: Odpovede
-  book.answer: Odpoveď
-  book.answer11: Text 1.1
-  book.helpers: Pomôcky
-  book.helper: Pomôcka
-  book.helper11: Text 1.1
-  book.helper12: Text 1.2
-  book.helper13: Text 1.3
-  book.helper14: Text 1.4
-  book.helper15: Text 1.5
-  book.helper16: Text 1.6
-  book.chat: Chat
-  book.chat.work: Pripravjeme nový Chat!
-  book.chat.email: Ak máš otázky alebo potrebuješ pomoc, radi Ti pomôžeme! Prosím, kontaktuj nás prostredníctvom emailu babinskam@aol.com
+#right_navbar:
+#  book.answers: Odpovede
+#  book.answer: Odpoveď
+#  book.answer11: Text 1.1
+#  book.helpers: Pomôcky
+#  book.helper: Pomôcka
+#  book.helper11: Text 1.1
+#  book.helper12: Text 1.2
+#  book.helper13: Text 1.3
+#  book.helper14: Text 1.4
+#  book.helper15: Text 1.5
+#  book.helper16: Text 1.6
+#  book.chat: Chat
+#  book.chat.work: Pripravjeme nový Chat!
+#  book.chat.email: Ak máš otázky alebo potrebuješ pomoc, radi Ti pomôžeme! Prosím, kontaktuj nás prostredníctvom emailu babinskam@aol.com
 
 footer:
-  headline: Kreatívny tím - SK
-  headline.text: Ahoj všetci! Volám sa Martina. Som učiteľ, výskumník a vo voľnom čase PHP web-developer. Som hrdou držiteľkou PhD. titulu v odbore Teória vyučovania matematiky. Viem že matematika môže byť pre nás výzvou avšak dobrou výzvou, ktorú môže každý z nás zvládnuť. Otázkou je, ako. Jednou z efektívnych ciest je objavovať matematiku prostredníctvom vlastnej skúsenosti!
+  headline: Kreatívny tím
+  headline.text1: Ahoj všetci! Volám sa Martina. Som učiteľ, výskumník a vo voľnom čase PHP web-developer. Som hrdou držiteľkou PhD. titulu v odbore Teória vyučovania matematiky. Viem že matematika môže byť pre nás výzvou avšak dobrou výzvou, ktorú môže každý z nás zvládnuť. Otázkou je, ako. Jednou z efektívnych ciest je objavovať matematiku prostredníctvom vlastnej skúsenosti!
+  headline.text2: Pozrite si môj profil
   email: E-mail
   phone: Tel
   address: Adresa
   slovakia: Slovenská Republika
 
+#book:
+#  introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
+#  introduction.author.citation: Carl Rogers
+#  introduction.part1.headline: O čom je táto www stránka?
+#  introduction.part1.text: ...
+#  introduction.part2.headline: Potrebujem vedieť "veľa" matematiky?
+#  introduction.part2.text: ...
+#  introduction.part3.headline: Prečo sme vytvorili túto www stránku?
+#  introduction.part3.text: ...
+#  introduction.part4.headline: Kto sme?
+#  introduction.part4.text: ...
+#  introduction.part4.button: Stiahni PDF
 
-book:
-  introduction.citation: No other person's ideas, and none of my own ideas, are as authoritative as my experience.
-  introduction.author.citation: Carl Rogers
-  introduction.part1.headline: O čom je táto www stránka?
-  introduction.part1.text: ...
-  introduction.part2.headline: Potrebujem vedieť "veľa" matematiky?
-  introduction.part2.text: ...
-  introduction.part3.headline: Prečo sme vytvorili túto www stránku?
-  introduction.part3.text: ...
-  introduction.part4.headline: Kto sme?
-  introduction.part4.text: ...
-  introduction.part4.button: Stiahni PDF
+personal:
+  barbora.main-research-ideas-slide-1-1: Hlavná myšlienka môjho výskumu 1
+  barbora.main-research-ideas-slide-1-2: ...
+  barbora.main-research-ideas-slide-2-1: Hlavná myšlienka môjho výskumu 2
+  barbora.main-research-ideas-slide-2-2: ...
+  barbora.main-research-ideas-slide-3-1: Hlavná myšlienka môjho výskumu 3
+  barbora.main-research-ideas-slide-3-2: ...
+  barbora.main-research-ideas-slide-4-1: Hlavná myšlienka môjho výskumu 4
+  barbora.main-research-ideas-slide-4-2: ...
 
+  barbora.citation: Motto
+  barbora.author.citation: Autor
+
+  barbora.introduction-headline-1: Moje motto...
+  barbora.introduction-headline-2: Niekoľko slov o mne
+  barbora.introduction-part-1-text-1: Ahoj! Volám sa Barbora Djubašáková.
+  barbora.sign: BARBORA DJUBAŠÁKOVÁ
+  barbora.possition: VÝSKUMNÍK & UČITEĽ
+
+
+  barbora.part1.headlie: Výskum
+  barbora.part2.headlie: Publikácie, Konferencie, Ocenenia
+  barbora.part3.headlie: Vyučovanie
+  barbora.part4.headlie: Vzdelanie a kvalifikácia
+  barbora.part5.headlie-1: Pracovné skúsenosti
+  barbora.part5.headlie-2: Profesionálne zručnosti
+  barbora.part6.headlie: Odporúčania
+  barbora.part7.headlie: Moje ciele
+  barbora.part8.headlie: Záujmy

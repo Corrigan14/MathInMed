@@ -1,0 +1,147 @@
+{% extends "AppBundle::layout.html.twig" %}
+
+{% block content %}
+    <main class="cd-main-content">
+        {% include '@App/Personal/Includes/sliderDjubasakovaBarbora.html.twig' %}
+
+        <div id="services" class="why-choose">
+            <section class="padding-top-80 padding-bottom-80">
+                <div class="container">
+                    {# CITATION #}
+                    <div class="heading-block text-center">
+                        <h3>{{ 'personal.barbora.citation'|trans }}</h3>
+                        <div class="divider divider-short divider-center">
+                            {% image '@AppBundle/Resources/public/images/general/dividers/hammers.png' %}
+                                <img src="{{ asset_url }}" alt="Divider-Icon-Image" class="i-div" >
+                            {% endimage %}
+                        </div>
+                        <span>{{ 'personal.barbora.author.citation'|trans }}</span>
+                    </div>
+
+                    {# INTRODUCTION INFO #}
+                    <div class="row">
+                        <div class="col-md-7 both-sides-text-alignment">
+                            <div class="heading-block margin-bottom-10">
+                                <span class="margin-bottom-10">
+                                    {{ 'personal.barbora.introduction-headline-1'|trans }}
+                                </span>
+                                <h4>
+                                    {{ 'personal.barbora.introduction-headline-2'|trans }}
+                                </h4>
+                            </div>
+                            <p>{{ 'personal.barbora.introduction-part-1-text-1'|trans }}</p>
+                            <div class="ultra-ser">
+                                <hr>
+                                <span>
+                                    <span class="name">
+                                        {{ 'personal.barbora.sign'|trans }}&nbsp; - &nbsp;
+                                    </span>
+                                    <span>
+                                         {{ 'personal.barbora.possition'|trans }}&nbsp;
+                                    </span>
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="col-md-5 text-right margin-top-70">
+                            {% image '@AppBundle/Resources/public/images/personal/Barbora/barbora.jpg' %}
+                                <img
+                                        src="{{ asset_url }}" alt="introduction-picture1" class="img-responsive max-width-100-percent"
+                                >
+                            {% endimage %}
+                        </div>
+                    </div>
+
+                    {# CV DETAILS #}
+                    <div id="cv" class="row margin-top-60">
+
+                        {# RESEARCH #}
+                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-10 border-top border-light padding-top-20">
+                                <div class="ib-icon">
+                                    <i class="fa fa-paper-plane-o"></i>
+                                </div>
+                                <div class="ib-info both-sides-text-alignment">
+                                    <h4 class="h6"> {{ 'personal.barbora.part1.headlie'|trans }}</h4>
+                                    <p>text ...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {# PUBLICATIONS #}
+                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
+                                <div class="ib-icon">
+                                    <i class="fa fa-tencent-weibo"></i>
+                                </div>
+                                <div class="ib-info both-sides-text-alignment">
+                                    <h4 class="h6">{{ 'personal.barbora.part2.headlie'|trans }}</h4>
+                                    <p>text ...</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        {# WORK EXPERIENCE #}
+                        <div class="col-md-4 animate fadeInUp" data-wow-delay="0.8s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-10 border-top border-light padding-top-20">
+                                <div class="ib-icon">
+                                    <i class="fa fa-archive"></i>
+                                </div>
+                                <div class="ib-info both-sides-text-alignment">
+                                    <h4 class="h6">{{ 'personal.barbora.part5.headlie-1'|trans }}</h4>
+                                    <p>text ...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row margin-top-20">
+
+                        {# TEACHING AND STUDENTS' WORK #}
+                        <div class="col-md-4 margin-bottom-30 animate fadeInUp" data-wow-delay="1.0s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
+                                <div class="ib-icon">
+                                    <i class="fa fa-sliders"></i>
+                                </div>
+                                <div class="ib-info both-sides-text-alignment">
+                                    <h4 class="h6">{{ 'personal.barbora.part3.headlie'|trans }}</h4>
+                                    <p>text ...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {# EDUCATION #}
+                        <div class="col-md-4 animate fadeInUp" data-wow-delay="1.2s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-10 border-top border-light padding-top-20">
+                                <div class="ib-icon">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="ib-info both-sides-text-alignment">
+                                    <h4 class="h6">{{ 'personal.barbora.part4.headlie'|trans }}</h4>
+                                    <p>text ...</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        {# REFERENCES #}
+                        <div class="col-md-4 animate fadeInUp" data-wow-delay="1.4s">
+                            <div class="clearfix icon-box ib-style-2 i-large i-top padding-bottom-31 border-top border-light padding-top-20">
+                                <div class="ib-icon">
+                                    <i class="fa fa-group"></i>
+                                </div>
+                                <div class="ib-info both-sides-text-alignment">
+                                    <h4 class="h6">{{ 'personal.barbora.part6.headlie'|trans }}</h4>
+                                    <p>text ...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+{% endblock %}

@@ -2,6 +2,7 @@ motto: Why do we have to learn that???
 
 basic_words:
   download_print: DOWNLOAD TO PRINT
+  contact: Contact
   here: Here
   here-small: here
   part: part
@@ -610,6 +611,34 @@ personal:
   martina.part6.referee-3-address-3: Mlynská Dolina, 842 48 Bratislava, Slovak Republic
   martina.part6.referee-3-contact-1: +421 (0)2 602 95642 (office)
   martina.part6.referee-3-contact-2: robert.jajcay@fmph.uniba.sk
+
+  barbora.main-research-ideas-slide-1-1: Main research idea 1
+  barbora.main-research-ideas-slide-1-2: ...
+  barbora.main-research-ideas-slide-2-1: Main research idea 2
+  barbora.main-research-ideas-slide-2-2: ...
+  barbora.main-research-ideas-slide-3-1: Main research idea 3
+  barbora.main-research-ideas-slide-3-2: ...
+  barbora.main-research-ideas-slide-4-1: Main research idea 4
+  barbora.main-research-ideas-slide-4-2: ...
+
+  barbora.citation: Motto
+  barbora.author.citation: Author
+
+  barbora.introduction-headline-1: Personal motto...
+  barbora.introduction-headline-2: A few words about me
+  barbora.introduction-part-1-text-1: Hi! My name is Barbora Djubašáková.
+  barbora.sign: BARBORA DJUBAŠÁKOVÁ
+  barbora.possition: RESEARCHER & TEACHER
+
+  barbora.part1.headlie: Research
+  barbora.part2.headlie: Publications, Conferences and Awards
+  barbora.part3.headlie: Teaching and Dissertation Leadership
+  barbora.part4.headlie: Education and Qualifications
+  barbora.part5.headlie-1: Work Experience
+  barbora.part5.headlie-2: Professional Skills
+  barbora.part6.headlie: Reference
+  barbora.part7.headlie: Personal Goals
+  barbora.part8.headlie: Interests
 
 book:
   problem: Problem
