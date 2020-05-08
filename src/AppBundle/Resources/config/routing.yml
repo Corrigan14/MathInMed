@@ -6,6 +6,10 @@ app_book:
     resource: "routing/book.yml"
     prefix: /
 
+app_textbook:
+    resource: "routing/textBook.yml"
+    prefix: /
+
 app_students:
     resource: "routing/students.yml"
     prefix: /

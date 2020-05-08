@@ -3,6 +3,7 @@ app_personal_martina_babinska:
     defaults: { _controller: AppBundle:Personal/BabinskaMartina:introduction, _locale: en }
     requirements:
         _locale:  en|sk
+
 app_personal_barbora_djubasakova:
     path:     /{_locale}/personal/djubasakova-barbora
     defaults: { _controller: AppBundle:Personal/DjubasakovaBarbora:introduction, _locale: sk }

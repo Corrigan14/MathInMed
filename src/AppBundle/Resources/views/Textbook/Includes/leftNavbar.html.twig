@@ -1,0 +1,25 @@
+<!-- Nav Icon -->
+<a id="cd-menu-trigger" class="dark" href="#."><span class="cd-menu-icon"></span></a>
+
+<!-- Header Left -->
+<nav id="cd-lateral-nav" class="left-header">
+
+    <!-- Logo -->
+    <div class="text-center">
+        {% include 'AppBundle:Includes:logo.html.twig' %}
+    </div>
+
+    <!-- Menu -->
+    <ul class="cd-navigation">
+        <li><a href={{ path('app_textbook_main_introduction') }}>{{ 'left_navbar.book.introduction'|trans }}</a></li>
+        <li class="item-has-children"><a href="#.">{{ 'left_navbar.textBook.logarithms'|trans }}</a>
+            <ul class="sub-menu">
+                <li><a href="{{ path('app_textbook_logarithms_inequalities_introduction') }}">{{ 'left_navbar.textBook.logarithms.inequalities'|trans }}</a></li>
+                <li><a href="#">{{ 'left_navbar.textBook.logarithms.equations'|trans }}</a></li>
+                <li><a href="#">{{ 'left_navbar.textBook.logarithms.function'|trans }}</a></li>
+                <li><a href="#">{{ 'left_navbar.textBook.logarithms.graph'|trans }}</a></li>
+                <li><a href="#">{{ 'left_navbar.textBook.logarithms.characteristics'|trans }}</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>

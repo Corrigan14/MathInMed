@@ -14,8 +14,13 @@
                             {{ 'main_navbar.about'|trans }}
                         </a>
                     </li>
-                    <li class="{% if 'book' in app.request.attributes.get('_route') %}scroll active{% else %}scroll{% endif %}">
-                        <a href="{{ path('app_book_main_introudction') }}">
+                    <li class="{% if app.request.attributes.get('_route') == 'app_textbook_main_introduction' %}scroll active{% else %}scroll{% endif %}">
+                        <a id="navbar_textbook" href="{{ path('app_textbook_main_introduction') }}">
+                            {{ 'main_navbar.textbook'|trans }}
+                        </a>
+                    </li>
+                    <li class="{% if app.request.attributes.get('_route') == 'app_book_main_introudction' %}scroll active{% else %}scroll{% endif %}">
+                        <a id="book" href="{{ path('app_book_main_introudction') }}">
                             {{ 'main_navbar.book'|trans }}
                         </a>
                     </li>

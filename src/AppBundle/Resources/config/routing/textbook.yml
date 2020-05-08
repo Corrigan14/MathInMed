@@ -1,0 +1,11 @@
+app_textbook_main_introduction:
+    path:     /{_locale}/textbook/introduction
+    defaults: { _controller: AppBundle:Textbook\Main:introduction, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_textbook_logarithms_inequalities_introduction:
+    path:     /{_locale}/textbook/logarithms/logarithmic-inequalities/introduction
+    defaults: { _controller: AppBundle:Textbook\Logarithms:logarithmicInequalitiesIntroduction, _locale: en }
+    requirements:
+        _locale:  en|sk

@@ -44,10 +44,14 @@ basic_words:
   older-projects: Older projects...
   key-words: Key words
   contributors: Contributors
+  problem1: problem I
+  problem1: problem II
+  problem1: problem III
 
 main_navbar:
   about: About
-  book: Maths and the real world
+  book: Real world Maths
+  textbook: Textbook Maths
   contact: Contact
   continue: Continue
   mathinmed: Maths Around Us
@@ -83,6 +87,8 @@ slider:
   book.lets_discover: Let's DISCOVER!
   book.spirometry-result-part1: Spirometry
   book.spirometry-result-part2: PRE/POST result values
+  textBook.motto_part1: MATHEMATICS BEHIND THE TEXTBOOKS
+  textBook.motto_part2: WHY AND HOW DOES VARIOUS FORMULAS WORK?
 
 left_navbar:
   book.introduction: Introduction
@@ -109,6 +115,12 @@ left_navbar:
   book.game: Game
   book.game.instruction: Instructions
   book.game.decode: Decode The Answer
+  textBook.logarithms: Logarithms
+  textBook.logarithms.function: Logarithmic Function
+  textBook.logarithms.graph: Graph of a Logarithmic Function
+  textBook.logarithms.characteristics: Characteristics of a Logarithmic Function
+  textBook.logarithms.equations: Logarithmic Equations
+  textBook.logarithms.inequalities: Logarithmic Inequalities
 
 right_navbar:
   book.answers: Answers
@@ -1005,3 +1017,13 @@ researcher:
   materials.author.citation: Jo Boaler
   materials.citation2: Theory is a vehicle for 'thinking otherwise'
   materials.author.citation2: Stephen Ball
+
+textBook:
+  introduction.nextPage: Logarithmic Inequalities
+  introduction.part1.slogan: Explore, Discover, Understand, Enjoy :)
+  introduction.part1.headline: Should I join this course?
+  introduction.part2.slogan: Textbook Mathematics ...
+  introduction.part2.headline: What can I expect here?
+
+  logarithms.logarithmicInequalities: Logarithmic Inequalities
+  logarithms.logarithmicInequalities.introduction.head1: What can I expect?

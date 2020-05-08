@@ -1,0 +1,50 @@
+<!--======= BOOK INTRODUCTION SLIDE =========-->
+<section class="home-slider">
+    <div class="tp-banner-container">
+        <div class="tp-banner">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="800" data-saveperformance="on">
+                    <!-- MAIN IMAGE -->
+                    {% image '@AppBundle/Resources/public/images/textBook/slider/banner-math1.jpg' %}
+                    <img src="{{ asset_url }}" alt="home-2-slider" data-bgposition="center top" data-bgfit="cover"
+                         data-bgrepeat="no-repeat">
+                    {% endimage %}
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption sfb tp-resizeme"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="-30"
+                         data-speed="1000"
+                         data-start="2000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="chars"
+                         data-splitout="none"
+                         data-elementdelay="0.07"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 5; font-size:40px; color: white;font-weight: bold; max-width: auto; max-height: auto; white-space: nowrap;">
+                        {{ 'slider.textBook.motto_part1'|trans }}
+                    </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption sfb tp-resizeme"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="40"
+                         data-speed="1000"
+                         data-start="5000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="chars"
+                         data-splitout="none"
+                         data-elementdelay="0.07"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 5; font-size:28px; color: white;font-weight: bold; max-width: auto; max-height: auto; white-space: nowrap;">
+                        {{ 'slider.textBook.motto_part2'|trans }}
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

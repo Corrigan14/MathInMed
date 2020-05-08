@@ -1,0 +1,37 @@
+{% extends "AppBundle::layout.html.twig" %}
+
+{% block content %}
+    {% include 'AppBundle:Textbook/Includes:leftNavbar.html.twig' %}
+
+    <main class="cd-main-content">
+        {% include 'AppBundle:Textbook:Includes/slider.html.twig' %}
+
+        <div id="content">
+            {#MAIN HEADING#}
+            <section id="entry-chapter-text" class="padding-top-80">
+                <div class="container">
+                    <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
+                        <h3>{{ 'left_navbar.textBook.logarithms.inequalities'|trans }}</h3>
+                        <hr class="color">
+                    </div>
+                </div>
+            </section>
+
+            {#INTRODUCTION#}
+            {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Includes/introduction.html.twig' %}
+
+
+            {#NEXT CHAPTER: DOCTORS VIEW#}
+            <section class="blog padding-top-80 padding-bottom-80 border-top">
+                <div class="container">
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        <a href="#" class="btn btn-med btn-color">
+                            {{ 'basic_words.problem1'|trans }}
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+{% endblock %}
