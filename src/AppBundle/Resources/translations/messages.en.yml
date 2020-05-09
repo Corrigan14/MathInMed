@@ -1026,4 +1026,20 @@ textBook:
   introduction.part2.headline: What can I expect here?
 
   logarithms.logarithmicInequalities: Logarithmic Inequalities
+
   logarithms.logarithmicInequalities.introduction.head1: What can I expect?
+  logarithms.logarithmicInequalities.introduction.text1: Four types of logarithmic inequalities
+  logarithms.logarithmicInequalities.introduction.text1-1: o comparison of a logarithm and a number
+  logarithms.logarithmicInequalities.introduction.text1-2: o comparison of two logarithms
+  logarithms.logarithmicInequalities.introduction.text1-4: o composition of functions
+  logarithms.logarithmicInequalities.introduction.text1-3: o comparison of a logarithmic and a non-logarithmic function
+  logarithms.logarithmicInequalities.introduction.text1-5: o logarithms with different basis
+  logarithms.logarithmicInequalities.introduction.text1-6: o problems, which just use logarithmic inequalities
+  logarithms.logarithmicInequalities.introduction.text2: Challenging questions
+  logarithms.logarithmicInequalities.introduction.text3: Different solutions
+  logarithms.logarithmicInequalities.introduction.text4: Deep explanation of used procedures
+
+  logarithms.logarithmicInequalities.introduction.head2: What shoul I do?
+  logarithms.logarithmicInequalities.introduction.head3: What is my reward?
+  logarithms.logarithmicInequalities.introduction.head4: How should I start?
+
