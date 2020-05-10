@@ -1,3 +1,6 @@
+{#<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>#}
+{#<script src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js" id="MathJax-script" async ></script>#}
+
 <section id="logarithmicInequalitiesIntroduction">
     <div class="container both-sides-text-alignment">
 
@@ -14,7 +17,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4 relative margin-top-20">
+            <div class="col-md-4 relative margin-top-10">
                 <p>
                     <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text1'|trans }}</b>
                 </p>
@@ -26,19 +29,19 @@
                     <p>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-5'|trans }}</p>
                     <p>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-6'|trans }}</p>
                 </div>
-                <p class="margin-top-30">
+                <p class="margin-top-20">
                     <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text2'|trans }}</b>
                 </p>
-                <p class="margin-top-30">
+                <p class="margin-top-20">
                     <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text3'|trans }}</b>
                 </p>
-                <p class="margin-top-30">
+                <p class="margin-top-20">
                     <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text4'|trans }}</b>
                 </p>
             </div>
 
             {# FOUR TYPES OF LI #}
-            <div class="col-md-8 margin-top-20 text-right">
+            <div class="col-md-8 margin-top-10 text-right">
                 {% image '@AppBundle/Resources/public/images/textBook/logarithms/inequalities/introduction.gif' %}
                     <img src="{{ asset_url }}" alt="Logarithmic Inequalities - content MAP" class="img-responsive max-width-100-percent" >
                 {% endimage %}
@@ -79,6 +82,30 @@
                     </h6>
                 </div>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 relative margin-top-10">
+                <p>
+                    <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text5'|trans }}</b>
+                </p>
+            </div>
+
+            <div class="col-md-12 margin-top-20 text-center">
+                {% image '@AppBundle/Resources/public/images/textBook/logarithms/inequalities/Content-map.png' %}
+                    <img src="{{ asset_url }}" alt="Logarithmic Inequalities - content MAP" class="img-responsive max-width-100-percent" >
+                {% endimage %}
+
+                {#INTRODUCTION#}
+                {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Includes/contentMap.html.twig' %}
+
+
+                <iframe src ="https://www.youtube.com/watch?v=V3-zQA2qjLs" width = "555" height = "200">
+                    Sorry your browser does not support inline frames.
+                </iframe>
+
+            </div>
+
+
         </div>
 
     </div>

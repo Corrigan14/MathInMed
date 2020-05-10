@@ -157,4 +157,10 @@
         '@AppBundle/Resources/public/templateEvanto/js/zap.js' %}
         <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
+
+    <!-- MATH FORMULAS: MATH-JAX SCRIPTS  -->
+    {% javascripts
+        '@AppBundle/Resources/public/mathJax/es5/tex-chtml.js' %}
+        <script id="MathJax-script" async src="{{ asset_url }}"></script>
+    {% endjavascripts %}
 {% endblock %}
