@@ -7,4 +7,7 @@ Assets:
 php bin/console assets:install 
 php bin/console assetic:dump --env=prod --no-debug
 
+MatModule:
+mathJax
+
 

@@ -1,4 +1,48 @@
-<div class="col-md-12 margin-top-20 text-center">
-    <p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-        $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p>
+{#<div class="col-md-12 margin-top-40 text-center">#}
+    {#<p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are#}
+        {#$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$#}
+    {#</p>#}
+{#</div>#}
+
+<div class="row margin-top-10 margin-bottom-40">
+    <div class="text-center col-md-12">
+        <a
+                href="{{ path('app_textbook_logarithms_inequalities_introduction') }}"
+                class="btn btn-x-large gray-border radius"
+        >
+            {{ 'textBook.logarithms.logarithmicInequalities'|trans }}
+        </a>
+    </div>
+</div>
+
+<div class="row  margin-bottom-20">
+    <div class="text-center col-md-3">
+        <p class="btn btn-x-large gray-border radius btn-inactive-gray btn-small-padding btn-width-100-percent">
+            {{ 'basic_words.group1'|trans }}
+            <br />
+            <span class="text-lowercase">$$\log_{a}x < b$$</span>
+        </p>
+    </div>
+    <div class="text-center col-md-3">
+        <p class="btn btn-x-large gray-border radius btn-inactive-gray btn-small-padding btn-width-100-percent">
+            {{ 'basic_words.group2'|trans }}
+            <br />
+            <span class="text-lowercase">$$\log_{a}f(x) < \log_{a}g(x)$$</span>
+        </p>
+    </div>
+    <div class="text-center col-md-3">
+        <p class="btn btn-x-large gray-border radius btn-inactive-gray btn-small-padding btn-width-100-percent">
+            {{ 'basic_words.group3'|trans }}
+            <br />
+            <span class="text-lowercase">$$\log_{a}f(x) < \log_{b}g(x) + h(x)$$</span>
+        </p>
+    </div>
+    <div class="text-center col-md-3">
+        <p class="btn btn-x-large gray-border radius btn-inactive-gray btn-small-padding btn-width-100-percent">
+            {{ 'basic_words.group4'|trans }}
+            <br />
+            <span class="text-lowercase" >$$\log_{a}f(x)$$</span>
+            <span class="text-lowercase text-normal">{{ 'basic_words.inContext'|trans }}</span>
+        </p>
+    </div>
 </div>

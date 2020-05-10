@@ -47,6 +47,13 @@ basic_words:
   problem1: problem I
   problem1: problem II
   problem1: problem III
+  group: group
+  group1: Group I
+  group2: Group II
+  group3: Group III
+  group4: Group IV
+  bonus: Bonus
+  inContext: in context
 
 main_navbar:
   about: About
@@ -1026,6 +1033,7 @@ textBook:
   introduction.part2.headline: What can I expect here?
 
   logarithms.logarithmicInequalities: Logarithmic Inequalities
+  logarithms.logarithmicInequalities.map.text1: Logarithmic Inequalities
 
   logarithms.logarithmicInequalities.introduction.head1: What can I expect?
   logarithms.logarithmicInequalities.introduction.text1: Four types of logarithmic inequalities
@@ -1040,7 +1048,13 @@ textBook:
   logarithms.logarithmicInequalities.introduction.text4: Deep explanation of used procedures
 
   logarithms.logarithmicInequalities.introduction.head2: What shoul I do?
-  logarithms.logarithmicInequalities.introduction.text5: Just choose a problem you are interested in. If you do not know, start with the first one from the first group :)
+  logarithms.logarithmicInequalities.introduction.text5: Follow the content map below, choose problem you are interested in. If you do not know, start with the first one from the first group :)
+  logarithms.logarithmicInequalities.introduction.text6-1: THINK, THINK, THINK!
+  logarithms.logarithmicInequalities.introduction.text6-2: Think about everything what you read/watch! That is the only way how to build the knowledge :)
+  logarithms.logarithmicInequalities.introduction.text7-1: CHALLENGE YOURSELF
+  logarithms.logarithmicInequalities.introduction.text7-2: Always try to understand! If there is something you do not understand, think about it first. Later, search for the explanation.
+  logarithms.logarithmicInequalities.introduction.text8-1: CHALLENGE EVERY PROCEDURE
+  logarithms.logarithmicInequalities.introduction.text8-2: Always ask yourself, does this procedure work also under changed conditions??? If no, why?
 
   logarithms.logarithmicInequalities.introduction.head3: What is my reward?
   logarithms.logarithmicInequalities.introduction.head4: How should I start?
