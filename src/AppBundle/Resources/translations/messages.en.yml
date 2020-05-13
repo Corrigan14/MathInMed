@@ -1026,6 +1026,8 @@ researcher:
   materials.author.citation2: Stephen Ball
 
 textBook:
+  basic_words.logarithm: Logarithm
+
   introduction.nextPage: Logarithmic Inequalities
   introduction.part1.slogan: Explore, Discover, Understand, Enjoy :)
   introduction.part1.headline: Should I join this course?
@@ -1048,7 +1050,6 @@ textBook:
   logarithms.logarithmicInequalities.introduction.text4: Deep explanation of used procedures
 
   logarithms.logarithmicInequalities.introduction.head2: What shoul I do?
-  logarithms.logarithmicInequalities.introduction.text5: Follow the content map below, choose problem you are interested in. If you do not know, start with the first one from the first group :)
   logarithms.logarithmicInequalities.introduction.text6-1: THINK, THINK, THINK!
   logarithms.logarithmicInequalities.introduction.text6-2: Think about everything what you read/watch! That is the only way how to build the knowledge :)
   logarithms.logarithmicInequalities.introduction.text7-1: CHALLENGE YOURSELF
@@ -1057,5 +1058,7 @@ textBook:
   logarithms.logarithmicInequalities.introduction.text8-2: Always ask yourself, does this procedure work also under changed conditions??? If no, why?
 
   logarithms.logarithmicInequalities.introduction.head3: What is my reward?
+
   logarithms.logarithmicInequalities.introduction.head4: How should I start?
+  logarithms.logarithmicInequalities.introduction.text5: Follow the content map below and choose problem you are interested in. If you do not know, start with the first one from the first group :)
 

@@ -18764,6 +18764,22 @@ blockquote cite {
     max-width: 100%;
 }
 
+.btn-inactive-gray{
+    cursor: default;
+    background: #ececec !important;
+
+}
+.btn-width-100-percent{
+    width: 100%;
+}
+.btn-small-padding{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.line-height-3{
+    line-height: 3.5;
+}
+
 /* On screens that are 600px or less */
 @media screen and (max-width: 600px) {
     .hide-picture-element-mobile {
