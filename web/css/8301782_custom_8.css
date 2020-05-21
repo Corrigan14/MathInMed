@@ -234,7 +234,7 @@
     padding-right: 30px !important;
 }
 .line-height-3{
-    line-height: 3.5;
+    line-height: 3;
 }
 
 .btn-small-padding-15{
@@ -259,8 +259,28 @@
     line-height: 3.7;
 }
 
+.line-height-35 {
+    line-height: 35px;
+}
+
+.line-height-25 {
+    line-height: 25px;
+}
+
 .btn-height-50{
     height: 50px !important;
+}
+
+.btn-height-100{
+    height: 100px !important;
+}
+
+.btn-height-120{
+    height: 120px !important;
+}
+
+.orange-background{
+    background: #eeb013 !important;
 }
 
 /* On screens that are 600px or less */
