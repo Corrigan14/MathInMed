@@ -218,6 +218,18 @@
     max-width: 100%;
 }
 
+.max-width-80-percent{
+    max-width: 80%;
+}
+
+.max-width-75-percent{
+    max-width: 75%;
+}
+
+.max-width-40-percent{
+    max-width: 40%;
+}
+
 .btn-inactive-gray {
     cursor: default;
     background: #ececec !important;

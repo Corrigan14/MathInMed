@@ -55,6 +55,7 @@ basic_words:
   bonus: Bonus
   inContext: in context
   letsStart: Let's start
+  welcome: Welcome
 
 main_navbar:
   about: About

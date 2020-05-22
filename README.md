@@ -3,6 +3,14 @@ mathinmed
 
 A Symfony project created on April 10, 2017, 2:56 am.
 
+Assetic:
+# make a hard copy 
+php bin/console assetic:dump
+
+# listener 
+php bin/console assetic:watch
+
+
 Assets:
 # make a hard copy of the assets in web/
 $ php bin/console assets:install

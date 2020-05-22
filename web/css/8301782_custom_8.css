@@ -218,26 +218,38 @@
     max-width: 100%;
 }
 
-.btn-inactive-gray{
+.max-width-80-percent{
+    max-width: 80%;
+}
+
+.max-width-75-percent{
+    max-width: 75%;
+}
+
+.max-width-40-percent{
+    max-width: 40%;
+}
+
+.btn-inactive-gray {
     cursor: default;
     background: #ececec !important;
 }
+
 .btn-inactive-orange {
     cursor: default;
     background: #eeb013 !important;
 }
-.btn-width-100-percent{
+
+.btn-width-100-percent {
     width: 100%;
 }
-.btn-small-padding{
+
+.btn-small-padding {
     padding-left: 30px !important;
     padding-right: 30px !important;
 }
-.line-height-3{
-    line-height: 3;
-}
 
-.btn-small-padding-15{
+.btn-small-padding-15 {
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
@@ -255,7 +267,7 @@
     background-color: #eeb013 !important;
 }
 
-.line-height-3-7{
+.line-height-3-7 {
     line-height: 3.7;
 }
 
