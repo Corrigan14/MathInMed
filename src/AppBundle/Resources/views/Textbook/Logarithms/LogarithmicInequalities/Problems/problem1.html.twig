@@ -1,0 +1,120 @@
+{% extends "AppBundle::layout.html.twig" %}
+
+{% block content %}
+    {% include 'AppBundle:Textbook/Includes:leftNavbar.html.twig' %}
+
+    <main class="cd-main-content">
+        {% include 'AppBundle:Textbook:Includes/slider.html.twig' %}
+
+        <div id="content">
+            {#MAIN HEADING#}
+            <section id="entry-chapter-text" class="padding-top-80">
+                <div class="container">
+                    <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
+                        <h3 class="margin-bottom-0">
+                            {{ 'left_navbar.textBook.logarithms.inequalities'|trans }}:
+                            {{ 'basic_words.problem1'|trans }}
+                            <span class="text-lowercase equation-header-h3"><b>$$\log_{\frac{1}{4}}x < 1 $$</b></span>
+                        </h3>
+                        <hr class="color margin-top-0" >
+                    </div>
+                </div>
+            </section>
+
+            {#PROBLEM 1#}
+            <section id="logarithmicInequalitiesIntroduction">
+                <div class="container both-sides-text-alignment margin-bottom-20">
+
+                    {# WELCOME - WHAT SHOULD I DO? #}
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="list-heading uppercase-transform">
+                                <h6>
+                                    {{ 'basic_words.welcome'|trans }}! FOUR STEPS
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {# UNDERSTAND THE PROBLEM #}
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="list-heading uppercase-transform">
+                                <h6>
+                                    <span>I. </span>
+                                    {{ 'textBook.logarithms.logarithmicInequalities.introduction.head1'|trans }}
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {# ANALYZE SOLUTIONS #}
+                    <div class="row margin-top-20">
+                        <div class="col-md-12">
+                            <div class="list-heading uppercase-transform">
+                                <h6>
+                                    <span>II. </span>
+                                    {{ 'textBook.logarithms.logarithmicInequalities.introduction.head2'|trans }}
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {# SOLVE THE PROBLEM #}
+                    <div class="row ">
+                        <div class="col-md-12">
+                            <div class="list-heading uppercase-transform">
+                                <h6>
+                                    <span>III. </span>
+                                    {{ 'textBook.logarithms.logarithmicInequalities.introduction.head3'|trans }}
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {# CHALLENGE USED PROCEDURE #}
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="list-heading uppercase-transform">
+                                <h6>
+                                    <span>IV. </span>
+                                    {{ 'textBook.logarithms.logarithmicInequalities.introduction.head4'|trans }}
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            {# FOOT: NAVIGATION #}
+            <section class="blog padding-top-80 padding-bottom-80 border-top">
+                <div class="container">
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        {#NEXT CHAPTER: BACK TO THE CONTENT MAP#}
+                        <a
+                                href="{{ path('app_textbook_logarithms_inequalities_introduction') }}#LogarithmicInequalitiesContentMap"
+                                class="btn btn-med btn-color"
+                        >
+                            {{ 'basic_words.back-to-contentMap'|trans }}
+                        </a>
+
+                        {#NEXT CHAPTER: problem 2#}
+                        <a
+                                href="#"
+                                class="btn btn-med btn-color"
+                        >
+                            {{ 'basic_words.next-problem'|trans }}: {{ 'basic_words.problem'|trans }} II
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+{% endblock %}

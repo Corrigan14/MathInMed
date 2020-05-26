@@ -21,4 +21,15 @@ class LogarithmsController extends Controller
     {
         return [];
     }
+
+    /**
+     * @Template("@App/Textbook/Logarithms/LogarithmicInequalities/Problems/problem1.html.twig")
+     *
+     * @param string|boolean $locale
+     * @return array
+     */
+    public function logarithmicInequalitiesProblem1Action($locale = false): array
+    {
+        return [];
+    }
 }

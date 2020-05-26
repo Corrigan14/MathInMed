@@ -18841,6 +18841,13 @@ blockquote cite {
     background: #eeb013 !important;
 }
 
+/* Equations */
+.equation-header-h3{
+    font-size: 25px !important;
+    color: black !important;
+    line-height: 0.5 !important;
+}
+
 /* On screens that are 600px or less */
 @media screen and (max-width: 600px) {
     .hide-picture-element-mobile {

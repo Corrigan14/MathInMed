@@ -44,9 +44,10 @@ basic_words:
   older-projects: Older projects...
   key-words: Key words
   contributors: Contributors
+  problem: problem
   problem1: problem I
-  problem1: problem II
-  problem1: problem III
+  problem2: problem II
+  problem3: problem III
   group: group
   group1: Group I
   group2: Group II
@@ -56,6 +57,8 @@ basic_words:
   inContext: in context
   letsStart: Let's start
   welcome: Welcome
+  back-to-contentMap: Back to the Content Map
+  next-problem: Next problem
 
 main_navbar:
   about: About
@@ -1063,8 +1066,8 @@ textBook:
   logarithms.logarithmicInequalities.introduction.text9: Deep understanding of used procedures
   logarithms.logarithmicInequalities.introduction.text10: Ability to apply your knowledge into different topics (e.g Goniometric inequalities)
   logarithms.logarithmicInequalities.introduction.text11-1: Ability to solve (ideally
-  logarithms.logarithmicInequalities.introduction.text11-2: every logarithmic inequality from your textbook
-  logarithms.logarithmicInequalities.introduction.text12: Great feeling as a reward for hard work
+  logarithms.logarithmicInequalities.introduction.text11-2: every logarithmic inequality from different textbooks
+  logarithms.logarithmicInequalities.introduction.text12: Great feeling as a reward for your hard work
 
   logarithms.logarithmicInequalities.introduction.head4: How should I start?
   logarithms.logarithmicInequalities.introduction.text5: Follow the content map below and choose problem you are interested in. If you do not know, start with the first one from the first group :)
