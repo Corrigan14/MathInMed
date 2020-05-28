@@ -1080,6 +1080,21 @@ textBook:
   logarithms.logarithmicInequalities.introduction.head4: How should I start?
   logarithms.logarithmicInequalities.introduction.text5: Follow the content map below and choose problem you are interested in. If you do not know, start with the first one from the first group :)
 
+  logarithms.logarithmicInequalities.problem1-gorup1-text1-1: Find such
+  logarithms.logarithmicInequalities.problem1-gorup1-text1-2: values of x
+  logarithms.logarithmicInequalities.problem1-gorup1-text1-3: where the inequality is satisfied
+  logarithms.logarithmicInequalities.problem1-gorup1-text1-4: What if I put number 1
+  logarithms.logarithmicInequalities.problem1-gorup1-text1-5: insted of x
+  logarithms.logarithmicInequalities.problem1-gorup1-text1-6: into my inequality. Is the inequality sattisfied?
+  logarithms.logarithmicInequalities.problem1-gorup1-text1-7: What if I decide for a number 1/4. Is the inequality sattisfied?
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-1: Mathematically
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-2: When is the
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-3: logarithmic function
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-4: (logarithm to base 1/4 of x) less than 1?
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-5: When are
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-6: the functional values of the logarithmic function
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-7: less than value 1?
+
   logarithms.logarithmicInequalities.problem1-gorup4-text1: Find the Domain
   logarithms.logarithmicInequalities.problem1-gorup4-text2: of a
   logarithms.logarithmicInequalities.problem1-gorup4-text3: Function

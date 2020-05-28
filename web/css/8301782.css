@@ -18849,11 +18849,35 @@ blockquote cite {
     background: rgba(0, 0, 0, 0.3);
 }
 
+.fa-orange{
+    color: #eeb013 !important;
+}
+
+.font-13px{
+    font-size: 13px !important;
+}
+
+.font-1-2em{
+    font-size: 1.2em !important;
+}
+
+.font-1-3em{
+    font-size: 1.3em !important;
+}
+
+.font-1-5em{
+    font-size: 1.5em !important;
+}
+
 /* Equations */
 .equation-header-h3{
     font-size: 25px !important;
     color: black !important;
     line-height: 0.5 !important;
+}
+.equation-p-medium{
+    font-size: 19px !important;
+    line-height: 0.3 !important;
 }
 
 /* On screens that are 600px or less */
