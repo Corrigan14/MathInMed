@@ -18841,6 +18841,14 @@ blockquote cite {
     background: #eeb013 !important;
 }
 
+.transparent-bcg{
+    background: rgba(0, 0, 0, 0.25) !important;
+}
+
+.transparent-bcg-0-2{
+    background: rgba(0, 0, 0, 0.3);
+}
+
 /* Equations */
 .equation-header-h3{
     font-size: 25px !important;

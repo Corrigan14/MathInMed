@@ -25,25 +25,27 @@
             <section id="logarithmicInequalitiesIntroduction">
                 <div class="container both-sides-text-alignment margin-bottom-20">
 
-                    {# WELCOME - WHAT SHOULD I DO? #}
+                    {# WELCOME + WHAT SHOULD I DO? #}
                     <div class="row">
                         <div class="col-md-12">
                             <div class="list-heading uppercase-transform">
                                 <h6>
-                                    {{ 'basic_words.welcome'|trans }}! FOUR STEPS
+                                    {{ 'basic_words.welcome'|trans }}!
                                 </h6>
                             </div>
                         </div>
                     </div>
+                    {# STEPS TO SOLVE ANY PROBLEM #}
+                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/solutionSteps.html.twig' %}
 
 
                     {# UNDERSTAND THE PROBLEM #}
-                    <div class="row">
+                    <div class="row" id="understandTheProblem">
                         <div class="col-md-12">
                             <div class="list-heading uppercase-transform">
                                 <h6>
                                     <span>I. </span>
-                                    {{ 'textBook.logarithms.logarithmicInequalities.introduction.head1'|trans }}
+                                    {{ 'textBook.basic_words.solutionSteps.step1'|trans }}
                                 </h6>
                             </div>
                         </div>
@@ -51,12 +53,12 @@
 
 
                     {# ANALYZE SOLUTIONS #}
-                    <div class="row margin-top-20">
+                    <div class="row margin-top-20" id="analyzeSolutions">
                         <div class="col-md-12">
                             <div class="list-heading uppercase-transform">
                                 <h6>
                                     <span>II. </span>
-                                    {{ 'textBook.logarithms.logarithmicInequalities.introduction.head2'|trans }}
+                                    {{ 'textBook.basic_words.solutionSteps.step2'|trans }}
                                 </h6>
                             </div>
                         </div>
@@ -64,12 +66,12 @@
 
 
                     {# SOLVE THE PROBLEM #}
-                    <div class="row ">
+                    <div class="row" id="findSolution">
                         <div class="col-md-12">
                             <div class="list-heading uppercase-transform">
                                 <h6>
                                     <span>III. </span>
-                                    {{ 'textBook.logarithms.logarithmicInequalities.introduction.head3'|trans }}
+                                    {{ 'textBook.basic_words.solutionSteps.step3'|trans }}
                                 </h6>
                             </div>
                         </div>
@@ -77,12 +79,12 @@
 
 
                     {# CHALLENGE USED PROCEDURE #}
-                    <div class="row">
+                    <div class="row" id="searchForLimitations">
                         <div class="col-md-12">
                             <div class="list-heading uppercase-transform">
                                 <h6>
                                     <span>IV. </span>
-                                    {{ 'textBook.logarithms.logarithmicInequalities.introduction.head4'|trans }}
+                                    {{ 'textBook.basic_words.solutionSteps.step4'|trans }}
                                 </h6>
                             </div>
                         </div>

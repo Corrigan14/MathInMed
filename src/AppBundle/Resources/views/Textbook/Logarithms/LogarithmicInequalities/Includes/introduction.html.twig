@@ -13,8 +13,14 @@
         </div>
         <div class="row">
             <div class="col-md-12 margin-top-10 text-center margin-bottom-30">
-                <video id="videoIntroductionLI" class="text-center max-width-40-percent" onplaying="resizeVideo('videoIntroductionLI')" controls >
-                    <source src="{{ asset('videos/textBook/logarithms/inequalities/introduction/01-LI-Introduction.mp4') }}" type="video/mp4">
+                <video
+                        id="videoIntroductionLI" class="text-center max-width-40-percent"
+                        onplaying="resizeVideo('videoIntroductionLI')" controls
+                >
+                    <source
+                            src="{{ asset('videos/textBook/logarithms/inequalities/introduction/01-LI-Introduction.mp4') }}"
+                            type="video/mp4"
+                    >
                 </video>
             </div>
         </div>
@@ -34,26 +40,23 @@
 
         <div class="row">
             <div class="col-md-4 relative margin-top-10">
-                <p>
-                    <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text1'|trans }}</b>
-                </p>
-                <div class="margin-left-20">
-                    <p>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-1'|trans }}</p>
-                    <p>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-2'|trans }}</p>
-                    <p>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-3'|trans }}</p>
-                    <p>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-4'|trans }}</p>
-                    <p>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-5'|trans }}</p>
-                    <p>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-6'|trans }}</p>
-                </div>
-                <p class="margin-top-20">
-                    <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text2'|trans }}</b>
-                </p>
-                <p class="margin-top-20">
-                    <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text3'|trans }}</b>
-                </p>
-                <p class="margin-top-20">
-                    <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text4'|trans }}</b>
-                </p>
+                <section>
+                    <!--======= List With Icons =========-->
+                    <ul class="list-style list-w-bullets check text-uppercase">
+                        <li class="padding-bottom-0">
+                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.text1'|trans }}
+                                <p class="margin-bottom-5 margin-top-5"> - {{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-1'|trans }}</p>
+                                <p class="margin-bottom-5"> - {{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-2'|trans }}</p>
+                                <p class="margin-bottom-5"> - {{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-3'|trans }}</p>
+                                <p class="margin-bottom-5"> - {{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-4'|trans }}</p>
+                                <p class="margin-bottom-5"> - {{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-5'|trans }}</p>
+                                <p class="margin-bottom-5"> - {{ 'textBook.logarithms.logarithmicInequalities.introduction.text1-6'|trans }}</p>
+                        </li>
+                        <li>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text2'|trans }}</li>
+                        <li>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text3'|trans }}</li>
+                        <li>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text4'|trans }}</li>
+                    </ul>
+                </section>
             </div>
 
             {# FOUR TYPES OF LI #}

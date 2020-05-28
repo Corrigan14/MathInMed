@@ -1032,6 +1032,14 @@ researcher:
 
 textBook:
   basic_words.logarithm: Logarithm
+  basic_words.solutionSteps.step1: Understand The Problem
+  basic_words.solutionSteps.step2: Analyze Possible Solutions
+  basic_words.solutionSteps.step3: Solve the Problem
+  basic_words.solutionSteps.step4: Challenge Your Solutions
+  basic_words.solutionSteps.step1-text1: Think about the problem. What exactly is the problem "asking"?
+  basic_words.solutionSteps.step2-text1: Think about the different ways how we to solve the problem.
+  basic_words.solutionSteps.step3-text1: Use various procedures to solve the problem. Try to understand every step of used procedures.
+  basic_words.solutionSteps.step4-text1: Search for the limitations of used procedures. Do they work under different conditions?
 
   introduction.nextPage: Logarithmic Inequalities
   introduction.part1.slogan: Explore, Discover, Understand, Enjoy :)
@@ -1044,12 +1052,12 @@ textBook:
 
   logarithms.logarithmicInequalities.introduction.head1: What can I expect?
   logarithms.logarithmicInequalities.introduction.text1: Four types of logarithmic inequalities
-  logarithms.logarithmicInequalities.introduction.text1-1: o comparison of a logarithm and a number
-  logarithms.logarithmicInequalities.introduction.text1-2: o comparison of two logarithms
-  logarithms.logarithmicInequalities.introduction.text1-4: o composition of functions
-  logarithms.logarithmicInequalities.introduction.text1-3: o comparison of a logarithmic and a non-logarithmic function
-  logarithms.logarithmicInequalities.introduction.text1-5: o logarithms with different basis
-  logarithms.logarithmicInequalities.introduction.text1-6: o problems, which just use logarithmic inequalities
+  logarithms.logarithmicInequalities.introduction.text1-1: comparison of a logarithm and a number
+  logarithms.logarithmicInequalities.introduction.text1-2: comparison of two logarithms
+  logarithms.logarithmicInequalities.introduction.text1-4: composition of functions
+  logarithms.logarithmicInequalities.introduction.text1-3: comparison of a logarithmic and a non-logarithmic function
+  logarithms.logarithmicInequalities.introduction.text1-5: logarithms with different basis
+  logarithms.logarithmicInequalities.introduction.text1-6: problems, which just use logarithmic inequalities
   logarithms.logarithmicInequalities.introduction.text2: Challenging questions
   logarithms.logarithmicInequalities.introduction.text3: Different solutions
   logarithms.logarithmicInequalities.introduction.text4: Deep explanation of used procedures
