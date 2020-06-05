@@ -59,6 +59,8 @@ basic_words:
   welcome: Welcome
   back-to-contentMap: Back to the Content Map
   next-problem: Next problem
+  shortcuts: Shortcuts used in the text
+  what-shoul-I-do: What shoul I do
 
 main_navbar:
   about: About
@@ -1032,6 +1034,9 @@ researcher:
 
 textBook:
   basic_words.logarithm: Logarithm
+  basic_words.solution: solution
+  basic_words.questionmark: Question for you. You can find the answer in a video.
+  basic_words.bug: Statement to think about. It will be discussed further.
   basic_words.solutionSteps.step1: Understand The Problem
   basic_words.solutionSteps.step2: Analyze Possible Solutions
   basic_words.solutionSteps.step3: Solve the Problem
@@ -1087,13 +1092,26 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-text1-5: insted of x
   logarithms.logarithmicInequalities.problem1-gorup1-text1-6: into my inequality. Is the inequality sattisfied?
   logarithms.logarithmicInequalities.problem1-gorup1-text1-7: What if I decide for a number 1/4. Is the inequality sattisfied?
-  logarithms.logarithmicInequalities.problem1-gorup1-text2-1: Mathematically
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-1: Mathematical explanation
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-1-2: function behind the inequality
   logarithms.logarithmicInequalities.problem1-gorup1-text2-2: When is the
   logarithms.logarithmicInequalities.problem1-gorup1-text2-3: logarithmic function
   logarithms.logarithmicInequalities.problem1-gorup1-text2-4: (logarithm to base 1/4 of x) less than 1?
   logarithms.logarithmicInequalities.problem1-gorup1-text2-5: When are
-  logarithms.logarithmicInequalities.problem1-gorup1-text2-6: the functional values of the logarithmic function
-  logarithms.logarithmicInequalities.problem1-gorup1-text2-7: less than value 1?
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-6: the functional
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-7: of
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-8: the logarithmic function
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-9: (logarithm to base 1/4 of x)
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-10: less than
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-11: value
+  logarithms.logarithmicInequalities.problem1-gorup1-text3-1: Graph
+  logarithms.logarithmicInequalities.problem1-gorup1-text3-2: based
+  logarithms.logarithmicInequalities.problem1-gorup1-text3-3: Imagine, that you have a graph of a logarithmic function.
+  logarithms.logarithmicInequalities.problem1-gorup1-text3-4: Can you decide when are the functional values of that logarithmic function less than value 1?
+  logarithms.logarithmicInequalities.problem1-gorup1-text4-1: Algebra
+  logarithms.logarithmicInequalities.problem1-gorup1-text4-2: based
+  logarithms.logarithmicInequalities.problem1-gorup1-text4-3: Substitute number 1 from the right side of our inequality by logarithm.
+  logarithms.logarithmicInequalities.problem1-gorup1-text4-4: When and why can we work with the new inequlity just without logarithms?
 
   logarithms.logarithmicInequalities.problem1-gorup4-text1: Find the Domain
   logarithms.logarithmicInequalities.problem1-gorup4-text2: of a

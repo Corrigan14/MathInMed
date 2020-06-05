@@ -1,3 +1,13 @@
+/*-----------------------------------------------------------------------------------*/
+/*	INITIALISATION OF A TOOLTIP
+ /*-----------------------------------------------------------------------------------*/
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+});
+
+/*-----------------------------------------------------------------------------------*/
+/*	CUSTOM TOGGLES
+ /*-----------------------------------------------------------------------------------*/
 function toggleAnswer(param) {
     var $answerId = '#answer' + param;
     $($answerId).toggle(1000);
@@ -14,8 +24,13 @@ function toggleTable(param) {
 }
 
 function toggleText(param) {
-    var $tableId = '#text' + param;
-    $($tableId).toggle(1000);
+    var $textId = '#text' + param;
+    $($textId).toggle(1000);
+}
+
+function toggleUniversal(param) {
+    var $textId = '#' + param;
+    $($textId).toggle(1000);
 }
 
 function toggleMoreInformation(param) {
@@ -76,7 +91,6 @@ jQuery(document).ready(function () {
         $owmenu.removeClass('white-navbar');
     }
 });
-
 
 /*-----------------------------------------------------------------------------------*/
 /*	VIDEO
