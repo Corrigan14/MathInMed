@@ -18883,6 +18883,10 @@ blockquote cite {
     font-size: 19px !important;
     line-height: 0.3 !important;
 }
+.equation-p-small{
+    font-size: 16px !important;
+    line-height: 0.2 !important;
+}
 
 /* Smart Video */
 .smart-player-embed-container {
@@ -18903,6 +18907,10 @@ blockquote cite {
     height: 100%;
     max-width: 1920px;
     max-height: 1080px;
+}
+
+.list-with-numbers li {
+    padding: 15px 0 !important;
 }
 
 @media screen and ( max-height: 1080px )

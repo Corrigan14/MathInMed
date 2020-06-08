@@ -1037,6 +1037,7 @@ textBook:
   basic_words.solution: solution
   basic_words.questionmark: Question for you. You can find the answer in a video.
   basic_words.bug: Statement to think about. It will be discussed further.
+  basic_words.help: Helper.
   basic_words.solutionSteps.step1: Understand The Problem
   basic_words.solutionSteps.step2: Analyze Possible Solutions
   basic_words.solutionSteps.step3: Solve the Problem
@@ -1045,6 +1046,7 @@ textBook:
   basic_words.solutionSteps.step2-text1: Think about the different ways how we to solve the problem.
   basic_words.solutionSteps.step3-text1: Use various procedures to solve the problem. Try to understand every step of used procedures.
   basic_words.solutionSteps.step4-text1: Search for the limitations of used procedures. Do they work under different conditions?
+  basic_words.geogebra: GeoGebra
 
   introduction.nextPage: Logarithmic Inequalities
   introduction.part1.slogan: Explore, Discover, Understand, Enjoy :)
@@ -1093,7 +1095,8 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-text1-6: into my inequality. Is the inequality sattisfied?
   logarithms.logarithmicInequalities.problem1-gorup1-text1-7: What if I decide for a number 1/4. Is the inequality sattisfied?
   logarithms.logarithmicInequalities.problem1-gorup1-text2-1: Mathematical explanation
-  logarithms.logarithmicInequalities.problem1-gorup1-text2-1-2: function behind the inequality
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-1-2: function
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-1-3: behind the inequality
   logarithms.logarithmicInequalities.problem1-gorup1-text2-2: When is the
   logarithms.logarithmicInequalities.problem1-gorup1-text2-3: logarithmic function
   logarithms.logarithmicInequalities.problem1-gorup1-text2-4: (logarithm to base 1/4 of x) less than 1?
@@ -1112,6 +1115,19 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-text4-2: based
   logarithms.logarithmicInequalities.problem1-gorup1-text4-3: Substitute number 1 from the right side of our inequality by logarithm.
   logarithms.logarithmicInequalities.problem1-gorup1-text4-4: When and why can we work with the new inequlity just without logarithms?
+  logarithms.logarithmicInequalities.problem1-gorup1-text5-1: Create
+  logarithms.logarithmicInequalities.problem1-gorup1-text5-2: graph
+  logarithms.logarithmicInequalities.problem1-gorup1-text5-3: of our logarithmic function
+  logarithms.logarithmicInequalities.problem1-gorup1-text5-4: Do it by yourself
+  logarithms.logarithmicInequalities.problem1-gorup1-text5-5: Use an onlin editor
+  logarithms.logarithmicInequalities.problem1-gorup1-text6-1: Look at your
+  logarithms.logarithmicInequalities.problem1-gorup1-text6-2: graph
+  logarithms.logarithmicInequalities.problem1-gorup1-text6-3: When are the functional values less than 1
+  logarithms.logarithmicInequalities.problem1-gorup1-text6-4: If we are talking about functional values, we are always talking about values on the y-axis.
+  logarithms.logarithmicInequalities.problem1-gorup1-text7-1: Which x-es can I put into my inequality?
+  logarithms.logarithmicInequalities.problem1-gorup1-text7-2: If we are seraching for the solution of an inequlity, we are searching for x-values.
+  logarithms.logarithmicInequalities.problem1-gorup1-text8-1: Summarize the solution
+  logarithms.logarithmicInequalities.problem1-gorup1-text8-2: solution
 
   logarithms.logarithmicInequalities.problem1-gorup4-text1: Find the Domain
   logarithms.logarithmicInequalities.problem1-gorup4-text2: of a
