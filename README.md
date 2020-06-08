@@ -27,3 +27,19 @@ MatModule:
 mathJax
 
 
+{#More help#}
+<p class="line-height-20">
+	<i>
+		{{ 'textBook.basic_words.need-more-help'|trans }},
+		<a href="https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:log-intro/v/logarithms" target="_blank" class="orange-color">
+			<b>{{ 'textBook.basic_words.this-link-may-help-you'|trans }}</b>
+		</a>
+		{{ 'textBook.basic_words.try-to-google'|trans }}
+		"<b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-4'|trans }}</b>".
+	</i>
+</p>
+
+Surne potrebujem:
+- graf zakladny log fcie
+- 
+

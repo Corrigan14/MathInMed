@@ -1,0 +1,73 @@
+<section id="problem1-teacher-version">
+    <div class="container both-sides-text-alignment margin-bottom-20">
+
+        {# WELCOME + WHAT SHOULD I DO? #}
+        <div class="row">
+            <div class="col-md-12">
+                <div class="list-heading uppercase-transform">
+                    <h6>
+                        {{ 'basic_words.what-shoul-I-do'|trans }}?
+                    </h6>
+                </div>
+            </div>
+        </div>
+        {# STEPS TO SOLVE ANY PROBLEM #}
+        {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/solutionSteps.html.twig' %}
+
+        {# UNDERSTAND THE PROBLEM #}
+        <div class="row margin-top-20" id="understandTheProblem">
+            <div class="col-md-12">
+                <div class="list-heading uppercase-transform">
+                    <h6>
+                        <span>I. </span>
+                        {{ 'textBook.basic_words.solutionSteps.step1'|trans }}
+                    </h6>
+                </div>
+            </div>
+        </div>
+        {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/understand.html.twig' %}
+
+
+        {# ANALYZE SOLUTIONS #}
+        <div class="row margin-top-20" id="analyzeSolutions">
+            <div class="col-md-12">
+                <div class="list-heading uppercase-transform">
+                    <h6>
+                        <span>II. </span>
+                        {{ 'textBook.basic_words.solutionSteps.step2'|trans }}
+                    </h6>
+                </div>
+            </div>
+        </div>
+        {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/analyze.html.twig' %}
+
+
+        {# SOLVE THE PROBLEM #}
+        <div class="row margin-top-20" id="findSolution">
+            <div class="col-md-12">
+                <div class="list-heading uppercase-transform">
+                    <h6>
+                        <span>III. </span>
+                        {{ 'textBook.basic_words.solutionSteps.step3'|trans }}
+                    </h6>
+                </div>
+            </div>
+        </div>
+        {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/solve.html.twig' %}
+
+
+        {# CHALLENGE USED PROCEDURE #}
+        <div class="row margin-top-20" id="searchForLimitations">
+            <div class="col-md-12">
+                <div class="list-heading uppercase-transform margin-bottom-10">
+                    <h6>
+                        <span>IV. </span>
+                        {{ 'textBook.basic_words.solutionSteps.step4'|trans }}
+                    </h6>
+                </div>
+            </div>
+        </div>
+        {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/challenge-procedures.html.twig' %}
+
+    </div>
+</section>

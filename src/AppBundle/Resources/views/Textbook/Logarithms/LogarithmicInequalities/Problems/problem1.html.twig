@@ -10,7 +10,7 @@
             {#MAIN HEADING#}
             <section id="entry-chapter-text" class="padding-top-80">
                 <div class="container">
-                    <div class="heading-block text-center margin-bottom-50" data-wow-delay="0.8s">
+                    <div class="heading-block text-center margin-bottom-0" data-wow-delay="0.8s">
                         <h3 class="margin-bottom-0">
                             {{ 'left_navbar.textBook.logarithms.inequalities'|trans }}:
                             {{ 'basic_words.problem1'|trans }}
@@ -21,79 +21,74 @@
                 </div>
             </section>
 
-            {#PROBLEM 1#}
-            <section id="logarithmicInequalitiesIntroduction">
+            {#PROBLEM 1 - TEACHER VERSION#}
+            {#{% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/teacher-version.html.twig' %}#}
+
+            {#PROBLEM 1 - STUDENT VERSION#}
+            <section id="problem1-student-version">
                 <div class="container both-sides-text-alignment margin-bottom-20">
 
-                    {# WELCOME + WHAT SHOULD I DO? #}
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="list-heading uppercase-transform">
-                                <h6>
-                                   {{ 'basic_words.what-shoul-I-do'|trans }}?
-                                </h6>
+                    {# ANSWER & HELPERS #}
+                    <div class="container">
+                        <div class="heading-block text-center">
+                            <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
+                                 style="width: 170px"
+                                 onclick="toggleUniversal('problem1-answer')"
+                                 data-toggle="tooltip" data-placement="top"
+                                 data-original-title="{{ 'textBook.basic_words.answer-text'|trans }}">
+                                 {{ 'basic_words.answer'|trans }}
                             </div>
+
+                            <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
+                                 style="width: 170px"
+                                 onclick="toggleUniversal('problem1-solution1')"
+                                 data-toggle="tooltip" data-placement="top"
+                                 data-original-title="{{ 'textBook.basic_words.logarithmic-inequalities.solution1.text'|trans }}">
+                                {{ 'basic_words.solution'|trans }} 1
+                            </div>
+
+                            <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
+                                 style="width: 170px"
+                                 onclick="toggleUniversal('problem1-solution2')"
+                                 data-toggle="tooltip" data-placement="top"
+                                 data-original-title="{{ 'textBook.basic_words.logarithmic-inequalities.solution2.text'|trans }}">
+                                 {{ 'basic_words.solution'|trans }} 2
+                            </div>
+
+                            <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
+                                 style="width: 170px"
+                                 onclick="toggleUniversal('problem1-challenge')"
+                                 data-toggle="tooltip" data-placement="top"
+                                 data-original-title="{{ 'textBook.basic_words.challenge-text'|trans }}">
+                                {{ 'textBook.basic_words.challenge'|trans }}
+                            </div>
+
+                            <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
+                                 style="width: 170px"
+                                 onclick="toggleUniversal('problem1-teacher')"
+                                 data-toggle="tooltip" data-placement="top"
+                                 data-original-title="{{ 'textBook.basic_words.for-teachers-text'|trans }}">
+                                {{ 'textBook.basic_words.for-teachers'|trans }}
+                            </div>
+
                         </div>
                     </div>
-                    {# STEPS TO SOLVE ANY PROBLEM #}
-                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/solutionSteps.html.twig' %}
 
-                    {# UNDERSTAND THE PROBLEM #}
-                    <div class="row" id="understandTheProblem">
-                        <div class="col-md-12">
-                            <div class="list-heading uppercase-transform">
-                                <h6>
-                                    <span>I. </span>
-                                    {{ 'textBook.basic_words.solutionSteps.step1'|trans }}
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/understand.html.twig' %}
+                    {# ANSWER #}
+                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-answer.html.twig' %}
 
+                    {# SOLUTION 1 #}
+                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-solution1.html.twig' %}
 
-                    {# ANALYZE SOLUTIONS #}
-                    <div class="row margin-top-20" id="analyzeSolutions">
-                        <div class="col-md-12">
-                            <div class="list-heading uppercase-transform">
-                                <h6>
-                                    <span>II. </span>
-                                    {{ 'textBook.basic_words.solutionSteps.step2'|trans }}
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/analyze.html.twig' %}
+                    {# SOLUTION 2 #}
+                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-solution2.html.twig' %}
 
-
-                    {# SOLVE THE PROBLEM #}
-                    <div class="row" id="findSolution">
-                        <div class="col-md-12">
-                            <div class="list-heading uppercase-transform">
-                                <h6>
-                                    <span>III. </span>
-                                    {{ 'textBook.basic_words.solutionSteps.step3'|trans }}
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/solve.html.twig' %}
-
-
-                    {# CHALLENGE USED PROCEDURE #}
-                    <div class="row" id="searchForLimitations">
-                        <div class="col-md-12">
-                            <div class="list-heading uppercase-transform">
-                                <h6>
-                                    <span>IV. </span>
-                                    {{ 'textBook.basic_words.solutionSteps.step4'|trans }}
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
+                    {# CHALLENGE #}
+                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-challenge.html.twig' %}
 
                 </div>
             </section>
+
 
 
             {# FOOT: NAVIGATION #}
@@ -121,4 +116,8 @@
 
         </div>
     </main>
+{% endblock %}
+
+{% block rightNavigation %}
+    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/rightNavbar.html.twig' %}
 {% endblock %}

@@ -74,6 +74,14 @@
     border-top: 1px solid #ececec;
 }
 
+.border-bottom {
+    border-bottom: 1px solid #ececec;
+}
+
+.border-around {
+    border: 1px solid #ececec !important;
+}
+
 .white-font {
     color: black;
 !important;
@@ -271,6 +279,10 @@
     background-color: #eeb013 !important;
 }
 
+.btn-orange-hover:hover {
+    background-color: #eeb013 !important;
+}
+
 .line-height-3-7 {
     line-height: 3.7;
 }
@@ -281,6 +293,10 @@
 
 .line-height-25 {
     line-height: 25px;
+}
+
+.line-height-20 {
+    line-height: 20px !important;
 }
 
 .btn-height-50{
@@ -315,6 +331,10 @@
     font-size: 13px !important;
 }
 
+.font-10px{
+    font-size: 10px !important;
+}
+
 .font-1-2em{
     font-size: 1.2em !important;
 }
@@ -336,6 +356,16 @@
 .equation-p-medium{
     font-size: 19px !important;
     line-height: 0.3 !important;
+    color: #333 !important;
+}
+.equation-p-small{
+    font-size: 16px !important;
+    line-height: 0.2 !important;
+    color: #333 !important;
+}
+
+.math-left-align .mjx-container{
+    text-align: left !important;
 }
 
 /* Smart Video */
@@ -357,6 +387,10 @@
     height: 100%;
     max-width: 1920px;
     max-height: 1080px;
+}
+
+.list-with-numbers li {
+    padding: 15px 0 !important;
 }
 
 @media screen and ( max-height: 1080px )

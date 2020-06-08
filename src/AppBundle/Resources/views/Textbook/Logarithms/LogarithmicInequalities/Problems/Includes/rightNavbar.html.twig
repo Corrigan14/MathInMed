@@ -1,0 +1,27 @@
+<!--ANSWERS-->
+<div class="color-switcher" id="choose_color">
+    <a href="#." id="textbook_answers_icon" class="picker_close">
+        <i class="ion-android-done"></i>
+    </a>
+    <a href="#." id="textbook_helpers_icon" class="picker_close" style="top: 63px">
+        <i class="ion-android-bulb"></i>
+    </a>
+    <a href="#." id="textbook_chat_icon" class="picker_close" style="top: 126px">
+        <i class="ion-compose"></i>
+    </a>
+
+    <div class="theme-colours">
+        <div id="textbook-answers" class="hide-element min-height-200 scrollable padding-right-20">
+            {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/answer.html.twig' %}
+        </div>
+
+        <div id="textbook-helpers" class="hide-element min-height-200 scrollable padding-right-20">
+            {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/helper.html.twig' %}
+        </div>
+
+        <div id="textbook-chat" class="hide-element min-height-200 scrollable padding-right-20">
+            {% include 'AppBundle:Book:Includes/chat.html.twig' %}
+        </div>
+    </div>
+
+</div>

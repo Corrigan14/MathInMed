@@ -61,6 +61,10 @@ basic_words:
   next-problem: Next problem
   shortcuts: Shortcuts used in the text
   what-shoul-I-do: What shoul I do
+  important: important
+  please-note: please note
+  answer: answer
+  solution: Solution
 
 main_navbar:
   about: About
@@ -236,6 +240,12 @@ right_navbar:
   book.chat.work: We are preparing a new forum for you!
   book.chat.email.text1: If you have any questions or if you need any help, I will be glad to help you
   book.chat.email.text2: Please feel free to send me an email
+
+  textbook.solutions: Solutions
+  textbook.solution: Solution
+  textbook.problem: Problem
+  textbook.challenge: Challenge
+  textbook.helper: Helper
 
 footer:
   headline: Creative team - SK
@@ -1035,16 +1045,52 @@ researcher:
 textBook:
   basic_words.logarithm: Logarithm
   basic_words.solution: solution
+  basic_words.help: help
+  basic_words.example: Example
+  basic_words.answer-text: Show me the answer
+  basic_words.help-text: Help me to find the answer by myself!
   basic_words.questionmark: Question for you. You can find the answer in a video.
   basic_words.bug: Statement to think about. It will be discussed further.
+  basic_words.help: Helper.
+  basic_words.helper-graph-based-solution: Helper for a Graph-based solution
+  basic_words.graph-based-solution: Graph-based solution
+  basic_words.algebra-based-solution: Algebra-based solution
+  basic_words.helper-algebra-based-solution: Helper for an Algebra-based solution
+  basic_words.solution: Solution
+  basic_words.help-me: Help Me
   basic_words.solutionSteps.step1: Understand The Problem
   basic_words.solutionSteps.step2: Analyze Possible Solutions
   basic_words.solutionSteps.step3: Solve the Problem
   basic_words.solutionSteps.step4: Challenge Your Solutions
-  basic_words.solutionSteps.step1-text1: Think about the problem. What exactly is the problem "asking"?
+  basic_words.solutionSteps.step4-2: Time for a challenge
+  basic_words.solutionSteps.step1-text1: Think about the problem. What exactly is the problem "asking"? How can we interpret it?
   basic_words.solutionSteps.step2-text1: Think about the different ways how we to solve the problem.
   basic_words.solutionSteps.step3-text1: Use various procedures to solve the problem. Try to understand every step of used procedures.
   basic_words.solutionSteps.step4-text1: Search for the limitations of used procedures. Do they work under different conditions?
+  basic_words.geogebra: GeoGebra
+  basic_words.helper-explanation-1: If you need any help, you can find it by clicing on the
+  basic_words.helper-explanation-2: bulb icon
+  basic_words.helper-explanation-3: look at the right menu
+  basic_words.solution-explanation-1: If you woulkd like to chek your solution with us, follow
+  basic_words.solution-explanation-2: check icon
+  basic_words.challenge: Challenge
+  basic_words.challenge-text: Challenge yourself! Solve similar probles to deepen and test your understanding.
+  basic_words.for-teachers: For teachers
+  basic_words.for-teachers-text: How can we work with this problem at school? Constructivist teaching.
+  basic_words.challenge-yourself-text1: Challenge Yourself! Try to solve
+  basic_words.challenge-yourself-text2: similar problems
+  basic_words.this-link-may-help-you: this link may help you
+  basic_words.need-help: If you need help
+  basic_words.need-more-help: If you need more help
+  basic_words.try-to-google: or, try to google the term
+  basic_words.yes: yes
+  basic_words.no: no
+  basic_words.no-upper: No
+  basic_words.it-is: it is
+
+
+  basic_words.logarithmic-inequalities.solution1.text: Substitute number on the right side by a logarithm and then ignore logarithms on both sides.
+  basic_words.logarithmic-inequalities.solution2.text: Use graph of a logarithmic function to solve this problem.
 
   introduction.nextPage: Logarithmic Inequalities
   introduction.part1.slogan: Explore, Discover, Understand, Enjoy :)
@@ -1076,15 +1122,20 @@ textBook:
   logarithms.logarithmicInequalities.introduction.text8-2: Always ask yourself, does this procedure work also under changed conditions??? If no, why?
 
   logarithms.logarithmicInequalities.introduction.head3: What is my reward?
-  logarithms.logarithmicInequalities.introduction.text9: Deep understanding of used procedures
-  logarithms.logarithmicInequalities.introduction.text10: Ability to apply your knowledge into different topics (e.g Goniometric inequalities)
-  logarithms.logarithmicInequalities.introduction.text11-1: Ability to solve (ideally
-  logarithms.logarithmicInequalities.introduction.text11-2: every logarithmic inequality from different textbooks
-  logarithms.logarithmicInequalities.introduction.text12: Great feeling as a reward for your hard work
+  logarithms.logarithmicInequalities.introduction.text9: As a student
+  logarithms.logarithmicInequalities.introduction.text10: As a teacher
+  logarithms.logarithmicInequalities.introduction.student1: Great feeling as a reward for your hard work
+  logarithms.logarithmicInequalities.introduction.student2: Deep understanding of used procedures
+  logarithms.logarithmicInequalities.introduction.student3-1: Ability to solve (ideally
+  logarithms.logarithmicInequalities.introduction.student3-2: every logarithmic inequality from different textbooks
+  logarithms.logarithmicInequalities.introduction.teacher1: Experience of constructivist teaching and learning
+  logarithms.logarithmicInequalities.introduction.teacher2: Ability to motivate your students by raising constructive questions
+  logarithms.logarithmicInequalities.introduction.teacher3: Content map and categorization of problems related to Logarithmic Inequalities
 
   logarithms.logarithmicInequalities.introduction.head4: How should I start?
   logarithms.logarithmicInequalities.introduction.text5: Follow the content map below and choose problem you are interested in. If you do not know, start with the first one from the first group :)
 
+  logarithms.logarithmicInequalities.problem1-gorup1-text1-0: II. Numerical Interpretation
   logarithms.logarithmicInequalities.problem1-gorup1-text1-1: Find such
   logarithms.logarithmicInequalities.problem1-gorup1-text1-2: values of x
   logarithms.logarithmicInequalities.problem1-gorup1-text1-3: where the inequality is satisfied
@@ -1092,8 +1143,10 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-text1-5: insted of x
   logarithms.logarithmicInequalities.problem1-gorup1-text1-6: into my inequality. Is the inequality sattisfied?
   logarithms.logarithmicInequalities.problem1-gorup1-text1-7: What if I decide for a number 1/4. Is the inequality sattisfied?
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-0: I. Graphical Interpretation
   logarithms.logarithmicInequalities.problem1-gorup1-text2-1: Mathematical explanation
-  logarithms.logarithmicInequalities.problem1-gorup1-text2-1-2: function behind the inequality
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-1-2: Look at our problem through
+  logarithms.logarithmicInequalities.problem1-gorup1-text2-1-3: mathematical functions
   logarithms.logarithmicInequalities.problem1-gorup1-text2-2: When is the
   logarithms.logarithmicInequalities.problem1-gorup1-text2-3: logarithmic function
   logarithms.logarithmicInequalities.problem1-gorup1-text2-4: (logarithm to base 1/4 of x) less than 1?
@@ -1112,6 +1165,124 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-text4-2: based
   logarithms.logarithmicInequalities.problem1-gorup1-text4-3: Substitute number 1 from the right side of our inequality by logarithm.
   logarithms.logarithmicInequalities.problem1-gorup1-text4-4: When and why can we work with the new inequlity just without logarithms?
+  logarithms.logarithmicInequalities.problem1-gorup1-text5-1: Create
+  logarithms.logarithmicInequalities.problem1-gorup1-text5-2: graph
+  logarithms.logarithmicInequalities.problem1-gorup1-text5-3: of our logarithmic function
+  logarithms.logarithmicInequalities.problem1-gorup1-text5-4: Do it by yourself
+  logarithms.logarithmicInequalities.problem1-gorup1-text5-5: Use an onlin editor
+  logarithms.logarithmicInequalities.problem1-gorup1-text6-1: Look at your
+  logarithms.logarithmicInequalities.problem1-gorup1-text6-2: graph
+  logarithms.logarithmicInequalities.problem1-gorup1-text6-3: When are the functional values less than 1
+  logarithms.logarithmicInequalities.problem1-gorup1-text6-4: If we are talking about functional values, we are always talking about values on the y-axis.
+  logarithms.logarithmicInequalities.problem1-gorup1-text7-1: Search for
+  logarithms.logarithmicInequalities.problem1-gorup1-text7-2: x-values
+  logarithms.logarithmicInequalities.problem1-gorup1-text7-3: Look at your
+  logarithms.logarithmicInequalities.problem1-gorup1-text7-4: graph
+  logarithms.logarithmicInequalities.problem1-gorup1-text7-5: again. Which x-es can I put into our inequality so, that its functional values are less than 1?
+  logarithms.logarithmicInequalities.problem1-gorup1-text7-6-1: How can we find
+  logarithms.logarithmicInequalities.problem1-gorup1-text7-6-2: starting point
+  logarithms.logarithmicInequalities.problem1-gorup1-text7-6-3: of our x-interval?
+  logarithms.logarithmicInequalities.problem1-gorup1-text8-1: Starting point is exactly a point, where
+  logarithms.logarithmicInequalities.problem1-gorup1-text9-1: Summarize your
+  logarithms.logarithmicInequalities.problem1-gorup1-text9-2: solution
+  logarithms.logarithmicInequalities.problem1-gorup1-text10: How does the solution change if
+  logarithms.logarithmicInequalities.problem1-gorup1-text11-1: I change
+  logarithms.logarithmicInequalities.problem1-gorup1-text11-2: a number on the right side
+  logarithms.logarithmicInequalities.problem1-gorup1-text11-3: of our inequality?
+  logarithms.logarithmicInequalities.problem1-gorup1-text12-1: What if I change
+  logarithms.logarithmicInequalities.problem1-gorup1-text12-2: the base
+  logarithms.logarithmicInequalities.problem1-gorup1-text12-3: of our logarithm
+  logarithms.logarithmicInequalities.problem1-gorup1-text12-4: Can I still find the solution using graph-based or algebra-based method
+  logarithms.logarithmicInequalities.problem1-gorup1-text13-1: Can I also change
+  logarithms.logarithmicInequalities.problem1-gorup1-text13-2: the inequality
+  logarithms.logarithmicInequalities.problem1-gorup1-text14-1: Look at the
+  logarithms.logarithmicInequalities.problem1-gorup1-text14-2: graph
+  logarithms.logarithmicInequalities.problem1-gorup1-text14-3: of our logarithmic function. Which x-es can I put into our inequality so, that its functional values are less than -2?
+  logarithms.logarithmicInequalities.problem1-gorup1-text15-1: Substitute number -2 by
+  logarithms.logarithmicInequalities.problem1-gorup1-text15-2: logarithm
+  logarithms.logarithmicInequalities.problem1-gorup1-text15-3: When and Why
+  logarithms.logarithmicInequalities.problem1-gorup1-text15-4: can we work with the
+  logarithms.logarithmicInequalities.problem1-gorup1-text15-5: inequlity
+  logarithms.logarithmicInequalities.problem1-gorup1-text15-6: just without logarithms
+  logarithms.logarithmicInequalities.problem1-gorup1-text16-1: Show me
+  logarithms.logarithmicInequalities.problem1-gorup1-text16-2: a solution
+  logarithms.logarithmicInequalities.problem1-gorup1-text17-1: Try to create the
+  logarithms.logarithmicInequalities.problem1-gorup1-text17-2: graph
+  logarithms.logarithmicInequalities.problem1-gorup1-text17-3: of a new logarithmic function.
+  logarithms.logarithmicInequalities.problem1-gorup1-text17-4: Now, look at the
+  logarithms.logarithmicInequalities.problem1-gorup1-text17-5: graph
+  logarithms.logarithmicInequalities.problem1-gorup1-text17-6: Which x-es can I put into our inequality so, that its functional values are less than 1
+  logarithms.logarithmicInequalities.problem1-gorup1-text18-1: Substitute number 1 (from the right site of our inequality) by
+  logarithms.logarithmicInequalities.problem1-gorup1-text18-2: logarithm
+  logarithms.logarithmicInequalities.problem1-gorup1-text19-1: Go back to the
+  logarithms.logarithmicInequalities.problem1-gorup1-text19-2: graph
+  logarithms.logarithmicInequalities.problem1-gorup1-text19-3: of our logarithmic function
+  logarithms.logarithmicInequalities.problem1-gorup1-text19-4: Which x-es can I put into our inequality so, that its functional values are
+  logarithms.logarithmicInequalities.problem1-gorup1-text19-5: greater or equal than 1
+
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1: Substitute number on the right side by a logarithm with the base 1/4
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-1: Change inequality and ignore logarithms
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-2: Do you know why we can use this "trick"?
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-3: It is crutial to
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-4: understand this step
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-5: because it sometimes works and sometimes does not
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-6: If you are not sure, just follow the "help" button
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step3: Voila! You have a solution. Just summarize it through the interval
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4: Is my solution correct?
+
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text1-1: Do you remember
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text1-2: definition of a logarithm
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text2-1: Logarithm itself just finds
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text2-2: the power to which the base must be raised to produce some given number
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-1: In our case, we have the base (1/4), we have the power (1) and we are searching for a "given number".
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-2: The question is then slightly changed
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-3: If I power our base (1/4) to number 1, what number do I get?
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-1: If you need more help,
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-2:  this link may help you
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-3:  or try to google the term
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-4:  definition of a logarithmic function
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text1-1: Look at the
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text1-2: graph
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text1-3: of a logarithmic function with the base 1/4
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text1-4: Try to create the graph by yourself. You can do it in a classic way, using just a pen and a paper, or you also can use an online editor
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text1-5: simple and free one is e.g.
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text1-6: basic graph of a logarithmic function
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text2-1: Pick up any
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text2-2: two points
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text2-3: on your graph
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text3-1: Now, think about the relationship between these points and its functional values
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text3-2: If the functional value in the point 1 is greated than the functional value in the point 2, how is
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text3-3: the relation
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text3-4: between the point 1 and the point 2
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-1: Functional value
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-2: is just the different name for a
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-3: logarithm
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-4: in this our case
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-5: Looking at this relation we can see, that if we have the logarithmic inequality of two logarithms
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-6: with the same base
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-7: we do not have to work with logarithms
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-8: It is enough to work with
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-9: the points
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-10: In other workds, we just have to change the inequality and then we can
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text4-11: ignore logarithms
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-1: Is the relation same for
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-2: any logarithm
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-3: Try to figure it out by yourself
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-4: Think about different logarithms
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-5: Take e.g.
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-6: logarithm with the base 4
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-7: How does its graph look like
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-8: How is the relationship between two points and its functional values at this graph
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-9: It depends on the base of a logarithm
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-10: Look at the graph of a logarithm with the base 4
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-11: As you can see
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-12: And that is it
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-13: If we are solving inequalities, we have to differentiate between decresing and increasing logarithms.
+
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text6-1: Conclusion
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text6-2: your own "tricks" that always work
+
+
 
   logarithms.logarithmicInequalities.problem1-gorup4-text1: Find the Domain
   logarithms.logarithmicInequalities.problem1-gorup4-text2: of a

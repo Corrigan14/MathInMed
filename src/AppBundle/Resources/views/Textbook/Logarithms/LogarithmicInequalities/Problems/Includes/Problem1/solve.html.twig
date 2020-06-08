@@ -1,5 +1,5 @@
 {# GRAPH-BASED SOLUTION #}
-<div class="row margin-bottom-20">
+<div class="row margin-bottom-20 margin-top-10">
     <div class="col-md-12">
         <h7
                 class="uppercase-transform cursor-hand margin-top-10 orange-hover"
@@ -13,19 +13,178 @@
                 {{ 'textBook.basic_words.solution'|trans }}
             </span>
         </h7>
+
         <div class="row hide-element" id="Problem1-GraphBasedSolution">
-            <div class="col-md-6 margin-top-10 text-center margin-bottom-30">
+            {# GRAPH-BASED SOLUTION - VIDEO #}
+            <div class="col-md-6 margin-top-20 text-center margin-bottom-30">
                 {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/solve-video1.html.twig' %}
             </div>
+
+            {# GRAPH-BASED SOLUTION - STEPS #}
             <div class="col-md-6">
-                <p>hhhh</p>
+                <section>
+                    <ul class="list-style list-with-numbers text-uppercase">
+                        <li>
+                            <span class="orange-color padding-right-10"><b>1.</b></span>
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text5-1'|trans }}
+                            <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text5-2'|trans }}</b>
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text5-3'|trans }}:
+                            <span class="text-lowercase equation-p-medium"><b>$$y = \log_{\frac{1}{4}}x $$</b></span>
+
+                            <p class="margin-bottom-5 margin-top-10 font-13px padding-left-30">
+                                <i
+                                        class="fa fa-bug fa-orange font-1-2em" data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-boundary="window"
+                                        title="{{ 'textBook.basic_words.bug'|trans }}"
+                                ></i>
+                                <span class="margin-left-5">
+                                {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text5-4'|trans }}
+                                </span>
+                            </p>
+                            <p class="margin-bottom-5 margin-top-10 font-13px padding-left-30">
+                                <i
+                                        class="fa fa-question fa-orange font-1-2em" data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-boundary="window"
+                                        title="{{ 'textBook.basic_words.questionmark'|trans }}"
+                                ></i>
+                                <span class="margin-left-5">
+                                {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text5-5'|trans }}
+                                    (<a
+                                            href="https://www.geogebra.org/calculator" target="_blank"
+                                    > {{ 'textBook.basic_words.geogebra'|trans }}</a> )
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="orange-color padding-right-10"><b>2.</b></span>
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text6-1'|trans }}
+                            <span
+                                    onclick="toggleUniversal('LI-problem-1-graph-1')"
+                                    class="text-color-primary cursor-hand"
+                            >
+                                <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text6-2'|trans }}</b>
+                             </span>
+                            .
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text6-3'|trans }}?
+
+                            <div
+                                    id="LI-problem-1-graph-1"
+                                    class="hide-element padding-left-30 margin-top-15 margin-bottom-15"
+                            >
+                                {% image '@AppBundle/Resources/public/images/textBook/logarithms/inequalities/problem1Graph1.png' %}
+                                    <img
+                                            src="{{ asset_url }}" alt="Problem 1 - Graph of a logarithmic function"
+                                            class="img-responsive max-width-100-percent"
+                                    >
+                                {% endimage %}
+                            </div>
+
+
+                            <p class="margin-bottom-5 margin-top-10 font-13px padding-left-30">
+                                <i
+                                        class="fa ion-android-bulb fa-orange font-1-2em" data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-boundary="window"
+                                        title="{{ 'textBook.basic_words.help'|trans }}"
+                                ></i>
+                                <span class="margin-left-5">
+                                {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text6-4'|trans }}
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="orange-color padding-right-10"><b>3.</b></span>
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-1'|trans }}
+                            <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-2'|trans }}</b>
+
+                            <p class="margin-bottom-5 margin-top-10 font-13px padding-left-30" >
+                                <i
+                                        class="fa fa-question fa-orange font-1-2em" data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-boundary="window"
+                                        title="{{ 'textBook.basic_words.questionmark'|trans }}"
+                                ></i>
+                                <span class="margin-left-5">
+                                    {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-3'|trans }}
+                                </span>
+                                <span
+                                        onclick="toggleUniversal('LI-problem-1-graph-2')"
+                                        class="text-color-primary cursor-hand"
+                                >
+                                    <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-4'|trans }}</b>
+                                </span>
+                                <span>
+                                    {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-5'|trans }}
+                                </span>
+                            </p>
+                            <div
+                                    id="LI-problem-1-graph-2"
+                                    class="hide-element padding-left-30 margin-top-15 margin-bottom-15"
+                            >
+                                {% image '@AppBundle/Resources/public/images/textBook/logarithms/inequalities/problem1Graph2.png' %}
+                                    <img
+                                            src="{{ asset_url }}"
+                                            alt="Problem 1 - Graph of a logarithmic and a constant function "
+                                            class="img-responsive max-width-100-percent"
+                                    >
+                                {% endimage %}
+                            </div>
+                            <p class="margin-bottom-5 margin-top-10 font-13px padding-left-30" >
+                                <i
+                                        class="fa fa-question fa-orange font-1-2em" data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-boundary="window"
+                                        title="{{ 'textBook.basic_words.questionmark'|trans }}"
+                                ></i>
+                                <span class="margin-left-5">
+                                {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-6-1'|trans }}
+                                </span>
+                                <span
+                                        onclick="toggleUniversal('LI-problem-1-starting-point')"
+                                        class="text-color-primary cursor-hand"
+                                >
+                                    <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-6-2'|trans }}</b>
+                                </span>
+                                <span>
+                                {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-6-3'|trans }}
+                                </span>
+                            </p>
+                            <p
+                                    id="LI-problem-1-starting-point"
+                                    class="hide-element padding-left-30 font-13px"
+                            >
+                                <span>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text8-1'|trans }}:</span>
+                                <span class="text-lowercase equation-p-medium"><b>$$\log_{\frac{1}{4}}x = 1 $$</b></span>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="orange-color padding-right-10"><b>4.</b></span>
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text9-1'|trans }}
+                            <span
+                                    onclick="toggleUniversal('LI-problem-1-solution')"
+                                    class="text-color-primary cursor-hand"
+                            >
+                                <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text9-2'|trans }}</b>
+                            </span>
+
+                            <div
+                                    id="LI-problem-1-solution"
+                                    class="hide-element padding-left-30 margin-top-15 margin-bottom-15"
+                            >
+                                <span class="text-lowercase equation-p-medium"><b>$$\log_{\frac{1}{4}}x < 1 \Leftrightarrow x \in (\frac{1}{4},\infty) $$</b></span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
             </div>
         </div>
     </div>
 </div>
 
 {# ALGEBRA-BASED SOLUTION #}
-<div class="row margin-bottom-30">
+<div class="row margin-bottom-30 margin-top-30">
     <div class="col-md-12">
         <h7
                 class="uppercase-transform cursor-hand orange-hover"
@@ -39,9 +198,172 @@
                 {{ 'textBook.basic_words.solution'|trans }}
             </span>
         </h7>
+
         <div class="row hide-element" id="Problem1-AlgebraBasedSolution">
+
+            {# ALGEBRA-BASED SOLUTION - VIDEO #}
+            <div class="col-md-6 margin-top-20 text-center margin-bottom-30">
+                {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/solve-video1.html.twig' %}
+            </div>
+
+            {# ALGEBRA-BASED SOLUTION - STEPS #}
             <div class="col-md-6">
-                <p>hhhh 2</p>
+                <section>
+                    <ul class="list-style list-with-numbers text-uppercase">
+                        <li>
+                            <span class="orange-color padding-right-10"><b>1.</b></span>
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text5-1'|trans }}
+                            <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text5-2'|trans }}</b>
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text5-3'|trans }}:
+                            <span class="text-lowercase equation-p-medium"><b>$$y = \log_{\frac{1}{4}}x $$</b></span>
+
+                            <p class="margin-bottom-5 margin-top-10 font-13px padding-left-30">
+                                <i
+                                        class="fa fa-bug fa-orange font-1-2em" data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-boundary="window"
+                                        title="{{ 'textBook.basic_words.bug'|trans }}"
+                                ></i>
+                                <span class="margin-left-5">
+                                {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text5-4'|trans }}
+                                </span>
+                            </p>
+                            <p class="margin-bottom-5 margin-top-10 font-13px padding-left-30">
+                                <i
+                                        class="fa fa-question fa-orange font-1-2em" data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-boundary="window"
+                                        title="{{ 'textBook.basic_words.questionmark'|trans }}"
+                                ></i>
+                                <span class="margin-left-5">
+                                {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text5-5'|trans }}
+                                    (<a
+                                            href="https://www.geogebra.org/calculator" target="_blank"
+                                    > {{ 'textBook.basic_words.geogebra'|trans }}</a> )
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="orange-color padding-right-10"><b>2.</b></span>
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text6-1'|trans }}
+                            <span
+                                    onclick="toggleUniversal('LI-problem-1-graph-1')"
+                                    class="text-color-primary cursor-hand"
+                            >
+                                <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text6-2'|trans }}</b>
+                             </span>
+                            .
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text6-3'|trans }}?
+
+                            <div
+                                    id="LI-problem-1-graph-1"
+                                    class="hide-element padding-left-30 margin-top-15 margin-bottom-15"
+                            >
+                                {% image '@AppBundle/Resources/public/images/textBook/logarithms/inequalities/problem1Graph1.png' %}
+                                    <img
+                                            src="{{ asset_url }}" alt="Problem 1 - Graph of a logarithmic function"
+                                            class="img-responsive max-width-100-percent"
+                                    >
+                                {% endimage %}
+                            </div>
+
+
+                            <p class="margin-bottom-5 margin-top-10 font-13px padding-left-30">
+                                <i
+                                        class="fa ion-android-bulb fa-orange font-1-2em" data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-boundary="window"
+                                        title="{{ 'textBook.basic_words.help'|trans }}"
+                                ></i>
+                                <span class="margin-left-5">
+                                {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text6-4'|trans }}
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="orange-color padding-right-10"><b>3.</b></span>
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-1'|trans }}
+                            <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-2'|trans }}</b>
+
+                            <p class="margin-bottom-5 margin-top-10 font-13px padding-left-30" >
+                                <i
+                                        class="fa fa-question fa-orange font-1-2em" data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-boundary="window"
+                                        title="{{ 'textBook.basic_words.questionmark'|trans }}"
+                                ></i>
+                                <span class="margin-left-5">
+                                    {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-3'|trans }}
+                                </span>
+                                <span
+                                        onclick="toggleUniversal('LI-problem-1-graph-2')"
+                                        class="text-color-primary cursor-hand"
+                                >
+                                    <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-4'|trans }}</b>
+                                </span>
+                                <span>
+                                    {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-5'|trans }}
+                                </span>
+                            </p>
+                            <div
+                                    id="LI-problem-1-graph-2"
+                                    class="hide-element padding-left-30 margin-top-15 margin-bottom-15"
+                            >
+                                {% image '@AppBundle/Resources/public/images/textBook/logarithms/inequalities/problem1Graph2.png' %}
+                                    <img
+                                            src="{{ asset_url }}"
+                                            alt="Problem 1 - Graph of a logarithmic and a constant function "
+                                            class="img-responsive max-width-100-percent"
+                                    >
+                                {% endimage %}
+                            </div>
+                            <p class="margin-bottom-5 margin-top-10 font-13px padding-left-30" >
+                                <i
+                                        class="fa fa-question fa-orange font-1-2em" data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-boundary="window"
+                                        title="{{ 'textBook.basic_words.questionmark'|trans }}"
+                                ></i>
+                                <span class="margin-left-5">
+                                {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-6-1'|trans }}
+                                </span>
+                                <span
+                                        onclick="toggleUniversal('LI-problem-1-starting-point')"
+                                        class="text-color-primary cursor-hand"
+                                >
+                                    <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-6-2'|trans }}</b>
+                                </span>
+                                <span>
+                                {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text7-6-3'|trans }}
+                                </span>
+                            </p>
+                            <p
+                                    id="LI-problem-1-starting-point"
+                                    class="hide-element padding-left-30 font-13px"
+                            >
+                                <span>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text8-1'|trans }}:</span>
+                                <span class="text-lowercase equation-p-medium"><b>$$\log_{\frac{1}{4}}x = 1 $$</b></span>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="orange-color padding-right-10"><b>4.</b></span>
+                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text9-1'|trans }}
+                            <span
+                                    onclick="toggleUniversal('LI-problem-1-solution')"
+                                    class="text-color-primary cursor-hand"
+                            >
+                                <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-text9-2'|trans }}</b>
+                            </span>
+
+                            <div
+                                    id="LI-problem-1-solution"
+                                    class="hide-element padding-left-30 margin-top-15 margin-bottom-15"
+                            >
+                                <span class="text-lowercase equation-p-medium"><b>$$\log_{\frac{1}{4}}x < 1 \Leftrightarrow x \in (\frac{1}{4},\infty) $$</b></span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
             </div>
         </div>
     </div>

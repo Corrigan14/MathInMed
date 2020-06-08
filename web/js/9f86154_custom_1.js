@@ -117,7 +117,7 @@ jQuery(document).ready(function ($) {
 });
 
 /*-----------------------------------------------------------------------------------*/
-/*	RIGHT MENU
+/*	RIGHT MENU: book, textbook
  /*-----------------------------------------------------------------------------------*/
 jQuery(document).ready(function ($) {
     var $rightNavigationHolder = $('#choose_color'),
@@ -137,6 +137,38 @@ jQuery(document).ready(function ($) {
     });
 
     $rightNavigationHelpsers.on('click', function (event) {
+        $rightNavigationHolder.addClass('position');
+        $helpers.removeClass('hide-element');
+        $answers.addClass('hide-element');
+        $chat.addClass('hide-element');
+    });
+
+    $rightNavigationChat.on('click', function (event) {
+        $rightNavigationHolder.addClass('position');
+        $chat.removeClass('hide-element');
+        $answers.addClass('hide-element');
+        $helpers.addClass('hide-element');
+    })
+});
+
+jQuery(document).ready(function ($) {
+    var $rightNavigationHolder = $('#choose_color'),
+        $rightNavigationAnswers = $('#textbook_answers_icon'),
+        $rightNavigationHelpers = $('#textbook_helpers_icon'),
+        $rightNavigationChat = $('#textbook_chat_icon'),
+        $answers = $('#textbook-answers'),
+        $helpers = $('#textbook-helpers'),
+        $chat = $('#textbook-chat');
+
+    //hide leftMenuNavigation and rightNavigation if topMenu is opened
+    $rightNavigationAnswers.on('click', function (event) {
+        $rightNavigationHolder.addClass('position');
+        $answers.removeClass('hide-element');
+        $helpers.addClass('hide-element');
+        $chat.addClass('hide-element');
+    });
+
+    $rightNavigationHelpers.on('click', function (event) {
         $rightNavigationHolder.addClass('position');
         $helpers.removeClass('hide-element');
         $answers.addClass('hide-element');

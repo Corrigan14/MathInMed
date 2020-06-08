@@ -14,11 +14,11 @@
         <div class="row">
             <div class="col-md-12 margin-top-10 text-center margin-bottom-30">
                 <video
-                        id="videoIntroductionLI" class="text-center max-width-40-percent"
+                        id="videoIntroductionLI" class="text-center max-width-40-percent border-around"
                         onplaying="resizeVideo('videoIntroductionLI')" controls
                 >
                     <source
-                            src="{{ asset('videos/textBook/logarithms/inequalities/introduction/01-LI-Introduction.mp4') }}"
+                            src="{{ asset('bundles/app/videos/textBook/logarithms/inequalities/introduction/Introduction.mp4') }}"
                             type="video/mp4"
                     >
                 </video>
@@ -41,7 +41,6 @@
         <div class="row">
             <div class="col-md-4 relative margin-top-10">
                 <section>
-                    <!--======= List With Icons =========-->
                     <ul class="list-style list-w-bullets check text-uppercase">
                         <li class="padding-bottom-0">
                             {{ 'textBook.logarithms.logarithmicInequalities.introduction.text1'|trans }}
@@ -133,14 +132,16 @@
                 </div>
             </div>
         </div>
-        <div class="row margin-top-10 margin-bottom-30">
+        <div class="row margin-bottom-30">
             <div class="col-md-6">
+                <p class="margin-bottom-20">
+                    <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text9'|trans }}...</b>
+                </p>
                 <div class="progress-bars style-2">
                     <div class="bar">
                         <p>
-                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.text12'|trans }} :)
+                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.student1'|trans }} :)
                         </p>
-
                         <div class="progress" data-percent="95%">
                             <div class="progress-bar orange-background"></div>
                         </div>
@@ -148,35 +149,57 @@
 
                     <div class="bar">
                         <p>
-                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.text11-1'|trans }} :))
-                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.text11-2'|trans }}
+                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.student2'|trans }}
                         </p>
 
-                        <div class="progress" data-percent="75%">
-                            <div class="progress-bar "></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="progress-bars style-2">
-                    <div class="bar">
-                        <p>
-                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.text9'|trans }}
-                        </p>
-
-                        <div class="progress" data-percent="80%">
+                        <div class="progress" data-percent="85%">
                             <div class="progress-bar"></div>
                         </div>
                     </div>
 
                     <div class="bar">
                         <p>
-                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.text10'|trans }}
+                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.student3-1'|trans }} :))
+                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.student3-2'|trans }}
                         </p>
 
                         <div class="progress" data-percent="90%">
                             <div class="progress-bar orange-background"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p class="margin-bottom-20">
+                    <b>{{ 'textBook.logarithms.logarithmicInequalities.introduction.text10'|trans }}...</b>
+                </p>
+                <div class="progress-bars style-2">
+                    <div class="bar">
+                        <p>
+                           {{ 'textBook.logarithms.logarithmicInequalities.introduction.teacher1'|trans }}
+                        </p>
+                        <div class="progress" data-percent="90%">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <p>
+                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.teacher2'|trans }}
+                        </p>
+
+                        <div class="progress" data-percent="85%">
+                            <div class="progress-bar orange-background"></div>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <p>
+                            {{ 'textBook.logarithms.logarithmicInequalities.introduction.teacher3'|trans }}
+                        </p>
+
+                        <div class="progress" data-percent="95%">
+                            <div class="progress-bar "></div>
                         </div>
                     </div>
                 </div>
