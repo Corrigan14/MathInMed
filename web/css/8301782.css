@@ -18829,6 +18829,14 @@ blockquote cite {
     background-color: #eeb013 !important;
 }
 
+.btn-white-hover {
+    border: 1px solid #eeb013 !important;
+}
+
+.btn-white-hover:hover {
+    background-color: #FFFFFF !important;
+}
+
 .line-height-3-7 {
     line-height: 3.7;
 }

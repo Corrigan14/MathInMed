@@ -39,55 +39,67 @@
                             </div>
                         </div>
 
-                        {#<-- HELPER -->#}
+                        {# <-- HELPER --> #}
                         <div id="problem1-solution1-step1-solution" class="row hide-element">
                             <div class="col-md-12 padding-10 margin-15 border-around radius">
                                 <p>
                                     {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text1-1'|trans }}
-                                    <b> {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text1-2'|trans }}</b>?
+                                    <b
+                                            class="orange-color cursor-hand"
+                                            onclick="toggleUniversal('problem1-solution1-step1-help-1')"
+                                    > {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text1-2'|trans }}</b>
+                                    ?
                                 </p>
-                                <p>
-                                    {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text2-1'|trans }}
-                                    <i><b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text2-2'|trans }}</b></i>:
-                                </p>
-                                <p class="text-center">
-                                    {% image '@AppBundle/Resources/public/images/textBook/logarithms/inequalities/problem1-solution1-img1.png' %}
-                                        <img
-                                                src="{{ asset_url }}" alt="Problem 1 - Graph of a logarithmic function"
-                                                class="img-responsive max-width-80-percent"
-                                        >
-                                    {% endimage %}
-                                </p>
-                                <p>
-                                    {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-1'|trans }}
-                                    {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-2'|trans }}:
-                                    <i><b> {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-3'|trans }}</b></i>
-                                </p>
-                                <p class="text-center">
-                                    {% image '@AppBundle/Resources/public/images/textBook/logarithms/inequalities/problem1-solution1-img2.png' %}
-                                        <img
-                                                src="{{ asset_url }}" alt="Problem 1 - Graph of a logarithmic function"
-                                                class="img-responsive max-width-40-percent"
-                                        >
-                                    {% endimage %}
-                                </p>
+                                <div id="problem1-solution1-step1-help-1" class="hide-element">
+                                    <p class="line-height-20">
+                                        {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text2-1'|trans }}
+                                        <b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text2-2'|trans }}</b>
+                                        :
+                                    </p>
+                                    <p class="text-center">
+                                        {% image '@AppBundle/Resources/public/images/textBook/logarithms/inequalities/problem1-solution1-img1.png' %}
+                                            <img
+                                                    src="{{ asset_url }}"
+                                                    alt="Problem 1 - Graph of a logarithmic function"
+                                                    class="img-responsive max-width-80-percent"
+                                            >
+                                        {% endimage %}
+                                    </p>
+                                    <p class="line-height-20">
+                                        {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-1'|trans }}
+                                        {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-2'|trans }}
+                                        :
+                                        <b> {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-3'|trans }}</b>
+                                    </p>
+                                    <p class="text-center">
+                                        {% image '@AppBundle/Resources/public/images/textBook/logarithms/inequalities/problem1-solution1-img2.png' %}
+                                            <img
+                                                    src="{{ asset_url }}"
+                                                    alt="Problem 1 - Graph of a logarithmic function"
+                                                    class="img-responsive max-width-40-percent"
+                                            >
+                                        {% endimage %}
+                                    </p>
 
-                                {#More help#}
-                                <p class="line-height-20">
-                                    <i>
+                                    {# More help #}
+                                    <p class="line-height-20">
                                         {{ 'textBook.basic_words.need-more-help'|trans }},
-                                        <a href="https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:log-intro/v/logarithms" target="_blank" class="orange-color">
+                                        <a
+                                                href="https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:log-intro/v/logarithms"
+                                                target="_blank"
+                                        >
                                             <b>{{ 'textBook.basic_words.this-link-may-help-you'|trans }}</b>
                                         </a>
                                         {{ 'textBook.basic_words.try-to-google'|trans }}
-                                        "<b>{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-4'|trans }}</b>".
-                                    </i>
-                                </p>
+                                        "{{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-4'|trans }}
+                                        ".
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    {#<-- ANSWER -->#}
+                    {# <-- ANSWER --> #}
                     <div class="col-md-5  margin-top-5 text-left">
                         <p id="problem1-solution1-step1-answer" class="hide-element">
                             <span class="text-lowercase equation-p-medium"><b>$$\log_{\frac{1}{4}}x < \log_{\frac{1}{4}}\frac{1}{4} $$</b></span>

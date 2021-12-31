@@ -33,6 +33,13 @@ function toggleUniversal(param) {
     $($textId).toggle(1000);
 }
 
+function toggleUniversalAndHide(param1, param2) {
+    var $textId = '#' + param1;
+    var $text2Id = '#' + param2;
+    $($textId).toggle(1000);
+    $($text2Id).addClass('hide-element');
+}
+
 function toggleMoreInformation(param) {
     var $textId = '#text' + param;
     var $readMoreId = '#readMore' + param;
