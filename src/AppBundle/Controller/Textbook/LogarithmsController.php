@@ -32,4 +32,37 @@ class LogarithmsController extends Controller
     {
         return [];
     }
+
+    /**
+     * @Template("@App/Textbook/Logarithms/LogarithmicInequalities/Problems/problem1challenge1.html.twig")
+     *
+     * @param string|boolean $locale
+     * @return array
+     */
+    public function logarithmicInequalitiesProblem1Challenge1Action($locale = false): array
+    {
+        return [];
+    }
+
+    /**
+     * @Template("@App/Textbook/Logarithms/LogarithmicInequalities/Problems/problem1challenge2.html.twig")
+     *
+     * @param string|boolean $locale
+     * @return array
+     */
+    public function logarithmicInequalitiesProblem1Challenge2Action($locale = false): array
+    {
+        return [];
+    }
+
+    /**
+     * @Template("@App/Textbook/Logarithms/LogarithmicInequalities/Problems/problem1challenge3.html.twig")
+     *
+     * @param string|boolean $locale
+     * @return array
+     */
+    public function logarithmicInequalitiesProblem1Challenge3Action($locale = false): array
+    {
+        return [];
+    }
 }

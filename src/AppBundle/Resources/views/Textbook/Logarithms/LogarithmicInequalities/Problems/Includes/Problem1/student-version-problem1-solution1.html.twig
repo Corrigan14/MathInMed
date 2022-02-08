@@ -147,7 +147,8 @@
                         {#<-- HELPER -->#}
                         <div id="problem1-solution1-step2-solution" class="row hide-element">
                             <div class="col-md-12 padding-10 margin-15 border-around radius">
-                                {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Includes/IgnoreLogarithmsExplanation.html.twig' %}
+                                {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Includes/ignoreLogarithmsExplanation.html.twig' %}
+
                             </div>
                         </div>
                     </div>
@@ -254,7 +255,11 @@
                     <div class="col-md-7 padding-top-40">
                         <p>
                             <b>5.</b> {{ 'textBook.basic_words.challenge-yourself-text1'|trans }}
-                            <a>{{ 'textBook.basic_words.challenge-yourself-text2'|trans }}</a>
+                            <b
+                                    class="orange-color cursor-hand"
+                                    onclick="toggleUniversal('problem1-challenge')"
+                            >{{ 'textBook.basic_words.challenge-yourself-text2'|trans }}</b>
+                            {{ 'textBook.basic_words.challenge-yourself-text3'|trans }}.
                         </p>
                     </div>
                 </div>

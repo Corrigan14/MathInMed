@@ -15,3 +15,21 @@ app_textbook_logarithms_inequalities_problem1:
     defaults: { _controller: AppBundle:Textbook\Logarithms:logarithmicInequalitiesProblem1, _locale: en }
     requirements:
         _locale:  en|sk
+
+app_textbook_logarithms_inequalities_problem1_challenge1:
+    path:     /{_locale}/textbook/logarithms/logarithmic-inequalities/problem-1/challenge-1
+    defaults: { _controller: AppBundle:Textbook\Logarithms:logarithmicInequalitiesProblem1Challenge1, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_textbook_logarithms_inequalities_problem1_challenge2:
+    path:     /{_locale}/textbook/logarithms/logarithmic-inequalities/problem-1/challenge-2
+    defaults: { _controller: AppBundle:Textbook\Logarithms:logarithmicInequalitiesProblem1Challenge2, _locale: en }
+    requirements:
+        _locale:  en|sk
+
+app_textbook_logarithms_inequalities_problem1_challenge3:
+    path:     /{_locale}/textbook/logarithms/logarithmic-inequalities/problem-1/challenge-3
+    defaults: { _controller: AppBundle:Textbook\Logarithms:logarithmicInequalitiesProblem1Challenge3, _locale: en }
+    requirements:
+        _locale:  en|sk

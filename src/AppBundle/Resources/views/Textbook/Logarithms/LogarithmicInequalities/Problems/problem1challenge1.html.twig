@@ -14,7 +14,7 @@
                         <h3 class="margin-bottom-0">
                             {{ 'left_navbar.textBook.logarithms.inequalities'|trans }}:
                             {{ 'basic_words.problem1'|trans }}
-                            <span class="text-lowercase equation-header-h3"><b>$$\log_{\frac{1}{4}}x < 1 $$</b></span>
+                            <span class="text-lowercase equation-header-h3"><b>$$\log_{\frac{1}{4}}x \ge 1 $$</b></span>
                         </h3>
                         <hr class="color margin-top-0" >
                     </div>
@@ -57,14 +57,6 @@
 
                             <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
                                  style="width: 170px"
-                                 onclick="toggleUniversal('problem1-challenge')"
-                                 data-toggle="tooltip" data-placement="top"
-                                 data-original-title="{{ 'textBook.basic_words.challenge-text'|trans }}">
-                                {{ 'textBook.basic_words.challenge'|trans }}
-                            </div>
-
-                            <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
-                                 style="width: 170px"
                                  onclick="toggleUniversal('problem1-teacher')"
                                  data-toggle="tooltip" data-placement="top"
                                  data-original-title="{{ 'textBook.basic_words.for-teachers-text'|trans }}">
@@ -82,9 +74,6 @@
 
                     {# SOLUTION 2 #}
                     {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-solution2.html.twig' %}
-
-                    {# CHALLENGE #}
-                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-challenge.html.twig' %}
 
                 </div>
             </section>
