@@ -48,6 +48,7 @@ basic_words:
   problem1: problem I
   problem2: problem II
   problem3: problem III
+  challenge: challenge
   group: group
   group1: Group I
   group2: Group II
@@ -60,6 +61,7 @@ basic_words:
   back-to-contentMap: Back to the Content Map
   back-to-problem: Back to the Problem
   next-problem: Next problem
+  next-challenge: Next challenge
   shortcuts: Shortcuts used in the text
   what-shoul-I-do: What shoul I do
   important: important
@@ -1092,6 +1094,7 @@ textBook:
 
 
   basic_words.logarithmic-inequalities.solution1.text: Substitute number on the right side by a logarithm, change inequality, and then ignore logarithms on both sides.
+  basic_words.logarithmic-inequalities.solution1.without-change.text: Substitute number on the right side by a logarithm and then ignore logarithms on both sides.
   basic_words.logarithmic-inequalities.solution2.text: Use graph of a logarithmic function to solve this problem.
 
   introduction.nextPage: Logarithmic Inequalities
