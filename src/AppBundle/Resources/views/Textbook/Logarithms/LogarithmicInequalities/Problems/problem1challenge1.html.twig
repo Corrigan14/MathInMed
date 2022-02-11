@@ -33,7 +33,7 @@
                         <div class="heading-block text-center">
                             <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
                                  style="width: 170px"
-                                 onclick="toggleUniversal('problem1-answer')"
+                                 onclick="toggleUniversal('problem1-challenge1-answer')"
                                  data-toggle="tooltip" data-placement="top"
                                  data-original-title="{{ 'textBook.basic_words.answer-text'|trans }}">
                                  {{ 'basic_words.answer'|trans }}
@@ -41,7 +41,7 @@
 
                             <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
                                  style="width: 170px"
-                                 onclick="toggleUniversal('problem1-solution1')"
+                                 onclick="toggleUniversal('problem1-challenge1-solution1')"
                                  data-toggle="tooltip" data-placement="top"
                                  data-original-title="{{ 'textBook.basic_words.logarithmic-inequalities.solution1.text'|trans }}">
                                 {{ 'basic_words.solution'|trans }} 1
@@ -49,7 +49,7 @@
 
                             <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
                                  style="width: 170px"
-                                 onclick="toggleUniversalAndHide('problem1-solution2')"
+                                 onclick="toggleUniversalAndHide('problem1-challenge1-solution2')"
                                  data-toggle="tooltip" data-placement="top"
                                  data-original-title="{{ 'textBook.basic_words.logarithmic-inequalities.solution2.text'|trans }}">
                                  {{ 'basic_words.solution'|trans }} 2
@@ -57,7 +57,7 @@
 
                             <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
                                  style="width: 170px"
-                                 onclick="toggleUniversal('problem1-teacher')"
+                                 onclick="toggleUniversal('problem1-challenge1-teacher')"
                                  data-toggle="tooltip" data-placement="top"
                                  data-original-title="{{ 'textBook.basic_words.for-teachers-text'|trans }}">
                                 {{ 'textBook.basic_words.for-teachers'|trans }}
@@ -67,14 +67,10 @@
                     </div>
 
                     {# ANSWER #}
-                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-answer.html.twig' %}
+                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-challenge1-answer.html.twig' %}
 
                     {# SOLUTION 1 #}
-                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-solution1.html.twig' %}
-
-                    {# SOLUTION 2 #}
-                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-solution2.html.twig' %}
-
+                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-challenge1-solution1.html.twig' %}
                 </div>
             </section>
 
@@ -84,12 +80,12 @@
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
-                        {#NEXT CHAPTER: BACK TO THE CONTENT MAP#}
+                        {#PREVIOUS CHAPTER: BACK TO PROBLEM 1#}
                         <a
-                                href="{{ path('app_textbook_logarithms_inequalities_introduction') }}#LogarithmicInequalitiesContentMap"
+                                href="{{ path('app_textbook_logarithms_inequalities_problem1') }}#LogarithmicInequalitiesContentMap"
                                 class="btn btn-med btn-color"
                         >
-                            {{ 'basic_words.back-to-contentMap'|trans }}
+                            {{ 'basic_words.back-to-problem'|trans }} 1
                         </a>
 
                         {#NEXT CHAPTER: problem 2#}
