@@ -1284,7 +1284,6 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-11: As you can see
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-12: And that is it
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text5-13: If we are solving inequalities, we have to differentiate between decresing and increasing logarithms.
-
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text6-1: Conclusion
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text6-2: your own "tricks" that always work
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text6-3: Remember, always menas only if your inequlity has just logarithms with the same base on both sides
@@ -1301,6 +1300,16 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text6-14: change inequality
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text6-15: and then you can ignore logarithms
 
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text1-1: Take some values from your solution and put them into the original inequality
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text1-2: Does the inequality
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text1-3: work
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text2-1: If the first step works, we are on the track
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text2-2: Our solution is correct at least for some values
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text3-1: Now we want to be sure, that it works for all values
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text3-2: How can we do it
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text4-1: The easiest is to use graphs and visualize the solution
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text4-2: Take the graph of the original function and draw the interval, which represents your soultion,
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text4-3: into it
 
 
   logarithms.logarithmicInequalities.problem1-gorup4-text1: Find the Domain
