@@ -1,20 +1,81 @@
 <section id="problem1-challenge1-solution1" class="welcome padding-top-40 padding-bottom-40 hide-element">
     <div class="container">
         <div class="row">
-
             <div class="col-md-1"></div>
-
             <div class="col-md-11">
                 <div class="heading-block no-margin">
                     <h5 class="margin-bottom-10">
-                       {{ 'basic_words.solution'|trans }} 1
+                        {{ 'basic_words.solution'|trans }} 1
                     </h5>
                     <span class="margin-bottom-20">
                         {{ 'textBook.basic_words.logarithmic-inequalities.solution1.without-change.text'|trans }}
                     </span>
                 </div>
-            </div>
 
+                {# <-- STEP 1 --> #}
+                <div class="row">
+                    <div class="col-md-7 padding-top-10">
+                        <p>
+                            <b>1.
+                            </b> {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1'|trans }}
+                            .
+                        </p>
+
+                        {# <-- BUTTONS --> #}
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div
+                                        class="btn btn-small gary radius"
+                                        style="width: 120px"
+                                        onclick="toggleUniversal('problem1-solution1-step1-answer')"
+                                        data-toggle="tooltip" data-placement="top"
+                                        data-original-title="{{ 'textBook.basic_words.answer-text'|trans }}"
+                                >
+                                    {{ 'basic_words.answer'|trans }}
+                                </div>
+                                <div
+                                        class="btn btn-small gary radius btn-orange-hover"
+                                        style="width: 120px"
+                                        onclick="toggleUniversal('problem1-solution1-step1-solution')"
+                                        data-toggle="tooltip" data-placement="top"
+                                        data-original-title="{{ 'textBook.basic_words.help-text'|trans }}"
+                                >
+                                    {{ 'textBook.basic_words.help'|trans }}
+                                </div>
+                            </div>
+                        </div>
+
+                        {# <-- HELPER --> #}
+                        <div id="problem1-solution1-step1-solution" class="row hide-element">
+                            <div class="col-md-12 padding-10 margin-15 border-around radius">
+                                <p>
+                                    {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-step1-text1-1'|trans }}
+                                    {# BACK TO PROBLEM 1 #}
+                                    <b>
+                                        <a
+                                                href="{{ path('app_textbook_logarithms_inequalities_problem1') }}"
+                                                class="orange-color"
+                                                target="_blank"
+                                        >
+                                            {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-step1-text1-2'|trans }}
+                                        </a>
+                                    </b>
+                                    {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-step1-text1-3'|trans }}
+                                    .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {# <-- ANSWER --> #}
+                    <div class="col-md-5  margin-top-5 text-left">
+                        <p id="problem1-solution1-step1-answer" class="hide-element">
+                            <span class="text-lowercase equation-p-medium"><b>$$\log_{\frac{1}{4}}x \ge \log_{\frac{1}{4}}\frac{1}{4} $$</b></span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </section>

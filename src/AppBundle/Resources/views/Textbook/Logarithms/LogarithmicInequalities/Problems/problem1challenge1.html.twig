@@ -7,7 +7,7 @@
         {% include 'AppBundle:Textbook:Includes/slider.html.twig' %}
 
         <div id="content">
-            {#MAIN HEADING#}
+            {# MAIN HEADING #}
             <section id="entry-chapter-text" class="padding-top-80">
                 <div class="container">
                     <div class="heading-block text-center margin-bottom-0" data-wow-delay="0.8s">
@@ -17,47 +17,72 @@
                             {{ 'basic_words.challenge'|trans }} I
                             <span class="text-lowercase equation-header-h3"><b>$$\log_{\frac{1}{4}}x \ge 1 $$</b></span>
                         </h3>
-                        <hr class="color margin-top-0" >
+                        <hr class="color margin-top-0">
                     </div>
                 </div>
             </section>
 
-            {#PROBLEM 1 - STUDENT VERSION#}
+            <section id="problem1-student-version">
+                <div class="container both-sides-text-alignment">
+                    {# FEW WORDS ABOUT THE PROBLEM #}
+                    <div class="container">
+                        <div class="col-md-12 heading-block text-center margin-top-40 margin-bottom-0">
+                            <p>
+                                <i>
+                                    This problem is very similar to the previous one, I just changed inequality.
+                                    What do you think, what will hapen with the solution?
+                                    Help: look at the graph
+                                </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {# PROBLEM 1 - STUDENT VERSION #}
             <section id="problem1-student-version">
                 <div class="container both-sides-text-alignment margin-bottom-20">
 
                     {# ANSWER & HELPERS #}
                     <div class="container">
                         <div class="heading-block text-center">
-                            <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
-                                 style="width: 170px"
-                                 onclick="toggleUniversal('problem1-challenge1-answer')"
-                                 data-toggle="tooltip" data-placement="top"
-                                 data-original-title="{{ 'textBook.basic_words.answer-text'|trans }}">
-                                 {{ 'basic_words.answer'|trans }}
+                            <div
+                                    class="btn btn-small gray-border btn-orange-border radius margin-top-90"
+                                    style="width: 170px"
+                                    onclick="toggleUniversal('problem1-challenge1-answer')"
+                                    data-toggle="tooltip" data-placement="top"
+                                    data-original-title="{{ 'textBook.basic_words.answer-text'|trans }}"
+                            >
+                                {{ 'basic_words.answer'|trans }}
                             </div>
 
-                            <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
-                                 style="width: 170px"
-                                 onclick="toggleUniversal('problem1-challenge1-solution1')"
-                                 data-toggle="tooltip" data-placement="top"
-                                 data-original-title="{{ 'textBook.basic_words.logarithmic-inequalities.solution1.without-change.text'|trans }}">
+                            <div
+                                    class="btn btn-small gray-border btn-orange-border radius margin-top-90"
+                                    style="width: 170px"
+                                    onclick="toggleUniversal('problem1-challenge1-solution1')"
+                                    data-toggle="tooltip" data-placement="top"
+                                    data-original-title="{{ 'textBook.basic_words.logarithmic-inequalities.solution1.without-change.text'|trans }}"
+                            >
                                 {{ 'basic_words.solution'|trans }} 1
                             </div>
 
-                            <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
-                                 style="width: 170px"
-                                 onclick="toggleUniversalAndHide('problem1-challenge1-solution2')"
-                                 data-toggle="tooltip" data-placement="top"
-                                 data-original-title="{{ 'textBook.basic_words.logarithmic-inequalities.solution2.text'|trans }}">
-                                 {{ 'basic_words.solution'|trans }} 2
+                            <div
+                                    class="btn btn-small gray-border btn-orange-border radius margin-top-90"
+                                    style="width: 170px"
+                                    onclick="toggleUniversalAndHide('problem1-challenge1-solution2')"
+                                    data-toggle="tooltip" data-placement="top"
+                                    data-original-title="{{ 'textBook.basic_words.logarithmic-inequalities.solution2.text'|trans }}"
+                            >
+                                {{ 'basic_words.solution'|trans }} 2
                             </div>
 
-                            <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
-                                 style="width: 170px"
-                                 onclick="toggleUniversal('problem1-challenge1-teacher')"
-                                 data-toggle="tooltip" data-placement="top"
-                                 data-original-title="{{ 'textBook.basic_words.for-teachers-text'|trans }}">
+                            <div
+                                    class="btn btn-small gray-border btn-orange-border radius margin-top-90"
+                                    style="width: 170px"
+                                    onclick="toggleUniversal('problem1-challenge1-teacher')"
+                                    data-toggle="tooltip" data-placement="top"
+                                    data-original-title="{{ 'textBook.basic_words.for-teachers-text'|trans }}"
+                            >
                                 {{ 'textBook.basic_words.for-teachers'|trans }}
                             </div>
 
@@ -73,12 +98,11 @@
             </section>
 
 
-
             {# FOOT: NAVIGATION #}
             <section class="blog padding-top-80 padding-bottom-80 border-top">
                 <div class="container">
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
-                        {#PREVIOUS CHAPTER: BACK TO PROBLEM 1#}
+                        {# PREVIOUS CHAPTER: BACK TO PROBLEM 1 #}
                         <a
                                 href="{{ path('app_textbook_logarithms_inequalities_problem1') }}"
                                 class="btn btn-med btn-color"
@@ -86,7 +110,7 @@
                             {{ 'basic_words.back-to-problem'|trans }} I
                         </a>
 
-                        {#NEXT CHALLENGE: challenge 2#}
+                        {# NEXT CHALLENGE: challenge 2 #}
                         <a
                                 href="{{ path('app_textbook_logarithms_inequalities_problem1_challenge2') }}"
                                 class="btn btn-med btn-color"
