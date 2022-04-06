@@ -125,14 +125,14 @@ left_navbar:
   book.chapter21: Forced Expiratory Volume
   book.chapter22: Volume-Time Curve
   book.chapter23: FEV1 in Time
-  book.chapter24:  Volume-Time Curve - Doctor's view
+  book.chapter24: Volume-Time Curve - Doctor's view
   book.chapter2game: Game - part II
   book.chapter3: Flow-Volume Loop
   book.chapter31: Flow
   book.chapter32: Loop
   book.chapter33: Respiratory System Diseases
   book.chapter34: Rise Over the Run ... Let's Repeat That
-  book.chapter35:  Flow-Volume Loop - Doctor's view
+  book.chapter35: Flow-Volume Loop - Doctor's view
   book.chapter3game: Game - part III
   book.game: Game
   book.game.instruction: Instructions
@@ -198,7 +198,7 @@ right_navbar:
   book.helper: Helper
   book.helper11.text1-1: Firstly, it is necessary to
   book.helper11.text1-2: understand the graph
-  book.helper11.text1-3:  we are working with.
+  book.helper11.text1-3: we are working with.
   book.helper11.text2: Try to answer following questions
   book.helper11.text3: 1. Which Spirometry Curve parts are related to the patient's inhalations and which one to his exhalations?
   book.helper11.text3-1: To find an answer to this question, the imagine of a simple breathing can help. Try to close your eyes, inhale and exhale few times. Is the air volume in your lungs increasing or decreasing when you are inhaling air?
@@ -207,7 +207,7 @@ right_navbar:
   book.helper11.text5: 3. When the patient's greatest exhalation finished?
   book.helper11.text6: I am sure, you can solve the problem 1.1 easily now. What is the volume of an air exhaled during the greatest exhalation?
   book.helper12.text1-1: Try to look to the
-  book.helper12.text1-2:  Forced Vital Capacity predicted values' table
+  book.helper12.text1-2: Forced Vital Capacity predicted values' table
   book.helper12.text1-3: (a link is available after problem 1.2 assignment)
   book.helper12.text2: What Forced Vital Capacity should have a healthy man, who is 56 years old and 171cm high?
   book.helper13.text1-1: Try to look to the
@@ -361,7 +361,7 @@ personal:
   martina.main-research-ideas-slide-2-2: learning of mathematics
   martina.main-research-ideas-3: How do existing online educational resources (platforms / courses) communicate with students?
   martina.main-research-ideas-slide-3-1: Communication of online educational
-  martina.main-research-ideas-slide-3-2:  platforms with students
+  martina.main-research-ideas-slide-3-2: platforms with students
   martina.main-research-ideas-4: Can we improve communication between online resource (platforms/courses) and self-studying student?
   martina.main-research-ideas-5: Are real-world, contextual mathematical problems suitable for self-directed learning?
   martina.main-research-ideas-slide-5-1: Contextual mathematical problems and
@@ -374,16 +374,16 @@ personal:
   martina.part1.project-3-0: 2019 - current
   martina.part1.project-3-1: Attitude Development Research of Future Mathematics Teachers with the Aim on Innovation of Teacher Education
   martina.part1.project-3-2: It is expected from teachers to lead their students to the ability and willingness to apply school
-                             knowledge in real life. Students should have an active and creative approach to problem solving,
-                             critical thinking and developed argumentation skills. However, international studies warn, that this is
-                             often not the case. The problem can be observed between experienced as well as between beginning
-                             teachers. On one hand, teachers do not have enough knowledge about necessary methods and tools
-                             to reach that goals. On the other hand, they do not identify themselves with these methods because
-                             of their attitude to the learning and teaching. In this project we decided to research factors, which
-                             influence the attitude of future mathematics teachers to the goals and teaching of mathematics. Based
-                             on the results we would like to prepare recommendations to innovate the university education of future
-                             mathematics teachers. The aim of these recommendations is to support creative and inspiring attitude
-                             of teachers to the teaching.
+    knowledge in real life. Students should have an active and creative approach to problem solving,
+    critical thinking and developed argumentation skills. However, international studies warn, that this is
+    often not the case. The problem can be observed between experienced as well as between beginning
+    teachers. On one hand, teachers do not have enough knowledge about necessary methods and tools
+    to reach that goals. On the other hand, they do not identify themselves with these methods because
+    of their attitude to the learning and teaching. In this project we decided to research factors, which
+    influence the attitude of future mathematics teachers to the goals and teaching of mathematics. Based
+    on the results we would like to prepare recommendations to innovate the university education of future
+    mathematics teachers. The aim of these recommendations is to support creative and inspiring attitude
+    of teachers to the teaching.
   martina.part1.project-3-3: Attitudes, Innovation, Mathematics, Teacher, University education
   martina.part1.project-3-4-1: PaedDr. Peter Vankúš, PhD.
   martina.part1.project-3-4-2: doc. RNDr. Zbynek Kubáček, CSc.
@@ -427,33 +427,33 @@ personal:
   martina.part2.article-1-3: Martina Babinská, Monika Dilingerová, Lilla Koreňová
   martina.part2.article-1-4: Sense Publishers
   martina.part2.article-1-5: The chapter is devoted to the application of augmented reality (AR) into the teacher-training program at universities.
-                           The first part describes the opportunities of future mathematics teachers at the FMFI UK in BA to work with digital technologies.
-                           The second, main part, describes the research of the AR application, Augmented Polyhedrons – Mirage 2.2.
-                           We conducted two studies with 40 future teachers. Results support the suitability of the selected application and AR in general.
-                           However, the implementation has to be precise, with carefully chosen, formulated and requested tasks to solve.
-                           The last part of the chapter summarizes useful AR applications for secondary schools.
+    The first part describes the opportunities of future mathematics teachers at the FMFI UK in BA to work with digital technologies.
+    The second, main part, describes the research of the AR application, Augmented Polyhedrons – Mirage 2.2.
+    We conducted two studies with 40 future teachers. Results support the suitability of the selected application and AR in general.
+    However, the implementation has to be precise, with carefully chosen, formulated and requested tasks to solve.
+    The last part of the chapter summarizes useful AR applications for secondary schools.
   martina.part2.article-1-6: Publication had already been accepted by referees and the final version of the chapter was provided
-                           to the publisher.
+    to the publisher.
   martina.part2.article-1-7: Not available yet.
 
   martina.part2.article-2-1-1: Summer 2019
   martina.part2.article-2-1-2: Do Higher Grades Students Care About the “Reality” in Contextual
-                               Mathematical Problems? A Qualitative Study.
+    Mathematical Problems? A Qualitative Study.
   martina.part2.article-2-2: Article in a Journal
   martina.part2.article-2-3: Martina Babinská
   martina.part2.article-2-4: International Journal of Science and Mathematics Education
   martina.part2.article-2-5: This paper reports upon a research project which considered the different approaches
-                             of higher grades students to the relevance of a context in contextual mathematical
-                             problems. The research involved two groups of students, 28 from upper secondary
-                             school and 23 from university. Both groups were asked to solve six mathematical
-                             problems and write their opinion about them. The results demonstrate that not all
-                             students differentiate between camouflage and real, essential contexts. Additionally,
-                             even if students recognise the relevance of a context, it does not influence their
-                             motivation to work on the problem as much as originality or personal interest in the
-                             context. Even though, the results support usage of contextual problems with real and
-                             essential contexts. Contextual problems help students with language barriers.
-                             Moreover, real and essential contexts naturally eliminate the tendency of some
-                             students to differentiate between in-school mathematics and the out-of-school world.
+    of higher grades students to the relevance of a context in contextual mathematical
+    problems. The research involved two groups of students, 28 from upper secondary
+    school and 23 from university. Both groups were asked to solve six mathematical
+    problems and write their opinion about them. The results demonstrate that not all
+    students differentiate between camouflage and real, essential contexts. Additionally,
+    even if students recognise the relevance of a context, it does not influence their
+    motivation to work on the problem as much as originality or personal interest in the
+    context. Even though, the results support usage of contextual problems with real and
+    essential contexts. Contextual problems help students with language barriers.
+    Moreover, real and essential contexts naturally eliminate the tendency of some
+    students to differentiate between in-school mathematics and the out-of-school world.
   martina.part2.article-2-6: Waiting for approval.
   martina.part2.article-2-7: Not available yet.
 
@@ -528,16 +528,16 @@ personal:
   martina.part3.student-1-name: Mgr. Peter Sás
   martina.part3.student-1-goal: Create and research usability of a methodological material for constructivist teaching of exponential functions at upper-secondary school.
   martina.part3.student-1-abstract: The objective of this master dissertation is to create methodical materials based on
-                                    constructivist approach for teaching of exponential functions. The reason for choosing
-                                    this topic is a high occurrence of misconception, which basis is the simplifying
-                                    mathematical expressions with exponents. Because of this, the focus of the materials is
-                                    partially on the possible removal of such misconception. In the theoretical part we present
-                                    the principles of constructivist approach to teaching. We then use these principles in the
-                                    next section to describe how the materials were actually created. Thus, the practical part
-                                    deals specifically with the reasoning of the used parts of the materials, which explains our
-                                    direction to reach pre-selected objectives. We will also find here references to the various
-                                    adjustments, which materials have required after testing, but without abandoning
-                                    mentioned principles.
+    constructivist approach for teaching of exponential functions. The reason for choosing
+    this topic is a high occurrence of misconception, which basis is the simplifying
+    mathematical expressions with exponents. Because of this, the focus of the materials is
+    partially on the possible removal of such misconception. In the theoretical part we present
+    the principles of constructivist approach to teaching. We then use these principles in the
+    next section to describe how the materials were actually created. Thus, the practical part
+    deals specifically with the reasoning of the used parts of the materials, which explains our
+    direction to reach pre-selected objectives. We will also find here references to the various
+    adjustments, which materials have required after testing, but without abandoning
+    mentioned principles.
   martina.part3.student-1-key-words: constructivism, exponential function, mathematics, methodical materials, misconception
   martina.part3.student-1-status: Finnished with success, grade A
   martina.part3.student-1-material-1: Exponetial growth, lecture I
@@ -548,16 +548,16 @@ personal:
   martina.part3.student-2-thesis: The Concept of Probability in Mathematical School Problems
   martina.part3.student-2-name: Bc. Thu Nguyen Quynh
   martina.part3.student-2-goal: The aim of the thesis is to compare school mathematical problems corresponding to probability and statistics at upper-secondary school.
-                                Identify its goals, principles and its potential in the development of students‘ competencies.
+    Identify its goals, principles and its potential in the development of students‘ competencies.
   martina.part3.student-2-abstract: The goal of this study is to analyse and compare the ways the concept of probability is introduced in Vietnamese and Slovak textbooks.
-                                    During this study, we raise our concern over these major contents.
-                                    1. How the books motivate their students to acquire the new knowledge they present?
-                                    2. Which necessary concepts and definitions are presented prior to the concept of probability?
-                                    3. What are possible methods to introduce the concept of probability? Which ways the books adopt?
-                                    4. How the methods adopted affect their students’ performances?
-                                    After comparison, we proceed to analyse and make conclusions on mathematics teaching and
-                                    studying in Vietnam and Slovakia. Besides, at the end of the chapter, we also discuss
-                                    innovation in teaching and studying mathematics in general and probability segment in particular.
+    During this study, we raise our concern over these major contents.
+    1. How the books motivate their students to acquire the new knowledge they present?
+    2. Which necessary concepts and definitions are presented prior to the concept of probability?
+    3. What are possible methods to introduce the concept of probability? Which ways the books adopt?
+    4. How the methods adopted affect their students’ performances?
+    After comparison, we proceed to analyse and make conclusions on mathematics teaching and
+    studying in Vietnam and Slovakia. Besides, at the end of the chapter, we also discuss
+    innovation in teaching and studying mathematics in general and probability segment in particular.
   martina.part3.student-2-key-words: Slovak textbooks, statistical experiment, the concept of probability, Vietnamese textbooks
   martina.part3.student-2-status: Finnished with success, grade A
 
@@ -610,7 +610,7 @@ personal:
   martina.part5.text-4-3-2: Department of Mathematical Analysis and Numerical Mathematics
   martina.part5.text-4-4-1: Work on the Ph.D. thesis research, participation on the work of the department, mathematical analysis teaching, cooperation on the students’ Master dissertation
   martina.part5.text-5: Programming
-  martina.part5.text-6-1:  10/2016 – 09/2017
+  martina.part5.text-6-1: 10/2016 – 09/2017
   martina.part5.text-6-2: PHP Back-end Web Developer
   martina.part5.text-7: Freelancer, LANSYSTEMS
   martina.part5.text-8: HELP DESK, system for managing tasks in small and middle companies
@@ -707,14 +707,14 @@ book:
   introduction.part1.text1-2: Just follow the text and you will find the answer!
   introduction.part1.text1-3: We will look together for a mathematics in a result of medical assessment named SPIROMETRY.
   introduction.part2.slogan: A Medical Assessment
-  introduction.part2.headline:  Spirometry?
+  introduction.part2.headline: Spirometry?
   introduction.part2.text2-1: Spirometry is a medical assessment which helps doctors to test the pulmonary function - function of our lungs. Practically, it measures the movement of air into and out of the lungs.
   introduction.part2.text2-2: Spirometry in the past
   introduction.part2.text2-3: One of the first constructed spirometers was named WATER SPIROMETER. As you can see at the picture (left), the patient was breathing into a machine. Simultaneously, the machine was drawing the graph - spirometry curve.
   introduction.part2.text2-4: Spirometry today
   introduction.part2.text2-5: Modern spirometers are small computer machines connected to the breathing mouthpiece (picture right). Assessment result is printed out.
   introduction.part3.slogan: Help of a computer
-  introduction.part3.headline:  Spirometry Result
+  introduction.part3.headline: Spirometry Result
   introduction.part3.text3-1: To help a doctor make a diagnosis, the modern spirometry result does not contain only siprometry curve, but also
   introduction.part3.text3-2: o Key measured values
   introduction.part3.text3-3: o Volume-Time curve
@@ -1244,9 +1244,9 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-2: The question is then slightly changed
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text3-3: If I power our base (1/4) to number 1, what number do I get?
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-1: If you need more help,
-  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-2:  this link may help you
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-2: this link may help you
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-3: or google
-  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-4:  definition of a logarithmic function
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1-text4-4: definition of a logarithmic function
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text1-1: Look at the
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text1-2: graph
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-text1-3: of a logarithmic function with the base 1/4
@@ -1311,9 +1311,14 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text4-2: Take the graph of the original function and draw the interval, which represents your soultion,
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text4-3: into it
 
-  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-step1-text1-1: If you are not sure, just go back to the main problem -
-  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-step1-text1-2: problem 1
-  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-step1-text1-3: and follow solution 1 (step 1)
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-introduction: This problem is very similar to the previous one, I just changed inequality. What will hapen with the solution? It is fairly possible, that you already know the answer. Just check it and continue with the next challenge. If you are not sure, follow graphic (solution 2) or numerical solution (solution 1)
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-helper-text1-1: If you are not sure, just go back to the main problem -
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-helper-text1-2: problem 1
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-helper-text1-3: and follow solution 1
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-helper-text2: (step 1)
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-helper-text3: (step 2)
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-helper-text4: (step 3)
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-step2: Ignore logarithms on both sides
 
 
   logarithms.logarithmicInequalities.problem1-gorup4-text1: Find the Domain
