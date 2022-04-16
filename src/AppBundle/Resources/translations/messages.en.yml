@@ -1141,7 +1141,7 @@ textBook:
   logarithms.logarithmicInequalities.introduction.head4: How should I start?
   logarithms.logarithmicInequalities.introduction.text5: Follow the content map below and choose problem you are interested in. If you do not know, start with the first one from the first group :)
 
-  logarithms.logarithmicInequalities.problem1-gorup1-text1-0: II. Numerical Interpretation
+  logarithms.logarithmicInequalities.problem1-gorup1-text1-0: II. Numeric Interpretation
   logarithms.logarithmicInequalities.problem1-gorup1-text1-1: Find such
   logarithms.logarithmicInequalities.problem1-gorup1-text1-2: values of x
   logarithms.logarithmicInequalities.problem1-gorup1-text1-3: where the inequality is satisfied
@@ -1227,6 +1227,8 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-text19-5: greater or equal than 1
 
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step1: Substitute number on the right side by a logarithm with the base 1/4
+  logarithms.logarithmicInequalities.problem1-challenge3-gorup1-solution1-step1: Substitute number on the right side by a logarithm with the base 4
+  logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2: Ignore logarithms
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-1: Change inequality and ignore logarithms
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-2: Do you know why we can use this "trick"?
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step2-3: It is crutial to
@@ -1311,7 +1313,7 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text4-2: Take the graph of the original function and draw the interval, which represents your soultion,
   logarithms.logarithmicInequalities.problem1-gorup1-solution1-step4-text4-3: into it
 
-  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-introduction: This problem is very similar to the previous one, I just changed inequality. What will hapen with the solution? It is fairly possible, that you already know the answer. Just check it and continue with the next challenge. If you are not sure, follow graphic (solution 2) or numerical solution (solution 1)
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge1-introduction: This problem is very similar to the previous one, I just changed inequality. What will hapen with the solution? It is fairly possible, that you already know the answer. Just check it and continue with the next challenge. If you are not sure, follow graphic (solution 2) or numeric solution (solution 1)
   logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-helper-text1-1: If you are not sure, just go back to the main problem -
   logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-helper-text1-2: problem 1
   logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-helper-text1-3: and follow solution 1
@@ -1320,7 +1322,8 @@ textBook:
   logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-helper-text4: (step 3)
   logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-step2: Ignore logarithms on both sides
   logarithms.logarithmicInequalities.problem1-gorup1-challenge1-solution1-step4:  Take graph of the original function and draw the interval, which represents your soultion, into it. Can you see, if the solution is correct
-  logarithms.logarithmicInequalities.problem1-gorup1-challenge2-introduction: This problem is also very similar to the original one. In only differs in a number on the rigt side. How does it influence the solution? It is fairly possible, that you already know the answer. Just check it and continue with the next challenge. If you are not sure, follow graphic (solution 2) or numerical solution (solution 1)
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge2-introduction: This problem is also very similar to the original one. In only differs in a number on the rigt side. How does it influence the solution? It is fairly possible, that you already know the answer. Just check it and continue with the next challenge. If you are not sure, follow graphic (solution 2) or numeric solution (solution 1)
+  logarithms.logarithmicInequalities.problem1-gorup1-challenge3-introduction: This problem differs from the original one a bit more than the previous two challenges. Do you know how the base of a logarithm influences inequalities? If yes, just check your answer and continue with the next problem. If you are not sure, follow graphic (solution 2) or numeric solution (solution 1)
 
   logarithms.logarithmicInequalities.problem1-gorup4-text1: Find the Domain
   logarithms.logarithmicInequalities.problem1-gorup4-text2: of a

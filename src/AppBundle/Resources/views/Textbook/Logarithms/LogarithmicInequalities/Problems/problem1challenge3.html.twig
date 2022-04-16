@@ -22,7 +22,22 @@
                 </div>
             </section>
 
-            {#PROBLEM 1 - STUDENT VERSION#}
+            <section>
+                <div class="container both-sides-text-alignment">
+                    {# FEW WORDS ABOUT THE PROBLEM #}
+                    <div class="container">
+                        <div class="col-md-12 heading-block text-center margin-top-40 margin-bottom-0">
+                            <p>
+                                <i>
+                                    {{ 'textBook.logarithms.logarithmicInequalities.problem1-gorup1-challenge3-introduction'|trans }}
+                                </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {#PROBLEM 1 - CHALLENGE 3 STUDENT VERSION#}
             <section id="problem1-student-version">
                 <div class="container both-sides-text-alignment margin-bottom-20">
 
@@ -31,7 +46,7 @@
                         <div class="heading-block text-center">
                             <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
                                  style="width: 170px"
-                                 onclick="toggleUniversal('problem1-challenge1-answer')"
+                                 onclick="toggleUniversal('problem1-challenge3-answer')"
                                  data-toggle="tooltip" data-placement="top"
                                  data-original-title="{{ 'textBook.basic_words.answer-text'|trans }}">
                                  {{ 'basic_words.answer'|trans }}
@@ -39,7 +54,7 @@
 
                             <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
                                  style="width: 170px"
-                                 onclick="toggleUniversal('problem1-challenge1-solution1')"
+                                 onclick="toggleUniversal('problem1-challenge3-solution1')"
                                  data-toggle="tooltip" data-placement="top"
                                  data-original-title="{{ 'textBook.basic_words.logarithmic-inequalities.solution1.without-change.text'|trans }}">
                                 {{ 'basic_words.solution'|trans }} 1
@@ -47,7 +62,7 @@
 
                             <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
                                  style="width: 170px"
-                                 onclick="toggleUniversalAndHide('problem1-challenge1-solution2')"
+                                 onclick="toggleUniversalAndHide('problem1-challenge3-solution2')"
                                  data-toggle="tooltip" data-placement="top"
                                  data-original-title="{{ 'textBook.basic_words.logarithmic-inequalities.solution2.text'|trans }}">
                                  {{ 'basic_words.solution'|trans }} 2
@@ -55,7 +70,7 @@
 
                             <div class="btn btn-small gray-border btn-orange-border radius margin-top-90"
                                  style="width: 170px"
-                                 onclick="toggleUniversal('problem1-challenge1-teacher')"
+                                 onclick="toggleUniversal('problem1-challenge3-teacher')"
                                  data-toggle="tooltip" data-placement="top"
                                  data-original-title="{{ 'textBook.basic_words.for-teachers-text'|trans }}">
                                 {{ 'textBook.basic_words.for-teachers'|trans }}
@@ -65,10 +80,10 @@
                     </div>
 
                     {# ANSWER #}
-                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-challenge1-answer.html.twig' %}
+                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-challenge3-answer.html.twig' %}
 
                     {# SOLUTION 1 #}
-                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-challenge1-solution1.html.twig' %}
+                    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/Problem1/student-version-problem1-challenge3-solution1.html.twig' %}
                 </div>
             </section>
 
@@ -97,8 +112,4 @@
 
         </div>
     </main>
-{% endblock %}
-
-{% block rightNavigation %}
-    {% include '@App/Textbook/Logarithms/LogarithmicInequalities/Problems/Includes/rightNavbar.html.twig' %}
 {% endblock %}
